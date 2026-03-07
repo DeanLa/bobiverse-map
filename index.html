@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bobiverse Star Map</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #0a0e1a; color: #c8cad0; font-family: 'Consolas', 'Monaco', monospace; overflow: hidden; height: 100vh; display: flex; flex-direction: column; }
+
+/* ── Spoiler config overlay ─────────────────────────────────── */
+#config-overlay {
+  position: fixed; inset: 0; z-index: 100; background: #0a0e1a;
+  display: flex; align-items: center; justify-content: center;
+}
+#config-box {
+  background: #12162a; border: 1px solid #2a3a60; border-radius: 8px;
+  padding: 32px 40px; max-width: 460px; width: 90%;
+}
+#config-box h1 { font-size: 18px; color: #7ea8e0; font-weight: normal; margin-bottom: 4px; }
+#config-box p { font-size: 11px; color: #5a6a8a; margin-bottom: 20px; line-height: 1.5; }
+#config-box label { font-size: 12px; color: #8090b0; display: block; margin-bottom: 6px; }
+#config-box select {
+  width: 100%; padding: 8px 10px; background: #1a2040; color: #c8cad0;
+  border: 1px solid #2a3a60; border-radius: 4px; font-family: inherit;
+  font-size: 12px; margin-bottom: 16px; cursor: pointer;
+}
+#config-box select:focus { outline: none; border-color: #7ea8e0; }
+#chapter-group { margin-bottom: 20px; }
+#start-btn {
+  background: #1a3060; border: 1px solid #3a5a90; color: #7ea8e0;
+  padding: 10px 28px; font-size: 13px; cursor: pointer; border-radius: 4px;
+  font-family: inherit; display: block; margin: 0 auto;
+}
+#start-btn:hover { background: #1e3870; border-color: #7ea8e0; }
+.config-note { font-size: 10px; color: #3a4a6a; margin-top: 8px; text-align: center; }
+
+/* ── Main app (hidden until config done) ────────────────────── */
+#app { display: none; flex-direction: column; height: 100vh; }
+#app.visible { display: flex; }
+
+#top-bar { padding: 8px 16px; background: #12162a; border-bottom: 1px solid #1e2440; display: flex; align-items: center; gap: 16px; flex-shrink: 0; }
+#top-bar h1 { font-size: 14px; color: #7ea8e0; font-weight: normal; }
+#year-display { font-size: 22px; color: #e0c878; font-weight: bold; letter-spacing: 1px; }
+#scope-label { font-size: 10px; color: #3a5070; margin-left: auto; cursor: pointer; }
+#scope-label:hover { color: #7ea8e0; }
+
+#main { display: flex; flex: 1; min-height: 0; }
+#map-container { flex: 1; position: relative; }
+canvas { display: block; width: 100%; height: 100%; }
+
+#event-panel { width: 320px; background: #0d1120; border-left: 1px solid #1e2440; display: flex; flex-direction: column; flex-shrink: 0; }
+#event-panel h2 { font-size: 12px; color: #5a6a8a; padding: 10px 12px 6px; text-transform: uppercase; letter-spacing: 1px; border-bottom: 1px solid #1a1f35; }
+#event-log { flex: 1; overflow-y: auto; padding: 6px 0; }
+#event-log::-webkit-scrollbar { width: 4px; }
+#event-log::-webkit-scrollbar-thumb { background: #2a3050; border-radius: 2px; }
+.event-item { padding: 5px 12px; font-size: 11px; line-height: 1.4; border-left: 2px solid transparent; }
+.event-item.active { background: #141a30; border-left-color: #e0c878; color: #e8e8e8; }
+.event-item.past { color: #4a5068; }
+.event-item.future { color: #2a3048; }
+.event-year { color: #7ea8e0; margin-right: 6px; font-size: 10px; }
+.event-bob { color: #c8a0e0; }
+.event-destroyed { color: #e07878; }
+
+#timeline { height: 56px; background: #0d1120; border-top: 1px solid #1e2440; padding: 8px 16px; flex-shrink: 0; display: flex; align-items: center; gap: 12px; }
+#timeline label { font-size: 11px; color: #5a6a8a; }
+#slider { flex: 1; -webkit-appearance: none; appearance: none; height: 6px; background: #1a2040; border-radius: 3px; outline: none; cursor: pointer; }
+#slider::-webkit-slider-thumb { -webkit-appearance: none; width: 16px; height: 16px; border-radius: 50%; background: #e0c878; cursor: grab; border: 2px solid #0a0e1a; }
+#slider::-moz-range-thumb { width: 16px; height: 16px; border-radius: 50%; background: #e0c878; cursor: grab; border: 2px solid #0a0e1a; }
+#play-btn { background: none; border: 1px solid #3a4060; color: #7ea8e0; padding: 4px 12px; font-size: 11px; cursor: pointer; border-radius: 3px; font-family: inherit; }
+#play-btn:hover { border-color: #7ea8e0; }
+#speed-display { font-size: 10px; color: #5a6a8a; }
+
+#tooltip { position: absolute; background: #1a2040; border: 1px solid #2a3a60; padding: 8px 10px; border-radius: 4px; font-size: 11px; pointer-events: none; display: none; z-index: 10; max-width: 260px; line-height: 1.5; }
+#legend { position: absolute; bottom: 8px; left: 8px; font-size: 10px; display: flex; gap: 12px; color: #4a5a7a; }
+.legend-item { display: flex; align-items: center; gap: 4px; }
+.legend-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+</style>
+</head>
+<body>
+
+<!-- ── Spoiler-free config screen ──────────────────────────────── -->
+<div id="config-overlay">
+  <div id="config-box">
+    <h1>BOBIVERSE STAR MAP</h1>
+    <p>Select how far you've read to avoid spoilers. The map will only show events, characters, and star systems up to your chosen point.</p>
+    <label for="book-select">Book</label>
+    <select id="book-select">
+      <option value="1">Book 1: We Are Legion (We Are Bob)</option>
+      <option value="2">Book 2: For We Are Many</option>
+      <option value="3">Book 3: All These Worlds</option>
+    </select>
+    <div id="chapter-group">
+      <label for="chapter-select">Chapter (show up to and including)</label>
+      <select id="chapter-select"></select>
+    </div>
+    <button id="start-btn">Open Star Map</button>
+    <div class="config-note">You can change this later by clicking the scope label in the top bar.</div>
+  </div>
+</div>
+
+<!-- ── Main app ────────────────────────────────────────────────── -->
+<div id="app">
+  <div id="top-bar">
+    <h1>BOBIVERSE STAR MAP</h1>
+    <span id="year-display">2133</span>
+    <span id="scope-label"></span>
+  </div>
+  <div id="main">
+    <div id="map-container">
+      <canvas id="canvas"></canvas>
+      <div id="tooltip"></div>
+      <div id="legend"></div>
+    </div>
+    <div id="event-panel">
+      <h2>Event Log</h2>
+      <div id="event-log"></div>
+    </div>
+  </div>
+  <div id="timeline">
+    <label>YEAR</label>
+    <input type="range" id="slider" min="2133" max="2222" step="0.1" value="2133">
+    <button id="play-btn">Play</button>
+    <span id="speed-display">2.0 yr/s</span>
+  </div>
+</div>
+
+<script>
+// All data is hardcoded constants - no user input flows into DOM rendering.
+
+// ── Chapter index (book -> chapter -> {code, maxYear}) ────────────────────────
+// Each entry gates the maximum year shown on the timeline.
+// Chapter codes reference the Pastebin timeline (B1Cxx, B2Cxx, B3Cxx).
+const CHAPTERS = {
+  1: [
+    { ch: 1, label: "Ch 1 - Bob (2016)", code: "B1C1", maxYear: 2016.5 },
+    { ch: 2, label: "Ch 2 - Bob online (2133)", code: "B1C2", maxYear: 2133.5 },
+    { ch: 8, label: "Ch 8 - Attack on facility", code: "B1C8", maxYear: 2133.6 },
+    { ch: 12, label: "Ch 12 - Bob launches", code: "B1C12", maxYear: 2133.7 },
+    { ch: 14, label: "Ch 14 - Arrives Epsilon Eridani", code: "B1C14", maxYear: 2144.6 },
+    { ch: 16, label: "Ch 16 - Defeats Medeiros, begins cloning", code: "B1C16", maxYear: 2144.8 },
+    { ch: 17, label: "Ch 17 - Bill, Riker, Milo, Mario online", code: "B1C17", maxYear: 2145.5 },
+    { ch: 18, label: "Ch 18 - Bobs depart Epsilon Eridani", code: "B1C18", maxYear: 2145.7 },
+    { ch: 20, label: "Ch 20 - Homer & Garfield online", code: "B1C20", maxYear: 2145.9 },
+    { ch: 22, label: "Ch 22 - Calvin, Goku, Linus created", code: "B1C22", maxYear: 2150.8 },
+    { ch: 25, label: "Ch 25 - SCUT test", code: "B1C25", maxYear: 2151.8 },
+    { ch: 19, label: "Ch 19 - Milo at Omicron2 Eridani", code: "B1C19", maxYear: 2152.6 },
+    { ch: 24, label: "Ch 24 - Riker at Sol", code: "B1C24", maxYear: 2157.5 },
+    { ch: 31, label: "Ch 31 - Arthur & Charles online", code: "B1C31", maxYear: 2158.2 },
+    { ch: 41, label: "Ch 41 - BobNet expands", code: "B1C41", maxYear: 2162.5 },
+    { ch: 28, label: "Ch 28 - Alpha Centauri", code: "B1C28", maxYear: 2163.9 },
+    { ch: 27, label: "Ch 27 - Deltans discovered", code: "B1C27", maxYear: 2165.4 },
+    { ch: 46, label: "Ch 46 - Milo destroyed at 82 Eridani", code: "B1C46", maxYear: 2165.7 },
+    { ch: 47, label: "Ch 47 - Arthur destroyed", code: "B1C47", maxYear: 2166.2 },
+    { ch: 54, label: "Ch 54 - Colony ships complete", code: "B1C54", maxYear: 2170.9 },
+    { ch: 58, label: "Ch 58 - Colony ships depart", code: "B1C58", maxYear: 2171.5 },
+    { ch: 59, label: "Ch 59 - First Bobmoot", code: "B1C59", maxYear: 2172.5 },
+    { ch: 61, label: "Ch 61 - End of Book 1", code: "B1C61", maxYear: 2188.9 }
+  ],
+  2: [
+    { ch: 1, label: "Ch 1 - Marvin explores Deltan origins (2167)", code: "B2C1", maxYear: 2167.2 },
+    { ch: 4, label: "Ch 4 - Mulder discovers Poseidon", code: "B2C4", maxYear: 2170.9 },
+    { ch: 14, label: "Ch 14 - Riker vs VEHEMENT sabotage", code: "B2C14", maxYear: 2171.0 },
+    { ch: 19, label: "Ch 19 - Hippogriff attack on Deltans", code: "B2C19", maxYear: 2172.6 },
+    { ch: 28, label: "Ch 28 - Homer infected by VEHEMENT", code: "B2C28", maxYear: 2175.9 },
+    { ch: 37, label: "Ch 37 - Homer suicides", code: "B2C37", maxYear: 2176.7 },
+    { ch: 40, label: "Ch 40 - VEHEMENT leader found", code: "B2C40", maxYear: 2178.3 },
+    { ch: 13, label: "Ch 13 - Mario at Gliese 54", code: "B2C13", maxYear: 2180.5 },
+    { ch: 34, label: "Ch 34 - Strike on 82 Eridani", code: "B2C34", maxYear: 2185.7 },
+    { ch: 38, label: "Ch 38 - Hal at GL877, Others discovered", code: "B2C38", maxYear: 2188.5 },
+    { ch: 39, label: "Ch 39 - Bobmoot: Others threat", code: "B2C39", maxYear: 2188.7 },
+    { ch: 2, label: "Ch 2 - Vulcan colonization begins", code: "B2C2", maxYear: 2189.0 },
+    { ch: 25, label: "Ch 25 - Howard meets Bridget", code: "B2C25", maxYear: 2189.9 },
+    { ch: 50, label: "Ch 50 - Loki claims 82 Eridani", code: "B2C50", maxYear: 2196.0 },
+    { ch: 53, label: "Ch 53 - Hal scouts GL 54", code: "B2C53", maxYear: 2197.0 },
+    { ch: 60, label: "Ch 60 - Claude at Gamma Pavonis", code: "B2C60", maxYear: 2205.5 },
+    { ch: 63, label: "Ch 63 - Jacques discovers Pavs", code: "B2C63", maxYear: 2207.2 },
+    { ch: 66, label: "Ch 66 - Others launch to Delta Pavonis", code: "B2C66", maxYear: 2208.2 },
+    { ch: 69, label: "Ch 69 - Howard & android prototype", code: "B2C69", maxYear: 2211.2 },
+    { ch: 72, label: "Ch 72 - Battle at Delta Pavonis", code: "B2C72", maxYear: 2217.3 },
+    { ch: 74, label: "Ch 74 - Bill's idea vs Others", code: "B2C74", maxYear: 2217.5 },
+    { ch: 77, label: "Ch 77 - End of Book 2", code: "B2C77", maxYear: 2221.5 }
+  ],
+  3: [
+    { ch: 3, label: "Ch 3 - Marcus on Poseidon (2212)", code: "B3C3", maxYear: 2212.9 },
+    { ch: 6, label: "Ch 6 - Bill clones Icarus & Daedalus", code: "B3C6", maxYear: 2223.2 },
+    { ch: 1, label: "Ch 1 - Bob with Deltans (2224)", code: "B3C1", maxYear: 2224.3 },
+    { ch: 18, label: "Ch 18 - 82 Eridani colonists arrive", code: "B3C18", maxYear: 2220.9 },
+    { ch: 21, label: "Ch 21 - Mack destroyed by Medeiros", code: "B3C21", maxYear: 2223.5 },
+    { ch: 30, label: "Ch 30 - Medeiros defeated", code: "B3C30", maxYear: 2223.6 },
+    { ch: 31, label: "Ch 31 - Marcus wins Poseidon revolution", code: "B3C31", maxYear: 2215.8 },
+    { ch: 34, label: "Ch 34 - Fred kills Archimedes' friend", code: "B3C34", maxYear: 2224.8 },
+    { ch: 41, label: "Ch 41 - Bridget replicated", code: "B3C41", maxYear: 2220.8 },
+    { ch: 45, label: "Ch 45 - Jacques at HIP 84051 (Pav colony)", code: "B3C45", maxYear: 2247.5 },
+    { ch: 50, label: "Ch 50 - Deltan villages establish trade", code: "B3C50", maxYear: 2225.5 },
+    { ch: 51, label: "Ch 51 - Status moot, defend Sol", code: "B3C51", maxYear: 2230.7 },
+    { ch: 55, label: "Ch 55 - Ragnarok terraformed", code: "B3C55", maxYear: 2243.1 },
+    { ch: 56, label: "Ch 56 - Howard & Bridget at Odin", code: "B3C56", maxYear: 2227.0 },
+    { ch: 62, label: "Ch 62 - Howard & Bridget at Big Top", code: "B3C62", maxYear: 2244.3 },
+    { ch: 64, label: "Ch 64 - Battle of Sol begins", code: "B3C64", maxYear: 2257.3 },
+    { ch: 68, label: "Ch 68 - Battle of Sol ends", code: "B3C68", maxYear: 2257.4 },
+    { ch: 69, label: "Ch 69 - Archimedes dies", code: "B3C69", maxYear: 2233.6 },
+    { ch: 73, label: "Ch 73 - Bobs declare independence", code: "B3C73", maxYear: 2258.1 },
+    { ch: 75, label: "Ch 75 - Humanity departs for 82 Eridani", code: "B3C75", maxYear: 2259.2 },
+    { ch: 76, label: "Ch 76 - End of Book 3", code: "B3C76", maxYear: 2263.9 }
+  ]
+};
+
+// ── Full dataset ──────────────────────────────────────────────────────────────
+const ALL_STARS = {
+  "Sol":               { name: "Sol (Earth)",       ra_h: 0,     dec_deg: 0,      distance_ly: 0 },
+  "Epsilon Eridani":   { name: "Epsilon Eridani",   ra_h: 3.55,  dec_deg: -9.46,  distance_ly: 10.50 },
+  "Delta Eridani":     { name: "Delta Eridani",     ra_h: 3.72,  dec_deg: -9.76,  distance_ly: 29.50 },
+  "Omicron2 Eridani":  { name: "Omicron2 Eridani",  ra_h: 4.26,  dec_deg: -7.65,  distance_ly: 16.45 },
+  "Alpha Centauri":    { name: "Alpha Centauri",     ra_h: 14.66, dec_deg: -60.83, distance_ly: 4.39 },
+  "82 Eridani":        { name: "82 Eridani",         ra_h: 3.33,  dec_deg: -43.07, distance_ly: 19.76 },
+  "Beta Hydri":        { name: "Beta Hydri",         ra_h: 0.43,  dec_deg: -77.25, distance_ly: 24.38 },
+  "Epsilon Indi":      { name: "Epsilon Indi",       ra_h: 22.06, dec_deg: -56.78, distance_ly: 11.83 },
+  "Eta Cassiopeiae":   { name: "Eta Cassiopeiae",    ra_h: 0.82,  dec_deg: 57.80,  distance_ly: 19.42 },
+  "Kappa Ceti":        { name: "Kappa Ceti",         ra_h: 3.32,  dec_deg: 3.37,   distance_ly: 29.87 },
+  "Gamma Leporis A":   { name: "Gamma Leporis A",   ra_h: 5.74,  dec_deg: -22.43, distance_ly: 29.25 },
+  "GL 877":            { name: "Gliese 877",         ra_h: 22.78, dec_deg: -24.27, distance_ly: 26.0 },
+  "Gliese 54":         { name: "Gliese 54",          ra_h: 1.17,  dec_deg: -17.35, distance_ly: 25.0 },
+  "Delta Pavonis":     { name: "Delta Pavonis",      ra_h: 20.15, dec_deg: -66.17, distance_ly: 19.92 },
+  "Gamma Pavonis":     { name: "Gamma Pavonis",      ra_h: 21.44, dec_deg: -65.35, distance_ly: 30.06 },
+  "HIP 14101":         { name: "HIP 14101",          ra_h: 3.03,  dec_deg: -23.62, distance_ly: 28.0 },
+  "HIP 84051":         { name: "HIP 84051 (New Pav)", ra_h: 17.2,  dec_deg: -40.0,  distance_ly: 33.0 },
+  "Ragnarok":          { name: "Ragnarok",           ra_h: 3.8,   dec_deg: -12.0,  distance_ly: 12.0 },
+  "Odin":              { name: "Odin",               ra_h: 2.5,   dec_deg: -30.0,  distance_ly: 22.0 }
+};
+
+// book: which book introduces this bob (1,2,3). maxYear: latest year this bob is relevant.
+const ALL_BOBS = {
+  "Bob":          { gen: 1, parent: null,      created: 2133,   at: "Sol",              destroyed: null,   book: 1 },
+  "Bill":         { gen: 2, parent: "Bob",      created: 2145,   at: "Epsilon Eridani",  destroyed: null,   book: 1 },
+  "Riker":        { gen: 2, parent: "Bob",      created: 2145,   at: "Epsilon Eridani",  destroyed: null,   book: 1 },
+  "Milo":         { gen: 2, parent: "Bob",      created: 2145,   at: "Epsilon Eridani",  destroyed: 2165.6, book: 1 },
+  "Mario":        { gen: 2, parent: "Bob",      created: 2145,   at: "Epsilon Eridani",  destroyed: null,   book: 1 },
+  "Homer":        { gen: 3, parent: "Riker",    created: 2145.9, at: "Epsilon Eridani",  destroyed: 2176.6, book: 1 },
+  "Garfield":     { gen: 3, parent: "Bill",     created: 2145.9, at: "Epsilon Eridani",  destroyed: null,   book: 1 },
+  "Calvin":       { gen: 3, parent: "Bill",     created: 2150,   at: "Epsilon Eridani",  destroyed: null,   book: 1 },
+  "Goku":         { gen: 3, parent: "Bill",     created: 2150,   at: "Epsilon Eridani",  destroyed: null,   book: 1 },
+  "Linus":        { gen: 3, parent: "Bill",     created: 2150,   at: "Epsilon Eridani",  destroyed: null,   book: 1 },
+  "Marvin":       { gen: 2, parent: "Bob",      created: 2165,   at: "Delta Eridani",    destroyed: null,   book: 1 },
+  "Luke":         { gen: 2, parent: "Bob",      created: 2165,   at: "Delta Eridani",    destroyed: null,   book: 1 },
+  "Bender":       { gen: 2, parent: "Bob",      created: 2165,   at: "Delta Eridani",    destroyed: null,   book: 1 },
+  "Arthur":       { gen: 3, parent: "Riker",    created: 2158,   at: "Sol",              destroyed: 2166.1, book: 1 },
+  "Charles":      { gen: 3, parent: "Riker",    created: 2158,   at: "Sol",              destroyed: null,   book: 1 },
+  "Howard":       { gen: 4, parent: "Charles",  created: 2171,   at: "Sol",              destroyed: null,   book: 1 },
+  "Mulder":       { gen: 3, parent: "Bill",     created: 2160,   at: "Epsilon Eridani",  destroyed: null,   book: 2 },
+  "Skinner":      { gen: 4, parent: "Mulder",   created: 2170,   at: "Eta Cassiopeiae",  destroyed: null,   book: 2 },
+  "Johnny Quest": { gen: 4, parent: "Mulder",   created: 2170,   at: "Eta Cassiopeiae",  destroyed: null,   book: 2 },
+  "Khan":         { gen: 3, parent: "Bill",     created: 2180,   at: "Epsilon Eridani",  destroyed: null,   book: 2 },
+  "Bashful":      { gen: 3, parent: "Bill",     created: 2185,   at: "Epsilon Eridani",  destroyed: 2187.8, book: 2 },
+  "Hal":          { gen: 3, parent: "Bill",     created: 2185,   at: "Epsilon Eridani",  destroyed: 2188.4, book: 2 },
+  "Pete":         { gen: 2, parent: "Bob",      created: 2174,   at: "Delta Eridani",    destroyed: null,   book: 2 },
+  "Victor":       { gen: 2, parent: "Bob",      created: 2174,   at: "Delta Eridani",    destroyed: null,   book: 2 },
+  "Bart":         { gen: 4, parent: "Calvin",   created: 2165,   at: "Alpha Centauri",   destroyed: null,   book: 2 },
+  "Claude":       { gen: 3, parent: "Bill",     created: 2200,   at: "Epsilon Eridani",  destroyed: null,   book: 2 },
+  "Jacques":      { gen: 4, parent: "Claude",   created: 2207,   at: "Gamma Pavonis",    destroyed: null,   book: 2 },
+  "Oliver":       { gen: 3, parent: "Bill",     created: 2205,   at: "Alpha Centauri",   destroyed: null,   book: 2 },
+  "Loki":         { gen: 4, parent: "Khan",     created: 2190,   at: "Epsilon Eridani",  destroyed: null,   book: 2 },
+  "Dexter":       { gen: 5, parent: "Howard",   created: 2195,   at: "Omicron2 Eridani", destroyed: null,   book: 2 },
+  "Sam":          { gen: 4, parent: "Charles",   created: 2188,   at: "Sol",              destroyed: null,   book: 2 },
+  // Khan's 82 Eridani strike force (2nd Battle, 2185) - all destroyed except Khan
+  "Hannibal":     { gen: 4, parent: "Khan",     created: 2182,   at: "Epsilon Eridani",  destroyed: 2185.3, book: 2 },
+  "Tom":          { gen: 4, parent: "Khan",     created: 2182,   at: "Epsilon Eridani",  destroyed: 2185.3, book: 2 },
+  "Barney":       { gen: 4, parent: "Khan",     created: 2182,   at: "Epsilon Eridani",  destroyed: 2185.3, book: 2 },
+  "Fred B.":      { gen: 4, parent: "Khan",     created: 2182,   at: "Epsilon Eridani",  destroyed: 2185.3, book: 2 },
+  "Elmer":        { gen: 4, parent: "Khan",     created: 2182,   at: "Epsilon Eridani",  destroyed: 2185.3, book: 2 },
+  "Kyle":         { gen: 4, parent: "Khan",     created: 2182,   at: "Epsilon Eridani",  destroyed: 2185.3, book: 2 },
+  "Ned":          { gen: 4, parent: "Khan",     created: 2182,   at: "Epsilon Eridani",  destroyed: 2185.3, book: 2 },
+  "Jackson":      { gen: 4, parent: "Khan",     created: 2182,   at: "Epsilon Eridani",  destroyed: 2185.3, book: 2 },
+  "Hector":       { gen: 4, parent: "Khan",     created: 2182,   at: "Epsilon Eridani",  destroyed: 2185.3, book: 2 },
+  // Loki's 82 Eridani strike force (3rd Battle, 2195) - Jeffrey, Milton, Zeke destroyed
+  "Vern":         { gen: 5, parent: "Loki",     created: 2192,   at: "Epsilon Eridani",  destroyed: null,   book: 2 },
+  "Jeffrey":      { gen: 5, parent: "Loki",     created: 2192,   at: "Epsilon Eridani",  destroyed: 2195.8, book: 2 },
+  "Milton":       { gen: 5, parent: "Loki",     created: 2192,   at: "Epsilon Eridani",  destroyed: 2195.8, book: 2 },
+  "Zeke":         { gen: 5, parent: "Loki",     created: 2192,   at: "Epsilon Eridani",  destroyed: 2195.8, book: 2 },
+  "Surly":        { gen: 5, parent: "Loki",     created: 2192,   at: "Epsilon Eridani",  destroyed: null,   book: 2 },
+  "Loki +6":      { gen: 5, parent: "Loki",     created: 2192,   at: "Epsilon Eridani",  destroyed: null,   book: 2, group: 6 },
+  // Mario's Gliese 54 Bobs (unnamed)
+  "Mario +4":     { gen: 3, parent: "Mario",    created: 2180,   at: "Gliese 54",        destroyed: null,   book: 2, group: 4 },
+  // Book 3 new Bobs
+  "Marcus":       { gen: 4, parent: "Riker",    created: 2210,   at: "Eta Cassiopeiae",  destroyed: null,   book: 3 },
+  "Icarus":       { gen: 3, parent: "Bill",     created: 2223,   at: "Epsilon Eridani",  destroyed: null,   book: 3 },
+  "Daedalus":     { gen: 3, parent: "Bill",     created: 2223,   at: "Epsilon Eridani",  destroyed: null,   book: 3 },
+  "Mack":         { gen: 4, parent: "Khan",     created: 2218,   at: "82 Eridani",       destroyed: 2223.5, book: 3 },
+  "Herschel":     { gen: 8, parent: "Bill",     created: 2225,   at: "Delta Pavonis",    destroyed: null,   book: 3 },
+  "Neil":         { gen: 8, parent: "Bill",     created: 2225,   at: "Delta Pavonis",    destroyed: null,   book: 3 },
+  "Bridget-R":    { gen: 0, parent: null,       created: 2220.8, at: "Omicron2 Eridani", destroyed: null,   book: 3 }
+};
+
+const ALL_TRAVELS = [
+  // Book 1
+  { bob: "Bob",     from: "Sol",              depart: 2133.6, to: "Epsilon Eridani",  arrive: 2144.6, book: 1 },
+  { bob: "Bob",     from: "Epsilon Eridani",  depart: 2145.7, to: "Delta Eridani",    arrive: 2165.3, book: 1 },
+  { bob: "Milo",    from: "Epsilon Eridani",  depart: 2145.7, to: "Omicron2 Eridani", arrive: 2152.5, book: 1 },
+  { bob: "Milo",    from: "Omicron2 Eridani", depart: 2153.1, to: "82 Eridani",       arrive: 2165.6, book: 1 },
+  { bob: "Mario",   from: "Epsilon Eridani",  depart: 2145.7, to: "Beta Hydri",       arrive: 2169.6, book: 1 },
+  { bob: "Riker",   from: "Epsilon Eridani",  depart: 2145.9, to: "Sol",              arrive: 2157.1, book: 1 },
+  { bob: "Homer",   from: "Epsilon Eridani",  depart: 2145.9, to: "Sol",              arrive: 2157.1, book: 1 },
+  { bob: "Calvin",  from: "Epsilon Eridani",  depart: 2150.7, to: "Alpha Centauri",   arrive: 2163.8, book: 1 },
+  { bob: "Goku",    from: "Epsilon Eridani",  depart: 2150.7, to: "Alpha Centauri",   arrive: 2163.8, book: 1 },
+  { bob: "Linus",   from: "Epsilon Eridani",  depart: 2150.7, to: "Epsilon Indi",     arrive: 2165.3, book: 1 },
+  { bob: "Luke",    from: "Delta Eridani",    depart: 2165.8, to: "Kappa Ceti",       arrive: 2178.2, book: 1 },
+  { bob: "Bender",  from: "Delta Eridani",    depart: 2165.8, to: "Gamma Leporis A",  arrive: 2180.0, book: 1 },
+  { bob: "Howard",  from: "Sol",              depart: 2171.3, to: "Omicron2 Eridani", arrive: 2188.7, book: 1 },
+  // Book 2
+  { bob: "Marvin",  from: "Delta Eridani",    depart: 2173.9, to: "Delta Eridani",    arrive: 2174.0, book: 2 },
+  { bob: "Linus",   from: "Epsilon Indi",     depart: 2170.0, to: "Epsilon Eridani",  arrive: 2178.2, book: 2 },
+  { bob: "Khan",     from: "Epsilon Eridani",  depart: 2182.0, to: "82 Eridani",       arrive: 2185.3, book: 2 },
+  { bob: "Hannibal", from: "Epsilon Eridani",  depart: 2182.0, to: "82 Eridani",       arrive: 2185.3, book: 2 },
+  { bob: "Tom",      from: "Epsilon Eridani",  depart: 2182.0, to: "82 Eridani",       arrive: 2185.3, book: 2 },
+  { bob: "Barney",   from: "Epsilon Eridani",  depart: 2182.0, to: "82 Eridani",       arrive: 2185.3, book: 2 },
+  { bob: "Fred B.",  from: "Epsilon Eridani",  depart: 2182.0, to: "82 Eridani",       arrive: 2185.3, book: 2 },
+  { bob: "Elmer",    from: "Epsilon Eridani",  depart: 2182.0, to: "82 Eridani",       arrive: 2185.3, book: 2 },
+  { bob: "Kyle",     from: "Epsilon Eridani",  depart: 2182.0, to: "82 Eridani",       arrive: 2185.3, book: 2 },
+  { bob: "Ned",      from: "Epsilon Eridani",  depart: 2182.0, to: "82 Eridani",       arrive: 2185.3, book: 2 },
+  { bob: "Jackson",  from: "Epsilon Eridani",  depart: 2182.0, to: "82 Eridani",       arrive: 2185.3, book: 2 },
+  { bob: "Hector",   from: "Epsilon Eridani",  depart: 2182.0, to: "82 Eridani",       arrive: 2185.3, book: 2 },
+  { bob: "Bashful", from: "Epsilon Eridani",  depart: 2185.0, to: "GL 877",           arrive: 2187.8, book: 2 },
+  { bob: "Hal",     from: "Epsilon Eridani",  depart: 2186.0, to: "GL 877",           arrive: 2188.4, book: 2 },
+  { bob: "Mulder",  from: "Epsilon Eridani",  depart: 2160.0, to: "Eta Cassiopeiae",  arrive: 2170.0, book: 2 },
+  { bob: "Mario",   from: "Beta Hydri",       depart: 2175.0, to: "Gliese 54",        arrive: 2180.0, book: 2 },
+  { bob: "Claude",  from: "Epsilon Eridani",  depart: 2195.0, to: "Gamma Pavonis",    arrive: 2205.3, book: 2 },
+  { bob: "Jacques", from: "Gamma Pavonis",    depart: 2206.0, to: "Delta Pavonis",    arrive: 2207.1, book: 2 },
+  { bob: "Hal",     from: "GL 877",           depart: 2196.3, to: "Gliese 54",        arrive: 2197.8, book: 2 },
+  { bob: "Howard",  from: "Omicron2 Eridani", depart: 2195.3, to: "HIP 14101",        arrive: 2210.9, book: 2 },
+  { bob: "Loki",     from: "Epsilon Eridani",  depart: 2192.0, to: "82 Eridani",       arrive: 2195.8, book: 2 },
+  { bob: "Vern",     from: "Epsilon Eridani",  depart: 2192.0, to: "82 Eridani",       arrive: 2195.8, book: 2 },
+  { bob: "Jeffrey",  from: "Epsilon Eridani",  depart: 2192.0, to: "82 Eridani",       arrive: 2195.8, book: 2 },
+  { bob: "Milton",   from: "Epsilon Eridani",  depart: 2192.0, to: "82 Eridani",       arrive: 2195.8, book: 2 },
+  { bob: "Zeke",     from: "Epsilon Eridani",  depart: 2192.0, to: "82 Eridani",       arrive: 2195.8, book: 2 },
+  { bob: "Surly",    from: "Epsilon Eridani",  depart: 2192.0, to: "82 Eridani",       arrive: 2195.8, book: 2 },
+  { bob: "Loki +6",  from: "Epsilon Eridani",  depart: 2192.0, to: "82 Eridani",       arrive: 2195.8, book: 2 },
+  { bob: "Sam",      from: "Sol",              depart: 2187.0, to: "Omicron2 Eridani", arrive: 2189.3, book: 2 },
+  // Book 3
+  { bob: "Icarus",   from: "Epsilon Eridani", depart: 2223.2, to: "GL 877",           arrive: 2240.3, book: 3 },
+  { bob: "Daedalus", from: "Epsilon Eridani", depart: 2223.2, to: "GL 877",           arrive: 2240.3, book: 3 },
+  { bob: "Herschel", from: "Delta Pavonis",   depart: 2236.7, to: "Sol",              arrive: 2257.3, book: 3 },
+  { bob: "Neil",     from: "Delta Pavonis",   depart: 2236.7, to: "Sol",              arrive: 2257.3, book: 3 },
+  { bob: "Jacques",  from: "Delta Pavonis",   depart: 2222.0, to: "HIP 84051",        arrive: 2247.4, book: 3 },
+  { bob: "Howard",   from: "HIP 14101",       depart: 2217.0, to: "Omicron2 Eridani", arrive: 2217.8, book: 3 },
+  { bob: "Herschel", from: "Sol",             depart: 2259.1, to: "82 Eridani",       arrive: 2263.0, book: 3 },
+  { bob: "Neil",     from: "Sol",             depart: 2259.1, to: "82 Eridani",       arrive: 2263.0, book: 3 }
+];
+
+const ALL_EVENTS = [
+  // Book 1
+  { year: 2133.5, text: "Bob brought online as replicant", bob: "Bob", book: 1 },
+  { year: 2133.6, text: "Bob launches from Sol aboard HEAVEN-1", bob: "Bob", book: 1 },
+  { year: 2144.6, text: "Bob arrives at Epsilon Eridani", bob: "Bob", book: 1 },
+  { year: 2144.7, text: "Bob defeats Brazilian replicant Medeiros", bob: "Bob", book: 1 },
+  { year: 2145.5, text: "Bill, Riker, Milo, Mario come online", book: 1 },
+  { year: 2145.7, text: "Bob departs for Delta Eridani; Milo for Omicron2 Eridani; Mario for Beta Hydri", book: 1 },
+  { year: 2145.9, text: "Homer & Garfield come online. Riker+Homer depart for Sol", book: 1 },
+  { year: 2150.7, text: "Calvin, Goku, Linus created, depart Epsilon Eridani", book: 1 },
+  { year: 2151.7, text: "SCUT tested successfully", bob: "Bill", book: 1 },
+  { year: 2152.5, text: "Milo arrives at Omicron2 Eridani, discovers Vulcan & Romulus", bob: "Milo", book: 1 },
+  { year: 2157.1, text: "Riker and Homer arrive at Sol", bob: "Riker", book: 1 },
+  { year: 2158.1, text: "Arthur and Charles come online at Sol", bob: "Riker", book: 1 },
+  { year: 2162.3, text: "SCUT plans reach Sol. All Sol Bobs join BobNet", book: 1 },
+  { year: 2163.8, text: "Calvin & Goku arrive at Alpha Centauri. Destroy Brazilian autofactory", book: 1 },
+  { year: 2165.3, text: "Bob discovers Deltans at Delta Eridani", bob: "Bob", book: 1 },
+  { year: 2165.3, text: "Bob clones Marvin, Luke, Bender", bob: "Bob", book: 1 },
+  { year: 2165.3, text: "Linus arrives at Epsilon Indi, finds Henry", bob: "Linus", book: 1 },
+  { year: 2165.6, text: "Milo destroyed at 82 Eridani", bob: "Milo", book: 1, destroyed: true },
+  { year: 2166.1, text: "Arthur destroyed by booby trap near Saturn", bob: "Arthur", book: 1, destroyed: true },
+  { year: 2169.6, text: "Mario arrives at Beta Hydri, finds Others evidence", bob: "Mario", book: 1 },
+  { year: 2170.0, text: "Colony ships Exodus-1 & 2 completed at Sol", book: 1 },
+  { year: 2170.8, text: "Mulder discovers Poseidon at Eta Cassiopeiae", bob: "Mulder", book: 2 },
+  { year: 2171.3, text: "Colony ships depart Sol for Vulcan (Howard oversees)", book: 1 },
+  { year: 2172.3, text: "First Bobmoot held", bob: "Bill", book: 1 },
+  { year: 2172.5, text: "Bob destroys hippogriff island", bob: "Bob", book: 2 },
+  { year: 2176.6, text: "Homer suicides after VEHEMENT infection", bob: "Homer", book: 2, destroyed: true },
+  { year: 2178.2, text: "Riker takes out VEHEMENT leader Vickers", bob: "Riker", book: 2 },
+  { year: 2180.4, text: "Mario builds station at Gliese 54, joins BobNet", bob: "Mario", book: 2 },
+  { year: 2185.3, text: "Khan + 9 Bobs attack 82 Eridani (2nd Battle). All but Khan destroyed", bob: "Khan", book: 2 },
+  { year: 2187.8, text: "Bashful finds tech at GL877, self-destructs", bob: "Bashful", book: 2, destroyed: true },
+  { year: 2188.4, text: "Hal finds Others homeworld at GL877, self-destructs", bob: "Hal", book: 2, destroyed: true },
+  { year: 2188.6, text: "Bobmoot: discuss Others threat", bob: "Bill", book: 2 },
+  { year: 2188.7, text: "Colonization of Vulcan begins", bob: "Howard", book: 1 },
+  { year: 2189.8, text: "Howard meets Bridget on Vulcan", bob: "Howard", book: 2 },
+  { year: 2195.1, text: "Colonization of Poseidon begins", bob: "Mulder", book: 2 },
+  { year: 2195.3, text: "Howard leaves Vulcan, Dexter takes over", bob: "Howard", book: 2 },
+  { year: 2189.3, text: "Exodus-3 (Sam) arrives at Romulus", bob: "Sam", book: 2 },
+  { year: 2195.8, text: "Loki + 11 Bobs strike 82 Eridani (3rd Battle). Jeffrey, Milton, Zeke destroyed. System claimed", bob: "Loki", book: 2 },
+  { year: 2205.3, text: "Claude arrives at Gamma Pavonis", bob: "Claude", book: 2 },
+  { year: 2207.1, text: "Jacques discovers Pav species at Delta Pavonis", bob: "Jacques", book: 2 },
+  { year: 2208.1, text: "Others launch convoy toward Delta Pavonis", book: 2 },
+  { year: 2211.1, text: "Howard attends Stephane's funeral via android", bob: "Howard", book: 2 },
+  { year: 2217.1, text: "Battle with Others at Delta Pavonis. 20,000 Pavs evacuated", book: 2 },
+  { year: 2221.3, text: "Others finish stripping Delta Pavonis", book: 2 },
+  // Book 3
+  { year: 2212.9, text: "Marcus discusses Poseidon governance", bob: "Marcus", book: 3 },
+  { year: 2215.8, text: "Marcus wins Poseidon revolution", bob: "Marcus", book: 3 },
+  { year: 2217.8, text: "Butterworth suicides after dementia diagnosis", bob: "Howard", book: 3 },
+  { year: 2218.8, text: "Riker attends Julia's funeral via android", bob: "Riker", book: 3 },
+  { year: 2220.4, text: "Bridget dies on Vulcan", bob: "Howard", book: 3 },
+  { year: 2220.8, text: "Bridget replicated after court battle", bob: "Howard", book: 3 },
+  { year: 2220.8, text: "First colonists arrive at 82 Eridani (Asgard & Takama-ga-hara)", book: 3 },
+  { year: 2223.1, text: "Bill clones Icarus & Daedalus for GL877 mission", bob: "Bill", book: 3 },
+  { year: 2223.5, text: "Mack destroyed by Medeiros at 82 Eridani", bob: "Mack", book: 3, destroyed: true },
+  { year: 2223.6, text: "Bill defeats Medeiros at 82 Eridani", bob: "Bill", book: 3 },
+  { year: 2224.7, text: "Fred kidnaps Archimedes; Buster kills Fred", bob: "Bob", book: 3 },
+  { year: 2225.3, text: "Deltan villages establish trade", bob: "Bob", book: 3 },
+  { year: 2227.5, text: "Herschel & Neil power up Others cargo ship at Delta Pavonis", bob: "Herschel", book: 3 },
+  { year: 2227.8, text: "Bobmoot: Others monitoring drones discovered", bob: "Bill", book: 3 },
+  { year: 2230.6, text: "Planning monitoring sphere for Sol defense", bob: "Bill", book: 3 },
+  { year: 2233.4, text: "Archimedes dies. Bob leaves Eden", bob: "Bob", book: 3 },
+  { year: 2240.3, text: "Icarus & Daedalus approach Others home system", bob: "Icarus", book: 3 },
+  { year: 2243.0, text: "Ragnarok terraforming reaches livability", bob: "Bill", book: 3 },
+  { year: 2247.4, text: "Jacques arrives at HIP 84051 ahead of Pav colony ships", bob: "Jacques", book: 3 },
+  { year: 2252.1, text: "Last large farm on Earth fails", book: 3 },
+  { year: 2257.3, text: "Others approach Sol. Herschel & Neil arrive with Others ship", book: 3 },
+  { year: 2257.4, text: "Battle of Sol. 150,000 humans killed. Others defeated", book: 3 },
+  { year: 2257.4, text: "Icarus & Daedalus destroy GL877 star (supernova)", bob: "Icarus", book: 3 },
+  { year: 2258.0, text: "Bobs formally declare independence from humanity", book: 3 },
+  { year: 2259.1, text: "Remaining humanity departs Sol for 82 Eridani", book: 3 },
+  { year: 2263.8, text: "Bob makes pilgrimage to Earth, departs for the stars", bob: "Bob", book: 3 }
+];
+
+// ── Scope filtering ───────────────────────────────────────────────────────────
+let scopeBook = 3;
+let scopeMaxYear = 2263.9;
+
+// Filtered working copies
+let STARS, BOBS, TRAVELS, EVENTS;
+
+function applyScope() {
+  // Filter events by book and maxYear
+  EVENTS = ALL_EVENTS.filter(function(e) { return e.book <= scopeBook && e.year <= scopeMaxYear; })
+    .sort(function(a, b) { return a.year - b.year; });
+
+  // Filter bobs: include if book <= scope AND created <= maxYear
+  BOBS = {};
+  for (var id in ALL_BOBS) {
+    var b = ALL_BOBS[id];
+    if (b.book <= scopeBook && b.created <= scopeMaxYear) BOBS[id] = b;
+  }
+
+  // Filter travels: include if book <= scope AND depart <= maxYear
+  TRAVELS = ALL_TRAVELS.filter(function(t) { return t.book <= scopeBook && t.depart <= scopeMaxYear; });
+
+  // Collect referenced star systems
+  var usedStars = new Set(["Sol"]);
+  for (var id in BOBS) usedStars.add(BOBS[id].at);
+  TRAVELS.forEach(function(t) { usedStars.add(t.from); usedStars.add(t.to); });
+  STARS = {};
+  for (var id in ALL_STARS) { if (usedStars.has(id)) STARS[id] = ALL_STARS[id]; }
+
+  // Update slider
+  var minEvt = 2133, maxEvt = scopeMaxYear;
+  slider.min = minEvt;
+  slider.max = maxEvt;
+  if (parseFloat(slider.value) > maxEvt) slider.value = maxEvt;
+  if (parseFloat(slider.value) < minEvt) slider.value = minEvt;
+}
+
+// ── Branch colors ─────────────────────────────────────────────────────────────
+var BRANCH_HUES = {
+  "Bob": [45,90,75], "Bill": [210,70,65], "Riker": [150,60,60], "Milo": [280,55,65],
+  "Mario": [20,75,65], "Marvin": [320,50,60], "Luke": [60,60,55], "Bender": [190,50,55],
+  "Khan": [35,65,55], "Pete": [340,45,60], "Victor": [100,45,55]
+};
+
+function getBranch(bobId) {
+  var bob = ALL_BOBS[bobId];
+  if (!bob || !bob.parent) return bobId;
+  if (bob.parent === "Bob") return bobId;
+  // Sub-branches that get their own color family
+  if (BRANCH_HUES[bobId]) return bobId;
+  return getBranch(bob.parent);
+}
+
+function getBobColor(bobId) {
+  if (bobId === "Bob") return "hsl(45, 90%, 75%)";
+  if (bobId === "Bridget-R") return "hsl(340, 60%, 70%)";
+  var branch = getBranch(bobId);
+  var hue = BRANCH_HUES[branch] || [0, 50, 60];
+  var bob = ALL_BOBS[bobId];
+  var genOff = Math.min((bob.gen - 2) * 10, 40);
+  return "hsl(" + (hue[0] + genOff) + ", " + hue[1] + "%, " + Math.min(hue[2] + genOff * 0.4, 85) + "%)";
+}
+
+var bobColors = {};
+for (var id in ALL_BOBS) bobColors[id] = getBobColor(id);
+
+// ── 3D projection ────────────────────────────────────────────────────────────
+function starTo3D(star) {
+  var ra = star.ra_h * (Math.PI / 12);
+  var dec = star.dec_deg * (Math.PI / 180);
+  var d = star.distance_ly;
+  return { x: d * Math.cos(dec) * Math.cos(ra), y: d * Math.cos(dec) * Math.sin(ra), z: d * Math.sin(dec) };
+}
+
+var starPos3D = {};
+for (var id in ALL_STARS) starPos3D[id] = starTo3D(ALL_STARS[id]);
+
+// ── Canvas ────────────────────────────────────────────────────────────────────
+var canvas = document.getElementById('canvas');
+var ctx = canvas.getContext('2d');
+var W, H, mapScale, offsetX, offsetY;
+
+function resize() {
+  var container = document.getElementById('map-container');
+  W = container.clientWidth;
+  H = container.clientHeight;
+  canvas.width = W * devicePixelRatio;
+  canvas.height = H * devicePixelRatio;
+  canvas.style.width = W + 'px';
+  canvas.style.height = H + 'px';
+  ctx.setTransform(devicePixelRatio, 0, 0, devicePixelRatio, 0, 0);
+  fitView();
+}
+
+function fitView() {
+  var minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
+  for (var id in STARS) {
+    var p = starPos3D[id];
+    if (p.x < minX) minX = p.x; if (p.x > maxX) maxX = p.x;
+    if (p.y < minY) minY = p.y; if (p.y > maxY) maxY = p.y;
+  }
+  var pad = 70;
+  var rangeX = maxX - minX || 1, rangeY = maxY - minY || 1;
+  mapScale = Math.min((W - pad * 2) / rangeX, (H - pad * 2) / rangeY);
+  offsetX = W / 2 - (minX + maxX) / 2 * mapScale;
+  offsetY = H / 2 + (minY + maxY) / 2 * mapScale;
+}
+
+function project(x3d, y3d) { return { x: x3d * mapScale + offsetX, y: -y3d * mapScale + offsetY }; }
+function projectStar(starId) { var p = starPos3D[starId]; return project(p.x, p.y); }
+
+// ── Bob position ──────────────────────────────────────────────────────────────
+function getBobPosition(bobId, year) {
+  var bob = BOBS[bobId];
+  if (!bob || year < bob.created) return null;
+  if (bob.destroyed && year > bob.destroyed) return null;
+  for (var i = 0; i < TRAVELS.length; i++) {
+    var t = TRAVELS[i];
+    if (t.bob !== bobId) continue;
+    if (year >= t.depart && year <= t.arrive) {
+      var frac = (year - t.depart) / (t.arrive - t.depart);
+      var f = starPos3D[t.from], d = starPos3D[t.to];
+      if (!f || !d) continue;
+      return project(f.x + (d.x - f.x) * frac, f.y + (d.y - f.y) * frac);
+    }
+  }
+  var lastSys = bob.at, lastArr = bob.created;
+  for (var i = 0; i < TRAVELS.length; i++) {
+    var t = TRAVELS[i];
+    if (t.bob !== bobId || t.arrive > year) continue;
+    if (t.arrive > lastArr) { lastSys = t.to; lastArr = t.arrive; }
+  }
+  if (!STARS[lastSys]) return null;
+  return projectStar(lastSys);
+}
+
+function isTraveling(bobId, year) {
+  for (var i = 0; i < TRAVELS.length; i++) {
+    var t = TRAVELS[i];
+    if (t.bob === bobId && year >= t.depart && year <= t.arrive) return t;
+  }
+  return null;
+}
+
+// ── Background stars ──────────────────────────────────────────────────────────
+var bgStars = [];
+for (var i = 0; i < 150; i++) bgStars.push({
+  xf: Math.sin(i * 127.1 + 0.5) * 0.5 + 0.5,
+  yf: Math.sin(i * 311.7 + 0.3) * 0.5 + 0.5,
+  br: 0.06 + (Math.sin(i * 73.3) * 0.5 + 0.5) * 0.14
+});
+
+// ── Draw ──────────────────────────────────────────────────────────────────────
+function draw(year) {
+  ctx.clearRect(0, 0, W, H);
+  for (var i = 0; i < bgStars.length; i++) {
+    var s = bgStars[i];
+    ctx.fillStyle = "rgba(140,160,200," + s.br + ")";
+    ctx.fillRect(s.xf * W, s.yf * H, 1, 1);
+  }
+
+  // Travel dashed lines
+  ctx.save(); ctx.setLineDash([4, 4]); ctx.lineWidth = 1;
+  for (var i = 0; i < TRAVELS.length; i++) {
+    var t = TRAVELS[i];
+    if (year < t.depart || year > t.arrive) continue;
+    var c = bobColors[t.bob]; if (!c) continue;
+    var fromP = projectStar(t.from), toP = projectStar(t.to);
+    ctx.strokeStyle = c.replace("hsl(", "hsla(").replace(")", ", 0.3)");
+    ctx.beginPath(); ctx.moveTo(fromP.x, fromP.y); ctx.lineTo(toP.x, toP.y); ctx.stroke();
+  }
+  ctx.setLineDash([]); ctx.restore();
+
+  // Stars
+  for (var id in STARS) {
+    var p = projectStar(id);
+    var grad = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, 18);
+    grad.addColorStop(0, 'rgba(100,140,220,0.12)'); grad.addColorStop(1, 'rgba(100,140,220,0)');
+    ctx.fillStyle = grad; ctx.beginPath(); ctx.arc(p.x, p.y, 18, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = '#5a7aaa'; ctx.beginPath(); ctx.arc(p.x, p.y, 3.5, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = '#3a5070'; ctx.font = '9px Consolas, Monaco, monospace'; ctx.textAlign = 'center';
+    ctx.fillText(STARS[id].name, p.x, p.y + 16);
+  }
+
+  // Bobs
+  var bobs = [];
+  for (var id in BOBS) {
+    var pos = getBobPosition(id, year); if (!pos) continue;
+    var grp = BOBS[id].group || 0;
+    bobs.push({ id: id, x: pos.x, y: pos.y, traveling: isTraveling(id, year), color: bobColors[id], group: grp });
+  }
+  // Cluster
+  var clusters = [], used = {};
+  for (var i = 0; i < bobs.length; i++) {
+    if (used[i]) continue;
+    var cl = [bobs[i]]; used[i] = true;
+    for (var j = i + 1; j < bobs.length; j++) {
+      if (used[j]) continue;
+      var dx = bobs[i].x - bobs[j].x, dy = bobs[i].y - bobs[j].y;
+      if (Math.sqrt(dx * dx + dy * dy) < 20) { cl.push(bobs[j]); used[j] = true; }
+    }
+    clusters.push(cl);
+  }
+  for (var ci = 0; ci < clusters.length; ci++) {
+    var cl = clusters[ci];
+    for (var i = 0; i < cl.length; i++) {
+      var b = cl[i];
+      var r = b.group ? 7 : 5;
+      ctx.fillStyle = b.color; ctx.beginPath(); ctx.arc(b.x, b.y, r, 0, Math.PI * 2); ctx.fill();
+      if (b.group) {
+        // Draw count inside the larger dot
+        ctx.fillStyle = '#0a0e1a'; ctx.font = 'bold 8px Consolas, Monaco, monospace'; ctx.textAlign = 'center';
+        ctx.fillText('+' + b.group, b.x, b.y + 3);
+      }
+      if (b.traveling) { ctx.strokeStyle = b.color; ctx.lineWidth = 1; ctx.beginPath(); ctx.arc(b.x, b.y, r + 2, 0, Math.PI * 2); ctx.stroke(); }
+    }
+    var cx = cl[0].x, cy = cl[0].y;
+    ctx.font = '10px Consolas, Monaco, monospace'; ctx.textAlign = 'left';
+    var startY = cy - (cl.length - 1) * 6;
+    for (var i = 0; i < cl.length; i++) {
+      ctx.fillStyle = cl[i].color;
+      var label = cl[i].id + (cl[i].traveling ? ' >>' : '');
+      ctx.fillText(label, cx + 10, startY + i * 13);
+    }
+  }
+}
+
+// ── Event log ─────────────────────────────────────────────────────────────────
+var eventLog = document.getElementById('event-log');
+var eventEls = [];
+
+function buildEventLog() {
+  eventLog.textContent = '';
+  eventEls = [];
+  for (var i = 0; i < EVENTS.length; i++) {
+    var ev = EVENTS[i];
+    var el = document.createElement('div');
+    el.className = 'event-item future';
+    var ys = document.createElement('span'); ys.className = 'event-year'; ys.textContent = Math.floor(ev.year); el.appendChild(ys);
+    if (ev.destroyed) {
+      var ds = document.createElement('span'); ds.className = 'event-destroyed'; ds.textContent = ev.text; el.appendChild(ds);
+    } else if (ev.bob) {
+      var bs = document.createElement('span'); bs.className = 'event-bob'; bs.textContent = ev.bob + ': '; el.appendChild(bs);
+      el.appendChild(document.createTextNode(ev.text));
+    } else {
+      el.appendChild(document.createTextNode(ev.text));
+    }
+    eventLog.appendChild(el);
+    eventEls.push({ el: el, year: ev.year });
+  }
+}
+
+function updateEventLog(year) {
+  var lastActive = null;
+  for (var i = 0; i < eventEls.length; i++) {
+    var item = eventEls[i];
+    if (item.year <= year && item.year > year - 1.5) { item.el.className = 'event-item active'; lastActive = item.el; }
+    else if (item.year <= year) item.el.className = 'event-item past';
+    else item.el.className = 'event-item future';
+  }
+  if (lastActive) lastActive.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+}
+
+// ── Legend ─────────────────────────────────────────────────────────────────────
+function buildLegend() {
+  var legend = document.getElementById('legend');
+  legend.textContent = '';
+  var branches = ["Bob", "Bill", "Riker", "Khan", "Milo", "Mario"];
+  for (var i = 0; i < branches.length; i++) {
+    if (!BOBS[branches[i]]) continue;
+    var item = document.createElement('div'); item.className = 'legend-item';
+    var dot = document.createElement('span'); dot.className = 'legend-dot'; dot.style.background = bobColors[branches[i]];
+    item.appendChild(dot); item.appendChild(document.createTextNode(branches[i]));
+    legend.appendChild(item);
+  }
+}
+
+// ── Tooltip ───────────────────────────────────────────────────────────────────
+var tooltip = document.getElementById('tooltip');
+canvas.addEventListener('mousemove', function(e) {
+  var rect = canvas.getBoundingClientRect();
+  var mx = e.clientX - rect.left, my = e.clientY - rect.top;
+  var year = parseFloat(slider.value);
+  var found = null;
+  for (var id in BOBS) {
+    var pos = getBobPosition(id, year); if (!pos) continue;
+    if ((mx - pos.x) * (mx - pos.x) + (my - pos.y) * (my - pos.y) < 144) { found = id; break; }
+  }
+  var foundStar = null;
+  if (!found) for (var id in STARS) {
+    var p = projectStar(id);
+    if ((mx - p.x) * (mx - p.x) + (my - p.y) * (my - p.y) < 256) { foundStar = id; break; }
+  }
+  if (found) {
+    var bob = BOBS[found], travel = isTraveling(found, year);
+    tooltip.textContent = '';
+    var nd = document.createElement('div'); nd.style.color = bobColors[found]; nd.style.fontWeight = 'bold'; nd.textContent = found; tooltip.appendChild(nd);
+    var infoText = bob.group ? 'Unnamed group of ' + bob.group : 'Gen ' + bob.gen + ' | Parent: ' + (bob.parent || 'Original');
+    var id2 = document.createElement('div'); id2.style.color = '#8090b0'; id2.textContent = infoText; tooltip.appendChild(id2);
+    if (travel) { var td = document.createElement('div'); td.style.color = '#8090b0'; td.textContent = 'In transit: ' + travel.from + ' -> ' + travel.to; tooltip.appendChild(td); }
+    if (bob.destroyed) { var dd = document.createElement('div'); dd.style.color = '#e07878'; dd.textContent = 'Destroyed: ' + Math.floor(bob.destroyed); tooltip.appendChild(dd); }
+    tooltip.style.display = 'block'; tooltip.style.left = (mx + 14) + 'px'; tooltip.style.top = (my - 10) + 'px';
+  } else if (foundStar) {
+    var star = STARS[foundStar]; tooltip.textContent = '';
+    var sn = document.createElement('div'); sn.style.color = '#e0c878'; sn.style.fontWeight = 'bold'; sn.textContent = star.name; tooltip.appendChild(sn);
+    var sd = document.createElement('div'); sd.style.color = '#8090b0'; sd.textContent = star.distance_ly + ' ly from Sol'; tooltip.appendChild(sd);
+    var bobsHere = [], sp = projectStar(foundStar);
+    for (var id in BOBS) { var pos = getBobPosition(id, year); if (!pos) continue; if ((pos.x - sp.x) * (pos.x - sp.x) + (pos.y - sp.y) * (pos.y - sp.y) < 100 && !isTraveling(id, year)) bobsHere.push(id); }
+    if (bobsHere.length) { var bd = document.createElement('div'); bd.style.color = '#8090b0'; bd.textContent = 'Bobs: ' + bobsHere.join(', '); tooltip.appendChild(bd); }
+    tooltip.style.display = 'block'; tooltip.style.left = (mx + 14) + 'px'; tooltip.style.top = (my - 10) + 'px';
+  } else tooltip.style.display = 'none';
+});
+canvas.addEventListener('mouseleave', function() { tooltip.style.display = 'none'; });
+
+// ── Playback ──────────────────────────────────────────────────────────────────
+var slider = document.getElementById('slider');
+var yearDisplay = document.getElementById('year-display');
+var playBtn = document.getElementById('play-btn');
+var speedDisplay = document.getElementById('speed-display');
+var playing = false, speed = 2, lastTime = null;
+
+function update(year) {
+  yearDisplay.textContent = Math.floor(year);
+  draw(year);
+  updateEventLog(year);
+}
+
+slider.addEventListener('input', function() { update(parseFloat(slider.value)); });
+playBtn.addEventListener('click', function() {
+  playing = !playing; playBtn.textContent = playing ? 'Pause' : 'Play'; lastTime = null;
+  if (playing) requestAnimationFrame(tick);
+});
+document.addEventListener('keydown', function(e) {
+  if (e.key === '+' || e.key === '=') { speed = Math.min(speed * 1.5, 20); speedDisplay.textContent = speed.toFixed(1) + ' yr/s'; }
+  if (e.key === '-') { speed = Math.max(speed / 1.5, 0.5); speedDisplay.textContent = speed.toFixed(1) + ' yr/s'; }
+  if (e.key === ' ') { e.preventDefault(); playBtn.click(); }
+  if (e.key === 'ArrowRight') { slider.value = Math.min(parseFloat(slider.value) + 1, parseFloat(slider.max)); update(parseFloat(slider.value)); }
+  if (e.key === 'ArrowLeft') { slider.value = Math.max(parseFloat(slider.value) - 1, parseFloat(slider.min)); update(parseFloat(slider.value)); }
+});
+function tick(ts) {
+  if (!playing) return;
+  if (lastTime !== null) {
+    var dt = (ts - lastTime) / 1000, val = parseFloat(slider.value) + dt * speed;
+    if (val >= parseFloat(slider.max)) { val = parseFloat(slider.max); playing = false; playBtn.textContent = 'Play'; }
+    slider.value = val; update(val);
+  }
+  lastTime = ts; if (playing) requestAnimationFrame(tick);
+}
+
+// ── Config screen ─────────────────────────────────────────────────────────────
+var bookSelect = document.getElementById('book-select');
+var chapterSelect = document.getElementById('chapter-select');
+var startBtn = document.getElementById('start-btn');
+var configOverlay = document.getElementById('config-overlay');
+var scopeLabel = document.getElementById('scope-label');
+var app = document.getElementById('app');
+
+function populateChapters() {
+  var book = parseInt(bookSelect.value);
+  var chs = CHAPTERS[book];
+  chapterSelect.textContent = '';
+  for (var i = 0; i < chs.length; i++) {
+    var opt = document.createElement('option');
+    opt.value = i;
+    opt.textContent = chs[i].label;
+    chapterSelect.appendChild(opt);
+  }
+  chapterSelect.value = chs.length - 1; // default to last chapter
+}
+
+bookSelect.addEventListener('change', populateChapters);
+populateChapters();
+
+function startApp() {
+  var book = parseInt(bookSelect.value);
+  var chIdx = parseInt(chapterSelect.value);
+  var ch = CHAPTERS[book][chIdx];
+  scopeBook = book;
+  scopeMaxYear = ch.maxYear;
+
+  var bookNames = { 1: "Book 1", 2: "Books 1-2", 3: "Books 1-3" };
+  scopeLabel.textContent = bookNames[book] + " up to " + ch.label + " [change]";
+
+  configOverlay.style.display = 'none';
+  app.classList.add('visible');
+  applyScope();
+  resize();
+  buildEventLog();
+  buildLegend();
+  update(parseFloat(slider.min));
+}
+
+startBtn.addEventListener('click', startApp);
+
+scopeLabel.addEventListener('click', function() {
+  playing = false; playBtn.textContent = 'Play';
+  app.classList.remove('visible');
+  configOverlay.style.display = 'flex';
+});
+
+window.addEventListener('resize', function() {
+  if (app.classList.contains('visible')) { resize(); update(parseFloat(slider.value)); }
+});
+</script>
+</body>
+</html>
