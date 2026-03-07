@@ -33,9 +33,11 @@ On first load, a configuration screen lets you pick your reading progress (book 
 
 Star positions come from real astronomical catalogs. Timeline data was compiled from:
 
-- [Bobiverse Timeline (Pastebin)](https://pastebin.com/nqMFMb5y)
-- [Bobiverse Wiki](https://bobiverse.fandom.com/)
-- [Bob family tree (GitHub)](https://github.com/Jeidnx/bobiverse-family-tree)
+- [Bobiverse Timeline Books 1-2 (Pastebin)](https://pastebin.com/ZcKub4Fc)
+- [Bobiverse Timeline Books 1-3 (Pastebin)](https://pastebin.com/qwfY3PMU)
+- [Bobiverse Wiki (Fandom)](https://bobiverse.fandom.com/wiki/Bobiverse_Wiki)
+- [Bob family tree - GraphViz (GitHub)](https://github.com/eneko/Bobiverse)
+- [Interactive tree of Bob (GitHub)](https://github.com/sbtn/treeofbob)
 
 A few systems (GL 877, HIP 84051, Ragnarok, Odin) use estimated coordinates where real data was unavailable.
 
