@@ -44,6 +44,8 @@ body { background: #0a0e1a; color: #c8cad0; font-family: 'Consolas', 'Monaco', m
 #year-display { font-size: 22px; color: #e0c878; font-weight: bold; letter-spacing: 1px; }
 #scope-label { font-size: 10px; color: #3a5070; margin-left: auto; cursor: pointer; }
 #scope-label:hover { color: #7ea8e0; }
+#layout-btn { background: #1a2040; border: 1px solid #2a3a60; color: #5a7aaa; padding: 3px 10px; font-size: 10px; cursor: pointer; border-radius: 3px; font-family: inherit; }
+#layout-btn:hover { border-color: #7ea8e0; color: #7ea8e0; }
 
 #main { display: flex; flex: 1; min-height: 0; }
 #map-container { flex: 1; position: relative; }
@@ -94,8 +96,13 @@ canvas { display: block; width: 100%; height: 100%; }
       <label for="chapter-select">Chapter (show up to and including)</label>
       <select id="chapter-select"></select>
     </div>
+    <label for="layout-select">Star layout</label>
+    <select id="layout-select">
+      <option value="spread">Spread (optimized for readability)</option>
+      <option value="realistic">Realistic (astronomical positions)</option>
+    </select>
     <button id="start-btn">Open Star Map</button>
-    <div class="config-note">You can change this later by clicking the scope label in the top bar.</div>
+    <div class="config-note">You can change these later using the controls in the top bar.</div>
   </div>
 </div>
 
@@ -104,6 +111,7 @@ canvas { display: block; width: 100%; height: 100%; }
   <div id="top-bar">
     <h1>BOBIVERSE STAR MAP</h1>
     <span id="year-display">2133</span>
+    <button id="layout-btn">Layout: Spread</button>
     <span id="scope-label"></span>
   </div>
   <div id="main">
@@ -498,6 +506,31 @@ function starTo3D(star) {
 var starPos3D = {};
 for (var id in ALL_STARS) starPos3D[id] = starTo3D(ALL_STARS[id]);
 
+// Custom layout: hand-tuned normalized positions (0-1) for better screen use
+var customLayout = {
+  "Sol":              { x: 0.50, y: 0.12 },
+  "Epsilon Eridani":  { x: 0.42, y: 0.32 },
+  "Delta Eridani":    { x: 0.58, y: 0.42 },
+  "Omicron2 Eridani": { x: 0.30, y: 0.48 },
+  "Alpha Centauri":   { x: 0.72, y: 0.20 },
+  "82 Eridani":       { x: 0.22, y: 0.68 },
+  "Beta Hydri":       { x: 0.12, y: 0.85 },
+  "Epsilon Indi":     { x: 0.82, y: 0.35 },
+  "Eta Cassiopeiae":  { x: 0.88, y: 0.08 },
+  "Kappa Ceti":       { x: 0.62, y: 0.14 },
+  "Gamma Leporis A":  { x: 0.35, y: 0.58 },
+  "GL 877":           { x: 0.08, y: 0.55 },
+  "Gliese 54":        { x: 0.15, y: 0.40 },
+  "Delta Pavonis":    { x: 0.78, y: 0.72 },
+  "Gamma Pavonis":    { x: 0.88, y: 0.60 },
+  "HIP 14101":        { x: 0.48, y: 0.58 },
+  "HIP 84051":        { x: 0.75, y: 0.88 },
+  "Ragnarok":         { x: 0.38, y: 0.18 },
+  "Odin":             { x: 0.25, y: 0.28 }
+};
+
+var layoutMode = 'spread'; // 'realistic' or 'spread'
+
 // ── Canvas ────────────────────────────────────────────────────────────────────
 var canvas = document.getElementById('canvas');
 var ctx = canvas.getContext('2d');
@@ -516,6 +549,10 @@ function resize() {
 }
 
 function fitView() {
+  if (layoutMode === 'spread') {
+    mapScale = 1; offsetX = 0; offsetY = 0;
+    return;
+  }
   var minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
   for (var id in STARS) {
     var p = starPos3D[id];
@@ -530,7 +567,16 @@ function fitView() {
 }
 
 function project(x3d, y3d) { return { x: x3d * mapScale + offsetX, y: -y3d * mapScale + offsetY }; }
-function projectStar(starId) { var p = starPos3D[starId]; return project(p.x, p.y); }
+function projectStar(starId) {
+  if (layoutMode === 'spread') {
+    var c = customLayout[starId];
+    if (c) {
+      var pad = 60;
+      return { x: pad + c.x * (W - pad * 2), y: pad + c.y * (H - pad * 2) };
+    }
+  }
+  var p = starPos3D[starId]; return project(p.x, p.y);
+}
 
 // ── Bob position ──────────────────────────────────────────────────────────────
 function getBobPosition(bobId, year) {
@@ -542,9 +588,9 @@ function getBobPosition(bobId, year) {
     if (t.bob !== bobId) continue;
     if (year >= t.depart && year <= t.arrive) {
       var frac = (year - t.depart) / (t.arrive - t.depart);
-      var f = starPos3D[t.from], d = starPos3D[t.to];
-      if (!f || !d) continue;
-      return project(f.x + (d.x - f.x) * frac, f.y + (d.y - f.y) * frac);
+      var fromP = projectStar(t.from), toP = projectStar(t.to);
+      if (!fromP || !toP) continue;
+      return { x: fromP.x + (toP.x - fromP.x) * frac, y: fromP.y + (toP.y - fromP.y) * frac };
     }
   }
   var lastSys = bob.at, lastArr = bob.created;
@@ -794,12 +840,16 @@ function populateChapters() {
 bookSelect.addEventListener('change', populateChapters);
 populateChapters();
 
+var layoutSelect = document.getElementById('layout-select');
+
 function startApp() {
   var book = parseInt(bookSelect.value);
   var chIdx = parseInt(chapterSelect.value);
   var ch = CHAPTERS[book][chIdx];
   scopeBook = book;
   scopeMaxYear = ch.maxYear;
+  layoutMode = layoutSelect.value;
+  layoutBtn.textContent = 'Layout: ' + (layoutMode === 'realistic' ? 'Realistic' : 'Spread');
 
   var bookNames = { 1: "Book 1", 2: "Books 1-2", 3: "Books 1-3" };
   scopeLabel.textContent = bookNames[book] + " up to " + ch.label + " [change]";
@@ -817,12 +867,22 @@ startBtn.addEventListener('click', startApp);
 
 scopeLabel.addEventListener('click', function() {
   playing = false; playBtn.textContent = 'Play';
+  layoutSelect.value = layoutMode;
   app.classList.remove('visible');
   configOverlay.style.display = 'flex';
 });
 
 window.addEventListener('resize', function() {
   if (app.classList.contains('visible')) { resize(); update(parseFloat(slider.value)); }
+});
+
+// ── Layout toggle ────────────────────────────────────────────────────────────
+var layoutBtn = document.getElementById('layout-btn');
+layoutBtn.addEventListener('click', function() {
+  layoutMode = layoutMode === 'realistic' ? 'spread' : 'realistic';
+  layoutBtn.textContent = 'Layout: ' + (layoutMode === 'realistic' ? 'Realistic' : 'Spread');
+  fitView();
+  update(parseFloat(slider.value));
 });
 </script>
 </body>
