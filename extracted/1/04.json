@@ -1,0 +1,300 @@
+{
+  "metadata": {
+    "chapter": 4,
+    "pov": "Bob",
+    "year": 2133,
+    "month": "July",
+    "location": "Sol",
+    "notes": null,
+    "pov_knowledge": {
+      "believes": [
+        "Bob believes all remaining replicant candidates are being treated the same way with standby periods and training.",
+        "Bob believes FAITH is deliberately keeping him constantly occupied to reduce the risk of replicant insanity.",
+        "Bob believes he must appear compliant and sane in order to survive and win the competition."
+      ],
+      "learns": [
+        "One of the other replicant candidates has been lost after going into an unrecoverable loop, reducing the field from five to four.",
+        "Replicants are routinely put into standby because unstructured subjective time can drive them insane.",
+        "The internet no longer exists domestically under FAITH and public information access is tightly controlled.",
+        "FAITH policy prevents him from accessing genealogy information about possible living descendants."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Bob",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "At the FAITH facility during training and standby management."
+    },
+    {
+      "name": "Dr. Landers",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Explains standby procedure, competitor loss, and FAITH information restrictions."
+    }
+  ],
+  "new_characters": [],
+  "destructions": [
+    {
+      "name": "unnamed replicant competitor",
+      "type": "replicant",
+      "cause": "She went into a mental loop during standby and could not be restored even from backup.",
+      "location": "Sol",
+      "certainty": "confirmed"
+    }
+  ],
+  "resolutions": [],
+  "movements": [],
+  "star_systems": [
+    {
+      "name": "Sol",
+      "role": "setting",
+      "notes": "FAITH replicant training facility."
+    }
+  ],
+  "planets": [
+    {
+      "name": "Earth",
+      "star_system": "Sol",
+      "orbital_position": 3,
+      "type": "rocky",
+      "habitable": true,
+      "features": "Homeworld under FAITH control with tightly restricted information access and no domestic internet.",
+      "life": "Human civilization",
+      "status": "mentioned",
+      "notes": "Referenced through discussion of FAITH policy rather than visited directly on-page."
+    }
+  ],
+  "technologies": [],
+  "faction_events": [
+    {
+      "faction": "FAITH",
+      "type": "policy_change",
+      "counterparty": null,
+      "text": "FAITH has eliminated the domestic internet and restricts public access to information, including genealogy records.",
+      "location": "Sol",
+      "notes": "Presented as current policy in force by 2133; timing of enactment is not stated."
+    }
+  ],
+  "communications": [],
+  "combat": [],
+  "alien_species": [],
+  "infrastructure": [],
+  "human_colonies": [],
+  "relationships": [],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Sol",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Bob is awakened from standby, learns why replicants are suspended between training sessions, and hears that one competitor has been lost to insanity."
+    },
+    {
+      "order": 2,
+      "location": "Sol",
+      "time_offset": "same scene",
+      "pov": null,
+      "summary": "Bob asks for study access and genealogy information, but Dr. Landers explains FAITH's censorship and denies access to family records."
+    },
+    {
+      "order": 3,
+      "location": "Sol",
+      "time_offset": "same scene",
+      "pov": null,
+      "summary": "Bob privately resolves to hide his resentment, stay sane, and win the replicant competition."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Bob",
+      "text": "Meanwhile, I would shut up, listen, learn, and be a good little robot.",
+      "context": "Bob internally resolves to appear compliant while planning to survive FAITH's control and win the competition."
+    }
+  ],
+  "threads_opened": [
+    {
+      "id": "replicant-insanity-risk",
+      "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby."
+    },
+    {
+      "id": "bob-cut-off-from-descendants",
+      "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections."
+    }
+  ],
+  "threads_resolved": [],
+  "events": [
+    {
+      "text": "One of Bob's competing replicant candidates is lost to an unrecoverable mental loop during standby, reducing the field to four.",
+      "characters": [
+        "Bob",
+        "Dr. Landers"
+      ],
+      "significance": "major",
+      "type": "destruction"
+    },
+    {
+      "text": "Bob learns that FAITH tightly controls information access, has no domestic internet, and will not allow him to search for living descendants.",
+      "characters": [
+        "Bob",
+        "Dr. Landers"
+      ],
+      "significance": "minor",
+      "type": "political"
+    }
+  ],
+  "summary": {
+    "one_line": "Bob learns a rival replicant has gone irretrievably insane and realizes FAITH's control extends even to his access to history and family ties.",
+    "paragraph": "Dr. Landers wakes Bob from standby and explains that replicants are routinely suspended because unstructured subjective time can drive them insane. He reveals that one of Bob's competitors has already been lost after entering a loop that could not be fixed even by restoring from backup, leaving four candidates. Bob asks for intellectual stimulation and access to historical and genealogical records, but learns that FAITH has abolished the domestic internet and tightly restricts information, including family records. Cut off from both his descendants and his grief by endocrine controls, Bob quietly resolves to stay obedient, sane, and competitive until he has more freedom.",
+    "events": [
+      "Bob wakes from standby and complains about being repeatedly switched off between training sessions.",
+      "Dr. Landers explains that standby is standard procedure because replicants can experience too much subjective time and go insane when left alone with their thoughts.",
+      "Dr. Landers tells Bob that one female competitor has already been lost after entering an unrecoverable loop, reducing the competition to four.",
+      "Bob asks for study materials and access to the modern equivalent of the internet so he can learn what happened during the century he missed.",
+      "Dr. Landers explains that FAITH no longer permits a domestic internet and that public information is tightly controlled.",
+      "Bob asks about genealogy records in hopes of finding descendants, but Landers says FAITH policy does not allow that information to be accessed.",
+      "Feeling completely cut off from his former humanity, Bob resolves to hide his resentment, stay sane, and win the competition."
+    ],
+    "themes": [
+      "identity",
+      "control",
+      "faith-vs-science",
+      "survival"
+    ],
+    "mood": "reflective",
+    "pov_emotional_arc": "Bob is shaken by the fragility of replicant minds and the finality of his separation from his human family, then hardens into cautious, strategic self-control."
+  },
+  "world_state_after": {
+    "chapters_processed": 4,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 4
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 4
+      }
+    ],
+    "known_star_systems": [
+      "Sol"
+    ],
+    "known_planets": [
+      "Earth"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH"
+    ],
+    "known_species": [],
+    "open_threads": [
+      {
+        "id": "replicant-project-competition",
+        "text": "Bob has been activated as one of five replicant candidates for a single undisclosed project, and his future depends on winning the selection.",
+        "opened_chapter": 2
+      },
+      {
+        "id": "bob-assigned-project",
+        "text": "Bob still does not know what specific job or project he is being trained for.",
+        "opened_chapter": 2
+      },
+      {
+        "id": "sealed-training-room-security",
+        "text": "Bob notices the roamer training room is heavily sealed and wonders why the facility needs that level of security around him and the roamers.",
+        "opened_chapter": 3
+      },
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 1,
+        "text": "Bob Johansson signs up for cryonic preservation, spends a day at a science-fiction convention, and is killed in a sudden traffic accident."
+      },
+      {
+        "chapter": 2,
+        "text": "Bob awakens in 2133 to discover he is no longer human but a replicant owned by a company in the theocratic state of FAITH."
+      },
+      {
+        "chapter": 3,
+        "text": "Bob's training accelerates when he rapidly masters manipulator arms and ROAMers at the FAITH facility."
+      },
+      {
+        "chapter": 4,
+        "text": "Bob learns a rival replicant has gone irretrievably insane and realizes FAITH's control extends even to his access to history and family ties."
+      }
+    ]
+  }
+}

@@ -1,0 +1,710 @@
+{
+  "metadata": {
+    "chapter": 32,
+    "pov": "Bill",
+    "year": 2158,
+    "month": "October",
+    "location": "Epsilon Eridani",
+    "notes": null,
+    "pov_knowledge": {
+      "believes": [
+        "There may or may not still be enough surviving humans at Sol to use newly found colony worlds.",
+        "Riker may be monitoring incoming transmissions from Epsilon Eridani."
+      ],
+      "learns": [
+        "Milo has found two habitable planets in 82 Eridani and completed biological analyses of them."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Bill",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "POV character reviewing Milo's report."
+    },
+    {
+      "name": "GUPPI",
+      "type": "ai",
+      "location": "Epsilon Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Interacts with Bill in VR."
+    },
+    {
+      "name": "Spike",
+      "type": "ai",
+      "location": "Epsilon Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Present in Bill's VR environment."
+    },
+    {
+      "name": "Milo",
+      "type": "replicant",
+      "location": "82 Eridani",
+      "status": "mentioned_only",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Sends a report from 82 Eridani."
+    },
+    {
+      "name": "Garfield",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Speaks with Bill about Milo's findings and Kuiper mapping."
+    },
+    {
+      "name": "Riker",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "mentioned_only",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Mentioned as a hoped-for recipient of forwarded information."
+    }
+  ],
+  "new_characters": [],
+  "destructions": [],
+  "resolutions": [],
+  "movements": [],
+  "star_systems": [
+    {
+      "name": "Epsilon Eridani",
+      "role": "setting",
+      "notes": null
+    },
+    {
+      "name": "82 Eridani",
+      "role": "mentioned",
+      "notes": "Milo's report concerns this system and its habitable planets."
+    },
+    {
+      "name": "Sol",
+      "role": "mentioned",
+      "notes": "Bill forwards Milo's report toward Sol and reflects on whether survivors remain there."
+    }
+  ],
+  "planets": [],
+  "technologies": [
+    {
+      "name": "SCUT",
+      "full_name": "Subspace Communication",
+      "event": "deployed",
+      "by": "Bill",
+      "location": "Epsilon Eridani",
+      "notes": "Bill says he is periodically transmitting the plans for SCUT to every system within thirty light-years."
+    }
+  ],
+  "faction_events": [],
+  "communications": [
+    {
+      "from_character": "Milo",
+      "from_system": "82 Eridani",
+      "to_character": "Bill",
+      "to_system": "Epsilon Eridani",
+      "medium": "BobNet",
+      "direction": "received",
+      "contents_summary": "Milo reports that 82 Eridani contains two habitable planets and includes biological analyses and system schematics.",
+      "notes": null
+    },
+    {
+      "from_character": "Bill",
+      "from_system": "Epsilon Eridani",
+      "to_character": "broadcast",
+      "to_system": null,
+      "medium": "radio",
+      "direction": "sent",
+      "contents_summary": "Bill periodically broadcasts SCUT plans to every system within thirty light-years in case other Bobs are present.",
+      "notes": "He notes the first transmission to Sol will take about nine years to arrive."
+    },
+    {
+      "from_character": "Bill",
+      "from_system": "Epsilon Eridani",
+      "to_character": "Garfield",
+      "to_system": "Epsilon Eridani",
+      "medium": "BobNet",
+      "direction": "both",
+      "contents_summary": "Bill and Garfield discuss Milo's discovery of two habitable planets and Garfield's Kuiper mapping progress.",
+      "notes": "Real-time local Bob communication."
+    }
+  ],
+  "combat": [],
+  "alien_species": [],
+  "infrastructure": [],
+  "human_colonies": [],
+  "relationships": [],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Epsilon Eridani",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Bill pauses his android-body research to review Milo's incoming report from 82 Eridani."
+    },
+    {
+      "order": 2,
+      "location": "Epsilon Eridani",
+      "time_offset": "same scene",
+      "pov": null,
+      "summary": "Bill forwards Milo's findings toward Sol and worries whether any humans will survive long enough to use the new worlds."
+    },
+    {
+      "order": 3,
+      "location": "Epsilon Eridani",
+      "time_offset": "same scene",
+      "pov": null,
+      "summary": "Bill talks with Garfield about the significance of Milo's discovery and Garfield's progress mapping Kuiper ice sources for Ragnarök."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [],
+  "threads_opened": [],
+  "threads_resolved": [],
+  "events": [
+    {
+      "text": "Bill receives Milo's report confirming two habitable planets in 82 Eridani, strengthening the case for it as a future human destination.",
+      "characters": [
+        "Bill",
+        "Milo"
+      ],
+      "significance": "major",
+      "type": "discovery"
+    }
+  ],
+  "summary": {
+    "one_line": "Bill receives Milo's startling report that 82 Eridani has two habitable planets and starts pushing the news toward Sol.",
+    "paragraph": "At Epsilon Eridani, Bill interrupts his work on realistic android bodies when Milo's report arrives from 82 Eridani. The report confirms that the system contains two habitable planets, a result Bill finds astonishing given its prior reputation as a marginal candidate. He forwards the findings toward Sol and reflects anxiously on whether enough humans will still be alive there by the time the information arrives. Bill then checks in with Garfield, who shares his amazement at the discovery and updates Bill on the search for large Kuiper-belt ice bodies to support work at Ragnarök.",
+    "events": [
+      "Bill receives a communication from Milo and opens a detailed report on 82 Eridani.",
+      "He studies Milo's schematics and biological analyses and is stunned that the system appears to contain two habitable planets.",
+      "Bill forwards the report toward Sol in hopes that Riker or other survivors will eventually receive it.",
+      "He reflects on the long communication delay and worries that there may be no humans left to benefit from the discovery.",
+      "Bill contacts Garfield, and the two discuss both the promise of the new worlds and the grim uncertainty about humanity's survival.",
+      "Garfield shows Bill his progress mapping large Kuiper-belt ice bodies for future use at Ragnarök."
+    ],
+    "themes": [
+      "exploration",
+      "colonization",
+      "communication",
+      "uncertainty"
+    ],
+    "mood": "hopeful",
+    "pov_emotional_arc": "Bill moves from absorbed technical focus to cautious optimism, tempered by anxiety that humanity may not survive long enough to use the opportunity Milo has found."
+  },
+  "world_state_after": {
+    "chapters_processed": 32,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "in transit to Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 30
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 32
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 10,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Dr. Doucette",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Spike",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 32
+      },
+      {
+        "name": "Jeeves",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Major Ernesto Medeiros",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Serra do Mar",
+        "type": "ship",
+        "location": "Epsilon Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 15,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Bill",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 32
+      },
+      {
+        "name": "Riker",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 32
+      },
+      {
+        "name": "Milo",
+        "type": "replicant",
+        "location": "in transit to 82 Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 32
+      },
+      {
+        "name": "Mario",
+        "type": "replicant",
+        "location": "in transit to Beta Hydri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 27
+      },
+      {
+        "name": "Homer",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 31
+      },
+      {
+        "name": "Garfield",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 32
+      },
+      {
+        "name": "Calvin",
+        "type": "replicant",
+        "location": "Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Goku",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Linus",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Captain Matias Araújo",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 24,
+        "last_seen_chapter": 24
+      },
+      {
+        "name": "Colonel George Butterworth",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 31
+      },
+      {
+        "name": "Delta Eridani 4 natives",
+        "type": "alien_species",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 30
+      },
+      {
+        "name": "Marvin",
+        "type": "replicant",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 30
+      },
+      {
+        "name": "Luke",
+        "type": "replicant",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 30
+      },
+      {
+        "name": "Bender",
+        "type": "replicant",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 30
+      },
+      {
+        "name": "Archimedes",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 30
+      },
+      {
+        "name": "Charles",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 31
+      },
+      {
+        "name": "Arthur",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 31
+      }
+    ],
+    "known_star_systems": [
+      "Sol",
+      "Epsilon Eridani",
+      "Alpha Centauri",
+      "Delta Eridani",
+      "Omicron Eridani",
+      "Beta Hydri",
+      "82 Eridani"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon",
+      "Saturn",
+      "Titan",
+      "Epsilon Eridani 1",
+      "Epsilon Eridani 2",
+      "Epsilon Eridani inner asteroid belt",
+      "Epsilon Eridani 4",
+      "Epsilon Eridani outer asteroid belt",
+      "Epsilon Eridani 5",
+      "Epsilon Eridani 3",
+      "Ragnarök",
+      "Omicron Eridani asteroid belt",
+      "OE-1A",
+      "OE-1B",
+      "OE-2",
+      "Jupiter",
+      "Vulcan",
+      "Romulus",
+      "Delta Eridani 4",
+      "Delta Eridani asteroid belt",
+      "Delta Eridani 1",
+      "Delta Eridani 2",
+      "Delta Eridani 3",
+      "Delta Eridani 5",
+      "Alpha Centauri B 1",
+      "Alpha Centauri B asteroid belt",
+      "Alpha Centauri B inner asteroid belt",
+      "Alpha Centauri A comfort-zone planet",
+      "Eden"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR",
+      "Heaven-1",
+      "VR interface",
+      "SURGE drive weapon",
+      "exploration scouts",
+      "Heaven-2",
+      "Heaven-1A",
+      "exploration drone",
+      "subspace transmission",
+      "SURGE drive missile",
+      "Heaven-9",
+      "Heaven-10",
+      "modified SUDDAR array",
+      "SCUT"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH",
+      "Brazilian Empire",
+      "USE"
+    ],
+    "known_species": [
+      "Vulcan and Romulus native life",
+      "Delta Eridani 4 natives"
+    ],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      },
+      {
+        "id": "who-attacked-heaven-1-launch",
+        "text": "The launch turns into a confused orbital battle with missiles, military ships, and multiple unknown attackers, leaving the identity of the factions involved unresolved.",
+        "opened_chapter": 12
+      },
+      {
+        "id": "bob-grief-after-endocrine-control",
+        "text": "After disabling his endocrine control system, Bob begins fully mourning his lost human life, raising the question of how this emotional release will affect him going forward.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "other-national-probes-still-out-there",
+        "text": "Bob concludes that at least one more Brazilian Empire ship exists and that USE, Chinese, and possibly Australian probes may also be active somewhere in space.",
+        "opened_chapter": 15
+      },
+      {
+        "id": "first-bob-cohort-divergence",
+        "text": "Bob's first cohort of clones diverges in personality immediately, raising questions about how future Bob society and identity will evolve.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "omicron-eridani-biocompatibility",
+        "text": "Milo has found two apparently habitable living worlds at Omicron Eridani, but it remains unresolved whether Earth life and humans are biologically compatible with them.",
+        "opened_chapter": 19
+      },
+      {
+        "id": "milo-82-eridani-expedition",
+        "text": "Milo departs for 82 Eridani, opening the question of what he will find there.",
+        "opened_chapter": 23
+      },
+      {
+        "id": "subspace-communication-network-rollout",
+        "text": "Bill and Garfield now have a working subspace communications system, raising the question of how quickly they can deploy it across multiple star systems.",
+        "opened_chapter": 25
+      },
+      {
+        "id": "use-colony-ship-evacuation-plan",
+        "text": "Riker and Colonel Butterworth agree to try building colony ships in Sol, raising the question of whether the surviving humans can endure long enough to launch them and where they will go.",
+        "opened_chapter": 26
+      },
+      {
+        "id": "delta-eridani-first-contact",
+        "text": "Bob has discovered intelligent fire-using natives on Delta Eridani 4, raising the question of whether and how he will make first contact.",
+        "opened_chapter": 27
+      },
+      {
+        "id": "alpha-centauri-escaped-brazilian-probe",
+        "text": "One Brazilian vessel escapes the destruction of the Alpha Centauri construction yard, leaving its destination and future threat unresolved.",
+        "opened_chapter": 28
+      },
+      {
+        "id": "alpha-centauri-combat-bob-expansion",
+        "text": "Calvin and Goku conclude Alpha Centauri should be reinforced with combat-class Bobs, raising the question of whether Bill will approve and send them.",
+        "opened_chapter": 28
+      },
+      {
+        "id": "archimedes-development",
+        "text": "Bob has identified an unusually inventive Deltan boy named Archimedes, raising the question of how far his intelligence and toolmaking will develop.",
+        "opened_chapter": 30
+      },
+      {
+        "id": "delta-eridani-bob-expansion",
+        "text": "Bob begins activating additional clones at Delta Eridani to support observation and development work, opening the question of how large his local Bob contingent will become.",
+        "opened_chapter": 30
+      },
+      {
+        "id": "earth-survivor-enclave-outreach",
+        "text": "Arthur's attempts to contact survivor enclaves are meeting distrust and violence, leaving open whether enough groups will cooperate to make a broader evacuation possible.",
+        "opened_chapter": 31
+      },
+      {
+        "id": "sol-transport-vessel-priority",
+        "text": "Riker reprioritizes transport-vessel construction for refugee movement, raising the question of how much this will delay colony-ship production.",
+        "opened_chapter": 31
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 28,
+        "text": "Calvin finds the lost USE probe's wreckage in Alpha Centauri B, then joins Goku in destroying a Brazilian construction yard in Alpha Centauri A."
+      },
+      {
+        "chapter": 29,
+        "text": "Riker and Homer move the Sol evacuation plan from negotiation into industrial buildup after confirming enough salvage exists to start construction."
+      },
+      {
+        "chapter": 30,
+        "text": "Bob expands his Delta Eridani operation with three new clones and becomes fascinated by an unusually inventive young Deltan he names Archimedes."
+      },
+      {
+        "chapter": 31,
+        "text": "Riker expands the Sol operation with two new Bobs and confirms that only about fifteen million humans survive on devastated Earth."
+      },
+      {
+        "chapter": 32,
+        "text": "Bill receives Milo's startling report that 82 Eridani has two habitable planets and starts pushing the news toward Sol."
+      }
+    ]
+  }
+}

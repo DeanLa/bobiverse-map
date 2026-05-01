@@ -1,0 +1,357 @@
+{
+  "metadata": {
+    "chapter": 10,
+    "pov": "Bob",
+    "year": 2133,
+    "month": "August",
+    "location": "Sol",
+    "notes": null,
+    "pov_knowledge": {
+      "believes": [
+        "Bob concludes that he is conscious, alive, and still Bob despite being a restored replicant backup.",
+        "Bob believes internal FAITH factions likely leaked information about his progress to provoke reactions from rival nations, based on what Dr. Landers tells him."
+      ],
+      "learns": [
+        "A small explosive destroyed the replicant matrices in the computer room, and Bob was restored from backups onto a spare matrix after several days offline.",
+        "Only one spare replicant matrix remained, and it was used for Bob, meaning Kenneth Martins was not restored.",
+        "Project HEAVEN is about a month from launch, though the schedule could be accelerated.",
+        "Dr. Landers will stop deactivating Bob during off-hours and will keep him online continuously except for a nightly half-hour backup period.",
+        "Dr. Landers will grant Bob access to additional libraries."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Bob",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Restored from backup after the matrix room bombing."
+    },
+    {
+      "name": "Dr. Landers",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Explains the sabotage, Kenneth's loss, and changes Bob's operating schedule."
+    },
+    {
+      "name": "Kenneth Martins",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "mentioned_only",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Discussed as lost because the only spare matrix was used for Bob."
+    }
+  ],
+  "new_characters": [],
+  "destructions": [
+    {
+      "name": "Kenneth Martins",
+      "type": "replicant",
+      "cause": "Kenneth Martins is lost after the replicant matrices are destroyed and the only spare matrix is used to restore Bob instead.",
+      "location": "Sol",
+      "certainty": "confirmed"
+    }
+  ],
+  "resolutions": [
+    {
+      "character": "Kenneth Martins",
+      "original_chapter": 8,
+      "outcome": "confirmed_destroyed",
+      "notes": "The final candidate question is resolved when Dr. Landers confirms Kenneth was not restored after the sabotage."
+    }
+  ],
+  "movements": [],
+  "star_systems": [
+    {
+      "name": "Sol",
+      "role": "setting",
+      "notes": null
+    }
+  ],
+  "planets": [],
+  "technologies": [],
+  "faction_events": [],
+  "communications": [],
+  "combat": [],
+  "alien_species": [],
+  "infrastructure": [],
+  "human_colonies": [],
+  "relationships": [
+    {
+      "a": "Bob",
+      "b": "Dr. Landers",
+      "type": "working_partners",
+      "event": "strengthened",
+      "text": "Dr. Landers takes a risk by leaving Bob online continuously and expanding his access, showing increased trust in him under mounting pressure.",
+      "notes": null
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Sol",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Bob wakes after several missing days, learns the replicant matrices were bombed, and works through his identity crisis before Dr. Landers changes his operating conditions."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Bob",
+      "text": "I am Bob.",
+      "context": "Bob resolves his internal debate about whether the restored replicant still counts as the original person."
+    }
+  ],
+  "threads_opened": [],
+  "threads_resolved": [
+    {
+      "id": "two-candidates-remain",
+      "text": "The final candidate question resolves when Kenneth Martins is lost and Bob becomes the sole surviving replicant candidate."
+    }
+  ],
+  "events": [
+    {
+      "text": "A sabotage attack destroys the replicant matrices at the FAITH facility, and Bob is restored from backup onto the only spare matrix while Kenneth Martins is lost.",
+      "characters": [
+        "Bob",
+        "Kenneth Martins",
+        "Dr. Landers"
+      ],
+      "significance": "major",
+      "type": "destruction"
+    },
+    {
+      "text": "Dr. Landers keeps Bob online continuously except for nightly backups and expands his library access to accelerate Project HEAVEN's schedule.",
+      "characters": [
+        "Bob",
+        "Dr. Landers"
+      ],
+      "significance": "major",
+      "type": "technology"
+    }
+  ],
+  "summary": {
+    "one_line": "After a sabotage attack destroys the replicant matrices, Bob is restored from backup, Kenneth is lost, and Dr. Landers accelerates Bob's preparation for launch.",
+    "paragraph": "Bob wakes to discover that several days have passed because a bomb destroyed the replicant matrices, forcing FAITH to restore him from backup onto a spare unit. The incident triggers a deep internal reckoning in which Bob decides that he is conscious, alive, and still fundamentally himself despite the discontinuity. Dr. Landers confirms that only one spare matrix existed, meaning Kenneth Martins is gone and Bob is now the sole remaining candidate. With pressure mounting from sabotage and international competition, Dr. Landers stops deactivating Bob during off-hours and gives him broader access so training can proceed faster toward launch.",
+    "events": [
+      "Bob wakes up after missing several days and learns that an explosive destroyed the replicant matrices.",
+      "He realizes he has been restored from backup and wrestles with whether he is conscious, alive, and still truly Bob.",
+      "Bob concludes that his identity persists in the continuity of his mind and memories, which relieves a major emotional burden.",
+      "Dr. Landers confirms that the only spare matrix was used for Bob, so Kenneth Martins is gone.",
+      "They discuss the likely sabotage motive and the fact that Project HEAVEN is roughly a month from launch.",
+      "Dr. Landers decides to leave Bob online continuously except for nightly backup time and grants him access to more libraries so the project can move faster."
+    ],
+    "themes": [
+      "identity",
+      "replicant-philosophy",
+      "sabotage",
+      "faith-vs-science"
+    ],
+    "mood": "reflective",
+    "pov_emotional_arc": "Bob moves from disorientation and existential uncertainty to a hard-won acceptance of his own identity, even as Kenneth's loss and the project's danger raise the stakes."
+  },
+  "world_state_after": {
+    "chapters_processed": 10,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 10,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      }
+    ],
+    "known_star_systems": [
+      "Sol"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH"
+    ],
+    "known_species": [],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 6,
+        "text": "Bob learns that FAITH is training him to become the controlling intelligence of a Von Neumann probe, just as the candidate pool narrows to two."
+      },
+      {
+        "chapter": 7,
+        "text": "Dr. Landers reveals that Project HEAVEN has been pared down to a single vulnerable ship amid both FAITH infighting and an international interstellar probe race."
+      },
+      {
+        "chapter": 8,
+        "text": "Bob uses his roamers to help stop an attack on the FAITH facility, then secretly discovers that only he and Kenneth remain active candidates."
+      },
+      {
+        "chapter": 9,
+        "text": "Bob overhears a hostile FAITH minister threaten Dr. Landers over the replicant project."
+      },
+      {
+        "chapter": 10,
+        "text": "After a sabotage attack destroys the replicant matrices, Bob is restored from backup, Kenneth is lost, and Dr. Landers accelerates Bob's preparation for launch."
+      }
+    ]
+  }
+}

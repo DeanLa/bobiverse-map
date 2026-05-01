@@ -1,0 +1,668 @@
+{
+  "metadata": {
+    "chapter": 22,
+    "pov": "Bill",
+    "year": 2150,
+    "month": "September",
+    "location": "Epsilon Eridani",
+    "notes": null,
+    "pov_knowledge": {
+      "believes": [
+        "Alpha Centauri is a likely destination for at least one rival national probe because it is the obvious first stop from Sol.",
+        "If Calvin and Goku encounter Medeiros or another Brazilian probe, they should attack without warning or negotiation."
+      ],
+      "learns": [],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Bill",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "POV character observing departing clones."
+    },
+    {
+      "name": "Garfield",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Present with Bill during the departure watch."
+    },
+    {
+      "name": "Calvin",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "in_transit",
+      "transit_from": "Epsilon Eridani",
+      "transit_to": "Alpha Centauri",
+      "notes": "Seen departing the system in Heaven-9."
+    },
+    {
+      "name": "Goku",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "in_transit",
+      "transit_from": "Epsilon Eridani",
+      "transit_to": "Alpha Centauri",
+      "notes": "Seen departing the system in Heaven-10."
+    },
+    {
+      "name": "Linus",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "in_transit",
+      "transit_from": "Epsilon Eridani",
+      "transit_to": "Alpha Centauri",
+      "notes": "Seen departing the system; destination inferred from the group departure description in this chapter."
+    }
+  ],
+  "new_characters": [
+    {
+      "name": "Calvin",
+      "type": "replicant",
+      "parent": "Bill",
+      "generation": 3,
+      "location": "Epsilon Eridani",
+      "faction": null,
+      "personality": {
+        "traits": [
+          "argumentative",
+          "aggressive"
+        ],
+        "role": "combat",
+        "nickname_origin": null,
+        "quirks": "Constantly fights with Goku but still stays paired with him."
+      },
+      "notes": "First on-page appearance; already active before this chapter per prior recap context."
+    },
+    {
+      "name": "Goku",
+      "type": "replicant",
+      "parent": "Bill",
+      "generation": 3,
+      "location": "Epsilon Eridani",
+      "faction": null,
+      "personality": {
+        "traits": [
+          "argumentative",
+          "aggressive"
+        ],
+        "role": "combat",
+        "nickname_origin": null,
+        "quirks": "Constantly threatens Calvin yet remains inseparable from him."
+      },
+      "notes": "First on-page appearance; already active before this chapter per prior recap context."
+    },
+    {
+      "name": "Linus",
+      "type": "replicant",
+      "parent": "Bill",
+      "generation": 3,
+      "location": "Epsilon Eridani",
+      "faction": null,
+      "personality": {
+        "traits": [
+          "independent",
+          "calm"
+        ],
+        "role": "combat",
+        "nickname_origin": null,
+        "quirks": "Not notably twitchy and apparently prefers distance from Calvin and Goku's constant fighting."
+      },
+      "notes": "First on-page appearance; already active before this chapter per prior recap context."
+    }
+  ],
+  "destructions": [],
+  "resolutions": [],
+  "movements": [
+    {
+      "character": "Calvin",
+      "type": "departure",
+      "from": "Epsilon Eridani",
+      "to": "Alpha Centauri",
+      "ship": "Heaven-9",
+      "companions": [],
+      "cargo": null,
+      "drive": "SURGE",
+      "max_g": 10.0,
+      "notes": "Departs as part of the new cohort sent to investigate Alpha Centauri."
+    },
+    {
+      "character": "Goku",
+      "type": "departure",
+      "from": "Epsilon Eridani",
+      "to": "Alpha Centauri",
+      "ship": "Heaven-10",
+      "companions": [],
+      "cargo": null,
+      "drive": "SURGE",
+      "max_g": 10.0,
+      "notes": "Departs as part of the new cohort sent to investigate Alpha Centauri."
+    },
+    {
+      "character": "Linus",
+      "type": "departure",
+      "from": "Epsilon Eridani",
+      "to": "Alpha Centauri",
+      "ship": null,
+      "companions": [],
+      "cargo": null,
+      "drive": "SURGE",
+      "max_g": null,
+      "notes": "Departs with Calvin and Goku for Alpha Centauri; ship details not stated."
+    }
+  ],
+  "star_systems": [
+    {
+      "name": "Epsilon Eridani",
+      "role": "setting",
+      "notes": null
+    },
+    {
+      "name": "Alpha Centauri",
+      "role": "destination",
+      "notes": "Target of Calvin, Goku, and Linus's mission and discussed as an obvious rival-probe destination."
+    },
+    {
+      "name": "Sol",
+      "role": "mentioned",
+      "notes": "Referenced as the origin point from which Alpha Centauri would be an obvious first destination."
+    }
+  ],
+  "planets": [],
+  "technologies": [
+    {
+      "name": "Heaven-9",
+      "full_name": null,
+      "event": "deployed",
+      "by": "Bill",
+      "location": "Epsilon Eridani",
+      "notes": "Version-3 ship design used by Calvin; equipped for combat and stealth."
+    },
+    {
+      "name": "Heaven-10",
+      "full_name": null,
+      "event": "deployed",
+      "by": "Bill",
+      "location": "Epsilon Eridani",
+      "notes": "Version-3 ship design used by Goku; equipped for combat and stealth."
+    },
+    {
+      "name": "SUDDAR",
+      "full_name": null,
+      "event": "upgraded",
+      "by": "Bill",
+      "location": "Epsilon Eridani",
+      "notes": "Bill adds SUDDAR-jamming emitters intended to overwhelm detectors with white noise."
+    }
+  ],
+  "faction_events": [],
+  "communications": [],
+  "combat": [],
+  "alien_species": [],
+  "infrastructure": [],
+  "human_colonies": [],
+  "relationships": [
+    {
+      "a": "Calvin",
+      "b": "Goku",
+      "type": "rivalry",
+      "event": "established",
+      "text": "Calvin and Goku are introduced as constantly hostile toward each other while still choosing to remain together on the same mission.",
+      "notes": "Bill observes that they threaten each other constantly but are inseparable."
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Epsilon Eridani",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Bill and Garfield watch Calvin, Goku, and Linus depart, while Bill reflects on clone reluctance, new combat ship upgrades, and the decision to investigate Alpha Centauri aggressively."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Garfield",
+      "text": "Don’t do this again, okay? I’m noticing a pattern, and it ain’t good.",
+      "context": "Garfield reacts to Bill joking sentimentally about clones leaving home."
+    }
+  ],
+  "threads_opened": [],
+  "threads_resolved": [],
+  "events": [
+    {
+      "text": "Bill sends Calvin, Goku, and Linus from Epsilon Eridani to investigate Alpha Centauri in a new combat-oriented cohort prepared for likely encounters with rival probes.",
+      "characters": [
+        "Bill",
+        "Calvin",
+        "Goku",
+        "Linus"
+      ],
+      "significance": "major",
+      "type": "travel"
+    },
+    {
+      "text": "Bill deploys version-3 Heaven ships with major combat, stealth, and SUDDAR-jamming upgrades for the Alpha Centauri mission.",
+      "characters": [
+        "Bill",
+        "Calvin",
+        "Goku"
+      ],
+      "significance": "major",
+      "type": "technology"
+    }
+  ],
+  "summary": {
+    "one_line": "Bill dispatches Calvin, Goku, and Linus toward Alpha Centauri in heavily upgraded ships built for stealth and combat.",
+    "paragraph": "At Epsilon Eridani, Bill and Garfield watch Calvin, Goku, and Linus leave the system, prompting Bill to reflect on how slowly the Bobs are actually reproducing compared with a true Von Neumann swarm. Bill notes the unstable dynamic between Calvin and Goku, who fight constantly but remain inseparable, while Linus seems comparatively steady and independent. He explains that this cohort is the first to use the new version-3 ship design, with much stronger acceleration, stealth features, heavier weapons, and experimental SUDDAR-jamming. The mission to Alpha Centauri is treated as potentially dangerous because rival national probes may have chosen it too, and the Bobs are united that any encounter with Medeiros should be met with immediate force.",
+    "events": [
+      "Bill jokes with Garfield as they watch Calvin, Goku, and Linus depart Epsilon Eridani.",
+      "He reflects that the Bobs have been cloning and expanding much more slowly than a true Von Neumann probe should.",
+      "Bill considers Calvin and Goku's constant hostility toward each other and Linus's apparent desire for some distance from them.",
+      "He reviews the new version-3 ship design, including 10 g acceleration, stealth coasting on a shielded secondary reactor, heavier weapons, and SUDDAR-jamming.",
+      "Bill explains that Alpha Centauri was chosen for investigation because it is an obvious destination for rival probes, and the Bobs agree that Medeiros should be attacked without warning if encountered."
+    ],
+    "themes": [
+      "exploration",
+      "combat",
+      "technology",
+      "family"
+    ],
+    "mood": "reflective",
+    "pov_emotional_arc": "Bill feels a mix of parental reluctance, concern, and pragmatic resolve as he sends another cohort into a potentially hostile system."
+  },
+  "world_state_after": {
+    "chapters_processed": 22,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "in transit to Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 18
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 21
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 10,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Dr. Doucette",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Spike",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Jeeves",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Major Ernesto Medeiros",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Serra do Mar",
+        "type": "ship",
+        "location": "Epsilon Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 15,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Bill",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 22
+      },
+      {
+        "name": "Riker",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 21
+      },
+      {
+        "name": "Milo",
+        "type": "replicant",
+        "location": "Omicron Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 19
+      },
+      {
+        "name": "Mario",
+        "type": "replicant",
+        "location": "in transit to Beta Hydri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 18
+      },
+      {
+        "name": "Homer",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 21
+      },
+      {
+        "name": "Garfield",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 22
+      },
+      {
+        "name": "Calvin",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 22
+      },
+      {
+        "name": "Goku",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 22
+      },
+      {
+        "name": "Linus",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 22
+      }
+    ],
+    "known_star_systems": [
+      "Sol",
+      "Epsilon Eridani",
+      "Alpha Centauri",
+      "Delta Eridani",
+      "Omicron Eridani",
+      "Beta Hydri"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon",
+      "Saturn",
+      "Titan",
+      "Epsilon Eridani 1",
+      "Epsilon Eridani 2",
+      "Epsilon Eridani inner asteroid belt",
+      "Epsilon Eridani 4",
+      "Epsilon Eridani outer asteroid belt",
+      "Epsilon Eridani 5",
+      "Epsilon Eridani 3",
+      "Ragnarök",
+      "Omicron Eridani asteroid belt",
+      "OE-1A",
+      "OE-1B",
+      "OE-2",
+      "Jupiter"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR",
+      "Heaven-1",
+      "VR interface",
+      "SURGE drive weapon",
+      "exploration scouts",
+      "Heaven-2",
+      "Heaven-1A",
+      "exploration drone",
+      "subspace transmission",
+      "SURGE drive missile",
+      "Heaven-9",
+      "Heaven-10"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH",
+      "Brazilian Empire"
+    ],
+    "known_species": [
+      "Vulcan and Romulus native life"
+    ],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      },
+      {
+        "id": "who-attacked-heaven-1-launch",
+        "text": "The launch turns into a confused orbital battle with missiles, military ships, and multiple unknown attackers, leaving the identity of the factions involved unresolved.",
+        "opened_chapter": 12
+      },
+      {
+        "id": "earth-nuclear-war-escalation",
+        "text": "Bob detects apparent nuclear detonations on Earth after hearing of escalating conflict, leaving the scale of the war and Sol's survival uncertain.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "bob-grief-after-endocrine-control",
+        "text": "After disabling his endocrine control system, Bob begins fully mourning his lost human life, raising the question of how this emotional release will affect him going forward.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "other-national-probes-still-out-there",
+        "text": "Bob concludes that at least one more Brazilian Empire ship exists and that USE, Chinese, and possibly Australian probes may also be active somewhere in space.",
+        "opened_chapter": 15
+      },
+      {
+        "id": "first-bob-cohort-divergence",
+        "text": "Bob's first cohort of clones diverges in personality immediately, raising questions about how future Bob society and identity will evolve.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "riker-sol-recon-mission",
+        "text": "Riker is considering a cautious reconnaissance mission back toward Sol to find out what happened to Earth.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "bill-subspace-research",
+        "text": "Bill suspects weak SUDDAR emissions may reveal new subspace behavior and plans to investigate the theory from Epsilon Eridani.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "omicron-eridani-biocompatibility",
+        "text": "Milo has found two apparently habitable living worlds at Omicron Eridani, but it remains unresolved whether Earth life and humans are biologically compatible with them.",
+        "opened_chapter": 19
+      },
+      {
+        "id": "brazilian-asteroid-strike-on-earth",
+        "text": "Riker and Homer discover that Brazilian probes appear to be staging four asteroid impacts on Earth, but they have not yet acted to stop them.",
+        "opened_chapter": 21
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 18,
+        "text": "Bill watches the first Bob cohort disperse from Epsilon Eridani as he prepares new clones and Riker's Sol mission hardware."
+      },
+      {
+        "chapter": 19,
+        "text": "Milo reaches Omicron Eridani, finds a spectacular habitable double world he names Vulcan and Romulus, and begins building the infrastructure to explore it properly."
+      },
+      {
+        "chapter": 20,
+        "text": "Riker and Homer finally depart for Sol while Bill and Garfield settle into research work at Epsilon Eridani."
+      },
+      {
+        "chapter": 21,
+        "text": "Riker's covert return to Sol reveals a devastated Earth and a Brazilian asteroid attack already in progress."
+      },
+      {
+        "chapter": 22,
+        "text": "Bill dispatches Calvin, Goku, and Linus toward Alpha Centauri in heavily upgraded ships built for stealth and combat."
+      }
+    ]
+  }
+}

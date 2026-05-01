@@ -1,0 +1,557 @@
+{
+  "metadata": {
+    "chapter": 15,
+    "pov": "Bob",
+    "year": 2144,
+    "month": "September",
+    "location": "Epsilon Eridani",
+    "notes": null,
+    "pov_knowledge": {
+      "believes": [
+        "Earth civilization may no longer exist as functioning nations.",
+        "There is at least one more Brazilian Empire ship somewhere besides Medeiros.",
+        "USE, Chinese, and possibly Australian probes may also exist."
+      ],
+      "learns": [
+        "The pursuing Brazilian replicant is Major Ernesto Medeiros and his ship is named Serra do Mar.",
+        "Medeiros arrived earlier than expected and his ship can accelerate at 2.5 G or more.",
+        "Medeiros appears to have launched a maximum of four missiles in the engagement.",
+        "The Serra do Mar's fabrication systems were less robust because the design prioritized weaponry."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Bob",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Commands Heaven-1 during the battle with the Brazilian probe."
+    },
+    {
+      "name": "GUPPI",
+      "type": "ai",
+      "location": "Epsilon Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Assists Bob with tactical control, launches, scans, and damage assessment."
+    },
+    {
+      "name": "Spike",
+      "type": "ai",
+      "location": "Epsilon Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Present with Bob after the battle."
+    },
+    {
+      "name": "Major Ernesto Medeiros",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "destroyed",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Brazilian Empire replicant commanding Serra do Mar."
+    },
+    {
+      "name": "Serra do Mar",
+      "type": "ship",
+      "location": "Epsilon Eridani",
+      "status": "destroyed",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Brazilian Empire ship destroyed in combat with Bob."
+    },
+    {
+      "name": "Dr. Landers",
+      "type": "human",
+      "location": "Sol",
+      "status": "mentioned_only",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Referenced regarding possible Australian probe and Brazilian design tradeoffs."
+    }
+  ],
+  "new_characters": [
+    {
+      "name": "Major Ernesto Medeiros",
+      "type": "replicant",
+      "parent": null,
+      "generation": null,
+      "location": "Epsilon Eridani",
+      "faction": "Brazilian Empire",
+      "personality": {
+        "traits": [
+          "hostile",
+          "nationalistic",
+          "arrogant"
+        ],
+        "role": "combat",
+        "nickname_origin": null,
+        "quirks": "Frames his mission entirely as service to the Brazilian Empire and taunts Bob during combat."
+      },
+      "notes": "Introduced via radio contact as the Brazilian military replicant pursuing Bob."
+    },
+    {
+      "name": "Serra do Mar",
+      "type": "ship",
+      "parent": null,
+      "generation": null,
+      "location": "Epsilon Eridani",
+      "faction": "Brazilian Empire",
+      "personality": {
+        "traits": [],
+        "role": "unknown",
+        "nickname_origin": null,
+        "quirks": null
+      },
+      "notes": "Brazilian Empire ship commanded by Major Ernesto Medeiros."
+    }
+  ],
+  "destructions": [
+    {
+      "name": "Major Ernesto Medeiros",
+      "type": "replicant",
+      "cause": "Bob's remaining ship-busters struck the Serra do Mar, destroying the ship and the replicant core inside.",
+      "location": "Epsilon Eridani",
+      "certainty": "confirmed"
+    },
+    {
+      "name": "Serra do Mar",
+      "type": "ship",
+      "cause": "Bob's ship-busters tore through the vessel and destroyed its reactor containment, leaving it inert.",
+      "location": "Epsilon Eridani",
+      "certainty": "confirmed"
+    }
+  ],
+  "resolutions": [
+    {
+      "character": "Major Ernesto Medeiros",
+      "original_chapter": 13,
+      "outcome": "survived",
+      "notes": "The previously unidentified Brazilian probe chasing Bob is revealed to be Major Ernesto Medeiros when he arrives and hails Bob."
+    }
+  ],
+  "movements": [],
+  "star_systems": [
+    {
+      "name": "Epsilon Eridani",
+      "role": "setting",
+      "notes": "Battle between Bob and the Brazilian Empire ship occurs here."
+    },
+    {
+      "name": "Sol",
+      "role": "mentioned",
+      "notes": "Referenced in discussion of whether Earth civilization still exists and in recalling the earlier launch battle."
+    }
+  ],
+  "planets": [],
+  "technologies": [
+    {
+      "name": "endocrine control",
+      "full_name": "endocrine control",
+      "event": "deployed",
+      "by": "Bob",
+      "location": "Epsilon Eridani",
+      "notes": "Bob temporarily reactivates it before battle to stay calm and focused."
+    }
+  ],
+  "faction_events": [
+    {
+      "faction": "Brazilian Empire",
+      "type": "war_declared",
+      "counterparty": "FAITH",
+      "text": "Major Ernesto Medeiros states that the destruction of an Empire vessel in the Solar System counts as the start of a war with Bob's side.",
+      "location": "Epsilon Eridani",
+      "notes": "This is Medeiros's explicit framing during direct communication; no broader Earth-side confirmation is shown in the chapter."
+    }
+  ],
+  "communications": [
+    {
+      "from_character": "Bob",
+      "from_system": "Epsilon Eridani",
+      "to_character": "Major Ernesto Medeiros",
+      "to_system": "Epsilon Eridani",
+      "medium": "radio",
+      "direction": "both",
+      "contents_summary": "Bob tries to talk Medeiros out of attacking, but Medeiros identifies himself, declares loyalty to the Brazilian Empire, and rejects peace.",
+      "notes": "Real-time exchange immediately before combat."
+    }
+  ],
+  "combat": [
+    {
+      "participants": [
+        {
+          "name": "Bob",
+          "side": "A",
+          "ship": "Heaven-1",
+          "outcome": "damaged"
+        },
+        {
+          "name": "Major Ernesto Medeiros",
+          "side": "B",
+          "ship": "Serra do Mar",
+          "outcome": "destroyed"
+        }
+      ],
+      "location": "Epsilon Eridani",
+      "weapons": [
+        "missiles",
+        "ship-busters",
+        "SURGE drive weapon"
+      ],
+      "victor": "A",
+      "duration": "brief skirmish",
+      "notes": "Bob uses decoy fusion reactors and six improvised ship-busters; Heaven-1 suffers radiator damage from nearby intercept explosions but survives."
+    }
+  ],
+  "alien_species": [],
+  "infrastructure": [],
+  "human_colonies": [],
+  "relationships": [
+    {
+      "a": "Bob",
+      "b": "Major Ernesto Medeiros",
+      "type": "enemies",
+      "event": "established",
+      "text": "Bob and Medeiros directly confront each other, reject reconciliation, and become explicit enemies in combat.",
+      "notes": null
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Epsilon Eridani",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Bob reactivates endocrine control, attempts to talk down the early-arriving Brazilian replicant, and fights a damaging but successful battle that destroys Medeiros and the Serra do Mar."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Major Ernesto Medeiros",
+      "text": "Serving the needs of the Brazilian Empire is my only priority.",
+      "context": "Medeiros rejects Bob's appeal to abandon nationalist conflict and declares his absolute loyalty before attacking."
+    }
+  ],
+  "threads_opened": [
+    {
+      "id": "other-national-probes-still-out-there",
+      "text": "Bob concludes that at least one more Brazilian Empire ship exists and that USE, Chinese, and possibly Australian probes may also be active somewhere in space."
+    }
+  ],
+  "threads_resolved": [
+    {
+      "id": "brazilian-probe-chasing-bob-to-epsilon-eridani",
+      "text": "The pursuing Brazilian probe arrives at Epsilon Eridani as Major Ernesto Medeiros aboard the Serra do Mar, and Bob destroys it in battle."
+    }
+  ],
+  "events": [
+    {
+      "text": "Bob destroys Major Ernesto Medeiros and the Brazilian Empire ship Serra do Mar in a brief battle at Epsilon Eridani, surviving damage to Heaven-1.",
+      "characters": [
+        "Bob",
+        "Major Ernesto Medeiros"
+      ],
+      "significance": "major",
+      "type": "battle"
+    }
+  ],
+  "summary": {
+    "one_line": "Bob survives his first space battle by destroying Major Ernesto Medeiros and the Brazilian ship Serra do Mar at Epsilon Eridani.",
+    "paragraph": "As the Brazilian probe arrives earlier than expected, Bob reluctantly reactivates his endocrine control system so he can function calmly in combat. He opens a radio channel and learns that his pursuer is Major Ernesto Medeiros of the Brazilian Empire ship Serra do Mar, but the exchange only confirms that Medeiros is committed to killing him. Bob's decoys and improvised ship-busters barely work in time: he destroys Medeiros's missiles at close range, takes shrapnel damage to Heaven-1, and then watches his remaining busters tear through the Brazilian ship. After confirming Medeiros's replicant core was destroyed, Bob concludes that more foreign probes may still be out there and that future Bob copies will need to be armed from the start.",
+    "events": [
+      "Bob learns the Brazilian pursuer has altered course slightly and will arrive a couple of months earlier than expected.",
+      "He reluctantly turns his endocrine control system back on so he can stay calm enough to fight.",
+      "Bob hails the incoming ship and learns that his enemy is Major Ernesto Medeiros of the Brazilian Empire vessel Serra do Mar.",
+      "Medeiros rejects Bob's appeal to stop fighting and declares that the earlier Solar System clash marked the start of a war.",
+      "Bob flees toward his decoy reactors while Medeiros launches missiles and closes at higher acceleration than expected.",
+      "Bob launches his improvised ship-busters, uses them to intercept Medeiros's missiles at the last possible moment, and suffers radiator damage from the nearby explosions.",
+      "The remaining ship-busters catch the Serra do Mar and destroy it, killing Medeiros.",
+      "After the battle, Bob turns endocrine control back off, confirms the Brazilian replicant core was destroyed, and decides he needs to create armed Bob copies faster than rival nations can expand."
+    ],
+    "themes": [
+      "combat",
+      "survival",
+      "strategy",
+      "identity"
+    ],
+    "mood": "tense",
+    "pov_emotional_arc": "Bob suppresses fear through artificial calm to survive the battle, then drops the control and feels the delayed emotional shock of having killed and nearly died."
+  },
+  "world_state_after": {
+    "chapters_processed": 15,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 10,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Dr. Doucette",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Spike",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Jeeves",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Major Ernesto Medeiros",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Serra do Mar",
+        "type": "ship",
+        "location": "Epsilon Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 15,
+        "last_seen_chapter": 15
+      }
+    ],
+    "known_star_systems": [
+      "Sol",
+      "Epsilon Eridani",
+      "Alpha Centauri"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon",
+      "Saturn",
+      "Titan",
+      "Epsilon Eridani 1",
+      "Epsilon Eridani 2",
+      "Epsilon Eridani inner asteroid belt",
+      "Epsilon Eridani 4",
+      "Epsilon Eridani outer asteroid belt",
+      "Epsilon Eridani 5"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR",
+      "Heaven-1",
+      "VR interface",
+      "SURGE drive weapon"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH",
+      "Brazilian Empire"
+    ],
+    "known_species": [],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      },
+      {
+        "id": "who-attacked-heaven-1-launch",
+        "text": "The launch turns into a confused orbital battle with missiles, military ships, and multiple unknown attackers, leaving the identity of the factions involved unresolved.",
+        "opened_chapter": 12
+      },
+      {
+        "id": "earth-nuclear-war-escalation",
+        "text": "Bob detects apparent nuclear detonations on Earth after hearing of escalating conflict, leaving the scale of the war and Sol's survival uncertain.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "bob-grief-after-endocrine-control",
+        "text": "After disabling his endocrine control system, Bob begins fully mourning his lost human life, raising the question of how this emotional release will affect him going forward.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "other-national-probes-still-out-there",
+        "text": "Bob concludes that at least one more Brazilian Empire ship exists and that USE, Chinese, and possibly Australian probes may also be active somewhere in space.",
+        "opened_chapter": 15
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 11,
+        "text": "Bob learns that FAITH has built mission-enforcement safeguards into his own mind."
+      },
+      {
+        "chapter": 12,
+        "text": "Dr. Landers frees Bob from his software shackles and Bob survives a chaotic missile attack to launch Heaven-1 toward Epsilon Eridani."
+      },
+      {
+        "chapter": 13,
+        "text": "Bob cleans hidden sabotage out of Heaven-1, builds himself a virtual life for the voyage, and learns that Brazil is pursuing him while Earth slides toward nuclear war."
+      },
+      {
+        "chapter": 14,
+        "text": "Bob reaches Epsilon Eridani, surveys the system, and starts building a trap for the Brazilian probe he expects to follow him there."
+      },
+      {
+        "chapter": 15,
+        "text": "Bob survives his first space battle by destroying Major Ernesto Medeiros and the Brazilian ship Serra do Mar at Epsilon Eridani."
+      }
+    ]
+  }
+}

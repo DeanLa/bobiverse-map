@@ -1,0 +1,686 @@
+{
+  "metadata": {
+    "chapter": 13,
+    "pov": "Bob",
+    "year": 2133,
+    "month": "August",
+    "location": "in_transit",
+    "notes": "Chapter begins with a flyby within Sol before continuing outbound toward Epsilon Eridani; later scenes remain in transit.",
+    "pov_knowledge": {
+      "believes": [
+        "A Brazilian probe launched after him is likely armed and may be heading to Epsilon Eridani to confront him.",
+        "Brazil may be understating the acceleration capability of its probe.",
+        "He is probably on his own after detecting apparent nuclear detonations on Earth."
+      ],
+      "learns": [
+        "Heaven-1 contained an improvised explosive booby trap tied to the antenna circuitry.",
+        "An internal FAITH faction transmitted the kill order sent after launch.",
+        "The missile fired during his launch was launched from a Brazilian Empire gunship and destroyed by FAITH gunships.",
+        "The Brazilian Empire has launched two probes, one on the same course as him.",
+        "Dr. Landers has been killed in a Brazilian bombing attack on the Newhaven facility.",
+        "Conflict among major powers has escalated toward full war, with FAITH and the USE tacitly aligned against Brazil and China."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Bob",
+      "type": "replicant",
+      "location": "in_transit",
+      "status": "active",
+      "transit_from": "Sol",
+      "transit_to": "Epsilon Eridani",
+      "notes": "POV throughout the chapter."
+    },
+    {
+      "name": "GUPPI",
+      "type": "ai",
+      "location": "in_transit",
+      "status": "active",
+      "transit_from": "Sol",
+      "transit_to": "Epsilon Eridani",
+      "notes": "Interacts with Bob through the VR as Guppy."
+    },
+    {
+      "name": "Spike",
+      "type": "ai",
+      "location": "in_transit",
+      "status": "active",
+      "transit_from": "Sol",
+      "transit_to": "Epsilon Eridani",
+      "notes": "VR cat simulation created by Bob."
+    },
+    {
+      "name": "Jeeves",
+      "type": "ai",
+      "location": "in_transit",
+      "status": "active",
+      "transit_from": "Sol",
+      "transit_to": "Epsilon Eridani",
+      "notes": "VR servant simulation created by Bob."
+    },
+    {
+      "name": "Dr. Landers",
+      "type": "human",
+      "location": "Sol",
+      "status": "mentioned_only",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Appears only via recorded messages; later reported dead."
+    },
+    {
+      "name": "Dr. Doucette",
+      "type": "human",
+      "location": "Sol",
+      "status": "mentioned_only",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Appears only via recorded messages."
+    }
+  ],
+  "new_characters": [
+    {
+      "name": "Spike",
+      "type": "ai",
+      "parent": "Bob",
+      "generation": null,
+      "location": "in_transit",
+      "faction": null,
+      "personality": {
+        "traits": [
+          "comforting",
+          "believable"
+        ],
+        "role": "unknown",
+        "nickname_origin": "Modeled on Bob's university cat Spike.",
+        "quirks": "VR cat recreation that sits on Bob's lap and purrs while he works."
+      },
+      "notes": "Virtual pet AI created by Bob inside his VR environment."
+    },
+    {
+      "name": "Jeeves",
+      "type": "ai",
+      "parent": "Bob",
+      "generation": null,
+      "location": "in_transit",
+      "faction": null,
+      "personality": {
+        "traits": [
+          "servile"
+        ],
+        "role": "unknown",
+        "nickname_origin": "Modeled as John Cleese in tuxedo and tails.",
+        "quirks": "VR butler who serves Bob coffee and milk for Spike."
+      },
+      "notes": "Virtual servant AI created by Bob inside his VR environment."
+    }
+  ],
+  "destructions": [
+    {
+      "name": "Dr. Landers",
+      "type": "human",
+      "cause": "Killed when Brazilian Empire forces bombed the Newhaven facility.",
+      "location": "Sol",
+      "certainty": "confirmed"
+    }
+  ],
+  "resolutions": [
+    {
+      "character": "Dr. Landers",
+      "original_chapter": 12,
+      "outcome": "survived",
+      "notes": "He is confirmed alive after the launch and sends later messages, resolving any implied uncertainty from the attack during Bob's departure."
+    }
+  ],
+  "movements": [
+    {
+      "character": "Bob",
+      "type": "departure",
+      "from": "Sol",
+      "to": "Epsilon Eridani",
+      "ship": "Heaven-1",
+      "companions": [],
+      "cargo": null,
+      "drive": "SURGE",
+      "max_g": 2.0,
+      "notes": "Continues outbound after a side trip flyby of Saturn."
+    }
+  ],
+  "star_systems": [
+    {
+      "name": "Sol",
+      "role": "setting",
+      "notes": "Opening flyby of Saturn and receipt of delayed messages from Earth."
+    },
+    {
+      "name": "Epsilon Eridani",
+      "role": "destination",
+      "notes": "Bob's mission target and expected confrontation point with a Brazilian probe."
+    }
+  ],
+  "planets": [
+    {
+      "name": "Saturn",
+      "star_system": "Sol",
+      "orbital_position": null,
+      "type": "gas_giant",
+      "habitable": false,
+      "features": "Bob performs a close flyby and records extensive imagery of the planet, rings, storms, lightning, and auroras.",
+      "life": null,
+      "status": "surveyed",
+      "notes": "Bob's side trip during departure from Sol."
+    },
+    {
+      "name": "Titan",
+      "star_system": "Sol",
+      "orbital_position": null,
+      "type": "moon",
+      "habitable": null,
+      "features": "Largest moon of Saturn; Bob observes it during flyby.",
+      "life": "Primitive life had previously been found there, and a USE space station studies it.",
+      "status": "mentioned",
+      "notes": "Bob aims telescopes at Titan but no new biological findings are reported."
+    },
+    {
+      "name": "Earth",
+      "star_system": "Sol",
+      "orbital_position": 3,
+      "type": "rocky",
+      "habitable": true,
+      "features": "Observed remotely for signs of war; EMPs and visible flashes indicate nuclear detonations on the surface.",
+      "life": "Human homeworld",
+      "status": "mentioned",
+      "notes": "No direct visual detail available due to distance."
+    }
+  ],
+  "technologies": [
+    {
+      "name": "VR interface",
+      "full_name": "virtual reality interface",
+      "event": "invented",
+      "by": "Bob",
+      "location": "in_transit",
+      "notes": "Bob designs and incrementally improves an onboard virtual environment with body simulation and sensory feedback."
+    },
+    {
+      "name": "endocrine control",
+      "full_name": "endocrine control system",
+      "event": "failed",
+      "by": "FAITH",
+      "location": "in_transit",
+      "notes": "Bob identifies the system in his own code and later switches it off, ending its control over his emotional state."
+    },
+    {
+      "name": "SURGE drive weapon",
+      "full_name": "SURGE drive projectile weapon",
+      "event": "invented",
+      "by": "Bob",
+      "location": "in_transit",
+      "notes": "Bob devises a weapon concept using a SURGE drive system to accelerate projectiles through a launch tube in his version-2 ship design."
+    }
+  ],
+  "faction_events": [
+    {
+      "faction": "FAITH",
+      "type": "internal_purge",
+      "counterparty": null,
+      "text": "FAITH security captures a member of an internal faction responsible for transmitting the kill order to Heaven-1 and begins rooting out other moles.",
+      "location": "Sol",
+      "notes": "Reported in Dr. Landers's message."
+    },
+    {
+      "faction": "Brazilian Empire",
+      "type": "war_declared",
+      "counterparty": "FAITH",
+      "text": "After FAITH gunships destroy a Brazilian Empire gunship that fired on Heaven-1, Brazil calls it an act of war and the confrontation escalates.",
+      "location": "Sol",
+      "notes": "Escalation is described through recorded messages rather than a formal declaration scene."
+    }
+  ],
+  "communications": [
+    {
+      "from_character": "Dr. Landers",
+      "from_system": "Sol",
+      "to_character": "Bob",
+      "to_system": "in_transit",
+      "medium": "radio",
+      "direction": "received",
+      "contents_summary": "Landers reports that FAITH caught the person who transmitted the kill order and that the launch missile came from a Brazilian Empire gunship destroyed by FAITH.",
+      "notes": "Delayed light-speed message received from Earth."
+    },
+    {
+      "from_character": "Dr. Landers",
+      "from_system": "Sol",
+      "to_character": "Bob",
+      "to_system": "in_transit",
+      "medium": "radio",
+      "direction": "received",
+      "contents_summary": "Landers sends mission-related stellar data updates and comments on the new SURGE-driven arms race.",
+      "notes": "Delayed light-speed message received from Earth."
+    },
+    {
+      "from_character": "Dr. Doucette",
+      "from_system": "Sol",
+      "to_character": "Bob",
+      "to_system": "in_transit",
+      "medium": "radio",
+      "direction": "received",
+      "contents_summary": "Doucette reports that Chinese and USE probes will launch soon, Brazil has launched two probes, and one armed Brazilian probe is on Bob's course.",
+      "notes": "Delayed light-speed message received from Earth."
+    },
+    {
+      "from_character": "Dr. Doucette",
+      "from_system": "Sol",
+      "to_character": "Bob",
+      "to_system": "in_transit",
+      "medium": "radio",
+      "direction": "received",
+      "contents_summary": "Doucette reports that Dr. Landers has been killed, Brazil bombed Newhaven, and Earth is sliding into wider war with FAITH and the USE tacitly aligned against Brazil and China.",
+      "notes": "Delayed light-speed message received from Earth."
+    }
+  ],
+  "combat": [],
+  "alien_species": [],
+  "infrastructure": [],
+  "human_colonies": [],
+  "relationships": [
+    {
+      "a": "Bob",
+      "b": "Dr. Landers",
+      "type": "friendship",
+      "event": "ended_by_death",
+      "text": "Bob loses Dr. Landers, the closest thing he had to a friend in the new world, when he learns Landers was killed in a Brazilian attack.",
+      "notes": null
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Sol",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Bob detours to Saturn, discovers and removes an improvised explosive booby trap aboard Heaven-1, and resumes course for Epsilon Eridani."
+    },
+    {
+      "order": 2,
+      "location": "in_transit",
+      "time_offset": "later",
+      "pov": null,
+      "summary": "Bob builds an increasingly sophisticated VR environment to cope with bodiless isolation during the voyage."
+    },
+    {
+      "order": 3,
+      "location": "in_transit",
+      "time_offset": "several weeks later",
+      "pov": null,
+      "summary": "Bob uses sandbox testing to identify kill-order triggers in recorded transmissions and strips buried FAITH control code from his software."
+    },
+    {
+      "order": 4,
+      "location": "in_transit",
+      "time_offset": "later",
+      "pov": null,
+      "summary": "Bob reviews delayed messages from Sol, learns of the Brazilian pursuit probe and Dr. Landers's death, and begins planning defenses for Epsilon Eridani."
+    },
+    {
+      "order": 5,
+      "location": "in_transit",
+      "time_offset": "later",
+      "pov": null,
+      "summary": "Bob turns off his endocrine control system, finally grieves his lost human life, and then detects signs of nuclear war on Earth."
+    }
+  ],
+  "incoming_threats": [
+    {
+      "threat": "Brazilian probe",
+      "detected_at": "in_transit",
+      "origin": "Sol",
+      "eta_year": null,
+      "nature": "hostile",
+      "notes": "Reported by Dr. Doucette as armed and on the same course as Bob toward Epsilon Eridani; Bob estimates about 145 days of lead time on arrival."
+    }
+  ],
+  "quotes": [
+    {
+      "speaker": "Bob",
+      "text": "I was effectively a dog wearing a choke collar.",
+      "context": "Bob reflects angrily on FAITH's endocrine control system and what it has done to his emotions."
+    }
+  ],
+  "threads_opened": [
+    {
+      "id": "brazilian-probe-chasing-bob-to-epsilon-eridani",
+      "text": "An armed Brazilian probe is on Bob's course to Epsilon Eridani, raising the question of whether Bob can prepare defenses before it arrives."
+    },
+    {
+      "id": "earth-nuclear-war-escalation",
+      "text": "Bob detects apparent nuclear detonations on Earth after hearing of escalating conflict, leaving the scale of the war and Sol's survival uncertain."
+    },
+    {
+      "id": "bob-grief-after-endocrine-control",
+      "text": "After disabling his endocrine control system, Bob begins fully mourning his lost human life, raising the question of how this emotional release will affect him going forward."
+    }
+  ],
+  "threads_resolved": [
+    {
+      "id": "heaven-1-self-destruct-and-hidden-traps",
+      "text": "Bob finds and removes an improvised explosive package aboard Heaven-1, identifies the kill-order trigger in sandbox testing, and concludes there are no further unexplained trojans or interrupts in his systems."
+    }
+  ],
+  "events": [
+    {
+      "text": "Bob discovers and removes an improvised explosive booby trap aboard Heaven-1, then identifies and neutralizes the software kill-order mechanisms hidden in his systems.",
+      "characters": [
+        "Bob",
+        "GUPPI"
+      ],
+      "significance": "major",
+      "type": "technology"
+    },
+    {
+      "text": "Bob receives delayed messages revealing that an armed Brazilian probe is following his course, Dr. Landers has been killed, and conflict on Earth is escalating toward wider war.",
+      "characters": [
+        "Bob",
+        "Dr. Landers",
+        "Dr. Doucette"
+      ],
+      "significance": "major",
+      "type": "political"
+    },
+    {
+      "text": "Bob builds a functional onboard VR environment, including Guppy, Jeeves, and Spike, to preserve his sanity during the long voyage.",
+      "characters": [
+        "Bob",
+        "GUPPI",
+        "Jeeves",
+        "Spike"
+      ],
+      "significance": "minor",
+      "type": "creation"
+    },
+    {
+      "text": "Bob disables his endocrine control system and finally begins grieving the loss of his family and former human life.",
+      "characters": [
+        "Bob",
+        "Spike"
+      ],
+      "significance": "minor",
+      "type": "social"
+    }
+  ],
+  "summary": {
+    "one_line": "Bob cleans hidden sabotage out of Heaven-1, builds himself a virtual life for the voyage, and learns that Brazil is pursuing him while Earth slides toward nuclear war.",
+    "paragraph": "On his way out of Sol, Bob detours for a Saturn flyby and uses the time to search Heaven-1 for sabotage, finding and ejecting an improvised explosive package hidden in the ship. During the long outbound leg, he creates a progressively richer VR environment with Guppy, Jeeves, and a recreated Spike to stave off isolation, while also sandbox-testing recorded transmissions until he isolates the kill-order trigger and removes buried FAITH control code. Delayed messages from Earth reveal that the launch attack came from a Brazilian Empire gunship, that an armed Brazilian probe is following his course to Epsilon Eridani, and that Dr. Landers has been killed as Earth powers slide into open conflict. After finally switching off his endocrine control system, Bob breaks down and mourns his lost family and life, only to then detect signs that nuclear war may already have begun on Earth.",
+    "events": [
+      "Bob takes a side trip to Saturn during his departure from Sol and uses the time to search Heaven-1 for hidden sabotage.",
+      "His roamers find an improvised explosive package wired into the ship, and he ejects it through an airlock.",
+      "As the voyage settles in, Bob builds a virtual reality environment to give himself a body, a room, and companionship during the long trip.",
+      "He uses sandboxed copies of himself to identify the radio-triggered kill order and strips out buried FAITH obedience code while hardening his systems against future transmissions.",
+      "Recorded messages from Dr. Landers and Dr. Doucette reveal that FAITH caught an internal saboteur, Brazil launched the attack on Heaven-1, and an armed Brazilian probe is now on Bob's course.",
+      "Bob learns that Dr. Landers has been killed in a Brazilian bombing and that Earth is sliding into a broader war involving FAITH, the USE, Brazil, and China.",
+      "He turns off his endocrine control system at last and is overwhelmed by grief for his lost family and human life.",
+      "Soon after, Bob detects EMPs and light flashes from Earth and realizes nuclear detonations are likely underway."
+    ],
+    "themes": [
+      "identity",
+      "isolation",
+      "war",
+      "grief"
+    ],
+    "mood": "dread",
+    "pov_emotional_arc": "Bob moves from focused technical self-preservation into genuine emotional release, grieving his lost humanity just as he realizes Earth may be destroying itself behind him."
+  },
+  "world_state_after": {
+    "chapters_processed": 13,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "in transit to Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 10,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Dr. Doucette",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Spike",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Jeeves",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      }
+    ],
+    "known_star_systems": [
+      "Sol",
+      "Epsilon Eridani",
+      "Alpha Centauri"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon",
+      "Saturn",
+      "Titan"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR",
+      "Heaven-1",
+      "VR interface",
+      "SURGE drive weapon"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH",
+      "Brazilian Empire"
+    ],
+    "known_species": [],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      },
+      {
+        "id": "who-attacked-heaven-1-launch",
+        "text": "The launch turns into a confused orbital battle with missiles, military ships, and multiple unknown attackers, leaving the identity of the factions involved unresolved.",
+        "opened_chapter": 12
+      },
+      {
+        "id": "bob-alone-to-epsilon-eridani",
+        "text": "Bob has escaped Sol and is now alone on an underarmed mission to Epsilon Eridani, raising the question of whether he can survive the journey and establish himself there.",
+        "opened_chapter": 12
+      },
+      {
+        "id": "brazilian-probe-chasing-bob-to-epsilon-eridani",
+        "text": "An armed Brazilian probe is on Bob's course to Epsilon Eridani, raising the question of whether Bob can prepare defenses before it arrives.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "earth-nuclear-war-escalation",
+        "text": "Bob detects apparent nuclear detonations on Earth after hearing of escalating conflict, leaving the scale of the war and Sol's survival uncertain.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "bob-grief-after-endocrine-control",
+        "text": "After disabling his endocrine control system, Bob begins fully mourning his lost human life, raising the question of how this emotional release will affect him going forward.",
+        "opened_chapter": 13
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 9,
+        "text": "Bob overhears a hostile FAITH minister threaten Dr. Landers over the replicant project."
+      },
+      {
+        "chapter": 10,
+        "text": "After a sabotage attack destroys the replicant matrices, Bob is restored from backup, Kenneth is lost, and Dr. Landers accelerates Bob's preparation for launch."
+      },
+      {
+        "chapter": 11,
+        "text": "Bob learns that FAITH has built mission-enforcement safeguards into his own mind."
+      },
+      {
+        "chapter": 12,
+        "text": "Dr. Landers frees Bob from his software shackles and Bob survives a chaotic missile attack to launch Heaven-1 toward Epsilon Eridani."
+      },
+      {
+        "chapter": 13,
+        "text": "Bob cleans hidden sabotage out of Heaven-1, builds himself a virtual life for the voyage, and learns that Brazil is pursuing him while Earth slides toward nuclear war."
+      }
+    ]
+  }
+}

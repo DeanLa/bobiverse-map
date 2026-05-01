@@ -1,0 +1,904 @@
+{
+  "metadata": {
+    "chapter": 58,
+    "pov": "Riker",
+    "year": 2171,
+    "month": "April",
+    "location": "Sol",
+    "notes": "Chapter contains a scene break after launch; second scene occurs after the colony ships have passed Mars but remains in the same general timeframe.",
+    "pov_knowledge": {
+      "believes": [
+        "Riker suspects the unidentified hacker may still pose a risk, though no new hacking attempts occur in this chapter.",
+        "Riker hopes the remaining population of Earth can be sustained peacefully while exodus continues."
+      ],
+      "learns": [],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Riker",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "POV character overseeing colony launch."
+    },
+    {
+      "name": "Homer",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Present with Riker during launch monitoring."
+    },
+    {
+      "name": "Howard",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "in_transit",
+      "transit_from": "Sol",
+      "transit_to": "Omicron Eridani",
+      "notes": "Departs as escort with the colony ships."
+    },
+    {
+      "name": "Gudmund Valter",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Speaks during the launch ceremony for the Spits/FAITH contingent."
+    },
+    {
+      "name": "GUPPI",
+      "type": "ai",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Not directly acting in the chapter."
+    }
+  ],
+  "new_characters": [
+    {
+      "name": "Howard",
+      "type": "replicant",
+      "parent": "Riker",
+      "generation": 3,
+      "location": "Sol",
+      "faction": null,
+      "personality": {
+        "traits": [],
+        "role": "unknown",
+        "nickname_origin": null,
+        "quirks": null
+      },
+      "notes": "Identified as the newest Bob and assigned to escort the first colony convoy."
+    }
+  ],
+  "destructions": [],
+  "resolutions": [],
+  "movements": [
+    {
+      "character": "Howard",
+      "type": "departure",
+      "from": "Sol",
+      "to": "Omicron Eridani",
+      "ship": null,
+      "companions": [],
+      "cargo": "Bill's recent inventions for security and support",
+      "drive": "SURGE",
+      "max_g": 1.0,
+      "notes": "Departs escorting the first two colony ships carrying USE colonists."
+    }
+  ],
+  "star_systems": [
+    {
+      "name": "Sol",
+      "role": "setting",
+      "notes": "Launch of the first colony convoy occurs here."
+    },
+    {
+      "name": "Omicron Eridani",
+      "role": "destination",
+      "notes": "Destination of the first colony ships and Howard's escort mission."
+    }
+  ],
+  "planets": [
+    {
+      "name": "Earth",
+      "star_system": "Sol",
+      "orbital_position": 3,
+      "type": "rocky",
+      "habitable": true,
+      "features": "Source world for the departing colonists; population is expected to keep shrinking as exodus continues.",
+      "life": null,
+      "status": "mentioned",
+      "notes": "Launches originate from low Earth orbit."
+    },
+    {
+      "name": "Mars",
+      "star_system": "Sol",
+      "orbital_position": 4,
+      "type": "rocky",
+      "habitable": false,
+      "features": "The departing colony ships are shown passing its orbit after launch.",
+      "life": null,
+      "status": "mentioned",
+      "notes": null
+    }
+  ],
+  "technologies": [
+    {
+      "name": "VR interface",
+      "full_name": "Virtual reality interface",
+      "event": "upgraded",
+      "by": "Bill",
+      "location": "Sol",
+      "notes": "Bill's upgrades allow Bobs to interact physically in VR instead of only through video windows."
+    }
+  ],
+  "faction_events": [],
+  "communications": [],
+  "combat": [],
+  "alien_species": [],
+  "infrastructure": [
+    {
+      "system": "Sol",
+      "type": "shipyard",
+      "event": "expanded",
+      "owner": "USE",
+      "notes": "Three more colony vessels are already under construction as the first convoy launches."
+    }
+  ],
+  "human_colonies": [],
+  "relationships": [
+    {
+      "a": "Riker",
+      "b": "Homer",
+      "type": "working_partners",
+      "event": "strengthened",
+      "text": "Riker and Homer share the emotional payoff of finally launching the first colony ships after years of work.",
+      "notes": null
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Sol",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Riker oversees the loading ceremony and launch of the first colony ships, with Howard departing as escort."
+    },
+    {
+      "order": 2,
+      "location": "Sol",
+      "time_offset": "later that day",
+      "pov": null,
+      "summary": "Riker and Homer watch the launched ships pass Mars and then return to ongoing work on the exodus effort."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Gudmund Valter",
+      "text": "Even second prize is still a magnificent gift.",
+      "context": "Valter speaks philosophically about the delayed departure of the Spits and FAITH contingent."
+    }
+  ],
+  "threads_opened": [],
+  "threads_resolved": [],
+  "events": [
+    {
+      "text": "The first colony convoy launches from Sol toward Omicron Eridani, carrying USE colonists under Howard's escort.",
+      "characters": [
+        "Riker",
+        "Homer",
+        "Howard"
+      ],
+      "significance": "major",
+      "type": "travel"
+    }
+  ],
+  "summary": {
+    "one_line": "Riker and Homer finally launch the first human colony ships from Sol, sending Howard to escort the convoy to Omicron Eridani.",
+    "paragraph": "After years of preparation, inspections, and testing, the first colony ships are loaded in low Earth orbit and launched with USE colonists in stasis. Howard, introduced as the newest Bob, departs with the convoy as escort and quiet insurance against trouble at the destination, carrying some of Bill's newer inventions. Riker reflects on the long travel time, the precautions taken against sabotage, and the broader plan to keep a steady stream of emigrants leaving Earth. Once the ships are safely outbound past Mars, he allows himself an emotional moment before turning back to the endless work still ahead.",
+    "events": [
+      "Riker watches the long process of shuttling colonists from Earth to the waiting colony ships in low orbit.",
+      "A ceremonial round of speeches marks the departure, while Howard prepares to accompany the convoy as its Bob escort.",
+      "Riker reflects on the voyage profile, the use of replicant crews and roamers, and the precautions taken to prevent sabotage.",
+      "He notes that a third ship for the Spits and FAITH enclave will leave in four months and that more vessels are already being built.",
+      "Later, Riker and Homer watch the launched ships pass Mars and quietly absorb the fact that the exodus has truly begun.",
+      "Riker then turns back to the continuing labor of organizing humanity's evacuation from Earth."
+    ],
+    "themes": [
+      "colonization",
+      "politics",
+      "family",
+      "hope"
+    ],
+    "mood": "hopeful",
+    "pov_emotional_arc": "Riker moves from tense logistical focus to quiet, emotional relief as the first launch succeeds and the exodus becomes real."
+  },
+  "world_state_after": {
+    "chapters_processed": 58,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "in transit to Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 55
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 58
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 10,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Dr. Doucette",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Spike",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 32
+      },
+      {
+        "name": "Jeeves",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Major Ernesto Medeiros",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 57
+      },
+      {
+        "name": "Serra do Mar",
+        "type": "ship",
+        "location": "Epsilon Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 15,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Bill",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 56
+      },
+      {
+        "name": "Riker",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 58
+      },
+      {
+        "name": "Milo",
+        "type": "replicant",
+        "location": "82 Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 51,
+        "last_seen_chapter": 51
+      },
+      {
+        "name": "Mario",
+        "type": "replicant",
+        "location": "Beta Hydri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 57
+      },
+      {
+        "name": "Homer",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 58
+      },
+      {
+        "name": "Garfield",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 56
+      },
+      {
+        "name": "Calvin",
+        "type": "replicant",
+        "location": "Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 45
+      },
+      {
+        "name": "Goku",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 45
+      },
+      {
+        "name": "Linus",
+        "type": "replicant",
+        "location": "Epsilon Indi",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 40
+      },
+      {
+        "name": "Captain Matias Araújo",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 24,
+        "last_seen_chapter": 24
+      },
+      {
+        "name": "Colonel George Butterworth",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 54
+      },
+      {
+        "name": "Delta Eridani 4 natives",
+        "type": "alien_species",
+        "location": "Delta Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 35,
+        "last_seen_chapter": 35
+      },
+      {
+        "name": "Marvin",
+        "type": "replicant",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 55
+      },
+      {
+        "name": "Luke",
+        "type": "replicant",
+        "location": "in transit to Kappa Ceti",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 39
+      },
+      {
+        "name": "Bender",
+        "type": "replicant",
+        "location": "in transit to Gamma Leporis A",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 39
+      },
+      {
+        "name": "Archimedes",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 55
+      },
+      {
+        "name": "Charles",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 54
+      },
+      {
+        "name": "Arthur",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 47,
+        "last_seen_chapter": 47
+      },
+      {
+        "name": "Minister Cranston",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 54
+      },
+      {
+        "name": "Gudmund Valter",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 58
+      },
+      {
+        "name": "Moses",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 55
+      },
+      {
+        "name": "Arnold",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 55
+      },
+      {
+        "name": "Julia Hendricks",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 54
+      },
+      {
+        "name": "Henry Roberts",
+        "type": "replicant",
+        "location": "Epsilon Indi",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 40
+      },
+      {
+        "name": "Ambassador Gerrold",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 41
+      },
+      {
+        "name": "Bart",
+        "type": "replicant",
+        "location": "Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 45
+      },
+      {
+        "name": "Diana",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 53
+      },
+      {
+        "name": "Ralph",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 54
+      },
+      {
+        "name": "Howard",
+        "type": "replicant",
+        "location": "in transit to Omicron Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 58
+      }
+    ],
+    "known_star_systems": [
+      "Sol",
+      "Epsilon Eridani",
+      "Alpha Centauri",
+      "Delta Eridani",
+      "Omicron Eridani",
+      "Beta Hydri",
+      "82 Eridani",
+      "Kappa Ceti",
+      "Gamma Leporis A",
+      "Epsilon Indi",
+      "New Zealand"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon",
+      "Saturn",
+      "Titan",
+      "Epsilon Eridani 1",
+      "Epsilon Eridani 2",
+      "Epsilon Eridani inner asteroid belt",
+      "Epsilon Eridani 4",
+      "Epsilon Eridani outer asteroid belt",
+      "Epsilon Eridani 5",
+      "Epsilon Eridani 3",
+      "Ragnarök",
+      "Omicron Eridani asteroid belt",
+      "OE-1A",
+      "OE-1B",
+      "OE-2",
+      "Jupiter",
+      "Vulcan",
+      "Romulus",
+      "Delta Eridani 4",
+      "Delta Eridani asteroid belt",
+      "Delta Eridani 1",
+      "Delta Eridani 2",
+      "Delta Eridani 3",
+      "Delta Eridani 5",
+      "Alpha Centauri B 1",
+      "Alpha Centauri B asteroid belt",
+      "Alpha Centauri B inner asteroid belt",
+      "Alpha Centauri A comfort-zone planet",
+      "Eden",
+      "Epsilon Indi 1",
+      "82 Eridani 3",
+      "82 Eridani 2",
+      "82 Eridani 3 outer moon",
+      "82 Eridani 3 inner moon",
+      "GL19-4"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR",
+      "Heaven-1",
+      "VR interface",
+      "SURGE drive weapon",
+      "exploration scouts",
+      "Heaven-2",
+      "Heaven-1A",
+      "exploration drone",
+      "subspace transmission",
+      "SURGE drive missile",
+      "Heaven-9",
+      "Heaven-10",
+      "modified SUDDAR array",
+      "SCUT",
+      "observation drone buster",
+      "firewall",
+      "printer",
+      "android"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH",
+      "Brazilian Empire",
+      "USE",
+      "VEHEMENT",
+      "Australian",
+      "New Zealand"
+    ],
+    "known_species": [
+      "Vulcan and Romulus native life",
+      "Delta Eridani 4 natives",
+      "gorilloids",
+      "Beta Hydri wreck aliens"
+    ],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      },
+      {
+        "id": "who-attacked-heaven-1-launch",
+        "text": "The launch turns into a confused orbital battle with missiles, military ships, and multiple unknown attackers, leaving the identity of the factions involved unresolved.",
+        "opened_chapter": 12
+      },
+      {
+        "id": "bob-grief-after-endocrine-control",
+        "text": "After disabling his endocrine control system, Bob begins fully mourning his lost human life, raising the question of how this emotional release will affect him going forward.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "other-national-probes-still-out-there",
+        "text": "Bob concludes that at least one more Brazilian Empire ship exists and that USE, Chinese, and possibly Australian probes may also be active somewhere in space.",
+        "opened_chapter": 15
+      },
+      {
+        "id": "first-bob-cohort-divergence",
+        "text": "Bob's first cohort of clones diverges in personality immediately, raising questions about how future Bob society and identity will evolve.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "omicron-eridani-biocompatibility",
+        "text": "Milo has found two apparently habitable living worlds at Omicron Eridani, but it remains unresolved whether Earth life and humans are biologically compatible with them.",
+        "opened_chapter": 19
+      },
+      {
+        "id": "use-colony-ship-evacuation-plan",
+        "text": "Riker and Colonel Butterworth agree to try building colony ships in Sol, raising the question of whether the surviving humans can endure long enough to launch them and where they will go.",
+        "opened_chapter": 26
+      },
+      {
+        "id": "alpha-centauri-escaped-brazilian-probe",
+        "text": "One Brazilian vessel escapes the destruction of the Alpha Centauri construction yard, leaving its destination and future threat unresolved.",
+        "opened_chapter": 28
+      },
+      {
+        "id": "archimedes-development",
+        "text": "Bob has identified an unusually inventive Deltan boy named Archimedes, raising the question of how far his intelligence and toolmaking will develop.",
+        "opened_chapter": 30
+      },
+      {
+        "id": "sol-transport-vessel-priority",
+        "text": "Riker reprioritizes transport-vessel construction for refugee movement, raising the question of how much this will delay colony-ship production.",
+        "opened_chapter": 31
+      },
+      {
+        "id": "new-united-nations-governance",
+        "text": "Riker has convened a global survivor assembly, but it remains unresolved whether the enclaves can create workable governance and cooperate on evacuation and survival priorities.",
+        "opened_chapter": 33
+      },
+      {
+        "id": "gorilloid-threat-to-deltans",
+        "text": "The Deltans remain under ongoing predation pressure from gorilloids, raising the question of whether Bob's indirect aid and planned drone defenses will be enough to secure their survival.",
+        "opened_chapter": 35
+      },
+      {
+        "id": "vehement-threat-in-sol",
+        "text": "VEHEMENT is escalating anonymous threats and opportunistic violence in Sol, raising the question of whether it will disrupt evacuation and governance efforts.",
+        "opened_chapter": 38
+      },
+      {
+        "id": "riker-family-descendants-contact",
+        "text": "Riker has discovered living descendants of Andrea Johansson, raising the question of how this new family connection will affect his decisions and emotional life.",
+        "opened_chapter": 38
+      },
+      {
+        "id": "kappa-ceti-expedition",
+        "text": "Luke has departed for Kappa Ceti, opening the question of what he will find there.",
+        "opened_chapter": 39
+      },
+      {
+        "id": "gamma-leporis-a-expedition",
+        "text": "Bender has departed for Gamma Leporis A, opening the question of what he will find there.",
+        "opened_chapter": 39
+      },
+      {
+        "id": "direct-deltan-prompting",
+        "text": "Bob now has the ability and willingness to speak directly to the Deltans through a modified drone, raising the question of how far he will go in overt intervention.",
+        "opened_chapter": 39
+      },
+      {
+        "id": "henry-roberts-rehabilitation",
+        "text": "Linus has rescued the unstable Australian replicant Henry Roberts and begun VR-based rehabilitation, leaving open whether Henry can fully recover and function again.",
+        "opened_chapter": 40
+      },
+      {
+        "id": "epsilon-indi-colony-value",
+        "text": "Epsilon Indi appears sparse and only partly surveyed, leaving open whether Linus will find anything in the system worth long-term development or colonization.",
+        "opened_chapter": 40
+      },
+      {
+        "id": "82-eridani-colony-value",
+        "text": "Milo finds two comfort-zone planets in 82 Eridani, raising the question of whether the system can become a viable human colony target once it is secured.",
+        "opened_chapter": 46
+      },
+      {
+        "id": "arthur-replacement-and-backup-storage",
+        "text": "Arthur's permanent loss forces the Sol Bobs to replace him and finally create off-site backup storage, raising the question of how quickly they can do so amid other priorities.",
+        "opened_chapter": 47
+      },
+      {
+        "id": "sol-orbital-farming-stations",
+        "text": "Homer and Riker devise orbital farming stations to avert starvation in Sol, raising the question of how quickly the plan can be built and whether political opposition will hinder it.",
+        "opened_chapter": 49
+      },
+      {
+        "id": "new-zealand-hacker-identity",
+        "text": "A hacker using knowledge of the original Heaven design attacks through the UN feed from New Zealand, leaving the perpetrator's identity unresolved.",
+        "opened_chapter": 49
+      },
+      {
+        "id": "gorilloid-war-of-extermination",
+        "text": "Bob concludes that the migration has entered a region of extreme gorilloid density and may require a prolonged extermination campaign to survive.",
+        "opened_chapter": 50
+      },
+      {
+        "id": "bill-retaliation-for-milo",
+        "text": "Bill responds to Milo's death by accelerating production of armed version-3 Bobs, raising the question of when and where he will strike back against Medeiros.",
+        "opened_chapter": 51
+      },
+      {
+        "id": "bawbe-worship-escalation",
+        "text": "The Deltans have begun turning Bob's technology into religious objects, raising the question of how far their worship of the bawbe will go and how it will affect Bob's intervention.",
+        "opened_chapter": 55
+      },
+      {
+        "id": "bill-android-project",
+        "text": "Bill's Bullwinkle android project is close but still blocked by sensory integration, reflex processing, bandwidth, and SCUT miniaturization problems.",
+        "opened_chapter": 56
+      },
+      {
+        "id": "ragnarok-ice-drive-redesign",
+        "text": "After losing drive segments during iceberg delivery, Bill plans to redesign the asteroid-moving system to avoid anchoring directly to incoming ice.",
+        "opened_chapter": 56
+      },
+      {
+        "id": "beta-hydri-hostile-aliens",
+        "text": "Mario's discovery of a wrecked alien raider and a sterilized world raises the question of who these hostile aliens are, where they came from, and whether they are still attacking other systems.",
+        "opened_chapter": 57
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 54,
+        "text": "Riker oversees the completion of Exodus-1 and Exodus-2 and reassures Julia that testing is the next step before Exodus-3."
+      },
+      {
+        "chapter": 55,
+        "text": "Bob reaches the flint site, discovers why it is swarming with gorilloids, and realizes the Deltans are turning the bawbe into a religion."
+      },
+      {
+        "chapter": 56,
+        "text": "Bill saves a crucial Ragnarök water drop at the cost of drive hardware, then returns to his frustrating android research."
+      },
+      {
+        "chapter": 57,
+        "text": "Mario reaches Beta Hydri and finds not a colony prospect but the wreckage of a hostile alien civilization on a dead world."
+      },
+      {
+        "chapter": 58,
+        "text": "Riker and Homer finally launch the first human colony ships from Sol, sending Howard to escort the convoy to Omicron Eridani."
+      }
+    ]
+  }
+}

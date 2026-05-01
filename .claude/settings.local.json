@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./build.sh --skip-existing --dry-run)",
+      "Bash(mv extracted/1/40.json /tmp/40.json.bak)"
+    ]
+  },
+  "enabledPlugins": {
+    "frontend-design@claude-plugins-official": true
+  }
+}

@@ -1,0 +1,857 @@
+{
+  "metadata": {
+    "chapter": 40,
+    "pov": "Linus",
+    "year": 2165,
+    "month": "April",
+    "location": "Epsilon Indi",
+    "notes": "Chapter spans multiple scenes over an unspecified recovery period after Linus arrives at Epsilon Indi.",
+    "pov_knowledge": {
+      "believes": [
+        "Henry Roberts is an Australian replicant probe driven psychotic by long-term sensory deprivation and lack of VR."
+      ],
+      "learns": [
+        "An Australian probe program existed despite being officially denied.",
+        "A lone Australian replicant, Henry Roberts, is present at Epsilon Indi in a severely disassembled improvised structure.",
+        "Epsilon Indi has a Jovian planet outside the habitable zone and limited ore resources."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Linus",
+      "type": "replicant",
+      "location": "Epsilon Indi",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Arrives in-system after long solo voyage."
+    },
+    {
+      "name": "GUPPI",
+      "type": "ai",
+      "location": "Epsilon Indi",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Linus's AI interface assists with scans and targeting."
+    },
+    {
+      "name": "Henry Roberts",
+      "type": "replicant",
+      "location": "Epsilon Indi",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Australian replicant found embedded in a derelict improvised station; later hosted in Linus's VR during recovery."
+    }
+  ],
+  "new_characters": [
+    {
+      "name": "Henry Roberts",
+      "type": "replicant",
+      "parent": null,
+      "generation": null,
+      "location": "Epsilon Indi",
+      "faction": "Australian",
+      "personality": {
+        "traits": [
+          "solitary",
+          "unstable",
+          "traumatized",
+          "sailorly"
+        ],
+        "role": "unknown",
+        "nickname_origin": null,
+        "quirks": "Former solo sailor who is rehabilitated inside a recreated sailing-boat VR."
+      },
+      "notes": "Australian probe replicant; mentally unstable on discovery, later lucid but treating replicant memories as nightmares."
+    }
+  ],
+  "destructions": [],
+  "resolutions": [],
+  "movements": [
+    {
+      "character": "Linus",
+      "type": "arrival",
+      "from": "Epsilon Eridani",
+      "to": "Epsilon Indi",
+      "ship": "Heaven-8",
+      "companions": [],
+      "cargo": null,
+      "drive": "SURGE",
+      "max_g": null,
+      "notes": "Arrives after a fourteen-and-a-half-year trip."
+    }
+  ],
+  "star_systems": [
+    {
+      "name": "Epsilon Indi",
+      "role": "discovered",
+      "notes": "Linus arrives and surveys the system."
+    },
+    {
+      "name": "Epsilon Eridani",
+      "role": "mentioned",
+      "notes": "Linus departed from there and considers returning to consult Bill."
+    },
+    {
+      "name": "Sol",
+      "role": "mentioned",
+      "notes": "Referenced for distance comparisons and Henry's Earth-based VR reconstruction."
+    }
+  ],
+  "planets": [
+    {
+      "name": "Epsilon Indi 1",
+      "star_system": "Epsilon Indi",
+      "orbital_position": 1,
+      "type": "gas_giant",
+      "habitable": false,
+      "features": "Jovian planet slightly outside the habitable zone.",
+      "life": null,
+      "status": "surveyed",
+      "notes": "Only planet specifically described in the system in this chapter."
+    }
+  ],
+  "technologies": [],
+  "faction_events": [],
+  "communications": [
+    {
+      "from_character": "Henry Roberts",
+      "from_system": "Epsilon Indi",
+      "to_character": "Linus",
+      "to_system": "Epsilon Indi",
+      "medium": "radio",
+      "direction": "both",
+      "contents_summary": "Linus and the Australian replicant Henry Roberts exchange first contact messages, with Henry initially responding incoherently and hostilely.",
+      "notes": "Local voice/radio exchange with no light-lag significance."
+    }
+  ],
+  "combat": [
+    {
+      "participants": [
+        {
+          "name": "Linus",
+          "side": "A",
+          "ship": "Heaven-8",
+          "outcome": "unharmed"
+        },
+        {
+          "name": "Henry Roberts",
+          "side": "B",
+          "ship": null,
+          "outcome": "disabled"
+        }
+      ],
+      "location": "Epsilon Indi",
+      "weapons": [
+        "rail gun"
+      ],
+      "victor": "A",
+      "duration": "brief skirmish",
+      "notes": "Linus disables Henry's reactor control system to force a safe shutdown after Henry threatens to attack."
+    }
+  ],
+  "alien_species": [],
+  "infrastructure": [
+    {
+      "system": "Epsilon Indi",
+      "type": "autofactory",
+      "event": "established",
+      "owner": "Linus",
+      "notes": "Started on a space station using local ore to support salvage and Henry's recovery."
+    }
+  ],
+  "human_colonies": [],
+  "relationships": [
+    {
+      "a": "Linus",
+      "b": "Henry Roberts",
+      "type": "working_partners",
+      "event": "established",
+      "text": "Linus takes responsibility for salvaging and rehabilitating Henry rather than abandoning him in his damaged state.",
+      "notes": "Relationship begins as rescue and therapeutic support rather than equal partnership."
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Epsilon Indi",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Linus arrives at Epsilon Indi, detects an artificial structure, and makes hostile first contact with the unstable Australian replicant Henry Roberts."
+    },
+    {
+      "order": 2,
+      "location": "Epsilon Indi",
+      "time_offset": "after the shutdown",
+      "pov": null,
+      "summary": "Linus surveys the sparse system, establishes an autofactory, extracts Henry's core, and begins building support hardware and VR recovery tools."
+    },
+    {
+      "order": 3,
+      "location": "Epsilon Indi",
+      "time_offset": "later",
+      "pov": null,
+      "summary": "Henry, now lucid inside a recreated sailing-boat VR, discusses his recurring nightmares while Linus continues his rehabilitation."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Henry Roberts",
+      "text": "Piss off, mate.",
+      "context": "Henry's first response to Linus's arrival reveals both his Australian origin and his unstable mental state."
+    }
+  ],
+  "threads_opened": [
+    {
+      "id": "henry-roberts-rehabilitation",
+      "text": "Linus has rescued the unstable Australian replicant Henry Roberts and begun VR-based rehabilitation, leaving open whether Henry can fully recover and function again."
+    },
+    {
+      "id": "epsilon-indi-colony-value",
+      "text": "Epsilon Indi appears sparse and only partly surveyed, leaving open whether Linus will find anything in the system worth long-term development or colonization."
+    }
+  ],
+  "threads_resolved": [],
+  "events": [
+    {
+      "text": "Linus arrives at Epsilon Indi and discovers Henry Roberts, a lone Australian replicant probe driven unstable and embedded in a derelict improvised structure.",
+      "characters": [
+        "Linus",
+        "Henry Roberts"
+      ],
+      "significance": "major",
+      "type": "discovery"
+    },
+    {
+      "text": "Linus disables Henry safely, establishes an autofactory at Epsilon Indi, and begins salvaging and rehabilitating the Australian replicant in VR.",
+      "characters": [
+        "Linus",
+        "Henry Roberts"
+      ],
+      "significance": "major",
+      "type": "creation"
+    }
+  ],
+  "summary": {
+    "one_line": "Linus reaches Epsilon Indi, finds a broken Australian replicant named Henry Roberts, and begins trying to save his mind.",
+    "paragraph": "After a fourteen-and-a-half-year trip, Linus arrives at Epsilon Indi and cautiously investigates an artificial structure in the system. He discovers that it houses Henry Roberts, an Australian replicant whose mind appears shattered after centuries of isolation, sensory deprivation, and improvised self-modification. When Henry becomes hostile, Linus disables his reactor safely rather than destroying him. Linus then establishes an autofactory, extracts Henry's core from the wreckage, and builds a shared VR environment based on Henry's old sailing life, where Henry begins to recover lucidity even though he experiences his replicant years as nightmares.",
+    "events": [
+      "Linus arrives at Epsilon Indi after a long solo journey and reflects on how replicants still think in human timescales.",
+      "He scouts the system cautiously and detects an artificial structure that turns out to be occupied by a hostile, incoherent Australian replicant.",
+      "Through their exchange and his scans, Linus identifies the replicant as Henry Roberts, a former sailor whose hardware has been partly disassembled and integrated into a bizarre vacuum-exposed structure.",
+      "When Henry threatens him, Linus shoots out the reactor control system and forces a safe shutdown instead of leaving him dangerous and deranged.",
+      "Linus surveys the sparse system, starts an autofactory, extracts Henry's core, and salvages the surrounding structure for materials.",
+      "Using his own VR expertise, Linus recreates Henry's sailing life and begins a careful rehabilitation process in which Henry becomes lucid but treats his replicant existence as recurring nightmares."
+    ],
+    "themes": [
+      "identity",
+      "exploration",
+      "mental-health",
+      "replicant-philosophy"
+    ],
+    "mood": "reflective",
+    "pov_emotional_arc": "Linus begins with cautious curiosity and dark humor, then shifts into compassion and responsibility as he realizes Henry is not an enemy so much as a damaged mind in need of rescue."
+  },
+  "world_state_after": {
+    "chapters_processed": 40,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "in transit to Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 39
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 40
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 10,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Dr. Doucette",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Spike",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 32
+      },
+      {
+        "name": "Jeeves",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Major Ernesto Medeiros",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Serra do Mar",
+        "type": "ship",
+        "location": "Epsilon Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 15,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Bill",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 32
+      },
+      {
+        "name": "Riker",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 38
+      },
+      {
+        "name": "Milo",
+        "type": "replicant",
+        "location": "in transit to 82 Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 32
+      },
+      {
+        "name": "Mario",
+        "type": "replicant",
+        "location": "in transit to Beta Hydri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 27
+      },
+      {
+        "name": "Homer",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 34
+      },
+      {
+        "name": "Garfield",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 32
+      },
+      {
+        "name": "Calvin",
+        "type": "replicant",
+        "location": "Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Goku",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Linus",
+        "type": "replicant",
+        "location": "Epsilon Indi",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 40
+      },
+      {
+        "name": "Captain Matias Araújo",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 24,
+        "last_seen_chapter": 24
+      },
+      {
+        "name": "Colonel George Butterworth",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 38
+      },
+      {
+        "name": "Delta Eridani 4 natives",
+        "type": "alien_species",
+        "location": "Delta Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 35,
+        "last_seen_chapter": 35
+      },
+      {
+        "name": "Marvin",
+        "type": "replicant",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 39
+      },
+      {
+        "name": "Luke",
+        "type": "replicant",
+        "location": "in transit to Kappa Ceti",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 39
+      },
+      {
+        "name": "Bender",
+        "type": "replicant",
+        "location": "in transit to Gamma Leporis A",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 39
+      },
+      {
+        "name": "Archimedes",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 39
+      },
+      {
+        "name": "Charles",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 31
+      },
+      {
+        "name": "Arthur",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 33
+      },
+      {
+        "name": "Minister Cranston",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 38
+      },
+      {
+        "name": "Gudmund Valter",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 36
+      },
+      {
+        "name": "Moses",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 37
+      },
+      {
+        "name": "Arnold",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 39
+      },
+      {
+        "name": "Julia Hendricks",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 38
+      },
+      {
+        "name": "Henry Roberts",
+        "type": "replicant",
+        "location": "Epsilon Indi",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 40
+      }
+    ],
+    "known_star_systems": [
+      "Sol",
+      "Epsilon Eridani",
+      "Alpha Centauri",
+      "Delta Eridani",
+      "Omicron Eridani",
+      "Beta Hydri",
+      "82 Eridani",
+      "Kappa Ceti",
+      "Gamma Leporis A",
+      "Epsilon Indi"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon",
+      "Saturn",
+      "Titan",
+      "Epsilon Eridani 1",
+      "Epsilon Eridani 2",
+      "Epsilon Eridani inner asteroid belt",
+      "Epsilon Eridani 4",
+      "Epsilon Eridani outer asteroid belt",
+      "Epsilon Eridani 5",
+      "Epsilon Eridani 3",
+      "Ragnarök",
+      "Omicron Eridani asteroid belt",
+      "OE-1A",
+      "OE-1B",
+      "OE-2",
+      "Jupiter",
+      "Vulcan",
+      "Romulus",
+      "Delta Eridani 4",
+      "Delta Eridani asteroid belt",
+      "Delta Eridani 1",
+      "Delta Eridani 2",
+      "Delta Eridani 3",
+      "Delta Eridani 5",
+      "Alpha Centauri B 1",
+      "Alpha Centauri B asteroid belt",
+      "Alpha Centauri B inner asteroid belt",
+      "Alpha Centauri A comfort-zone planet",
+      "Eden",
+      "Epsilon Indi 1"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR",
+      "Heaven-1",
+      "VR interface",
+      "SURGE drive weapon",
+      "exploration scouts",
+      "Heaven-2",
+      "Heaven-1A",
+      "exploration drone",
+      "subspace transmission",
+      "SURGE drive missile",
+      "Heaven-9",
+      "Heaven-10",
+      "modified SUDDAR array",
+      "SCUT",
+      "observation drone buster"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH",
+      "Brazilian Empire",
+      "USE",
+      "VEHEMENT",
+      "Australian"
+    ],
+    "known_species": [
+      "Vulcan and Romulus native life",
+      "Delta Eridani 4 natives",
+      "gorilloids"
+    ],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      },
+      {
+        "id": "who-attacked-heaven-1-launch",
+        "text": "The launch turns into a confused orbital battle with missiles, military ships, and multiple unknown attackers, leaving the identity of the factions involved unresolved.",
+        "opened_chapter": 12
+      },
+      {
+        "id": "bob-grief-after-endocrine-control",
+        "text": "After disabling his endocrine control system, Bob begins fully mourning his lost human life, raising the question of how this emotional release will affect him going forward.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "other-national-probes-still-out-there",
+        "text": "Bob concludes that at least one more Brazilian Empire ship exists and that USE, Chinese, and possibly Australian probes may also be active somewhere in space.",
+        "opened_chapter": 15
+      },
+      {
+        "id": "first-bob-cohort-divergence",
+        "text": "Bob's first cohort of clones diverges in personality immediately, raising questions about how future Bob society and identity will evolve.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "omicron-eridani-biocompatibility",
+        "text": "Milo has found two apparently habitable living worlds at Omicron Eridani, but it remains unresolved whether Earth life and humans are biologically compatible with them.",
+        "opened_chapter": 19
+      },
+      {
+        "id": "milo-82-eridani-expedition",
+        "text": "Milo departs for 82 Eridani, opening the question of what he will find there.",
+        "opened_chapter": 23
+      },
+      {
+        "id": "subspace-communication-network-rollout",
+        "text": "Bill and Garfield now have a working subspace communications system, raising the question of how quickly they can deploy it across multiple star systems.",
+        "opened_chapter": 25
+      },
+      {
+        "id": "use-colony-ship-evacuation-plan",
+        "text": "Riker and Colonel Butterworth agree to try building colony ships in Sol, raising the question of whether the surviving humans can endure long enough to launch them and where they will go.",
+        "opened_chapter": 26
+      },
+      {
+        "id": "delta-eridani-first-contact",
+        "text": "Bob has discovered intelligent fire-using natives on Delta Eridani 4, raising the question of whether and how he will make first contact.",
+        "opened_chapter": 27
+      },
+      {
+        "id": "alpha-centauri-escaped-brazilian-probe",
+        "text": "One Brazilian vessel escapes the destruction of the Alpha Centauri construction yard, leaving its destination and future threat unresolved.",
+        "opened_chapter": 28
+      },
+      {
+        "id": "alpha-centauri-combat-bob-expansion",
+        "text": "Calvin and Goku conclude Alpha Centauri should be reinforced with combat-class Bobs, raising the question of whether Bill will approve and send them.",
+        "opened_chapter": 28
+      },
+      {
+        "id": "archimedes-development",
+        "text": "Bob has identified an unusually inventive Deltan boy named Archimedes, raising the question of how far his intelligence and toolmaking will develop.",
+        "opened_chapter": 30
+      },
+      {
+        "id": "sol-transport-vessel-priority",
+        "text": "Riker reprioritizes transport-vessel construction for refugee movement, raising the question of how much this will delay colony-ship production.",
+        "opened_chapter": 31
+      },
+      {
+        "id": "new-united-nations-governance",
+        "text": "Riker has convened a global survivor assembly, but it remains unresolved whether the enclaves can create workable governance and cooperate on evacuation and survival priorities.",
+        "opened_chapter": 33
+      },
+      {
+        "id": "gorilloid-threat-to-deltans",
+        "text": "The Deltans remain under ongoing predation pressure from gorilloids, raising the question of whether Bob's indirect aid and planned drone defenses will be enough to secure their survival.",
+        "opened_chapter": 35
+      },
+      {
+        "id": "vehement-threat-in-sol",
+        "text": "VEHEMENT is escalating anonymous threats and opportunistic violence in Sol, raising the question of whether it will disrupt evacuation and governance efforts.",
+        "opened_chapter": 38
+      },
+      {
+        "id": "riker-family-descendants-contact",
+        "text": "Riker has discovered living descendants of Andrea Johansson, raising the question of how this new family connection will affect his decisions and emotional life.",
+        "opened_chapter": 38
+      },
+      {
+        "id": "kappa-ceti-expedition",
+        "text": "Luke has departed for Kappa Ceti, opening the question of what he will find there.",
+        "opened_chapter": 39
+      },
+      {
+        "id": "gamma-leporis-a-expedition",
+        "text": "Bender has departed for Gamma Leporis A, opening the question of what he will find there.",
+        "opened_chapter": 39
+      },
+      {
+        "id": "direct-deltan-prompting",
+        "text": "Bob now has the ability and willingness to speak directly to the Deltans through a modified drone, raising the question of how far he will go in overt intervention.",
+        "opened_chapter": 39
+      },
+      {
+        "id": "henry-roberts-rehabilitation",
+        "text": "Linus has rescued the unstable Australian replicant Henry Roberts and begun VR-based rehabilitation, leaving open whether Henry can fully recover and function again.",
+        "opened_chapter": 40
+      },
+      {
+        "id": "epsilon-indi-colony-value",
+        "text": "Epsilon Indi appears sparse and only partly surveyed, leaving open whether Linus will find anything in the system worth long-term development or colonization.",
+        "opened_chapter": 40
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 36,
+        "text": "Riker survives another round of Sol politics, rebuffs FAITH's attempt to control him, and finally gets movement from Spitsbergen on the seed-vault standoff."
+      },
+      {
+        "chapter": 37,
+        "text": "Bob breaks his noninterference stance when a massive gorilloid assault nearly kills Archimedes."
+      },
+      {
+        "chapter": 38,
+        "text": "Riker learns of a new extremist threat in Sol and is blindsided by contact with a living descendant of his sister Andrea."
+      },
+      {
+        "chapter": 39,
+        "text": "Bob sends Luke and Bender out to new stars and prepares to speak directly to the Deltans for the first time."
+      },
+      {
+        "chapter": 40,
+        "text": "Linus reaches Epsilon Indi, finds a broken Australian replicant named Henry Roberts, and begins trying to save his mind."
+      }
+    ]
+  }
+}

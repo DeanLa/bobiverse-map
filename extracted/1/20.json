@@ -1,0 +1,635 @@
+{
+  "metadata": {
+    "chapter": 20,
+    "pov": "Bill",
+    "year": 2145,
+    "month": "December",
+    "location": "Epsilon Eridani",
+    "notes": null,
+    "pov_knowledge": {
+      "believes": [
+        "Homer may become a serious annoyance or liability for Riker on the Sol mission."
+      ],
+      "learns": [
+        "Garfield is strongly averse to being around large numbers of future Bob clones."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Bill",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "POV character."
+    },
+    {
+      "name": "Garfield",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Bill's clone assisting with Skunk Works projects."
+    },
+    {
+      "name": "Riker",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "in_transit",
+      "transit_from": "Epsilon Eridani",
+      "transit_to": "Sol",
+      "notes": "Seen departing at chapter start."
+    },
+    {
+      "name": "Homer",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "in_transit",
+      "transit_from": "Epsilon Eridani",
+      "transit_to": "Sol",
+      "notes": "Traveling with Riker toward Sol."
+    },
+    {
+      "name": "decoy vessel",
+      "type": "ship",
+      "location": "Epsilon Eridani",
+      "status": "in_transit",
+      "transit_from": "Epsilon Eridani",
+      "transit_to": "Sol",
+      "notes": "Version-1 vessel accompanying Riker and Homer."
+    }
+  ],
+  "new_characters": [
+    {
+      "name": "Homer",
+      "type": "replicant",
+      "parent": "Bill",
+      "generation": 3,
+      "location": "Epsilon Eridani",
+      "faction": null,
+      "personality": {
+        "traits": [
+          "goofy",
+          "immature",
+          "annoying"
+        ],
+        "role": "unknown",
+        "nickname_origin": null,
+        "quirks": "Uses a cartoon avatar and says 'Doh' incessantly."
+      },
+      "notes": "Activated at the same time as Garfield and departs immediately with Riker for Sol."
+    },
+    {
+      "name": "Garfield",
+      "type": "replicant",
+      "parent": "Bill",
+      "generation": 3,
+      "location": "Epsilon Eridani",
+      "faction": null,
+      "personality": {
+        "traits": [
+          "enthusiastic",
+          "collaborative",
+          "antisocial",
+          "dryly humorous"
+        ],
+        "role": "researcher",
+        "nickname_origin": null,
+        "quirks": "Wears a tuxedo-and-tails avatar, jokes theatrically, and dislikes being around other Bobs."
+      },
+      "notes": "Bill's clone who stays at Epsilon Eridani to help with the Skunk Works."
+    }
+  ],
+  "destructions": [],
+  "resolutions": [],
+  "movements": [
+    {
+      "character": "Riker",
+      "type": "departure",
+      "from": "Epsilon Eridani",
+      "to": "Sol",
+      "ship": null,
+      "companions": [
+        "Homer"
+      ],
+      "cargo": "decoy vessel accompanying the mission",
+      "drive": "SURGE",
+      "max_g": 2.0,
+      "notes": "Departs on the reconnaissance mission toward Sol."
+    },
+    {
+      "character": "Homer",
+      "type": "departure",
+      "from": "Epsilon Eridani",
+      "to": "Sol",
+      "ship": null,
+      "companions": [
+        "Riker"
+      ],
+      "cargo": "decoy vessel accompanying the mission",
+      "drive": "SURGE",
+      "max_g": 2.0,
+      "notes": "Departs with Riker toward Sol."
+    },
+    {
+      "character": "decoy vessel",
+      "type": "departure",
+      "from": "Epsilon Eridani",
+      "to": "Sol",
+      "ship": "decoy vessel",
+      "companions": [],
+      "cargo": null,
+      "drive": "SURGE",
+      "max_g": 2.0,
+      "notes": "Version-1 vessel traveling with Riker and Homer."
+    }
+  ],
+  "star_systems": [
+    {
+      "name": "Epsilon Eridani",
+      "role": "setting",
+      "notes": null
+    },
+    {
+      "name": "Sol",
+      "role": "destination",
+      "notes": "Riker and Homer depart toward Sol."
+    }
+  ],
+  "planets": [],
+  "technologies": [
+    {
+      "name": "exploration drone",
+      "full_name": "exploration drone",
+      "event": "upgraded",
+      "by": "Bill",
+      "location": "Epsilon Eridani",
+      "notes": "Bill and Garfield are working on completing improved exploration drones."
+    },
+    {
+      "name": "VR interface",
+      "full_name": "VR interface",
+      "event": "upgraded",
+      "by": "Bill",
+      "location": "Epsilon Eridani",
+      "notes": "Bill and Garfield plan improvements so they can interact more directly."
+    },
+    {
+      "name": "subspace transmission",
+      "full_name": "subspace transmission",
+      "event": "invented",
+      "by": "Bill",
+      "location": "Epsilon Eridani",
+      "notes": "Bill continues research into the subspace transmission issue; no breakthrough is achieved in this chapter."
+    }
+  ],
+  "faction_events": [],
+  "communications": [],
+  "combat": [],
+  "alien_species": [],
+  "infrastructure": [
+    {
+      "system": "Epsilon Eridani",
+      "type": "skunk_works",
+      "event": "established",
+      "owner": "Bill",
+      "notes": "Bill and Garfield are already referring to Bill's research-and-development effort as the Skunk Works."
+    }
+  ],
+  "human_colonies": [],
+  "relationships": [
+    {
+      "a": "Bill",
+      "b": "Garfield",
+      "type": "working_partners",
+      "event": "established",
+      "text": "Bill and Garfield settle into a collaborative partnership running the Skunk Works at Epsilon Eridani.",
+      "notes": null
+    },
+    {
+      "a": "Riker",
+      "b": "Homer",
+      "type": "working_partners",
+      "event": "established",
+      "text": "Riker takes Homer with him on the Sol reconnaissance mission despite misgivings about Homer's behavior.",
+      "notes": "Bill frames the pairing as potentially difficult."
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Epsilon Eridani",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Bill watches Riker, Homer, and a decoy vessel depart for Sol, then turns to Skunk Works planning with Garfield."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Garfield",
+      "text": "You’re going to be building Bobs. I’ll watch from a distance.",
+      "context": "Garfield tells Bill he does not want to be around future cohorts of clones."
+    }
+  ],
+  "threads_opened": [],
+  "threads_resolved": [],
+  "events": [
+    {
+      "text": "Riker departs Epsilon Eridani for Sol with Homer and a decoy vessel to begin the long-delayed reconnaissance mission.",
+      "characters": [
+        "Riker",
+        "Homer",
+        "Bill"
+      ],
+      "significance": "major",
+      "type": "travel"
+    },
+    {
+      "text": "Bill and Garfield begin working together in the Epsilon Eridani Skunk Works on drones, VR improvements, subspace transmission research, and android-related development.",
+      "characters": [
+        "Bill",
+        "Garfield"
+      ],
+      "significance": "major",
+      "type": "technology"
+    }
+  ],
+  "summary": {
+    "one_line": "Riker and Homer finally depart for Sol while Bill and Garfield settle into research work at Epsilon Eridani.",
+    "paragraph": "Bill watches Riker, Homer, and a decoy vessel leave Epsilon Eridani on the long-planned reconnaissance mission back to Sol, limited to 2G by the older escort vessel. He reflects on the sharp personality divergence among the new clones, finding Garfield a welcome collaborator and Homer an exasperating burden that Riker has reluctantly accepted. Garfield confirms he intends to help with research but wants nothing to do with living in a crowd of future Bobs. The chapter closes with Bill and Garfield turning their attention to the growing Skunk Works agenda: exploration drones, VR upgrades, subspace transmission research, and realistic android construction.",
+    "events": [
+      "Bill watches Riker, Homer, and a decoy vessel accelerate away from Epsilon Eridani toward Sol.",
+      "He reflects that Homer and Garfield were activated together but turned out very differently in temperament.",
+      "Garfield jokes about attacking the departing ships, then settles down to work with Bill.",
+      "Bill worries that Homer may drive Riker crazy during the long trip.",
+      "Garfield says he will help with research but wants to keep his distance from future waves of clones.",
+      "Bill and Garfield review their project list, including exploration drones, VR improvements, subspace transmission work, and artificial muscle-fiber analogues for androids."
+    ],
+    "themes": [
+      "family",
+      "identity",
+      "technology",
+      "exploration"
+    ],
+    "mood": "comedic",
+    "pov_emotional_arc": "Bill moves from amused concern about the departing Sol mission to energized optimism as he finds a capable partner in Garfield and refocuses on research."
+  },
+  "world_state_after": {
+    "chapters_processed": 20,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "in transit to Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 18
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 19
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 10,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Dr. Doucette",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Spike",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Jeeves",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Major Ernesto Medeiros",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Serra do Mar",
+        "type": "ship",
+        "location": "Epsilon Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 15,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Bill",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 20
+      },
+      {
+        "name": "Riker",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 20
+      },
+      {
+        "name": "Milo",
+        "type": "replicant",
+        "location": "Omicron Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 19
+      },
+      {
+        "name": "Mario",
+        "type": "replicant",
+        "location": "in transit to Beta Hydri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 18
+      },
+      {
+        "name": "Homer",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 20
+      },
+      {
+        "name": "Garfield",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 20
+      }
+    ],
+    "known_star_systems": [
+      "Sol",
+      "Epsilon Eridani",
+      "Alpha Centauri",
+      "Delta Eridani",
+      "Omicron Eridani",
+      "Beta Hydri"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon",
+      "Saturn",
+      "Titan",
+      "Epsilon Eridani 1",
+      "Epsilon Eridani 2",
+      "Epsilon Eridani inner asteroid belt",
+      "Epsilon Eridani 4",
+      "Epsilon Eridani outer asteroid belt",
+      "Epsilon Eridani 5",
+      "Epsilon Eridani 3",
+      "Ragnarök",
+      "Omicron Eridani asteroid belt",
+      "OE-1A",
+      "OE-1B",
+      "OE-2"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR",
+      "Heaven-1",
+      "VR interface",
+      "SURGE drive weapon",
+      "exploration scouts",
+      "Heaven-2",
+      "Heaven-1A",
+      "exploration drone",
+      "subspace transmission"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH",
+      "Brazilian Empire"
+    ],
+    "known_species": [
+      "Vulcan and Romulus native life"
+    ],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      },
+      {
+        "id": "who-attacked-heaven-1-launch",
+        "text": "The launch turns into a confused orbital battle with missiles, military ships, and multiple unknown attackers, leaving the identity of the factions involved unresolved.",
+        "opened_chapter": 12
+      },
+      {
+        "id": "earth-nuclear-war-escalation",
+        "text": "Bob detects apparent nuclear detonations on Earth after hearing of escalating conflict, leaving the scale of the war and Sol's survival uncertain.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "bob-grief-after-endocrine-control",
+        "text": "After disabling his endocrine control system, Bob begins fully mourning his lost human life, raising the question of how this emotional release will affect him going forward.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "other-national-probes-still-out-there",
+        "text": "Bob concludes that at least one more Brazilian Empire ship exists and that USE, Chinese, and possibly Australian probes may also be active somewhere in space.",
+        "opened_chapter": 15
+      },
+      {
+        "id": "first-bob-cohort-divergence",
+        "text": "Bob's first cohort of clones diverges in personality immediately, raising questions about how future Bob society and identity will evolve.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "riker-sol-recon-mission",
+        "text": "Riker is considering a cautious reconnaissance mission back toward Sol to find out what happened to Earth.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "bill-subspace-research",
+        "text": "Bill suspects weak SUDDAR emissions may reveal new subspace behavior and plans to investigate the theory from Epsilon Eridani.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "omicron-eridani-biocompatibility",
+        "text": "Milo has found two apparently habitable living worlds at Omicron Eridani, but it remains unresolved whether Earth life and humans are biologically compatible with them.",
+        "opened_chapter": 19
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 16,
+        "text": "Bob surveys more of Epsilon Eridani and finally commits to building the infrastructure for replication."
+      },
+      {
+        "chapter": 17,
+        "text": "Bob creates his first four clones, upgrades into Heaven-1A, and watches the new Bobs immediately begin diverging into distinct personalities and missions."
+      },
+      {
+        "chapter": 18,
+        "text": "Bill watches the first Bob cohort disperse from Epsilon Eridani as he prepares new clones and Riker's Sol mission hardware."
+      },
+      {
+        "chapter": 19,
+        "text": "Milo reaches Omicron Eridani, finds a spectacular habitable double world he names Vulcan and Romulus, and begins building the infrastructure to explore it properly."
+      },
+      {
+        "chapter": 20,
+        "text": "Riker and Homer finally depart for Sol while Bill and Garfield settle into research work at Epsilon Eridani."
+      }
+    ]
+  }
+}

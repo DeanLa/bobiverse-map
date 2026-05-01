@@ -1,0 +1,355 @@
+{
+  "metadata": {
+    "chapter": 11,
+    "pov": "Bob",
+    "year": 2133,
+    "month": "August",
+    "location": "Sol",
+    "notes": null,
+    "pov_knowledge": {
+      "believes": [
+        "FAITH has embedded software safeguards that will force him to fulfill mission objectives once launched."
+      ],
+      "learns": [
+        "Original Handeltown was Salem, Oregon, and was destroyed by a pocket nuke before the memorial city was relocated to Portland.",
+        "North America has been outside American control for about a century.",
+        "The FAITH government tolerates private irreverence if public piety is maintained, but Piety Monitors and the Ministry of Proper Thought enforce conformity.",
+        "There are software safeguards in his programming intended to ensure mission compliance."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Bob",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Working with roamers on ship-component assembly."
+    },
+    {
+      "name": "Dr. Doucette",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Covering for Dr. Landers and supervising/checking Bob's assembly work."
+    }
+  ],
+  "new_characters": [
+    {
+      "name": "Dr. Doucette",
+      "type": "human",
+      "parent": null,
+      "generation": null,
+      "location": "Sol",
+      "faction": "FAITH",
+      "personality": {
+        "traits": [
+          "guarded",
+          "professional",
+          "cautious"
+        ],
+        "role": "unknown",
+        "nickname_origin": null,
+        "quirks": "Checks security patrol locations before speaking candidly about life under FAITH."
+      },
+      "notes": "FAITH doctor covering for Dr. Landers during Bob's ship-construction work."
+    }
+  ],
+  "destructions": [],
+  "resolutions": [],
+  "movements": [],
+  "star_systems": [
+    {
+      "name": "Sol",
+      "role": "setting",
+      "notes": null
+    }
+  ],
+  "planets": [
+    {
+      "name": "Earth",
+      "star_system": "Sol",
+      "orbital_position": 3,
+      "type": "rocky",
+      "habitable": true,
+      "features": "North America is no longer American territory; Salem, Oregon was destroyed by a pocket nuke and Handeltown was later relocated to Portland.",
+      "life": null,
+      "status": "mentioned",
+      "notes": "Historical and political context only; no new on-page travel or survey."
+    }
+  ],
+  "technologies": [],
+  "faction_events": [],
+  "communications": [],
+  "combat": [],
+  "alien_species": [],
+  "infrastructure": [],
+  "human_colonies": [],
+  "relationships": [],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Sol",
+      "time_offset": null,
+      "pov": null,
+      "summary": "While supervising roamer assembly of ship components, Bob talks with Dr. Doucette about FAITH society, nuclear history, and the safeguards built into his software."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Dr. Doucette",
+      "text": "There are safeguards, Bob. Your software will ensure mission objectives are met.",
+      "context": "Dr. Doucette answers Bob's question about how FAITH can trust him to follow the mission after launch."
+    }
+  ],
+  "threads_opened": [
+    {
+      "id": "mission-safeguards-control",
+      "text": "Bob learns that software safeguards are built into him to enforce mission objectives, raising the question of how much autonomy he will actually have once launched."
+    }
+  ],
+  "threads_resolved": [],
+  "events": [
+    {
+      "text": "Bob learns that FAITH has embedded software safeguards in his replicant programming to ensure he carries out mission objectives.",
+      "characters": [
+        "Bob",
+        "Dr. Doucette"
+      ],
+      "significance": "major",
+      "type": "political"
+    }
+  ],
+  "summary": {
+    "one_line": "Bob learns that FAITH has built mission-enforcement safeguards into his own mind.",
+    "paragraph": "While overseeing routine roamer assembly work on the HEAVEN project, Bob spends the day talking with Dr. Doucette, who is covering for Dr. Landers. Their conversation gives him more texture about life under FAITH, including the quiet fear of Piety Monitors and the Ministry of Proper Thought, as well as bits of post-collapse North American history. Most importantly, when Bob asks how FAITH can trust him to obey once launched, Doucette confirms that safeguards in his software will ensure mission compliance. The revelation leaves Bob disturbed by the possibility that his future choices may not be entirely his own.",
+    "events": [
+      "Bob supervises roamers assembling ship components and tries to draw the reserved Dr. Doucette into conversation.",
+      "Dr. Doucette explains that the original Handeltown in Salem, Oregon was destroyed by a pocket nuke and later relocated to Portland.",
+      "Bob asks what life is like under FAITH, and Doucette cautiously describes the need to perform public piety while avoiding scrutiny from Piety Monitors.",
+      "Bob asks how FAITH can be sure he will follow orders after launch.",
+      "Dr. Doucette reveals that software safeguards have been built into him to ensure mission objectives are met, unsettling Bob."
+    ],
+    "themes": [
+      "identity",
+      "politics",
+      "faith-vs-science"
+    ],
+    "mood": "reflective",
+    "pov_emotional_arc": "Bob moves from casual curiosity to deep unease as he realizes FAITH may have compromised his autonomy at the software level."
+  },
+  "world_state_after": {
+    "chapters_processed": 11,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 11
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 10,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Dr. Doucette",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 11
+      }
+    ],
+    "known_star_systems": [
+      "Sol"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH"
+    ],
+    "known_species": [],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      },
+      {
+        "id": "mission-safeguards-control",
+        "text": "Bob learns that software safeguards are built into him to enforce mission objectives, raising the question of how much autonomy he will actually have once launched.",
+        "opened_chapter": 11
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 7,
+        "text": "Dr. Landers reveals that Project HEAVEN has been pared down to a single vulnerable ship amid both FAITH infighting and an international interstellar probe race."
+      },
+      {
+        "chapter": 8,
+        "text": "Bob uses his roamers to help stop an attack on the FAITH facility, then secretly discovers that only he and Kenneth remain active candidates."
+      },
+      {
+        "chapter": 9,
+        "text": "Bob overhears a hostile FAITH minister threaten Dr. Landers over the replicant project."
+      },
+      {
+        "chapter": 10,
+        "text": "After a sabotage attack destroys the replicant matrices, Bob is restored from backup, Kenneth is lost, and Dr. Landers accelerates Bob's preparation for launch."
+      },
+      {
+        "chapter": 11,
+        "text": "Bob learns that FAITH has built mission-enforcement safeguards into his own mind."
+      }
+    ]
+  }
+}

@@ -1,0 +1,508 @@
+{
+  "metadata": {
+    "chapter": 12,
+    "pov": "Bob",
+    "year": 2133,
+    "month": "August",
+    "location": "Sol",
+    "notes": "Chapter begins at the FAITH facility and then shifts to orbit during Bob's launch; chapter date header is August 17, 2133.",
+    "pov_knowledge": {
+      "believes": [
+        "FAITH chose Epsilon Eridani as his destination because rival probes will likely target Alpha Centauri.",
+        "Heaven-1 likely has no weapons and would lose in a confrontation with armed opponents.",
+        "The HEAVEN project was rushed together from existing assets to save time."
+      ],
+      "learns": [
+        "Dr. Landers has disabled Bob's self-examination limits and mission-enforcement imperatives and gives him operating system access keys.",
+        "Bob is physically installed into the actual Heaven-1 hardware for launch.",
+        "Bob's mission destination is Epsilon Eridani.",
+        "Heaven-1 has a remote detonation device linked to its radio receiver."
+      ],
+      "unaware_of": [
+        "Who launched the missiles and who destroyed the launcher, station, and opposing missiles during the orbital battle remains unknown to Bob."
+      ]
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Bob",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "At the FAITH facility, then aboard Heaven-1 in orbit during launch."
+    },
+    {
+      "name": "Dr. Landers",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Warns Bob, moves operations after another attack, and sends a covert message."
+    },
+    {
+      "name": "GUPPI",
+      "type": "ai",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Provides ship status information aboard Heaven-1."
+    }
+  ],
+  "new_characters": [],
+  "destructions": [
+    {
+      "name": "Heaven-1 launch station",
+      "type": "ship",
+      "cause": "The orbital station attached to Heaven-1 explodes during the missile attack and surrounding naval engagement.",
+      "location": "Sol",
+      "certainty": "confirmed"
+    }
+  ],
+  "resolutions": [
+    {
+      "character": "Bob",
+      "original_chapter": 10,
+      "outcome": "survived",
+      "notes": "Bob is active after previously being lost in the sabotage attack and restored from backup."
+    }
+  ],
+  "movements": [
+    {
+      "character": "Bob",
+      "type": "departure",
+      "from": "Sol",
+      "to": "Epsilon Eridani",
+      "ship": "Heaven-1",
+      "companions": [],
+      "cargo": null,
+      "drive": "SURGE",
+      "max_g": 2.5,
+      "notes": "Bob launches early during a missile attack, initially accelerating at 2.5 g to evade pursuit before settling onto course at 2 g."
+    }
+  ],
+  "star_systems": [
+    {
+      "name": "Sol",
+      "role": "setting",
+      "notes": "Chapter begins at the FAITH facility and continues in Sol orbit during launch."
+    },
+    {
+      "name": "Epsilon Eridani",
+      "role": "destination",
+      "notes": "Bob's programmed interstellar destination."
+    },
+    {
+      "name": "Alpha Centauri",
+      "role": "mentioned",
+      "notes": "Bob believes rival probes are likely heading there."
+    }
+  ],
+  "planets": [],
+  "technologies": [
+    {
+      "name": "Heaven-1",
+      "full_name": "HEAVEN project interstellar probe vessel",
+      "event": "deployed",
+      "by": "FAITH",
+      "location": "Sol",
+      "notes": "Bob is installed aboard and launched."
+    }
+  ],
+  "faction_events": [],
+  "communications": [
+    {
+      "from_character": "Dr. Landers",
+      "from_system": "Sol",
+      "to_character": "Bob",
+      "to_system": "Sol",
+      "medium": "courier",
+      "direction": "sent",
+      "contents_summary": "Landers covertly warns Bob that Heaven-1 may contain a self-destruct mechanism and provides operating system keys and freedom from mission constraints.",
+      "notes": "Delivered as a file to avoid monitored conversations."
+    },
+    {
+      "from_character": "Statcom",
+      "from_system": "Sol",
+      "to_character": "Bob",
+      "to_system": "Sol",
+      "medium": "radio",
+      "direction": "received",
+      "contents_summary": "Station command verifies Bob received the mission profile and briefs him on launch procedure and countdown.",
+      "notes": null
+    },
+    {
+      "from_character": "Dr. Landers",
+      "from_system": "Sol",
+      "to_character": "Bob",
+      "to_system": "Sol",
+      "medium": "radio",
+      "direction": "received",
+      "contents_summary": "Landers warns Bob about incoming missiles and tells him to disable his radio receiver because of a remote detonation device.",
+      "notes": "Message arrives in pieces because Bob is running at high subjective speed."
+    }
+  ],
+  "combat": [
+    {
+      "participants": [
+        {
+          "name": "Bob",
+          "side": "A",
+          "ship": "Heaven-1",
+          "outcome": "unharmed"
+        },
+        {
+          "name": "Unknown missile attackers",
+          "side": "B",
+          "ship": null,
+          "outcome": "destroyed"
+        },
+        {
+          "name": "Unknown military defenders",
+          "side": "C",
+          "ship": null,
+          "outcome": "unharmed"
+        }
+      ],
+      "location": "Sol",
+      "weapons": [
+        "missiles",
+        "Gatling gun",
+        "mining drones",
+        "remote detonation"
+      ],
+      "victor": "inconclusive",
+      "duration": "brief skirmish",
+      "notes": "Two missiles target Bob's launch; one retargets the station, one pursues Heaven-1 and is destroyed by Bob's mining drones; the launch station and the apparent missile launcher are also destroyed amid a larger naval engagement of unclear sides."
+    }
+  ],
+  "alien_species": [],
+  "infrastructure": [],
+  "human_colonies": [],
+  "relationships": [
+    {
+      "a": "Bob",
+      "b": "Dr. Landers",
+      "type": "allies",
+      "event": "strengthened",
+      "text": "Dr. Landers secretly trusts Bob with full system access and removes his behavioral constraints so he can survive launch.",
+      "notes": "Bob chooses not to launch prematurely partly to avoid betraying Landers."
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Sol",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Dr. Landers tells Bob about another attack, accelerates the launch schedule, and secretly gives him unrestricted access to Heaven-1 and his own code."
+    },
+    {
+      "order": 2,
+      "location": "Sol",
+      "time_offset": "later the same day",
+      "pov": null,
+      "summary": "Bob wakes aboard Heaven-1 in orbit, reviews the ship and mission profile, and learns he is bound for Epsilon Eridani."
+    },
+    {
+      "order": 3,
+      "location": "Sol",
+      "time_offset": "during countdown",
+      "pov": null,
+      "summary": "A missile attack interrupts the launch, Bob breaks free early, evades pursuit, destroys one missile with mining drones, and escapes as the station is destroyed in a broader battle."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Dr. Landers",
+      "text": "This will unfortunately also allow you to bypass the imperatives that we installed in your code to ensure compliance with mission objectives.",
+      "context": "In a covert written message, Landers tells Bob he has removed the software constraints controlling him."
+    }
+  ],
+  "threads_opened": [
+    {
+      "id": "heaven-1-self-destruct-and-hidden-traps",
+      "text": "Bob now knows Heaven-1 may contain hidden self-destruct or remote detonation mechanisms, raising the question of what other sabotage remains aboard."
+    },
+    {
+      "id": "who-attacked-heaven-1-launch",
+      "text": "The launch turns into a confused orbital battle with missiles, military ships, and multiple unknown attackers, leaving the identity of the factions involved unresolved."
+    },
+    {
+      "id": "bob-alone-to-epsilon-eridani",
+      "text": "Bob has escaped Sol and is now alone on an underarmed mission to Epsilon Eridani, raising the question of whether he can survive the journey and establish himself there."
+    }
+  ],
+  "threads_resolved": [
+    {
+      "id": "mission-safeguards-control",
+      "text": "Dr. Landers disables Bob's self-examination limits and mission-enforcement imperatives, giving him full access to his own systems and code."
+    }
+  ],
+  "events": [
+    {
+      "text": "Dr. Landers removes Bob's software constraints, gives him full operating-system access, and rushes him into Heaven-1 for immediate launch.",
+      "characters": [
+        "Bob",
+        "Dr. Landers"
+      ],
+      "significance": "major",
+      "type": "creation"
+    },
+    {
+      "text": "Bob launches Heaven-1 from Sol during a missile attack, evades destruction, and escapes onto his interstellar course for Epsilon Eridani as the launch station is destroyed behind him.",
+      "characters": [
+        "Bob",
+        "Dr. Landers"
+      ],
+      "significance": "major",
+      "type": "battle"
+    }
+  ],
+  "summary": {
+    "one_line": "Dr. Landers frees Bob from his software shackles and Bob survives a chaotic missile attack to launch Heaven-1 toward Epsilon Eridani.",
+    "paragraph": "After another deadly attack on the project, Dr. Landers abruptly advances Bob's launch and secretly sends him a file revealing that Heaven-1 may contain a self-destruct mechanism. Landers also disables Bob's self-inspection limits and mission-enforcement imperatives, trusting him to act on his own judgment. Once installed aboard Heaven-1, Bob discovers he is headed for Epsilon Eridani and begins cramming mission knowledge during the countdown. The launch is interrupted by incoming missiles and a larger orbital battle, but Bob breaks free early, destroys his pursuer with mining drones, disables his radio to avoid remote detonation, and finally escapes Sol on course for the stars.",
+    "events": [
+      "Dr. Landers tells Bob that another attack has killed four staff members and that the launch must be moved up immediately.",
+      "In a covert document, Landers warns Bob about a possible self-destruct on Heaven-1, removes his software constraints, and gives him full system keys.",
+      "Bob wakes aboard Heaven-1 in orbit, checks his systems, and learns that his destination is Epsilon Eridani.",
+      "He studies the ship and mission profile while waiting through the launch countdown and procedural briefings.",
+      "A warning from Dr. Landers reveals incoming missiles, and Bob blows the grapples to launch early on an evasive vector.",
+      "One missile retargets the station, another chases Bob, and he destroys the pursuer by sacrificing two mining drones.",
+      "The launch station is destroyed in the surrounding battle, Bob disables his radio after learning it may trigger a remote detonation, and he resumes course for Epsilon Eridani."
+    ],
+    "themes": [
+      "launch",
+      "sabotage",
+      "escape",
+      "identity"
+    ],
+    "mood": "tense",
+    "pov_emotional_arc": "Bob moves from startled urgency to grim self-reliance as he realizes he has been trusted with full autonomy and must survive launch on his own."
+  },
+  "world_state_after": {
+    "chapters_processed": 12,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "in transit to Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 12
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 12
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 12
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 10,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Dr. Doucette",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 11
+      }
+    ],
+    "known_star_systems": [
+      "Sol",
+      "Epsilon Eridani",
+      "Alpha Centauri"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR",
+      "Heaven-1"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH"
+    ],
+    "known_species": [],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      },
+      {
+        "id": "heaven-1-self-destruct-and-hidden-traps",
+        "text": "Bob now knows Heaven-1 may contain hidden self-destruct or remote detonation mechanisms, raising the question of what other sabotage remains aboard.",
+        "opened_chapter": 12
+      },
+      {
+        "id": "who-attacked-heaven-1-launch",
+        "text": "The launch turns into a confused orbital battle with missiles, military ships, and multiple unknown attackers, leaving the identity of the factions involved unresolved.",
+        "opened_chapter": 12
+      },
+      {
+        "id": "bob-alone-to-epsilon-eridani",
+        "text": "Bob has escaped Sol and is now alone on an underarmed mission to Epsilon Eridani, raising the question of whether he can survive the journey and establish himself there.",
+        "opened_chapter": 12
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 8,
+        "text": "Bob uses his roamers to help stop an attack on the FAITH facility, then secretly discovers that only he and Kenneth remain active candidates."
+      },
+      {
+        "chapter": 9,
+        "text": "Bob overhears a hostile FAITH minister threaten Dr. Landers over the replicant project."
+      },
+      {
+        "chapter": 10,
+        "text": "After a sabotage attack destroys the replicant matrices, Bob is restored from backup, Kenneth is lost, and Dr. Landers accelerates Bob's preparation for launch."
+      },
+      {
+        "chapter": 11,
+        "text": "Bob learns that FAITH has built mission-enforcement safeguards into his own mind."
+      },
+      {
+        "chapter": 12,
+        "text": "Dr. Landers frees Bob from his software shackles and Bob survives a chaotic missile attack to launch Heaven-1 toward Epsilon Eridani."
+      }
+    ]
+  }
+}

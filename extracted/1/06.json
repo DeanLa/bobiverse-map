@@ -1,0 +1,353 @@
+{
+  "metadata": {
+    "chapter": 6,
+    "pov": "Bob",
+    "year": 2133,
+    "month": "July",
+    "location": "Sol",
+    "notes": "Chapter contains two scenes on the same date at the FAITH facility; the second returns to simulation/training after Bob learns the project goal.",
+    "pov_knowledge": {
+      "believes": [
+        "FAITH is preparing one remaining replicant candidate besides himself for selection as the controlling intelligence of a Von Neumann probe.",
+        "The rejected replicant candidate was purged after Minister Travis deemed him unsuitable."
+      ],
+      "learns": [
+        "Two additional replicant candidates have been eliminated, leaving Bob and one other candidate.",
+        "FAITH's project is to select a replicant to control a Von Neumann probe."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Bob",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "At the FAITH facility, alternating between interview and simulation/training."
+    },
+    {
+      "name": "Dr. Landers",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Interviews Bob, reviews his performance, and reveals the project goal."
+    },
+    {
+      "name": "GUPPI",
+      "type": "ai",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Referenced through logs and as Bob's interface assistant during training."
+    },
+    {
+      "name": "Senior Minister Travis",
+      "type": "human",
+      "location": "Sol",
+      "status": "mentioned_only",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Mentioned as the authority who judged one candidate unsuitable."
+    }
+  ],
+  "new_characters": [],
+  "destructions": [
+    {
+      "name": "Unnamed replicant candidate",
+      "type": "replicant",
+      "cause": "The candidate suffered a psychotic break and was lost from consideration.",
+      "location": "Sol",
+      "certainty": "confirmed"
+    },
+    {
+      "name": "Unnamed replicant candidate",
+      "type": "replicant",
+      "cause": "Minister Travis deemed the candidate unsuitable and the Ministry purged him.",
+      "location": "Sol",
+      "certainty": "confirmed"
+    }
+  ],
+  "resolutions": [],
+  "movements": [],
+  "star_systems": [
+    {
+      "name": "Sol",
+      "role": "setting",
+      "notes": "FAITH facility and simulation training environment."
+    }
+  ],
+  "planets": [],
+  "technologies": [
+    {
+      "name": "Von Neumann probe",
+      "full_name": "Von Neumann probe",
+      "event": "mentioned",
+      "by": "FAITH",
+      "location": "Sol",
+      "notes": "Dr. Landers reveals that the project is to create a replicant-controlled interstellar self-replicating probe."
+    },
+    {
+      "name": "nanite",
+      "full_name": "nanite",
+      "event": "mentioned",
+      "by": null,
+      "location": "Sol",
+      "notes": "Bob notes that nanites exist below roamer scale but are single-purpose and limited."
+    }
+  ],
+  "faction_events": [],
+  "communications": [],
+  "combat": [],
+  "alien_species": [],
+  "infrastructure": [],
+  "human_colonies": [],
+  "relationships": [
+    {
+      "a": "Bob",
+      "b": "Dr. Landers",
+      "type": "working_partners",
+      "event": "strengthened",
+      "text": "Dr. Landers finally trusts Bob with the true purpose of the project after Bob performs well in prolonged isolated simulation.",
+      "notes": "The relationship becomes more open and cooperative."
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Sol",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Dr. Landers pulls Bob out of simulation, tells him two more candidates are gone, and reveals that the project is a replicant-controlled Von Neumann probe."
+    },
+    {
+      "order": 2,
+      "location": "Sol",
+      "time_offset": "later the same day",
+      "pov": null,
+      "summary": "Back in training, Bob coordinates multiple roamer sizes on repair tasks while excitedly studying newly released project documents."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Dr. Landers",
+      "text": "That is correct. We are preparing one of you to be the controlling intelligence for a Von Neumann probe.",
+      "context": "Dr. Landers finally reveals the real purpose of the replicant selection program."
+    }
+  ],
+  "threads_opened": [
+    {
+      "id": "von-neumann-probe-selection",
+      "text": "Bob now knows the project is a Von Neumann probe mission, but it remains unresolved whether he or the last rival candidate will be chosen."
+    }
+  ],
+  "threads_resolved": [
+    {
+      "id": "space-based-project-hint",
+      "text": "Dr. Landers confirms that Bob's training is for a space-based assignment as the controlling intelligence of a Von Neumann probe."
+    },
+    {
+      "id": "bob-assigned-project",
+      "text": "Bob finally learns that the undisclosed project is a Von Neumann probe mission."
+    }
+  ],
+  "events": [
+    {
+      "text": "Dr. Landers reveals that FAITH's secret project is to select a replicant to control a Von Neumann probe.",
+      "characters": [
+        "Bob",
+        "Dr. Landers"
+      ],
+      "significance": "major",
+      "type": "discovery"
+    },
+    {
+      "text": "Two more replicant candidates are eliminated, leaving Bob and one remaining rival in the selection process.",
+      "characters": [
+        "Bob",
+        "Dr. Landers",
+        "Senior Minister Travis"
+      ],
+      "significance": "major",
+      "type": "destruction"
+    }
+  ],
+  "summary": {
+    "one_line": "Bob learns that FAITH is training him to become the controlling intelligence of a Von Neumann probe, just as the candidate pool narrows to two.",
+    "paragraph": "Dr. Landers interrupts Bob's simulation to praise his performance under two days of subjective isolation and to discuss his temperament. In the conversation, Bob learns that two more replicant candidates have been removed from contention—one by psychotic break and one by ministerial purge—leaving only Bob and one rival. Landers then finally reveals the purpose of the project: one of them will become the controlling intelligence for a Von Neumann probe. Back in training, Bob throws himself into increasingly complex roamer coordination tasks and becomes exhilarated by the newly available project documentation and the prospect of going to the stars.",
+    "events": [
+      "Dr. Landers pulls Bob out of simulation and tells him he has performed exceptionally well during two days of subjective isolation.",
+      "Bob learns that two more replicant candidates are gone, including one who suffered a psychotic break and one who was purged after Minister Travis rejected him.",
+      "After asking about Bob's tolerance for solitude, Dr. Landers reveals that the project is to create a replicant-controlled Von Neumann probe.",
+      "Bob returns to training and coordinates multiple sizes of roamers on repair and fabrication tasks.",
+      "With access to project documents at last, Bob becomes intensely excited by the possibility that he will travel to the stars."
+    ],
+    "themes": [
+      "identity",
+      "exploration",
+      "selection",
+      "faith-vs-science"
+    ],
+    "mood": "hopeful",
+    "pov_emotional_arc": "Bob moves from impatience and guarded horror at FAITH's ruthlessness to exhilaration when he learns he might become an interstellar probe."
+  },
+  "world_state_after": {
+    "chapters_processed": 6,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      }
+    ],
+    "known_star_systems": [
+      "Sol"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH"
+    ],
+    "known_species": [],
+    "open_threads": [
+      {
+        "id": "replicant-project-competition",
+        "text": "Bob has been activated as one of five replicant candidates for a single undisclosed project, and his future depends on winning the selection.",
+        "opened_chapter": 2
+      },
+      {
+        "id": "sealed-training-room-security",
+        "text": "Bob notices the roamer training room is heavily sealed and wonders why the facility needs that level of security around him and the roamers.",
+        "opened_chapter": 3
+      },
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "von-neumann-probe-selection",
+        "text": "Bob now knows the project is a Von Neumann probe mission, but it remains unresolved whether he or the last rival candidate will be chosen.",
+        "opened_chapter": 6
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 2,
+        "text": "Bob awakens in 2133 to discover he is no longer human but a replicant owned by a company in the theocratic state of FAITH."
+      },
+      {
+        "chapter": 3,
+        "text": "Bob's training accelerates when he rapidly masters manipulator arms and ROAMers at the FAITH facility."
+      },
+      {
+        "chapter": 4,
+        "text": "Bob learns a rival replicant has gone irretrievably insane and realizes FAITH's control extends even to his access to history and family ties."
+      },
+      {
+        "chapter": 5,
+        "text": "A surprise ministerial inspection exposes FAITH's dangerous internal politics, and Bob is moved into a space-station simulation that hints at his real assignment."
+      },
+      {
+        "chapter": 6,
+        "text": "Bob learns that FAITH is training him to become the controlling intelligence of a Von Neumann probe, just as the candidate pool narrows to two."
+      }
+    ]
+  }
+}

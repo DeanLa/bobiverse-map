@@ -1,0 +1,916 @@
+{
+  "metadata": {
+    "chapter": 28,
+    "pov": "Calvin",
+    "year": 2163,
+    "month": "November",
+    "location": "Alpha Centauri",
+    "notes": "Chapter spans multiple scenes over several weeks within the Alpha Centauri system, including both Alpha Centauri B reconnaissance and Alpha Centauri A combat.",
+    "pov_knowledge": {
+      "believes": [
+        "The wreckage in Alpha Centauri B is from the missing USE probe being attacked by the Brazilian Empire.",
+        "The Brazilian probe that established the Alpha Centauri construction yard has already departed the system.",
+        "The escaping Brazilian vessel may be incomplete and poorly armed."
+      ],
+      "learns": [
+        "Alpha Centauri B is not a viable human colony candidate and contains only sparse planetary formation.",
+        "The missing USE probe reached Alpha Centauri B, built autofactory equipment and additional vessels, and was destroyed there.",
+        "Goku found an active Brazilian autofactory in Alpha Centauri A building four probes.",
+        "One Brazilian vessel escaped the attack on the Brazilian construction yard."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Calvin",
+      "type": "replicant",
+      "location": "Alpha Centauri",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "POV character conducting reconnaissance and later attacking the Brazilian construction yard."
+    },
+    {
+      "name": "GUPPI",
+      "type": "ai",
+      "location": "Alpha Centauri",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Calvin's AI assistant aboard Heaven-9."
+    },
+    {
+      "name": "Goku",
+      "type": "replicant",
+      "location": "Alpha Centauri",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Rendezvous partner who reconnoiters Alpha Centauri A and joins the attack."
+    },
+    {
+      "name": "Major Ernesto Medeiros",
+      "type": "replicant",
+      "location": "Alpha Centauri",
+      "status": "mentioned_only",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Identified as the Brazilian adversary behind the construction yard; not directly seen in person."
+    },
+    {
+      "name": "Bill",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "mentioned_only",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Calvin and Goku plan to report their findings back to him."
+    },
+    {
+      "name": "Linus",
+      "type": "replicant",
+      "location": "Alpha Centauri",
+      "status": "mentioned_only",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Part of the Alpha Centauri expedition but does not appear in this chapter."
+    },
+    {
+      "name": "Heaven-9",
+      "type": "ship",
+      "location": "Alpha Centauri",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Calvin's vessel."
+    },
+    {
+      "name": "Heaven-10",
+      "type": "ship",
+      "location": "Alpha Centauri",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Goku's vessel."
+    }
+  ],
+  "new_characters": [],
+  "destructions": [
+    {
+      "name": "Brazilian autofactory",
+      "type": "ship",
+      "cause": "Calvin and Goku's rail-gun attack destroys most of the Brazilian construction yard and manufacturing equipment in Alpha Centauri A.",
+      "location": "Alpha Centauri",
+      "certainty": "confirmed"
+    },
+    {
+      "name": "Brazilian probe 1",
+      "type": "ship",
+      "cause": "Destroyed in Calvin's opening rail-gun strike on the Brazilian construction yard.",
+      "location": "Alpha Centauri",
+      "certainty": "confirmed"
+    },
+    {
+      "name": "Brazilian probe 2",
+      "type": "ship",
+      "cause": "Destroyed in Calvin's opening rail-gun strike on the Brazilian construction yard.",
+      "location": "Alpha Centauri",
+      "certainty": "confirmed"
+    },
+    {
+      "name": "Brazilian probe 3",
+      "type": "ship",
+      "cause": "Destroyed in Calvin's opening rail-gun strike on the Brazilian construction yard.",
+      "location": "Alpha Centauri",
+      "certainty": "confirmed"
+    },
+    {
+      "name": "Brazilian missile 1",
+      "type": "ship",
+      "cause": "Destroyed by Goku during his pass through the construction yard engagement.",
+      "location": "Alpha Centauri",
+      "certainty": "confirmed"
+    },
+    {
+      "name": "Brazilian missile 2",
+      "type": "ship",
+      "cause": "Destroyed by Goku during his pass through the construction yard engagement.",
+      "location": "Alpha Centauri",
+      "certainty": "confirmed"
+    },
+    {
+      "name": "Brazilian missile 3",
+      "type": "ship",
+      "cause": "Destroyed by Goku during his pass through the construction yard engagement.",
+      "location": "Alpha Centauri",
+      "certainty": "confirmed"
+    },
+    {
+      "name": "Brazilian missile 4",
+      "type": "ship",
+      "cause": "Destroyed when Calvin's paired busters intercept it after it dodges the first buster.",
+      "location": "Alpha Centauri",
+      "certainty": "confirmed"
+    }
+  ],
+  "resolutions": [
+    {
+      "character": "missing USE probe",
+      "original_chapter": 26,
+      "outcome": "confirmed_destroyed",
+      "notes": "Calvin identifies USE wreckage and destroyed autofactory equipment in Alpha Centauri B, indicating the lost USE probe was destroyed there."
+    }
+  ],
+  "movements": [
+    {
+      "character": "Calvin",
+      "type": "arrival",
+      "from": "in_transit",
+      "to": "Alpha Centauri",
+      "ship": "Heaven-9",
+      "companions": [
+        "GUPPI"
+      ],
+      "cargo": null,
+      "drive": "SURGE",
+      "max_g": null,
+      "notes": "Calvin begins reconnaissance of Alpha Centauri B after arriving in the system."
+    }
+  ],
+  "star_systems": [
+    {
+      "name": "Alpha Centauri",
+      "role": "setting",
+      "notes": "Chapter takes place across both Alpha Centauri A and B."
+    },
+    {
+      "name": "Epsilon Eridani",
+      "role": "mentioned",
+      "notes": "Bill is the intended recipient of Calvin and Goku's report."
+    }
+  ],
+  "planets": [
+    {
+      "name": "Alpha Centauri B 1",
+      "star_system": "Alpha Centauri",
+      "orbital_position": 1,
+      "type": "rocky",
+      "habitable": false,
+      "features": "Small Mercury-like inner planet.",
+      "life": null,
+      "status": "surveyed",
+      "notes": "Observed during Calvin's reconnaissance of Alpha Centauri B."
+    },
+    {
+      "name": "Alpha Centauri B asteroid belt",
+      "star_system": "Alpha Centauri",
+      "orbital_position": null,
+      "type": "asteroid_belt",
+      "habitable": false,
+      "features": "Contains wreckage from a destroyed USE vessel, autofactory equipment, and two to three vessels.",
+      "life": null,
+      "status": "surveyed",
+      "notes": "Calvin finds the remains of the missing USE expedition here."
+    },
+    {
+      "name": "Alpha Centauri B inner asteroid belt",
+      "star_system": "Alpha Centauri",
+      "orbital_position": null,
+      "type": "asteroid_belt",
+      "habitable": false,
+      "features": "Occupies the Comfort Zone instead of a habitable planet.",
+      "life": null,
+      "status": "surveyed",
+      "notes": "Part of why Alpha Centauri B is judged unsuitable for humanity."
+    },
+    {
+      "name": "Alpha Centauri A comfort-zone planet",
+      "star_system": "Alpha Centauri",
+      "orbital_position": null,
+      "type": "rocky",
+      "habitable": null,
+      "features": "Planet in the comfort zone, not yet closely resolved.",
+      "life": null,
+      "status": "mentioned",
+      "notes": "Goku reports its existence and Calvin and Goku plan to inspect it next."
+    }
+  ],
+  "technologies": [
+    {
+      "name": "modified SUDDAR array",
+      "full_name": "Modified SUDDAR array with adjustable range up to three light hours",
+      "event": "upgraded",
+      "by": "Bill",
+      "location": "Alpha Centauri",
+      "notes": "Calvin's scouts use an extended-range version based on Bill's earlier research."
+    }
+  ],
+  "faction_events": [
+    {
+      "faction": "Brazilian Empire",
+      "type": "war_declared",
+      "counterparty": "Bobs",
+      "text": "Calvin treats the Brazilian Empire and the Bobs as effectively at war and acts on the prior group consensus to attack Medeiros's Alpha Centauri base on sight.",
+      "location": "Alpha Centauri",
+      "notes": "Presented as accepted operational reality rather than a formal diplomatic declaration."
+    }
+  ],
+  "communications": [
+    {
+      "from_character": "Calvin",
+      "from_system": "Alpha Centauri",
+      "to_character": "Goku",
+      "to_system": "Alpha Centauri",
+      "medium": "radio",
+      "direction": "sent",
+      "contents_summary": "Calvin sends Goku images of the USE wreckage found in Alpha Centauri B before their rendezvous.",
+      "notes": null
+    },
+    {
+      "from_character": "Calvin",
+      "from_system": "Alpha Centauri",
+      "to_character": "Bill",
+      "to_system": "Epsilon Eridani",
+      "medium": "radio",
+      "direction": "sent",
+      "contents_summary": "Calvin and Goku decide to report the Brazilian construction yard battle and their recommendation for combat-class expansion in Alpha Centauri.",
+      "notes": "The chapter states they plan to send this back to Bill; transmission itself is implied at scene end."
+    }
+  ],
+  "combat": [
+    {
+      "participants": [
+        {
+          "name": "Calvin",
+          "side": "A",
+          "ship": "Heaven-9",
+          "outcome": "unharmed"
+        },
+        {
+          "name": "Goku",
+          "side": "A",
+          "ship": "Heaven-10",
+          "outcome": "unharmed"
+        },
+        {
+          "name": "Major Ernesto Medeiros",
+          "side": "B",
+          "ship": null,
+          "outcome": "retreated"
+        },
+        {
+          "name": "Brazilian autofactory",
+          "side": "B",
+          "ship": null,
+          "outcome": "destroyed"
+        },
+        {
+          "name": "Brazilian probe 1",
+          "side": "B",
+          "ship": null,
+          "outcome": "destroyed"
+        },
+        {
+          "name": "Brazilian probe 2",
+          "side": "B",
+          "ship": null,
+          "outcome": "destroyed"
+        },
+        {
+          "name": "Brazilian probe 3",
+          "side": "B",
+          "ship": null,
+          "outcome": "destroyed"
+        },
+        {
+          "name": "Brazilian probe 4",
+          "side": "B",
+          "ship": null,
+          "outcome": "retreated"
+        }
+      ],
+      "location": "Alpha Centauri",
+      "weapons": [
+        "rail gun cannonballs",
+        "busters",
+        "SURGE jammer",
+        "missiles",
+        "SUDDAR ping"
+      ],
+      "victor": "A",
+      "duration": "brief skirmish",
+      "notes": "Calvin and Goku execute a high-speed surprise attack on the Brazilian construction yard in Alpha Centauri A; one Brazilian vessel escapes."
+    }
+  ],
+  "alien_species": [],
+  "infrastructure": [
+    {
+      "system": "Alpha Centauri",
+      "type": "autofactory",
+      "event": "established",
+      "owner": "Calvin",
+      "notes": "Calvin concludes Alpha Centauri B has sufficient resources and plans to set up an autofactory there if time permits."
+    },
+    {
+      "system": "Alpha Centauri",
+      "type": "autofactory",
+      "event": "destroyed",
+      "owner": "Brazilian Empire",
+      "notes": "The Brazilian construction yard in Alpha Centauri A is largely destroyed in Calvin and Goku's attack."
+    }
+  ],
+  "human_colonies": [],
+  "relationships": [
+    {
+      "a": "Calvin",
+      "b": "Goku",
+      "type": "allies",
+      "event": "strengthened",
+      "text": "Calvin and Goku coordinate effectively in reconnaissance and combat, reinforcing their operational partnership despite their teasing friction.",
+      "notes": null
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Alpha Centauri",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Calvin silently reconnoiters Alpha Centauri B, launches scouts, and surveys the sparse system."
+    },
+    {
+      "order": 2,
+      "location": "Alpha Centauri",
+      "time_offset": "later",
+      "pov": null,
+      "summary": "Calvin's scouts find wreckage in the Alpha Centauri B asteroid belt that he identifies as the missing USE expedition."
+    },
+    {
+      "order": 3,
+      "location": "Alpha Centauri",
+      "time_offset": "about eight days later",
+      "pov": null,
+      "summary": "Calvin rendezvous with Goku, learns of an active Brazilian autofactory in Alpha Centauri A, and agrees to attack it."
+    },
+    {
+      "order": 4,
+      "location": "Alpha Centauri",
+      "time_offset": "about two weeks later",
+      "pov": null,
+      "summary": "Calvin and Goku execute a surprise high-speed strike that destroys most of the Brazilian construction yard and all four incoming missiles, but one Brazilian vessel escapes."
+    },
+    {
+      "order": 5,
+      "location": "Alpha Centauri",
+      "time_offset": "fifteen days later",
+      "pov": null,
+      "summary": "After inspecting the wreckage, Calvin and Goku conclude Alpha Centauri needs combat-class Bob expansion and further survey of Alpha Centauri A's comfort-zone planet."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Goku",
+      "text": "As cliché as it sounds, the galaxy isn’t big enough for both of us.",
+      "context": "Goku justifies attacking Medeiros's Brazilian operation rather than waiting for a peace overture."
+    }
+  ],
+  "threads_opened": [
+    {
+      "id": "alpha-centauri-escaped-brazilian-probe",
+      "text": "One Brazilian vessel escapes the destruction of the Alpha Centauri construction yard, leaving its destination and future threat unresolved."
+    },
+    {
+      "id": "alpha-centauri-combat-bob-expansion",
+      "text": "Calvin and Goku conclude Alpha Centauri should be reinforced with combat-class Bobs, raising the question of whether Bill will approve and send them."
+    }
+  ],
+  "threads_resolved": [
+    {
+      "id": "missing-use-probe",
+      "text": "Calvin finds wreckage in Alpha Centauri B showing that the missing USE probe reached the system, began building copies, and was destroyed there."
+    }
+  ],
+  "events": [
+    {
+      "text": "Calvin discovers the missing USE probe's wreckage in Alpha Centauri B, confirming it reached the system and was destroyed after beginning replication.",
+      "characters": [
+        "Calvin"
+      ],
+      "significance": "major",
+      "type": "discovery"
+    },
+    {
+      "text": "Calvin and Goku destroy the Brazilian construction yard in Alpha Centauri A, wiping out the autofactory, three nearly completed probes, and four missiles while one Brazilian vessel escapes.",
+      "characters": [
+        "Calvin",
+        "Goku",
+        "Major Ernesto Medeiros"
+      ],
+      "significance": "major",
+      "type": "battle"
+    }
+  ],
+  "summary": {
+    "one_line": "Calvin finds the lost USE probe's wreckage in Alpha Centauri B, then joins Goku in destroying a Brazilian construction yard in Alpha Centauri A.",
+    "paragraph": "Calvin's stealth reconnaissance of Alpha Centauri B shows it is a poor colony candidate, but it does uncover the remains of the missing USE expedition in the asteroid belt. At a rendezvous between the two stars, Goku reports an active Brazilian autofactory in Alpha Centauri A building new probes, and the two Bobs decide to attack under the standing consensus that Medeiros has already made peace impossible. Their high-speed surprise strike devastates the yard, destroys most of the Brazilian assets, and eliminates four incoming missiles, though one Brazilian vessel escapes. Afterward, Calvin and Goku conclude that Alpha Centauri now needs combat-class Bob reinforcements and further survey of the potentially habitable planet around Alpha Centauri A.",
+    "events": [
+      "Calvin silently surveys Alpha Centauri B and finds it sparse, with no promising habitable world for humanity.",
+      "His scouts discover wreckage in the asteroid belt that he identifies as the missing USE probe and its destroyed replication effort.",
+      "Calvin rendezvous with Goku between Alpha Centauri A and B and learns that Goku has found an active Brazilian autofactory building four probes around Alpha Centauri A.",
+      "The two Bobs carry out a coordinated surprise attack, with Calvin drawing attention and Goku striking from behind.",
+      "Their assault destroys most of the construction yard, three Brazilian probes, and all four incoming missiles, but one Brazilian vessel escapes.",
+      "After inspecting the wreckage, Calvin and Goku decide Alpha Centauri should be reinforced with combat-class Bobs and that Alpha Centauri A's comfort-zone planet needs closer inspection."
+    ],
+    "themes": [
+      "combat",
+      "exploration",
+      "strategy",
+      "colonization"
+    ],
+    "mood": "tense",
+    "pov_emotional_arc": "Calvin moves from patient, frustrated reconnaissance into reluctant acceptance of violence, then ends the chapter grimly satisfied but uneasy about the escaped Brazilian threat."
+  },
+  "world_state_after": {
+    "chapters_processed": 28,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "in transit to Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 27
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 10,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Dr. Doucette",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Spike",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 27
+      },
+      {
+        "name": "Jeeves",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Major Ernesto Medeiros",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Serra do Mar",
+        "type": "ship",
+        "location": "Epsilon Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 15,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Bill",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Riker",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 27
+      },
+      {
+        "name": "Milo",
+        "type": "replicant",
+        "location": "in transit to 82 Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 27
+      },
+      {
+        "name": "Mario",
+        "type": "replicant",
+        "location": "in transit to Beta Hydri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 27
+      },
+      {
+        "name": "Homer",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 26
+      },
+      {
+        "name": "Garfield",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 25
+      },
+      {
+        "name": "Calvin",
+        "type": "replicant",
+        "location": "Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Goku",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Linus",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Captain Matias Araújo",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 24,
+        "last_seen_chapter": 24
+      },
+      {
+        "name": "Colonel George Butterworth",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 26
+      },
+      {
+        "name": "Delta Eridani 4 natives",
+        "type": "alien_species",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 27
+      }
+    ],
+    "known_star_systems": [
+      "Sol",
+      "Epsilon Eridani",
+      "Alpha Centauri",
+      "Delta Eridani",
+      "Omicron Eridani",
+      "Beta Hydri",
+      "82 Eridani"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon",
+      "Saturn",
+      "Titan",
+      "Epsilon Eridani 1",
+      "Epsilon Eridani 2",
+      "Epsilon Eridani inner asteroid belt",
+      "Epsilon Eridani 4",
+      "Epsilon Eridani outer asteroid belt",
+      "Epsilon Eridani 5",
+      "Epsilon Eridani 3",
+      "Ragnarök",
+      "Omicron Eridani asteroid belt",
+      "OE-1A",
+      "OE-1B",
+      "OE-2",
+      "Jupiter",
+      "Vulcan",
+      "Romulus",
+      "Delta Eridani 4",
+      "Delta Eridani asteroid belt",
+      "Delta Eridani 1",
+      "Delta Eridani 2",
+      "Delta Eridani 3",
+      "Delta Eridani 5",
+      "Alpha Centauri B 1",
+      "Alpha Centauri B asteroid belt",
+      "Alpha Centauri B inner asteroid belt",
+      "Alpha Centauri A comfort-zone planet"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR",
+      "Heaven-1",
+      "VR interface",
+      "SURGE drive weapon",
+      "exploration scouts",
+      "Heaven-2",
+      "Heaven-1A",
+      "exploration drone",
+      "subspace transmission",
+      "SURGE drive missile",
+      "Heaven-9",
+      "Heaven-10",
+      "modified SUDDAR array"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH",
+      "Brazilian Empire",
+      "USE"
+    ],
+    "known_species": [
+      "Vulcan and Romulus native life",
+      "Delta Eridani 4 natives"
+    ],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      },
+      {
+        "id": "who-attacked-heaven-1-launch",
+        "text": "The launch turns into a confused orbital battle with missiles, military ships, and multiple unknown attackers, leaving the identity of the factions involved unresolved.",
+        "opened_chapter": 12
+      },
+      {
+        "id": "earth-nuclear-war-escalation",
+        "text": "Bob detects apparent nuclear detonations on Earth after hearing of escalating conflict, leaving the scale of the war and Sol's survival uncertain.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "bob-grief-after-endocrine-control",
+        "text": "After disabling his endocrine control system, Bob begins fully mourning his lost human life, raising the question of how this emotional release will affect him going forward.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "other-national-probes-still-out-there",
+        "text": "Bob concludes that at least one more Brazilian Empire ship exists and that USE, Chinese, and possibly Australian probes may also be active somewhere in space.",
+        "opened_chapter": 15
+      },
+      {
+        "id": "first-bob-cohort-divergence",
+        "text": "Bob's first cohort of clones diverges in personality immediately, raising questions about how future Bob society and identity will evolve.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "omicron-eridani-biocompatibility",
+        "text": "Milo has found two apparently habitable living worlds at Omicron Eridani, but it remains unresolved whether Earth life and humans are biologically compatible with them.",
+        "opened_chapter": 19
+      },
+      {
+        "id": "milo-82-eridani-expedition",
+        "text": "Milo departs for 82 Eridani, opening the question of what he will find there.",
+        "opened_chapter": 23
+      },
+      {
+        "id": "subspace-communication-network-rollout",
+        "text": "Bill and Garfield now have a working subspace communications system, raising the question of how quickly they can deploy it across multiple star systems.",
+        "opened_chapter": 25
+      },
+      {
+        "id": "use-colony-ship-evacuation-plan",
+        "text": "Riker and Colonel Butterworth agree to try building colony ships in Sol, raising the question of whether the surviving humans can endure long enough to launch them and where they will go.",
+        "opened_chapter": 26
+      },
+      {
+        "id": "delta-eridani-first-contact",
+        "text": "Bob has discovered intelligent fire-using natives on Delta Eridani 4, raising the question of whether and how he will make first contact.",
+        "opened_chapter": 27
+      },
+      {
+        "id": "alpha-centauri-escaped-brazilian-probe",
+        "text": "One Brazilian vessel escapes the destruction of the Alpha Centauri construction yard, leaving its destination and future threat unresolved.",
+        "opened_chapter": 28
+      },
+      {
+        "id": "alpha-centauri-combat-bob-expansion",
+        "text": "Calvin and Goku conclude Alpha Centauri should be reinforced with combat-class Bobs, raising the question of whether Bill will approve and send them.",
+        "opened_chapter": 28
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 24,
+        "text": "Riker and Homer wipe out the Brazilian force in Sol and save Earth from four extinction-level asteroid strikes."
+      },
+      {
+        "chapter": 25,
+        "text": "Bill and Garfield achieve a breakthrough by successfully testing real-time subspace communication."
+      },
+      {
+        "chapter": 26,
+        "text": "Riker's mysterious hail turns out to be surviving USE forces, who ask for Bob help to build colony ships and evacuate humanity from dying Earth."
+      },
+      {
+        "chapter": 27,
+        "text": "Bob reaches Delta Eridani, starts building up the system, and discovers intelligent alien life on its promising habitable world."
+      },
+      {
+        "chapter": 28,
+        "text": "Calvin finds the lost USE probe's wreckage in Alpha Centauri B, then joins Goku in destroying a Brazilian construction yard in Alpha Centauri A."
+      }
+    ]
+  }
+}

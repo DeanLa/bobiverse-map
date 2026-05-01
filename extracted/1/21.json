@@ -1,0 +1,604 @@
+{
+  "metadata": {
+    "chapter": 21,
+    "pov": "Riker",
+    "year": 2157,
+    "month": "January",
+    "location": "Sol",
+    "notes": "Chapter spans multiple scenes over at least several weeks during covert reconnaissance in the outer Solar System and near Jupiter.",
+    "pov_knowledge": {
+      "believes": [
+        "The war in Sol is probably over by the time he arrives, though he remains cautious.",
+        "The only active reactor signatures in the system may not belong to surviving humans.",
+        "The detected Brazilian probes are probably controlled by Medeiros clones."
+      ],
+      "learns": [
+        "Sol appears heavily devastated by nuclear strikes, with Earth looking severely damaged from long-range imaging.",
+        "A group of six Brazilian probe signatures is active in Sol.",
+        "Brazilian missiles in Sol now appear to use SURGE drives.",
+        "Four large objects associated with four Brazilian probes are on trajectories to strike Earth one day apart, apparently as asteroid bombardments."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Riker",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Conducting covert reconnaissance in the outer Solar System and later operating the decoy near Jupiter."
+    },
+    {
+      "name": "Homer",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Accompanies Riker on the Sol reconnaissance mission and analyzes telemetry."
+    },
+    {
+      "name": "GUPPI",
+      "type": "ai",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Assists Riker aboard Heaven-2A."
+    }
+  ],
+  "new_characters": [],
+  "destructions": [
+    {
+      "name": "decoy vessel",
+      "type": "ship",
+      "cause": "A Brazilian probe pair intercepted the decoy and destroyed it with missiles after it accelerated away.",
+      "location": "Sol",
+      "certainty": "confirmed"
+    }
+  ],
+  "resolutions": [],
+  "movements": [],
+  "star_systems": [
+    {
+      "name": "Sol",
+      "role": "setting",
+      "notes": "Riker and Homer covertly survey the system."
+    }
+  ],
+  "planets": [
+    {
+      "name": "Earth",
+      "star_system": "Sol",
+      "orbital_position": 3,
+      "type": "rocky",
+      "habitable": true,
+      "features": "Long-range imaging shows severe devastation from widespread nuclear strikes.",
+      "life": null,
+      "status": "mentioned",
+      "notes": "Four apparent asteroid strikes are being staged against Earth by Brazilian probes."
+    },
+    {
+      "name": "Jupiter",
+      "star_system": "Sol",
+      "orbital_position": 5,
+      "type": "gas_giant",
+      "habitable": false,
+      "features": null,
+      "life": null,
+      "status": "mentioned",
+      "notes": "The decoy crosses Jupiter's orbit and the interception occurs near Jupiter orbit."
+    }
+  ],
+  "technologies": [
+    {
+      "name": "SURGE drive missile",
+      "full_name": null,
+      "event": "deployed",
+      "by": "Brazilian Empire",
+      "location": "Sol",
+      "notes": "Riker and Homer identify that the Brazilian probes' missiles now use SURGE drives."
+    }
+  ],
+  "faction_events": [],
+  "communications": [
+    {
+      "from_character": "Homer",
+      "from_system": "Sol",
+      "to_character": "Riker",
+      "to_system": "Sol",
+      "medium": "BobNet",
+      "direction": "both",
+      "contents_summary": "Homer and Riker compare reconnaissance findings, then later discuss the decoy telemetry and conclude the Brazilians are staging asteroid strikes on Earth.",
+      "notes": "Real-time Bob-to-Bob communication within the same system."
+    }
+  ],
+  "combat": [
+    {
+      "participants": [
+        {
+          "name": "decoy vessel",
+          "side": "A",
+          "ship": null,
+          "outcome": "destroyed"
+        },
+        {
+          "name": "Brazilian probes",
+          "side": "B",
+          "ship": null,
+          "outcome": "unharmed"
+        }
+      ],
+      "location": "Sol",
+      "weapons": [
+        "SURGE drive missiles"
+      ],
+      "victor": "B",
+      "duration": "brief skirmish",
+      "notes": "The decoy intentionally lures two Brazilian probes into revealing their capabilities before being destroyed."
+    }
+  ],
+  "alien_species": [],
+  "infrastructure": [],
+  "human_colonies": [],
+  "relationships": [
+    {
+      "a": "Riker",
+      "b": "Homer",
+      "type": "working_partners",
+      "event": "strained",
+      "text": "Riker and Homer continue working together effectively on the Sol mission, but Riker is increasingly irritated by Homer's personality and jokes.",
+      "notes": null
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Sol",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Riker and Homer covertly survey the outer Solar System, confirm widespread devastation, and identify a small group of active reactor signatures on trajectories toward Earth."
+    },
+    {
+      "order": 2,
+      "location": "Sol",
+      "time_offset": "Several weeks later",
+      "pov": null,
+      "summary": "After withdrawing to a safe distance, Riker and Homer prepare to use their decoy to investigate the unidentified signatures."
+    },
+    {
+      "order": 3,
+      "location": "Sol",
+      "time_offset": "Later",
+      "pov": null,
+      "summary": "The decoy approaches Jupiter orbit, draws in two Brazilian probes, and is destroyed after revealing upgraded missiles and the presence of four more probes with large objects aimed at Earth."
+    }
+  ],
+  "incoming_threats": [
+    {
+      "threat": "Brazilian asteroid bombardment of Earth",
+      "detected_at": "Sol",
+      "origin": null,
+      "eta_year": 2157,
+      "nature": "hostile",
+      "notes": "Four large objects apparently paired with four Brazilian probes are on staggered trajectories to hit Earth twenty-four hours apart."
+    }
+  ],
+  "quotes": [
+    {
+      "speaker": "Homer",
+      "text": "Son of a bitch. They’re dropping asteroids on the Earth.",
+      "context": "Homer and Riker realize the Brazilian probes are guiding large impactors toward Earth."
+    }
+  ],
+  "threads_opened": [
+    {
+      "id": "brazilian-asteroid-strike-on-earth",
+      "text": "Riker and Homer discover that Brazilian probes appear to be staging four asteroid impacts on Earth, but they have not yet acted to stop them."
+    }
+  ],
+  "threads_resolved": [],
+  "events": [
+    {
+      "text": "Riker and Homer complete a covert reconnaissance of Sol and find Earth heavily devastated, with only a small cluster of active reactor signatures remaining in the system.",
+      "characters": [
+        "Riker",
+        "Homer"
+      ],
+      "significance": "major",
+      "type": "discovery"
+    },
+    {
+      "text": "Riker and Homer use a decoy to identify six Brazilian probes in Sol, discover that their missiles now use SURGE drives, and realize four of the probes are guiding asteroids toward Earth.",
+      "characters": [
+        "Riker",
+        "Homer"
+      ],
+      "significance": "major",
+      "type": "discovery"
+    }
+  ],
+  "summary": {
+    "one_line": "Riker's covert return to Sol reveals a devastated Earth and a Brazilian asteroid attack already in progress.",
+    "paragraph": "Riker and Homer enter Sol cautiously, using heavy shielding and stealthy powered orbits to survey the system without revealing themselves. Their scans show extensive nuclear devastation across Earth and only a handful of active reactor signatures left in the system. To learn more, they send in a decoy vessel near Jupiter, where it is intercepted and destroyed by Brazilian probes using upgraded SURGE-driven missiles. The telemetry reveals at least six Brazilian probes in Sol, and Riker and Homer realize that four of them are shepherding large asteroids toward Earth on staggered impact schedules.",
+    "events": [
+      "Riker arrives in Sol with Homer and begins a cautious covert survey of the outer Solar System.",
+      "Long-range scans show widespread radiation from nuclear strikes and a badly damaged Earth, with only one small cluster of active reactor signatures left in the system.",
+      "Riker and Homer withdraw to a safer distance and prepare to investigate the signatures using their decoy vessel.",
+      "The decoy approaches Jupiter orbit and draws an interception by two Brazilian probes.",
+      "Before the decoy is destroyed, it reveals that the Brazilians now have SURGE-driven missiles and that at least six probes are active in the system.",
+      "Riker and Homer analyze the telemetry and realize four of the probes are guiding large asteroids toward Earth on staggered trajectories."
+    ],
+    "themes": [
+      "exploration",
+      "combat",
+      "politics",
+      "dread"
+    ],
+    "mood": "dread",
+    "pov_emotional_arc": "Riker begins the chapter with wary nostalgia about returning home, but his mood hardens into shock and horror as he discovers both Earth's devastation and the imminent Brazilian asteroid attack."
+  },
+  "world_state_after": {
+    "chapters_processed": 21,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "in transit to Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 18
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 21
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 10,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Dr. Doucette",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Spike",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Jeeves",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Major Ernesto Medeiros",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Serra do Mar",
+        "type": "ship",
+        "location": "Epsilon Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 15,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Bill",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 20
+      },
+      {
+        "name": "Riker",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 21
+      },
+      {
+        "name": "Milo",
+        "type": "replicant",
+        "location": "Omicron Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 19
+      },
+      {
+        "name": "Mario",
+        "type": "replicant",
+        "location": "in transit to Beta Hydri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 18
+      },
+      {
+        "name": "Homer",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 21
+      },
+      {
+        "name": "Garfield",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 20
+      }
+    ],
+    "known_star_systems": [
+      "Sol",
+      "Epsilon Eridani",
+      "Alpha Centauri",
+      "Delta Eridani",
+      "Omicron Eridani",
+      "Beta Hydri"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon",
+      "Saturn",
+      "Titan",
+      "Epsilon Eridani 1",
+      "Epsilon Eridani 2",
+      "Epsilon Eridani inner asteroid belt",
+      "Epsilon Eridani 4",
+      "Epsilon Eridani outer asteroid belt",
+      "Epsilon Eridani 5",
+      "Epsilon Eridani 3",
+      "Ragnarök",
+      "Omicron Eridani asteroid belt",
+      "OE-1A",
+      "OE-1B",
+      "OE-2",
+      "Jupiter"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR",
+      "Heaven-1",
+      "VR interface",
+      "SURGE drive weapon",
+      "exploration scouts",
+      "Heaven-2",
+      "Heaven-1A",
+      "exploration drone",
+      "subspace transmission",
+      "SURGE drive missile"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH",
+      "Brazilian Empire"
+    ],
+    "known_species": [
+      "Vulcan and Romulus native life"
+    ],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      },
+      {
+        "id": "who-attacked-heaven-1-launch",
+        "text": "The launch turns into a confused orbital battle with missiles, military ships, and multiple unknown attackers, leaving the identity of the factions involved unresolved.",
+        "opened_chapter": 12
+      },
+      {
+        "id": "earth-nuclear-war-escalation",
+        "text": "Bob detects apparent nuclear detonations on Earth after hearing of escalating conflict, leaving the scale of the war and Sol's survival uncertain.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "bob-grief-after-endocrine-control",
+        "text": "After disabling his endocrine control system, Bob begins fully mourning his lost human life, raising the question of how this emotional release will affect him going forward.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "other-national-probes-still-out-there",
+        "text": "Bob concludes that at least one more Brazilian Empire ship exists and that USE, Chinese, and possibly Australian probes may also be active somewhere in space.",
+        "opened_chapter": 15
+      },
+      {
+        "id": "first-bob-cohort-divergence",
+        "text": "Bob's first cohort of clones diverges in personality immediately, raising questions about how future Bob society and identity will evolve.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "riker-sol-recon-mission",
+        "text": "Riker is considering a cautious reconnaissance mission back toward Sol to find out what happened to Earth.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "bill-subspace-research",
+        "text": "Bill suspects weak SUDDAR emissions may reveal new subspace behavior and plans to investigate the theory from Epsilon Eridani.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "omicron-eridani-biocompatibility",
+        "text": "Milo has found two apparently habitable living worlds at Omicron Eridani, but it remains unresolved whether Earth life and humans are biologically compatible with them.",
+        "opened_chapter": 19
+      },
+      {
+        "id": "brazilian-asteroid-strike-on-earth",
+        "text": "Riker and Homer discover that Brazilian probes appear to be staging four asteroid impacts on Earth, but they have not yet acted to stop them.",
+        "opened_chapter": 21
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 17,
+        "text": "Bob creates his first four clones, upgrades into Heaven-1A, and watches the new Bobs immediately begin diverging into distinct personalities and missions."
+      },
+      {
+        "chapter": 18,
+        "text": "Bill watches the first Bob cohort disperse from Epsilon Eridani as he prepares new clones and Riker's Sol mission hardware."
+      },
+      {
+        "chapter": 19,
+        "text": "Milo reaches Omicron Eridani, finds a spectacular habitable double world he names Vulcan and Romulus, and begins building the infrastructure to explore it properly."
+      },
+      {
+        "chapter": 20,
+        "text": "Riker and Homer finally depart for Sol while Bill and Garfield settle into research work at Epsilon Eridani."
+      },
+      {
+        "chapter": 21,
+        "text": "Riker's covert return to Sol reveals a devastated Earth and a Brazilian asteroid attack already in progress."
+      }
+    ]
+  }
+}

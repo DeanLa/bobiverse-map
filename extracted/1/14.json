@@ -1,0 +1,506 @@
+{
+  "metadata": {
+    "chapter": 14,
+    "pov": "Bob",
+    "year": 2144,
+    "month": "August",
+    "location": "Epsilon Eridani",
+    "notes": null,
+    "pov_knowledge": {
+      "believes": [
+        "The Brazilian probe is likely coming to Epsilon Eridani and may be trying to arrive earlier than Bob calculated by masking its true acceleration.",
+        "If the Brazilian probe establishes itself and begins making copies first, it could trigger a runaway interstellar replication race.",
+        "Bob believes he must confront the Brazilian probe at Epsilon Eridani rather than flee to another system."
+      ],
+      "learns": [
+        "Epsilon Eridani contains two inner rocky planets, an inner asteroid belt, a Jovian planet, an outer asteroid belt, a Neptune-like outer planet, and a distant Kuiper belt.",
+        "The inner asteroid belt contains sufficient raw materials for Bob's planned construction and defenses."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Bob",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Arrived in-system and begins surveying and preparing defenses."
+    },
+    {
+      "name": "GUPPI",
+      "type": "ai",
+      "location": "Epsilon Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Assists Bob with scans, trajectory plotting, and construction status."
+    },
+    {
+      "name": "Spike",
+      "type": "ai",
+      "location": "Epsilon Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Present with Bob in VR during planning scene."
+    }
+  ],
+  "new_characters": [],
+  "destructions": [],
+  "resolutions": [],
+  "movements": [
+    {
+      "character": "Bob",
+      "type": "arrival",
+      "from": "Sol",
+      "to": "Epsilon Eridani",
+      "ship": "Heaven-1",
+      "companions": [
+        "GUPPI",
+        "Spike",
+        "Jeeves"
+      ],
+      "cargo": null,
+      "drive": "SURGE",
+      "max_g": null,
+      "notes": "Bob arrives at Epsilon Eridani at a couple of percent of light-speed."
+    }
+  ],
+  "star_systems": [
+    {
+      "name": "Epsilon Eridani",
+      "role": "setting",
+      "notes": "Bob arrives and surveys the system."
+    },
+    {
+      "name": "Sol",
+      "role": "mentioned",
+      "notes": "Bob traveled here from Sol."
+    }
+  ],
+  "planets": [
+    {
+      "name": "Epsilon Eridani 1",
+      "star_system": "Epsilon Eridani",
+      "orbital_position": 1,
+      "type": "rocky",
+      "habitable": null,
+      "features": null,
+      "life": null,
+      "status": "discovered",
+      "notes": "One of two inner rocky planets identified during Bob's initial survey."
+    },
+    {
+      "name": "Epsilon Eridani 2",
+      "star_system": "Epsilon Eridani",
+      "orbital_position": 2,
+      "type": "rocky",
+      "habitable": null,
+      "features": null,
+      "life": null,
+      "status": "discovered",
+      "notes": "Second inner rocky planet identified during Bob's initial survey."
+    },
+    {
+      "name": "Epsilon Eridani inner asteroid belt",
+      "star_system": "Epsilon Eridani",
+      "orbital_position": null,
+      "type": "asteroid_belt",
+      "habitable": false,
+      "features": "Contains usable elements and mineral deposits suitable for construction.",
+      "life": null,
+      "status": "surveyed",
+      "notes": "Bob chooses this belt for mining and defensive preparations."
+    },
+    {
+      "name": "Epsilon Eridani 4",
+      "star_system": "Epsilon Eridani",
+      "orbital_position": 4,
+      "type": "gas_giant",
+      "habitable": false,
+      "features": "Jovian planet.",
+      "life": null,
+      "status": "discovered",
+      "notes": "Orbital position inferred from described system layout; gas giant is explicitly identified but not numbered in text."
+    },
+    {
+      "name": "Epsilon Eridani outer asteroid belt",
+      "star_system": "Epsilon Eridani",
+      "orbital_position": null,
+      "type": "asteroid_belt",
+      "habitable": false,
+      "features": null,
+      "life": null,
+      "status": "discovered",
+      "notes": "Identified in Bob's initial survey."
+    },
+    {
+      "name": "Epsilon Eridani 5",
+      "star_system": "Epsilon Eridani",
+      "orbital_position": 5,
+      "type": "gas_giant",
+      "habitable": false,
+      "features": "Neptune-like planet in a highly elliptical outer orbit.",
+      "life": null,
+      "status": "discovered",
+      "notes": "Orbital position inferred from described system layout; exact numbering not stated in text."
+    }
+  ],
+  "technologies": [],
+  "faction_events": [],
+  "communications": [],
+  "combat": [],
+  "alien_species": [],
+  "infrastructure": [
+    {
+      "system": "Epsilon Eridani",
+      "type": "mining_base",
+      "event": "established",
+      "owner": "Bob",
+      "notes": "Bob deploys miners to the inner asteroid belt to gather materials for construction."
+    }
+  ],
+  "human_colonies": [],
+  "relationships": [],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Epsilon Eridani",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Bob arrives at Epsilon Eridani, surveys the system, and identifies its major planetary structure."
+    },
+    {
+      "order": 2,
+      "location": "Epsilon Eridani",
+      "time_offset": "less than two days later",
+      "pov": null,
+      "summary": "Bob selects the inner asteroid belt for resource extraction and begins planning an ambush for the expected Brazilian probe."
+    },
+    {
+      "order": 3,
+      "location": "Epsilon Eridani",
+      "time_offset": "same period",
+      "pov": null,
+      "summary": "Bob reviews Heaven-1's manufacturing capabilities and starts deploying miners and factory systems to build defenses instead of immediate replication."
+    }
+  ],
+  "incoming_threats": [
+    {
+      "threat": "Brazilian probe",
+      "detected_at": "Epsilon Eridani",
+      "origin": "Sol",
+      "eta_year": null,
+      "nature": "hostile",
+      "notes": "Bob calculates an approach path and prepares an ambush, but the probe has not yet arrived in this chapter."
+    }
+  ],
+  "quotes": [
+    {
+      "speaker": "Bob",
+      "text": "Unbelievable. I’m going to war.",
+      "context": "Bob realizes he must divert resources from reproduction to defensive preparations against the incoming Brazilian probe."
+    }
+  ],
+  "threads_opened": [],
+  "threads_resolved": [
+    {
+      "id": "bob-alone-to-epsilon-eridani",
+      "text": "Bob survives the journey and arrives at Epsilon Eridani, where he begins establishing himself in the system."
+    }
+  ],
+  "events": [
+    {
+      "text": "Bob arrives at Epsilon Eridani and completes an initial survey of the system's planets and belts.",
+      "characters": [
+        "Bob"
+      ],
+      "significance": "major",
+      "type": "travel"
+    },
+    {
+      "text": "Bob begins mining and manufacturing in Epsilon Eridani, diverting his probe's self-replication capability into defensive preparations for the expected Brazilian attack.",
+      "characters": [
+        "Bob",
+        "GUPPI"
+      ],
+      "significance": "major",
+      "type": "creation"
+    }
+  ],
+  "summary": {
+    "one_line": "Bob reaches Epsilon Eridani, surveys the system, and starts building a trap for the Brazilian probe he expects to follow him there.",
+    "paragraph": "Bob arrives safely at Epsilon Eridani and performs his first survey of another star system, identifying two inner rocky planets, multiple belts, a gas giant, and a distant Neptune-like world. Instead of sightseeing or immediately reproducing, he focuses on the inner asteroid belt, where usable materials are concentrated and can support rapid construction. Convinced the Brazilian probe is still coming and may be trying to surprise him, Bob designs an ambush that relies on the enemy attacking aggressively. He deploys miners and unpacks factory systems, accepting months of delay to his own expansion in order to prepare for war.",
+    "events": [
+      "Bob enters the Epsilon Eridani system and begins scanning for planets and dense objects.",
+      "Within two days he identifies the system's broad layout, including two rocky inner planets and resource-rich asteroid belts.",
+      "Bob decides he cannot risk fleeing onward because a Brazilian probe allowed to reproduce would become a larger long-term threat.",
+      "He chooses the inner asteroid belt as the best place to gather materials and stage a hidden defense.",
+      "Bob reviews Heaven-1's printers, roamers, nanites, and cargo craft, then starts construction aimed at ambushing the expected Brazilian arrival."
+    ],
+    "themes": [
+      "exploration",
+      "combat",
+      "survival",
+      "colonization"
+    ],
+    "mood": "tense",
+    "pov_emotional_arc": "Bob shifts from awe at reaching another star system to grim determination as he commits himself to an unavoidable fight."
+  },
+  "world_state_after": {
+    "chapters_processed": 14,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 14
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 14
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 10,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Dr. Doucette",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Spike",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 14
+      },
+      {
+        "name": "Jeeves",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      }
+    ],
+    "known_star_systems": [
+      "Sol",
+      "Epsilon Eridani",
+      "Alpha Centauri"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon",
+      "Saturn",
+      "Titan",
+      "Epsilon Eridani 1",
+      "Epsilon Eridani 2",
+      "Epsilon Eridani inner asteroid belt",
+      "Epsilon Eridani 4",
+      "Epsilon Eridani outer asteroid belt",
+      "Epsilon Eridani 5"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR",
+      "Heaven-1",
+      "VR interface",
+      "SURGE drive weapon"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH",
+      "Brazilian Empire"
+    ],
+    "known_species": [],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      },
+      {
+        "id": "who-attacked-heaven-1-launch",
+        "text": "The launch turns into a confused orbital battle with missiles, military ships, and multiple unknown attackers, leaving the identity of the factions involved unresolved.",
+        "opened_chapter": 12
+      },
+      {
+        "id": "brazilian-probe-chasing-bob-to-epsilon-eridani",
+        "text": "An armed Brazilian probe is on Bob's course to Epsilon Eridani, raising the question of whether Bob can prepare defenses before it arrives.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "earth-nuclear-war-escalation",
+        "text": "Bob detects apparent nuclear detonations on Earth after hearing of escalating conflict, leaving the scale of the war and Sol's survival uncertain.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "bob-grief-after-endocrine-control",
+        "text": "After disabling his endocrine control system, Bob begins fully mourning his lost human life, raising the question of how this emotional release will affect him going forward.",
+        "opened_chapter": 13
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 10,
+        "text": "After a sabotage attack destroys the replicant matrices, Bob is restored from backup, Kenneth is lost, and Dr. Landers accelerates Bob's preparation for launch."
+      },
+      {
+        "chapter": 11,
+        "text": "Bob learns that FAITH has built mission-enforcement safeguards into his own mind."
+      },
+      {
+        "chapter": 12,
+        "text": "Dr. Landers frees Bob from his software shackles and Bob survives a chaotic missile attack to launch Heaven-1 toward Epsilon Eridani."
+      },
+      {
+        "chapter": 13,
+        "text": "Bob cleans hidden sabotage out of Heaven-1, builds himself a virtual life for the voyage, and learns that Brazil is pursuing him while Earth slides toward nuclear war."
+      },
+      {
+        "chapter": 14,
+        "text": "Bob reaches Epsilon Eridani, surveys the system, and starts building a trap for the Brazilian probe he expects to follow him there."
+      }
+    ]
+  }
+}

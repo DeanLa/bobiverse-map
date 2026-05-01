@@ -1,0 +1,756 @@
+{
+  "metadata": {
+    "chapter": 24,
+    "pov": "Riker",
+    "year": 2157,
+    "month": "April",
+    "location": "Sol",
+    "notes": "Chapter spans multiple scenes over at least several days during the battle and immediate aftermath.",
+    "pov_knowledge": {
+      "believes": [
+        "The four Brazilian pursuers and the two remaining asteroid-shepherding Brazilian ships may represent the last surviving technological force in Sol.",
+        "The Brazilian asteroid strike was likely a last-ditch revenge operation after the Brazilian Empire was defeated, probably by China."
+      ],
+      "learns": [
+        "One Brazilian replicant identifies himself as Captain Matias Araújo.",
+        "The Brazilian asteroid drives use a low-intensity wide-field SURGE drive to push whole asteroids without tearing them apart.",
+        "Homer survives the missile hit because a shrapnel fragment cut power to his computer core rather than destroying it."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Riker",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "POV aboard Heaven-2 during the attack on Brazilian probes."
+    },
+    {
+      "name": "Homer",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Aboard Heaven-6; temporarily disabled during battle but survives."
+    },
+    {
+      "name": "GUPPI",
+      "type": "ai",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Assists with tactical operations and ship control."
+    },
+    {
+      "name": "Captain Matias Araújo",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "destroyed",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Brazilian replicant who hails Riker during the engagement."
+    }
+  ],
+  "new_characters": [
+    {
+      "name": "Captain Matias Araújo",
+      "type": "replicant",
+      "parent": null,
+      "generation": null,
+      "location": "Sol",
+      "faction": "Brazilian Empire",
+      "personality": {
+        "traits": [
+          "hostile",
+          "boastful",
+          "aggressive"
+        ],
+        "role": "combat",
+        "nickname_origin": null,
+        "quirks": "Introduces himself by threatening to be the last voice Riker hears."
+      },
+      "notes": "One of the Brazilian replicants commanding the asteroid-shepherding ships."
+    }
+  ],
+  "destructions": [
+    {
+      "name": "Captain Matias Araújo",
+      "type": "replicant",
+      "cause": "Riker destroys Araújo's ship during the final close-range battle near the asteroid convoy.",
+      "location": "Sol",
+      "certainty": "confirmed"
+    },
+    {
+      "name": "Brazilian probe pursuer 1",
+      "type": "ship",
+      "cause": "Destroyed by Riker and Homer with inert cannonballs after expending its missiles.",
+      "location": "Sol",
+      "certainty": "confirmed"
+    },
+    {
+      "name": "Brazilian probe pursuer 2",
+      "type": "ship",
+      "cause": "Destroyed by Riker and Homer with inert cannonballs after expending its missiles.",
+      "location": "Sol",
+      "certainty": "confirmed"
+    },
+    {
+      "name": "Brazilian probe pursuer 3",
+      "type": "ship",
+      "cause": "Destroyed by Riker and Homer with inert cannonballs after expending its missiles.",
+      "location": "Sol",
+      "certainty": "confirmed"
+    },
+    {
+      "name": "Brazilian probe pursuer 4",
+      "type": "ship",
+      "cause": "Destroyed by Riker and Homer with inert cannonballs after expending its missiles.",
+      "location": "Sol",
+      "certainty": "confirmed"
+    },
+    {
+      "name": "Brazilian asteroid-shepherding ship 1",
+      "type": "ship",
+      "cause": "A buster passes through the craft's computer core during its attempted ramming attack on Riker.",
+      "location": "Sol",
+      "certainty": "confirmed"
+    },
+    {
+      "name": "Brazilian asteroid-shepherding ship 2",
+      "type": "ship",
+      "cause": "Riker destroys the ship with a rail-gun steel ball at close range, tearing it in two.",
+      "location": "Sol",
+      "certainty": "confirmed"
+    }
+  ],
+  "resolutions": [],
+  "movements": [],
+  "star_systems": [
+    {
+      "name": "Sol",
+      "role": "setting",
+      "notes": "Battle and asteroid-diversion operations occur here."
+    },
+    {
+      "name": "Epsilon Eridani",
+      "role": "mentioned",
+      "notes": "Riker and Homer use an approach vector that makes them appear to be arriving from Epsilon Eridani."
+    }
+  ],
+  "planets": [
+    {
+      "name": "Earth",
+      "star_system": "Sol",
+      "orbital_position": 3,
+      "type": "rocky",
+      "habitable": true,
+      "features": "Planetary surface shows extensive nuclear and asteroid-strike devastation, heavy cloud and dust cover, and likely onset of nuclear winter.",
+      "life": "Human survivors may still exist in hiding, but none are confirmed on-page in this chapter.",
+      "status": "surveyed",
+      "notes": "Riker and Homer prevent four extinction-level asteroids from striking it."
+    }
+  ],
+  "technologies": [
+    {
+      "name": "exploration scouts",
+      "full_name": "exploration scouts",
+      "event": "deployed",
+      "by": "Riker",
+      "location": "Sol",
+      "notes": "Riker begins building scouts to search Earth for survivors after the battle."
+    }
+  ],
+  "faction_events": [
+    {
+      "faction": "Brazilian Empire",
+      "type": "collapse",
+      "counterparty": null,
+      "text": "Riker concludes the Brazilian Empire has effectively fallen, leaving only a small group of modified war probes operating in Sol.",
+      "location": "Sol",
+      "notes": "This is Riker's assessment based on battlefield evidence, not an official declaration."
+    }
+  ],
+  "communications": [
+    {
+      "from_character": "Captain Matias Araújo",
+      "from_system": "Sol",
+      "to_character": "Riker",
+      "to_system": "Sol",
+      "medium": "radio",
+      "direction": "both",
+      "contents_summary": "Araújo hails Riker to threaten him before the final engagement, and Riker identifies himself and asks who is speaking.",
+      "notes": "Short live exchange during combat approach."
+    }
+  ],
+  "combat": [
+    {
+      "participants": [
+        {
+          "name": "Riker",
+          "side": "A",
+          "ship": "Heaven-2",
+          "outcome": "unharmed"
+        },
+        {
+          "name": "Homer",
+          "side": "A",
+          "ship": "Heaven-6",
+          "outcome": "damaged"
+        },
+        {
+          "name": "Captain Matias Araújo",
+          "side": "B",
+          "ship": null,
+          "outcome": "destroyed"
+        }
+      ],
+      "location": "Sol",
+      "weapons": [
+        "SURGE-equipped missiles",
+        "busters",
+        "rail gun",
+        "cannonballs",
+        "shrapnel",
+        "ramming"
+      ],
+      "victor": "A",
+      "duration": "prolonged battle",
+      "notes": "Riker and Homer lure four Brazilian ships into pursuit, destroy them, then ambush and eliminate the two remaining asteroid-shepherding Brazilian ships while preventing the asteroid strike on Earth."
+    }
+  ],
+  "alien_species": [],
+  "infrastructure": [],
+  "human_colonies": [],
+  "relationships": [
+    {
+      "a": "Riker",
+      "b": "Homer",
+      "type": "allies",
+      "event": "strengthened",
+      "text": "Riker and Homer fight in close coordination, save each other during the battle, and share a rare moment of emotional sync afterward.",
+      "notes": "Riker briefly feels something like fatherly pride toward Homer."
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Sol",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Riker and Homer enter Sol on a deceptive attack vector to lure four Brazilian probes away from the asteroid line."
+    },
+    {
+      "order": 2,
+      "location": "Sol",
+      "time_offset": "10 days later",
+      "pov": null,
+      "summary": "They launch hidden busters and destroy the four pursuing Brazilian ships in a carefully staged missile-and-cannonball ambush."
+    },
+    {
+      "order": 3,
+      "location": "Sol",
+      "time_offset": "after the battle",
+      "pov": null,
+      "summary": "Riker and Homer go dark behind the sun, drift for two days, and reposition behind Earth to surprise the two remaining Brazilian ships."
+    },
+    {
+      "order": 4,
+      "location": "Sol",
+      "time_offset": "2 days later",
+      "pov": null,
+      "summary": "Captain Matias Araújo hails them, the Brazilians launch missiles, Homer is damaged, and Riker destroys the last two Brazilian ships."
+    },
+    {
+      "order": 5,
+      "location": "Sol",
+      "time_offset": "after the battle",
+      "pov": null,
+      "summary": "Riker salvages the battlefield, learns how the asteroid drives work, and begins trying to divert the four extinction-level asteroids."
+    },
+    {
+      "order": 6,
+      "location": "Sol",
+      "time_offset": "3 days later",
+      "pov": null,
+      "summary": "Homer comes back online, they assess Earth's devastation, plan to search for survivors with exploration scouts, and watch the last asteroid miss Earth before receiving an unexpected hail."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Captain Matias Araújo",
+      "text": "I will be the last voice you hear.",
+      "context": "Araújo hails Riker before the final close-range engagement near Earth."
+    }
+  ],
+  "threads_opened": [
+    {
+      "id": "sol-survivors-search",
+      "text": "Riker and Homer now need to determine whether any humans survived on Earth and whether they can help them."
+    },
+    {
+      "id": "unexpected-hail-after-asteroids-diverted",
+      "text": "Just after the last asteroid misses Earth, Riker and Homer receive an unexpected hail whose source and intent are not yet known."
+    }
+  ],
+  "threads_resolved": [
+    {
+      "id": "brazilian-asteroid-strike-on-earth",
+      "text": "Riker and Homer destroy all six Brazilian ships and divert the four extinction-level asteroids so they miss Earth."
+    },
+    {
+      "id": "riker-sol-recon-mission",
+      "text": "Riker's reconnaissance of Sol culminates in direct action against the Brazilian probes and confirmation that Earth survived but is devastated."
+    }
+  ],
+  "events": [
+    {
+      "text": "Riker and Homer destroy all six Brazilian ships in Sol after a two-phase ambush and close-range battle around Earth.",
+      "characters": [
+        "Riker",
+        "Homer",
+        "Captain Matias Araújo"
+      ],
+      "significance": "major",
+      "type": "battle"
+    },
+    {
+      "text": "Riker and Homer divert the four extinction-level asteroids so they miss Earth and are sent into safe long-period orbits.",
+      "characters": [
+        "Riker",
+        "Homer"
+      ],
+      "significance": "major",
+      "type": "destruction"
+    }
+  ],
+  "summary": {
+    "one_line": "Riker and Homer wipe out the Brazilian force in Sol and save Earth from four extinction-level asteroid strikes.",
+    "paragraph": "Riker and Homer execute a complex two-stage ambush against the Brazilian probes in Sol, first luring four ships into pursuit and destroying them, then sneaking behind Earth to attack the two remaining asteroid shepherds. During the second battle Homer is badly damaged but survives, and Riker finishes off the last Brazilian ships alone. In the aftermath, Riker confirms that Earth has been catastrophically devastated by prior nuclear war and asteroid impacts, and he concludes the Brazilian attack was likely a final act of revenge by a collapsing regime. He and Homer redirect the four incoming extinction-level asteroids away from Earth and begin preparing exploration scouts to search for any surviving humans, only to receive an unexpected hail at the end.",
+    "events": [
+      "Riker and Homer enter Sol on a deceptive vector designed to lure four Brazilian ships away from the asteroids they are guarding.",
+      "They spring their trap near the sun, trading missiles and busters until the four pursuing Brazilian ships are destroyed.",
+      "The two Bobs then shut down and drift behind Earth to approach the remaining Brazilian ships from an unexpected direction.",
+      "A Brazilian replicant identifying himself as Captain Matias Araújo hails them, and the final battle leaves Homer disabled and Riker fighting alone.",
+      "Riker destroys the last two Brazilian ships, salvages the battlefield, and discovers how the Brazilians were using SURGE drives to push the asteroids.",
+      "Homer comes back online, and together they assess the scale of Earth's devastation and discuss searching for survivors.",
+      "They successfully divert the last of the four extinction-level asteroids away from Earth and then receive a new hail."
+    ],
+    "themes": [
+      "combat",
+      "survival",
+      "earth-aftermath",
+      "family"
+    ],
+    "mood": "tense",
+    "pov_emotional_arc": "Riker moves from taut tactical focus to grim relief and protective determination as he saves Homer and prevents Earth's final destruction."
+  },
+  "world_state_after": {
+    "chapters_processed": 24,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "in transit to Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 18
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 24
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 10,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Dr. Doucette",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Spike",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Jeeves",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Major Ernesto Medeiros",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Serra do Mar",
+        "type": "ship",
+        "location": "Epsilon Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 15,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Bill",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 22
+      },
+      {
+        "name": "Riker",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 24
+      },
+      {
+        "name": "Milo",
+        "type": "replicant",
+        "location": "in transit to 82 Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 23
+      },
+      {
+        "name": "Mario",
+        "type": "replicant",
+        "location": "in transit to Beta Hydri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 18
+      },
+      {
+        "name": "Homer",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 24
+      },
+      {
+        "name": "Garfield",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 22
+      },
+      {
+        "name": "Calvin",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 22
+      },
+      {
+        "name": "Goku",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 22
+      },
+      {
+        "name": "Linus",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 22
+      },
+      {
+        "name": "Captain Matias Araújo",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 24,
+        "last_seen_chapter": 24
+      }
+    ],
+    "known_star_systems": [
+      "Sol",
+      "Epsilon Eridani",
+      "Alpha Centauri",
+      "Delta Eridani",
+      "Omicron Eridani",
+      "Beta Hydri",
+      "82 Eridani"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon",
+      "Saturn",
+      "Titan",
+      "Epsilon Eridani 1",
+      "Epsilon Eridani 2",
+      "Epsilon Eridani inner asteroid belt",
+      "Epsilon Eridani 4",
+      "Epsilon Eridani outer asteroid belt",
+      "Epsilon Eridani 5",
+      "Epsilon Eridani 3",
+      "Ragnarök",
+      "Omicron Eridani asteroid belt",
+      "OE-1A",
+      "OE-1B",
+      "OE-2",
+      "Jupiter",
+      "Vulcan",
+      "Romulus"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR",
+      "Heaven-1",
+      "VR interface",
+      "SURGE drive weapon",
+      "exploration scouts",
+      "Heaven-2",
+      "Heaven-1A",
+      "exploration drone",
+      "subspace transmission",
+      "SURGE drive missile",
+      "Heaven-9",
+      "Heaven-10"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH",
+      "Brazilian Empire"
+    ],
+    "known_species": [
+      "Vulcan and Romulus native life"
+    ],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      },
+      {
+        "id": "who-attacked-heaven-1-launch",
+        "text": "The launch turns into a confused orbital battle with missiles, military ships, and multiple unknown attackers, leaving the identity of the factions involved unresolved.",
+        "opened_chapter": 12
+      },
+      {
+        "id": "earth-nuclear-war-escalation",
+        "text": "Bob detects apparent nuclear detonations on Earth after hearing of escalating conflict, leaving the scale of the war and Sol's survival uncertain.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "bob-grief-after-endocrine-control",
+        "text": "After disabling his endocrine control system, Bob begins fully mourning his lost human life, raising the question of how this emotional release will affect him going forward.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "other-national-probes-still-out-there",
+        "text": "Bob concludes that at least one more Brazilian Empire ship exists and that USE, Chinese, and possibly Australian probes may also be active somewhere in space.",
+        "opened_chapter": 15
+      },
+      {
+        "id": "first-bob-cohort-divergence",
+        "text": "Bob's first cohort of clones diverges in personality immediately, raising questions about how future Bob society and identity will evolve.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "bill-subspace-research",
+        "text": "Bill suspects weak SUDDAR emissions may reveal new subspace behavior and plans to investigate the theory from Epsilon Eridani.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "omicron-eridani-biocompatibility",
+        "text": "Milo has found two apparently habitable living worlds at Omicron Eridani, but it remains unresolved whether Earth life and humans are biologically compatible with them.",
+        "opened_chapter": 19
+      },
+      {
+        "id": "milo-82-eridani-expedition",
+        "text": "Milo departs for 82 Eridani, opening the question of what he will find there.",
+        "opened_chapter": 23
+      },
+      {
+        "id": "sol-survivors-search",
+        "text": "Riker and Homer now need to determine whether any humans survived on Earth and whether they can help them.",
+        "opened_chapter": 24
+      },
+      {
+        "id": "unexpected-hail-after-asteroids-diverted",
+        "text": "Just after the last asteroid misses Earth, Riker and Homer receive an unexpected hail whose source and intent are not yet known.",
+        "opened_chapter": 24
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 20,
+        "text": "Riker and Homer finally depart for Sol while Bill and Garfield settle into research work at Epsilon Eridani."
+      },
+      {
+        "chapter": 21,
+        "text": "Riker's covert return to Sol reveals a devastated Earth and a Brazilian asteroid attack already in progress."
+      },
+      {
+        "chapter": 22,
+        "text": "Bill dispatches Calvin, Goku, and Linus toward Alpha Centauri in heavily upgraded ships built for stealth and combat."
+      },
+      {
+        "chapter": 23,
+        "text": "Milo finishes surveying Omicron Eridani, secures the system for future colonists, and heads for 82 Eridani."
+      },
+      {
+        "chapter": 24,
+        "text": "Riker and Homer wipe out the Brazilian force in Sol and save Earth from four extinction-level asteroid strikes."
+      }
+    ]
+  }
+}

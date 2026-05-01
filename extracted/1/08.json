@@ -1,0 +1,469 @@
+{
+  "metadata": {
+    "chapter": 8,
+    "pov": "Bob",
+    "year": 2133,
+    "month": "August",
+    "location": "Sol",
+    "notes": "Chapter contains multiple scenes on the same date within the FAITH facility.",
+    "pov_knowledge": {
+      "believes": [
+        "The attack may have been carried out either by a hostile FAITH faction or by a competing foreign nation.",
+        "Dr. Landers may be bluffing about a tactical nuke in the basement because Bob cannot find evidence of one."
+      ],
+      "learns": [
+        "The FAITH facility has a tactical nuclear device intended as a last-resort failsafe against Bob escaping control.",
+        "Project personnel are deliberately kept ignorant of who monitors the failsafe and who can trigger it.",
+        "Only two replicant candidates remain powered: Bob and Kenneth Martins.",
+        "The other three candidates are Jiro Tanaka, Neves Reijnder, and Joana Almeida, and their matrices are powered off."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Bob",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Acts through multiple roamers during the attack and later secretly explores the facility with an unaccounted-for roamer."
+    },
+    {
+      "name": "Dr. Landers",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Supervises Bob, survives the attack, and explains the facility's nuclear failsafe."
+    },
+    {
+      "name": "GUPPI",
+      "type": "ai",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Not directly active in the chapter text; omitted from scene interaction."
+    }
+  ],
+  "new_characters": [
+    {
+      "name": "Kenneth Martins",
+      "type": "replicant",
+      "parent": null,
+      "generation": null,
+      "location": "Sol",
+      "faction": "FAITH",
+      "personality": {
+        "traits": [],
+        "role": "unknown",
+        "nickname_origin": null,
+        "quirks": null
+      },
+      "notes": "Named as the only other remaining powered replicant candidate."
+    },
+    {
+      "name": "Jiro Tanaka",
+      "type": "replicant",
+      "parent": null,
+      "generation": null,
+      "location": "Sol",
+      "faction": "FAITH",
+      "personality": {
+        "traits": [],
+        "role": "unknown",
+        "nickname_origin": null,
+        "quirks": null
+      },
+      "notes": "Named on a powered-off candidate cube in the computer room."
+    },
+    {
+      "name": "Neves Reijnder",
+      "type": "replicant",
+      "parent": null,
+      "generation": null,
+      "location": "Sol",
+      "faction": "FAITH",
+      "personality": {
+        "traits": [],
+        "role": "unknown",
+        "nickname_origin": null,
+        "quirks": null
+      },
+      "notes": "Named on a powered-off candidate cube in the computer room."
+    },
+    {
+      "name": "Joana Almeida",
+      "type": "replicant",
+      "parent": null,
+      "generation": null,
+      "location": "Sol",
+      "faction": "FAITH",
+      "personality": {
+        "traits": [],
+        "role": "unknown",
+        "nickname_origin": null,
+        "quirks": null
+      },
+      "notes": "Named on a powered-off candidate cube in the computer room."
+    }
+  ],
+  "destructions": [],
+  "resolutions": [
+    {
+      "character": "Kenneth Martins",
+      "original_chapter": 6,
+      "outcome": "survived",
+      "notes": "Bob discovers Kenneth's cube is still powered, resolving the uncertainty over whether Kenneth remained the final rival candidate."
+    }
+  ],
+  "movements": [],
+  "star_systems": [
+    {
+      "name": "Sol",
+      "role": "setting",
+      "notes": "All scenes occur at the FAITH facility on Earth."
+    }
+  ],
+  "planets": [
+    {
+      "name": "Earth",
+      "star_system": "Sol",
+      "orbital_position": 3,
+      "type": "rocky",
+      "habitable": true,
+      "features": "FAITH training facility is attacked by armed intruders.",
+      "life": null,
+      "status": "mentioned",
+      "notes": "Chapter action takes place at the facility on Earth."
+    }
+  ],
+  "technologies": [],
+  "faction_events": [],
+  "communications": [],
+  "combat": [
+    {
+      "participants": [
+        {
+          "name": "Bob",
+          "side": "A",
+          "ship": null,
+          "outcome": "unharmed"
+        },
+        {
+          "name": "Dr. Landers",
+          "side": "A",
+          "ship": null,
+          "outcome": "unharmed"
+        }
+      ],
+      "location": "Sol",
+      "weapons": [
+        "automatic gunfire",
+        "roamers",
+        "small arms"
+      ],
+      "victor": "A",
+      "duration": "brief skirmish",
+      "notes": "Bob uses a swarm of roamers to disable and distract armed attackers, allowing facility security to force their surrender; the attackers are unnamed."
+    }
+  ],
+  "alien_species": [],
+  "infrastructure": [],
+  "human_colonies": [],
+  "relationships": [
+    {
+      "a": "Bob",
+      "b": "Dr. Landers",
+      "type": "working_partners",
+      "event": "strengthened",
+      "text": "After Bob helps stop the raid, Dr. Landers candidly explains the facility's nuclear failsafe and Bob agrees to cooperate more carefully in the future.",
+      "notes": "The conversation increases Bob's understanding of Landers's position and the danger around them."
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Sol",
+      "time_offset": null,
+      "pov": null,
+      "summary": "An armed raid hits the FAITH facility, and Bob breaks out of the training room with his roamers to help security stop the attackers."
+    },
+    {
+      "order": 2,
+      "location": "Sol",
+      "time_offset": "shortly afterward",
+      "pov": null,
+      "summary": "Dr. Landers explains that the facility has a tactical nuclear failsafe meant to destroy Bob if he gets out of control."
+    },
+    {
+      "order": 3,
+      "location": "Sol",
+      "time_offset": "later the same day",
+      "pov": null,
+      "summary": "Bob secretly sends an unaccounted-for roamer through the ducts, finds the computer room, and discovers the five candidate cubes with only his and Kenneth's powered on."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Dr. Landers",
+      "text": "We’re scared of the tactical nuke buried in the basement.",
+      "context": "Landers explains why the facility is so heavily secured and why everyone panicked when Bob got loose."
+    }
+  ],
+  "threads_opened": [
+    {
+      "id": "facility-nuclear-failsafe",
+      "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous."
+    },
+    {
+      "id": "two-candidates-remain",
+      "text": "Bob discovers that only his and Kenneth Martins's replicant matrices are still powered, leaving the final selection unresolved between them."
+    }
+  ],
+  "threads_resolved": [
+    {
+      "id": "sealed-training-room-security",
+      "text": "Dr. Landers reveals that the heavy security around Bob and the roamers exists because the facility includes a tactical nuclear failsafe in case Bob escapes control."
+    },
+    {
+      "id": "von-neumann-probe-selection",
+      "text": "Bob discovers the candidate pool has narrowed to two active matrices, himself and Kenneth Martins, clarifying the final competition but not yet deciding it."
+    }
+  ],
+  "events": [
+    {
+      "text": "Bob helps repel an armed assault on the FAITH facility by swarming the attackers with roamers, allowing security to force their surrender.",
+      "characters": [
+        "Bob",
+        "Dr. Landers"
+      ],
+      "significance": "major",
+      "type": "battle"
+    },
+    {
+      "text": "Bob discovers the candidate matrix room and learns that only his and Kenneth Martins's replicant cubes remain powered while three others have been shut down.",
+      "characters": [
+        "Bob",
+        "Kenneth Martins",
+        "Jiro Tanaka",
+        "Neves Reijnder",
+        "Joana Almeida"
+      ],
+      "significance": "major",
+      "type": "discovery"
+    }
+  ],
+  "summary": {
+    "one_line": "Bob uses his roamers to help stop an attack on the FAITH facility, then secretly discovers that only he and Kenneth remain active candidates.",
+    "paragraph": "When armed intruders assault the FAITH facility, Bob tears his way out of the training room with a swarm of roamers and attacks the raiders directly. His intervention distracts them long enough for security to regroup and force a surrender, though the attack still leaves three people dead and several injured. Afterward, Dr. Landers finally explains the extreme security measures: the facility has a tactical nuclear failsafe that could destroy Bob and everyone around him if the wrong people in FAITH decide he is too dangerous. Later, Bob secretly explores the building through the air ducts and finds the candidate matrix room, where he learns that only his own cube and Kenneth Martins's are still powered while the other three candidates have been shut down.",
+    "events": [
+      "Bob works on a repair exercise while Dr. Landers supervises him as usual.",
+      "An explosion and gunfire rock the facility, and Landers runs off as Bob realizes he can break the security window with his roamers.",
+      "Bob swarms the attackers with dozens of roamers, buying time for the security guards to regroup and force the raiders to surrender.",
+      "Back in the training room, Dr. Landers reveals that the facility is protected by a hidden tactical nuke meant to destroy Bob if he gets loose.",
+      "Bob later sneaks an unaccounted-for roamer through the air ducts to map the building and search for the truth behind the security measures.",
+      "He finds the computer room and discovers five candidate cubes, with only his own and Kenneth Martins's still powered on.",
+      "Bob briefly considers sabotaging Kenneth but rejects the idea and withdraws."
+    ],
+    "themes": [
+      "combat",
+      "identity",
+      "surveillance",
+      "faith-vs-science"
+    ],
+    "mood": "tense",
+    "pov_emotional_arc": "Bob goes from exhilaration and dark amusement during the fight to unease and moral self-scrutiny as he learns how disposable he is and confronts the temptation to sabotage his rival."
+  },
+  "world_state_after": {
+    "chapters_processed": 8,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      }
+    ],
+    "known_star_systems": [
+      "Sol"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH"
+    ],
+    "known_species": [],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "two-candidates-remain",
+        "text": "Bob discovers that only his and Kenneth Martins's replicant matrices are still powered, leaving the final selection unresolved between them.",
+        "opened_chapter": 8
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 4,
+        "text": "Bob learns a rival replicant has gone irretrievably insane and realizes FAITH's control extends even to his access to history and family ties."
+      },
+      {
+        "chapter": 5,
+        "text": "A surprise ministerial inspection exposes FAITH's dangerous internal politics, and Bob is moved into a space-station simulation that hints at his real assignment."
+      },
+      {
+        "chapter": 6,
+        "text": "Bob learns that FAITH is training him to become the controlling intelligence of a Von Neumann probe, just as the candidate pool narrows to two."
+      },
+      {
+        "chapter": 7,
+        "text": "Dr. Landers reveals that Project HEAVEN has been pared down to a single vulnerable ship amid both FAITH infighting and an international interstellar probe race."
+      },
+      {
+        "chapter": 8,
+        "text": "Bob uses his roamers to help stop an attack on the FAITH facility, then secretly discovers that only he and Kenneth remain active candidates."
+      }
+    ]
+  }
+}

@@ -1,0 +1,902 @@
+{
+  "metadata": {
+    "chapter": 41,
+    "pov": "Riker",
+    "year": 2162,
+    "month": "May",
+    "location": "Sol",
+    "notes": "Chapter contains multiple scenes in Sol connected by SCUT communication with Epsilon Eridani.",
+    "pov_knowledge": {
+      "believes": [],
+      "learns": [
+        "Bill has completed a working SCUT with effectively zero-latency interstellar communication.",
+        "Bill has software, VR, and hardware upgrades ready to send to Sol.",
+        "Bill has candidate colony-world information including Vulcan and Romulus as immediate destinations."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Riker",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "POV character."
+    },
+    {
+      "name": "Homer",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Present with Riker when SCUT plans arrive and during the first call to Bill."
+    },
+    {
+      "name": "Bill",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Present via real-time SCUT communication from Epsilon Eridani."
+    },
+    {
+      "name": "Colonel George Butterworth",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Discusses colony destinations with Riker."
+    },
+    {
+      "name": "Gudmund Valter",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Participates in the community announcement meeting."
+    },
+    {
+      "name": "Ambassador Gerrold",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Delegate from New Zealand; appears during the public argument."
+    }
+  ],
+  "new_characters": [
+    {
+      "name": "Ambassador Gerrold",
+      "type": "human",
+      "parent": null,
+      "generation": null,
+      "location": "Sol",
+      "faction": "New Zealand",
+      "personality": {
+        "traits": [
+          "hostile",
+          "argumentative"
+        ],
+        "role": "unknown",
+        "nickname_origin": null,
+        "quirks": "A New Zealand delegate who openly resents dealing with Riker."
+      },
+      "notes": "Introduced as the delegate from New Zealand, described as a former Aussie."
+    }
+  ],
+  "destructions": [],
+  "resolutions": [],
+  "movements": [],
+  "star_systems": [
+    {
+      "name": "Sol",
+      "role": "setting",
+      "notes": null
+    },
+    {
+      "name": "Epsilon Eridani",
+      "role": "mentioned",
+      "notes": "Connected to Sol by newly deployed SCUT communication."
+    },
+    {
+      "name": "Omicron Eridani",
+      "role": "mentioned",
+      "notes": "Listed as another available SCUT connection."
+    }
+  ],
+  "planets": [
+    {
+      "name": "Vulcan",
+      "star_system": "Omicron Eridani",
+      "orbital_position": null,
+      "type": "rocky",
+      "habitable": true,
+      "features": "One of two immediately available colony destinations for Sol survivors.",
+      "life": null,
+      "status": "mentioned",
+      "notes": "Presented as a destination option in Bill's file."
+    },
+    {
+      "name": "Romulus",
+      "star_system": "Omicron Eridani",
+      "orbital_position": null,
+      "type": "rocky",
+      "habitable": true,
+      "features": "One of two immediately available colony destinations for Sol survivors.",
+      "life": null,
+      "status": "mentioned",
+      "notes": "Presented as a destination option in Bill's file."
+    },
+    {
+      "name": "Ragnarök",
+      "star_system": "Epsilon Eridani",
+      "orbital_position": 2,
+      "type": "rocky",
+      "habitable": false,
+      "features": "Previously discussed as a last-ditch dome-colony option that can now be set aside.",
+      "life": null,
+      "status": "mentioned",
+      "notes": "Referred to as Epsilon Eridani Two in dialogue."
+    }
+  ],
+  "technologies": [
+    {
+      "name": "SCUT",
+      "full_name": "Subspace Communications Universal Transceiver",
+      "event": "deployed",
+      "by": "Bill",
+      "location": "Sol",
+      "notes": "Riker and Homer receive plans, build the device, and use it for immediate real-time communication with Bill across interstellar distance."
+    }
+  ],
+  "faction_events": [],
+  "communications": [
+    {
+      "from_character": "Bill",
+      "from_system": "Epsilon Eridani",
+      "to_character": "Riker",
+      "to_system": "Sol",
+      "medium": "SCUT",
+      "direction": "both",
+      "contents_summary": "Bill and Riker establish the first real-time interstellar conversation, exchange Sol status logs, and discuss colony-world options and upgrades.",
+      "notes": "Homer is also present on the call; communication is effectively instantaneous."
+    },
+    {
+      "from_character": "Riker",
+      "from_system": "Sol",
+      "to_character": "broadcast",
+      "to_system": null,
+      "medium": "unknown",
+      "direction": "sent",
+      "contents_summary": "Riker announces to the survivor community that current emigration destinations are limited to Vulcan and Romulus and that later worlds, if found, will be offered in emigration order.",
+      "notes": "Public meeting with enclave representatives and delegates."
+    }
+  ],
+  "combat": [],
+  "alien_species": [],
+  "infrastructure": [],
+  "human_colonies": [],
+  "relationships": [
+    {
+      "a": "Riker",
+      "b": "Bill",
+      "type": "allies",
+      "event": "strengthened",
+      "text": "The new SCUT link restores immediate collaboration between Riker and Bill after years of relativistic separation.",
+      "notes": null
+    },
+    {
+      "a": "Riker",
+      "b": "Colonel George Butterworth",
+      "type": "working_partners",
+      "event": "strengthened",
+      "text": "Riker and Butterworth align on using Vulcan and Romulus as immediate evacuation destinations and on keeping emigration moving without delay.",
+      "notes": null
+    },
+    {
+      "a": "Riker",
+      "b": "Ambassador Gerrold",
+      "type": "rivalry",
+      "event": "established",
+      "text": "Gerrold openly attacks Riker during the public meeting, revealing clear personal hostility toward him.",
+      "notes": "Riker notes Gerrold has never liked dealing with him."
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Sol",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Riker and Homer receive Bill's SCUT plans and realize instantaneous interstellar communication is now possible."
+    },
+    {
+      "order": 2,
+      "location": "Sol",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Riker activates the SCUT, speaks with Bill in real time, and sends him Sol's accumulated logs while asking about colony options."
+    },
+    {
+      "order": 3,
+      "location": "Sol",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Riker briefs Colonel Butterworth that Vulcan and Romulus are the current evacuation destinations and rules out giving whole planets to tiny survivor groups."
+    },
+    {
+      "order": 4,
+      "location": "Sol",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Riker announces the destination plan to the wider survivor community and faces immediate political backlash over sharing the available worlds."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Homer",
+      "text": "Sumbitch. He did it.",
+      "context": "Homer reacts to Bill's successful SCUT plans, realizing instantaneous interstellar communication has been achieved."
+    }
+  ],
+  "threads_opened": [],
+  "threads_resolved": [],
+  "events": [
+    {
+      "text": "Bill's SCUT is deployed between Epsilon Eridani and Sol, giving the Bobs instantaneous interstellar communication for the first time in routine use.",
+      "characters": [
+        "Bill",
+        "Riker",
+        "Homer"
+      ],
+      "significance": "major",
+      "type": "technology"
+    },
+    {
+      "text": "Riker updates Sol's evacuation plan around Vulcan and Romulus as the only immediate colony destinations, triggering renewed political conflict among the survivor enclaves.",
+      "characters": [
+        "Riker",
+        "Colonel George Butterworth",
+        "Gudmund Valter",
+        "Ambassador Gerrold"
+      ],
+      "significance": "major",
+      "type": "political"
+    }
+  ],
+  "summary": {
+    "one_line": "Riker gets Bill's SCUT working in Sol and uses the breakthrough to unveil Vulcan and Romulus as humanity's immediate evacuation targets.",
+    "paragraph": "Riker and Homer receive Bill's plans for a SCUT and quickly assemble a working unit in Sol, opening instantaneous communication with Epsilon Eridani for the first time. Through the new link, Riker sends Bill the accumulated Sol logs and gets updated information on possible colony worlds. He then briefs Colonel Butterworth that Vulcan and Romulus are the current destinations for evacuation, making clear that the tiny surviving enclaves will have to share worlds rather than claim planets outright. When Riker announces the plan publicly, the news brings relief but also immediate infighting as every enclave demands a planet of its own. The chapter pairs a huge technological breakthrough with a reminder that Sol's political fragmentation remains a serious obstacle to survival.",
+    "events": [
+      "Riker and Homer receive Bill's plans for a Subspace Communications Universal Transceiver and realize he has solved zero-latency interstellar communication.",
+      "They build and activate the device, and Riker speaks with Bill in real time after years of delay and relativistic separation.",
+      "Riker sends Bill his Sol logs and asks what other Bobs have found for possible human homes.",
+      "Riker tells Colonel Butterworth that Vulcan and Romulus are the current evacuation destinations and that Ragnarök no longer needs to be treated as the main fallback.",
+      "He makes a general announcement to the survivor community, only to discover that many enclaves object to sharing either world.",
+      "Riker tries to force the discussion back to survival priorities, but the political argument immediately flares up again."
+    ],
+    "themes": [
+      "technology",
+      "politics",
+      "colonization",
+      "survival"
+    ],
+    "mood": "hopeful",
+    "pov_emotional_arc": "Riker is exhilarated by the arrival of SCUT and the relief of finally having viable destinations, but that optimism is quickly tempered by frustration at humanity's persistent political squabbling."
+  },
+  "world_state_after": {
+    "chapters_processed": 41,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "in transit to Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 39
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 40
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 10,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Dr. Doucette",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Spike",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 32
+      },
+      {
+        "name": "Jeeves",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Major Ernesto Medeiros",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Serra do Mar",
+        "type": "ship",
+        "location": "Epsilon Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 15,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Bill",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 41
+      },
+      {
+        "name": "Riker",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 41
+      },
+      {
+        "name": "Milo",
+        "type": "replicant",
+        "location": "in transit to 82 Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 32
+      },
+      {
+        "name": "Mario",
+        "type": "replicant",
+        "location": "in transit to Beta Hydri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 27
+      },
+      {
+        "name": "Homer",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 41
+      },
+      {
+        "name": "Garfield",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 32
+      },
+      {
+        "name": "Calvin",
+        "type": "replicant",
+        "location": "Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Goku",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Linus",
+        "type": "replicant",
+        "location": "Epsilon Indi",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 40
+      },
+      {
+        "name": "Captain Matias Araújo",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 24,
+        "last_seen_chapter": 24
+      },
+      {
+        "name": "Colonel George Butterworth",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 41
+      },
+      {
+        "name": "Delta Eridani 4 natives",
+        "type": "alien_species",
+        "location": "Delta Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 35,
+        "last_seen_chapter": 35
+      },
+      {
+        "name": "Marvin",
+        "type": "replicant",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 39
+      },
+      {
+        "name": "Luke",
+        "type": "replicant",
+        "location": "in transit to Kappa Ceti",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 39
+      },
+      {
+        "name": "Bender",
+        "type": "replicant",
+        "location": "in transit to Gamma Leporis A",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 39
+      },
+      {
+        "name": "Archimedes",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 39
+      },
+      {
+        "name": "Charles",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 31
+      },
+      {
+        "name": "Arthur",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 33
+      },
+      {
+        "name": "Minister Cranston",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 38
+      },
+      {
+        "name": "Gudmund Valter",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 41
+      },
+      {
+        "name": "Moses",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 37
+      },
+      {
+        "name": "Arnold",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 39
+      },
+      {
+        "name": "Julia Hendricks",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 38
+      },
+      {
+        "name": "Henry Roberts",
+        "type": "replicant",
+        "location": "Epsilon Indi",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 40
+      },
+      {
+        "name": "Ambassador Gerrold",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 41
+      }
+    ],
+    "known_star_systems": [
+      "Sol",
+      "Epsilon Eridani",
+      "Alpha Centauri",
+      "Delta Eridani",
+      "Omicron Eridani",
+      "Beta Hydri",
+      "82 Eridani",
+      "Kappa Ceti",
+      "Gamma Leporis A",
+      "Epsilon Indi"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon",
+      "Saturn",
+      "Titan",
+      "Epsilon Eridani 1",
+      "Epsilon Eridani 2",
+      "Epsilon Eridani inner asteroid belt",
+      "Epsilon Eridani 4",
+      "Epsilon Eridani outer asteroid belt",
+      "Epsilon Eridani 5",
+      "Epsilon Eridani 3",
+      "Ragnarök",
+      "Omicron Eridani asteroid belt",
+      "OE-1A",
+      "OE-1B",
+      "OE-2",
+      "Jupiter",
+      "Vulcan",
+      "Romulus",
+      "Delta Eridani 4",
+      "Delta Eridani asteroid belt",
+      "Delta Eridani 1",
+      "Delta Eridani 2",
+      "Delta Eridani 3",
+      "Delta Eridani 5",
+      "Alpha Centauri B 1",
+      "Alpha Centauri B asteroid belt",
+      "Alpha Centauri B inner asteroid belt",
+      "Alpha Centauri A comfort-zone planet",
+      "Eden",
+      "Epsilon Indi 1"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR",
+      "Heaven-1",
+      "VR interface",
+      "SURGE drive weapon",
+      "exploration scouts",
+      "Heaven-2",
+      "Heaven-1A",
+      "exploration drone",
+      "subspace transmission",
+      "SURGE drive missile",
+      "Heaven-9",
+      "Heaven-10",
+      "modified SUDDAR array",
+      "SCUT",
+      "observation drone buster"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH",
+      "Brazilian Empire",
+      "USE",
+      "VEHEMENT",
+      "Australian",
+      "New Zealand"
+    ],
+    "known_species": [
+      "Vulcan and Romulus native life",
+      "Delta Eridani 4 natives",
+      "gorilloids"
+    ],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      },
+      {
+        "id": "who-attacked-heaven-1-launch",
+        "text": "The launch turns into a confused orbital battle with missiles, military ships, and multiple unknown attackers, leaving the identity of the factions involved unresolved.",
+        "opened_chapter": 12
+      },
+      {
+        "id": "bob-grief-after-endocrine-control",
+        "text": "After disabling his endocrine control system, Bob begins fully mourning his lost human life, raising the question of how this emotional release will affect him going forward.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "other-national-probes-still-out-there",
+        "text": "Bob concludes that at least one more Brazilian Empire ship exists and that USE, Chinese, and possibly Australian probes may also be active somewhere in space.",
+        "opened_chapter": 15
+      },
+      {
+        "id": "first-bob-cohort-divergence",
+        "text": "Bob's first cohort of clones diverges in personality immediately, raising questions about how future Bob society and identity will evolve.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "omicron-eridani-biocompatibility",
+        "text": "Milo has found two apparently habitable living worlds at Omicron Eridani, but it remains unresolved whether Earth life and humans are biologically compatible with them.",
+        "opened_chapter": 19
+      },
+      {
+        "id": "milo-82-eridani-expedition",
+        "text": "Milo departs for 82 Eridani, opening the question of what he will find there.",
+        "opened_chapter": 23
+      },
+      {
+        "id": "subspace-communication-network-rollout",
+        "text": "Bill and Garfield now have a working subspace communications system, raising the question of how quickly they can deploy it across multiple star systems.",
+        "opened_chapter": 25
+      },
+      {
+        "id": "use-colony-ship-evacuation-plan",
+        "text": "Riker and Colonel Butterworth agree to try building colony ships in Sol, raising the question of whether the surviving humans can endure long enough to launch them and where they will go.",
+        "opened_chapter": 26
+      },
+      {
+        "id": "delta-eridani-first-contact",
+        "text": "Bob has discovered intelligent fire-using natives on Delta Eridani 4, raising the question of whether and how he will make first contact.",
+        "opened_chapter": 27
+      },
+      {
+        "id": "alpha-centauri-escaped-brazilian-probe",
+        "text": "One Brazilian vessel escapes the destruction of the Alpha Centauri construction yard, leaving its destination and future threat unresolved.",
+        "opened_chapter": 28
+      },
+      {
+        "id": "alpha-centauri-combat-bob-expansion",
+        "text": "Calvin and Goku conclude Alpha Centauri should be reinforced with combat-class Bobs, raising the question of whether Bill will approve and send them.",
+        "opened_chapter": 28
+      },
+      {
+        "id": "archimedes-development",
+        "text": "Bob has identified an unusually inventive Deltan boy named Archimedes, raising the question of how far his intelligence and toolmaking will develop.",
+        "opened_chapter": 30
+      },
+      {
+        "id": "sol-transport-vessel-priority",
+        "text": "Riker reprioritizes transport-vessel construction for refugee movement, raising the question of how much this will delay colony-ship production.",
+        "opened_chapter": 31
+      },
+      {
+        "id": "new-united-nations-governance",
+        "text": "Riker has convened a global survivor assembly, but it remains unresolved whether the enclaves can create workable governance and cooperate on evacuation and survival priorities.",
+        "opened_chapter": 33
+      },
+      {
+        "id": "gorilloid-threat-to-deltans",
+        "text": "The Deltans remain under ongoing predation pressure from gorilloids, raising the question of whether Bob's indirect aid and planned drone defenses will be enough to secure their survival.",
+        "opened_chapter": 35
+      },
+      {
+        "id": "vehement-threat-in-sol",
+        "text": "VEHEMENT is escalating anonymous threats and opportunistic violence in Sol, raising the question of whether it will disrupt evacuation and governance efforts.",
+        "opened_chapter": 38
+      },
+      {
+        "id": "riker-family-descendants-contact",
+        "text": "Riker has discovered living descendants of Andrea Johansson, raising the question of how this new family connection will affect his decisions and emotional life.",
+        "opened_chapter": 38
+      },
+      {
+        "id": "kappa-ceti-expedition",
+        "text": "Luke has departed for Kappa Ceti, opening the question of what he will find there.",
+        "opened_chapter": 39
+      },
+      {
+        "id": "gamma-leporis-a-expedition",
+        "text": "Bender has departed for Gamma Leporis A, opening the question of what he will find there.",
+        "opened_chapter": 39
+      },
+      {
+        "id": "direct-deltan-prompting",
+        "text": "Bob now has the ability and willingness to speak directly to the Deltans through a modified drone, raising the question of how far he will go in overt intervention.",
+        "opened_chapter": 39
+      },
+      {
+        "id": "henry-roberts-rehabilitation",
+        "text": "Linus has rescued the unstable Australian replicant Henry Roberts and begun VR-based rehabilitation, leaving open whether Henry can fully recover and function again.",
+        "opened_chapter": 40
+      },
+      {
+        "id": "epsilon-indi-colony-value",
+        "text": "Epsilon Indi appears sparse and only partly surveyed, leaving open whether Linus will find anything in the system worth long-term development or colonization.",
+        "opened_chapter": 40
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 37,
+        "text": "Bob breaks his noninterference stance when a massive gorilloid assault nearly kills Archimedes."
+      },
+      {
+        "chapter": 38,
+        "text": "Riker learns of a new extremist threat in Sol and is blindsided by contact with a living descendant of his sister Andrea."
+      },
+      {
+        "chapter": 39,
+        "text": "Bob sends Luke and Bender out to new stars and prepares to speak directly to the Deltans for the first time."
+      },
+      {
+        "chapter": 40,
+        "text": "Linus reaches Epsilon Indi, finds a broken Australian replicant named Henry Roberts, and begins trying to save his mind."
+      },
+      {
+        "chapter": 41,
+        "text": "Riker gets Bill's SCUT working in Sol and uses the breakthrough to unveil Vulcan and Romulus as humanity's immediate evacuation targets."
+      }
+    ]
+  }
+}

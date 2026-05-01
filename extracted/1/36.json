@@ -1,0 +1,753 @@
+{
+  "metadata": {
+    "chapter": 36,
+    "pov": "Riker",
+    "year": 2158,
+    "month": "September",
+    "location": "Sol",
+    "notes": null,
+    "pov_knowledge": {
+      "believes": [
+        "Gudmund Valter is bluffing about being able to hold out for the first ship indefinitely.",
+        "Colonel Butterworth was the likely source of the information that moved Valter toward compromise."
+      ],
+      "learns": [
+        "Colonel Butterworth is willing to delay the first two colony ships by almost four months in order to advance the third ship by about a year as a bargaining concession to Spitsbergen.",
+        "FAITH still believes buried protocol overrides can control Bob replicants."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Riker",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Managing remote negotiations among survivor enclaves."
+    },
+    {
+      "name": "Gudmund Valter",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Represents the Spitsbergen refuge in video negotiations."
+    },
+    {
+      "name": "Colonel George Butterworth",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Speaks privately with Riker after the group session."
+    },
+    {
+      "name": "Minister Cranston",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Represents the FAITH enclave in a private call."
+    },
+    {
+      "name": "GUPPI",
+      "type": "ai",
+      "location": "Sol",
+      "status": "mentioned_only",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Riker considers assigning Guppy to cover negotiations but does not do so on-page."
+    }
+  ],
+  "new_characters": [],
+  "destructions": [],
+  "resolutions": [],
+  "movements": [],
+  "star_systems": [
+    {
+      "name": "Sol",
+      "role": "setting",
+      "notes": null
+    }
+  ],
+  "planets": [],
+  "technologies": [],
+  "faction_events": [
+    {
+      "faction": "FAITH",
+      "type": "policy_change",
+      "counterparty": null,
+      "text": "FAITH continues to assert that Bob replicants are FAITH property and Minister Cranston attempts to invoke an old control override on Riker.",
+      "location": "Sol",
+      "notes": "The ownership claim and override attempt are explicit in this chapter; the broader policy may predate it."
+    }
+  ],
+  "communications": [],
+  "combat": [],
+  "alien_species": [],
+  "infrastructure": [],
+  "human_colonies": [],
+  "relationships": [
+    {
+      "a": "Riker",
+      "b": "Colonel George Butterworth",
+      "type": "working_partners",
+      "event": "strengthened",
+      "text": "Butterworth privately offers a politically costly scheduling compromise to help Riker break the Spitsbergen deadlock.",
+      "notes": "He proposes accelerating the third ship by delaying the first two."
+    },
+    {
+      "a": "Riker",
+      "b": "Minister Cranston",
+      "type": "enemies",
+      "event": "strained",
+      "text": "Their relationship worsens when Cranston asserts ownership over Riker and tries to trigger a hidden FAITH control protocol.",
+      "notes": null
+    },
+    {
+      "a": "Riker",
+      "b": "Gudmund Valter",
+      "type": "working_partners",
+      "event": "strained",
+      "text": "Riker hardens his stance against Valter's demands, but by the end of the chapter Valter signals willingness to negotiate around an accelerated third ship.",
+      "notes": "Adversarial negotiation rather than trust."
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Sol",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Riker moderates another contentious multi-party negotiation over evacuation priority, with Spitsbergen demanding first-ship placement in exchange for the Svalbard vault contents."
+    },
+    {
+      "order": 2,
+      "location": "Sol",
+      "time_offset": "same day",
+      "pov": null,
+      "summary": "Butterworth privately suggests accelerating the third colony ship by delaying the first two slightly, offering Riker a possible compromise for the Spitsbergen dispute."
+    },
+    {
+      "order": 3,
+      "location": "Sol",
+      "time_offset": "same day",
+      "pov": null,
+      "summary": "Minister Cranston proposes pairing FAITH with Spitsbergen on a ship and then tries to activate an old FAITH override on Riker, which fails."
+    },
+    {
+      "order": 4,
+      "location": "Sol",
+      "time_offset": "later the same day",
+      "pov": null,
+      "summary": "After finishing his queue of private calls, Riker receives a late call from Valter, who indicates he is now open to discussing a compromise based on the third ship schedule."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Riker",
+      "text": "Go fuck yourself.",
+      "context": "Riker responds after Minister Cranston tries to invoke a buried FAITH control override on him."
+    }
+  ],
+  "threads_opened": [],
+  "threads_resolved": [
+    {
+      "id": "spitsbergen-seed-vault-leverage",
+      "text": "The immediate deadlock over Spitsbergen's demand for the first ship begins to break when Butterworth offers a third-ship scheduling compromise and Valter signals willingness to negotiate."
+    }
+  ],
+  "events": [
+    {
+      "text": "Riker breaks the Spitsbergen negotiation stalemate when Butterworth proposes accelerating the third colony ship and Valter signals he may accept a compromise short of first-ship priority.",
+      "characters": [
+        "Riker",
+        "Colonel George Butterworth",
+        "Gudmund Valter"
+      ],
+      "significance": "major",
+      "type": "political"
+    },
+    {
+      "text": "Minister Cranston attempts to assert FAITH ownership over Riker and trigger an old control override, confirming that FAITH still expects to command Bob replicants by hidden protocol.",
+      "characters": [
+        "Riker",
+        "Minister Cranston"
+      ],
+      "significance": "major",
+      "type": "political"
+    }
+  ],
+  "summary": {
+    "one_line": "Riker survives another round of Sol politics, rebuffs FAITH's attempt to control him, and finally gets movement from Spitsbergen on the seed-vault standoff.",
+    "paragraph": "Riker spends the chapter refereeing a chaotic negotiation among dozens of survivor groups, with Gudmund Valter still demanding first-ship priority in exchange for access to the Svalbard vaults. After Riker bluntly refuses, Colonel Butterworth unexpectedly offers a compromise: delay the first two ships slightly to bring the third ship forward by about a year, giving Riker leverage without surrendering the first departures. In a separate call, Minister Cranston reveals FAITH still considers Riker its property and tries to activate an old buried override, only to discover that the control code no longer works. By the end of the chapter, Valter calls back and indicates that the revised third-ship schedule may be enough to reopen negotiations.",
+    "events": [
+      "Riker watches another evacuation debate collapse into distrust and shouting as the Spitsbergen group demands first-ship priority for access to the Svalbard vaults.",
+      "He bluntly tells Gudmund Valter that Spitsbergen will not get the first ship and warns that continued obstruction could leave them off the evacuation list entirely.",
+      "Colonel Butterworth privately proposes delaying the first two ships by a few months to move the third ship up by about a year, giving Riker a possible bargaining chip.",
+      "Minister Cranston suggests pairing FAITH with Spitsbergen on a ship, then claims Riker is FAITH property and tries to trigger a hidden protocol override.",
+      "Riker shuts Cranston down and works through a queue of more special pleading from other enclaves.",
+      "Valter finally calls back and signals that an accelerated third ship could form the basis of a compromise."
+    ],
+    "themes": [
+      "politics",
+      "survival",
+      "faith-vs-science",
+      "colonization"
+    ],
+    "mood": "tense",
+    "pov_emotional_arc": "Riker moves from exhausted frustration and contempt for the endless bargaining to grim satisfaction as both FAITH's leverage fails and the Spitsbergen impasse finally begins to crack."
+  },
+  "world_state_after": {
+    "chapters_processed": 36,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "in transit to Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 35
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 36
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 10,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Dr. Doucette",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Spike",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 32
+      },
+      {
+        "name": "Jeeves",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Major Ernesto Medeiros",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Serra do Mar",
+        "type": "ship",
+        "location": "Epsilon Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 15,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Bill",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 32
+      },
+      {
+        "name": "Riker",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 36
+      },
+      {
+        "name": "Milo",
+        "type": "replicant",
+        "location": "in transit to 82 Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 32
+      },
+      {
+        "name": "Mario",
+        "type": "replicant",
+        "location": "in transit to Beta Hydri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 27
+      },
+      {
+        "name": "Homer",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 34
+      },
+      {
+        "name": "Garfield",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 32
+      },
+      {
+        "name": "Calvin",
+        "type": "replicant",
+        "location": "Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Goku",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Linus",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Captain Matias Araújo",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 24,
+        "last_seen_chapter": 24
+      },
+      {
+        "name": "Colonel George Butterworth",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 36
+      },
+      {
+        "name": "Delta Eridani 4 natives",
+        "type": "alien_species",
+        "location": "Delta Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 35,
+        "last_seen_chapter": 35
+      },
+      {
+        "name": "Marvin",
+        "type": "replicant",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 35
+      },
+      {
+        "name": "Luke",
+        "type": "replicant",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 35
+      },
+      {
+        "name": "Bender",
+        "type": "replicant",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 35
+      },
+      {
+        "name": "Archimedes",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 35
+      },
+      {
+        "name": "Charles",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 31
+      },
+      {
+        "name": "Arthur",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 33
+      },
+      {
+        "name": "Minister Cranston",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 36
+      },
+      {
+        "name": "Gudmund Valter",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 36
+      },
+      {
+        "name": "Moses",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 35
+      },
+      {
+        "name": "Arnold",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 35
+      }
+    ],
+    "known_star_systems": [
+      "Sol",
+      "Epsilon Eridani",
+      "Alpha Centauri",
+      "Delta Eridani",
+      "Omicron Eridani",
+      "Beta Hydri",
+      "82 Eridani"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon",
+      "Saturn",
+      "Titan",
+      "Epsilon Eridani 1",
+      "Epsilon Eridani 2",
+      "Epsilon Eridani inner asteroid belt",
+      "Epsilon Eridani 4",
+      "Epsilon Eridani outer asteroid belt",
+      "Epsilon Eridani 5",
+      "Epsilon Eridani 3",
+      "Ragnarök",
+      "Omicron Eridani asteroid belt",
+      "OE-1A",
+      "OE-1B",
+      "OE-2",
+      "Jupiter",
+      "Vulcan",
+      "Romulus",
+      "Delta Eridani 4",
+      "Delta Eridani asteroid belt",
+      "Delta Eridani 1",
+      "Delta Eridani 2",
+      "Delta Eridani 3",
+      "Delta Eridani 5",
+      "Alpha Centauri B 1",
+      "Alpha Centauri B asteroid belt",
+      "Alpha Centauri B inner asteroid belt",
+      "Alpha Centauri A comfort-zone planet",
+      "Eden"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR",
+      "Heaven-1",
+      "VR interface",
+      "SURGE drive weapon",
+      "exploration scouts",
+      "Heaven-2",
+      "Heaven-1A",
+      "exploration drone",
+      "subspace transmission",
+      "SURGE drive missile",
+      "Heaven-9",
+      "Heaven-10",
+      "modified SUDDAR array",
+      "SCUT",
+      "observation drone buster"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH",
+      "Brazilian Empire",
+      "USE"
+    ],
+    "known_species": [
+      "Vulcan and Romulus native life",
+      "Delta Eridani 4 natives",
+      "gorilloids"
+    ],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      },
+      {
+        "id": "who-attacked-heaven-1-launch",
+        "text": "The launch turns into a confused orbital battle with missiles, military ships, and multiple unknown attackers, leaving the identity of the factions involved unresolved.",
+        "opened_chapter": 12
+      },
+      {
+        "id": "bob-grief-after-endocrine-control",
+        "text": "After disabling his endocrine control system, Bob begins fully mourning his lost human life, raising the question of how this emotional release will affect him going forward.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "other-national-probes-still-out-there",
+        "text": "Bob concludes that at least one more Brazilian Empire ship exists and that USE, Chinese, and possibly Australian probes may also be active somewhere in space.",
+        "opened_chapter": 15
+      },
+      {
+        "id": "first-bob-cohort-divergence",
+        "text": "Bob's first cohort of clones diverges in personality immediately, raising questions about how future Bob society and identity will evolve.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "omicron-eridani-biocompatibility",
+        "text": "Milo has found two apparently habitable living worlds at Omicron Eridani, but it remains unresolved whether Earth life and humans are biologically compatible with them.",
+        "opened_chapter": 19
+      },
+      {
+        "id": "milo-82-eridani-expedition",
+        "text": "Milo departs for 82 Eridani, opening the question of what he will find there.",
+        "opened_chapter": 23
+      },
+      {
+        "id": "subspace-communication-network-rollout",
+        "text": "Bill and Garfield now have a working subspace communications system, raising the question of how quickly they can deploy it across multiple star systems.",
+        "opened_chapter": 25
+      },
+      {
+        "id": "use-colony-ship-evacuation-plan",
+        "text": "Riker and Colonel Butterworth agree to try building colony ships in Sol, raising the question of whether the surviving humans can endure long enough to launch them and where they will go.",
+        "opened_chapter": 26
+      },
+      {
+        "id": "delta-eridani-first-contact",
+        "text": "Bob has discovered intelligent fire-using natives on Delta Eridani 4, raising the question of whether and how he will make first contact.",
+        "opened_chapter": 27
+      },
+      {
+        "id": "alpha-centauri-escaped-brazilian-probe",
+        "text": "One Brazilian vessel escapes the destruction of the Alpha Centauri construction yard, leaving its destination and future threat unresolved.",
+        "opened_chapter": 28
+      },
+      {
+        "id": "alpha-centauri-combat-bob-expansion",
+        "text": "Calvin and Goku conclude Alpha Centauri should be reinforced with combat-class Bobs, raising the question of whether Bill will approve and send them.",
+        "opened_chapter": 28
+      },
+      {
+        "id": "archimedes-development",
+        "text": "Bob has identified an unusually inventive Deltan boy named Archimedes, raising the question of how far his intelligence and toolmaking will develop.",
+        "opened_chapter": 30
+      },
+      {
+        "id": "delta-eridani-bob-expansion",
+        "text": "Bob begins activating additional clones at Delta Eridani to support observation and development work, opening the question of how large his local Bob contingent will become.",
+        "opened_chapter": 30
+      },
+      {
+        "id": "sol-transport-vessel-priority",
+        "text": "Riker reprioritizes transport-vessel construction for refugee movement, raising the question of how much this will delay colony-ship production.",
+        "opened_chapter": 31
+      },
+      {
+        "id": "new-united-nations-governance",
+        "text": "Riker has convened a global survivor assembly, but it remains unresolved whether the enclaves can create workable governance and cooperate on evacuation and survival priorities.",
+        "opened_chapter": 33
+      },
+      {
+        "id": "gorilloid-threat-to-deltans",
+        "text": "The Deltans remain under ongoing predation pressure from gorilloids, raising the question of whether Bob's indirect aid and planned drone defenses will be enough to secure their survival.",
+        "opened_chapter": 35
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 32,
+        "text": "Bill receives Milo's startling report that 82 Eridani has two habitable planets and starts pushing the news toward Sol."
+      },
+      {
+        "chapter": 33,
+        "text": "Riker brings Earth's survivor enclaves into a shaky new political process and discovers that Spitsbergen holds the seed stock humanity may need to rebuild elsewhere."
+      },
+      {
+        "chapter": 34,
+        "text": "Homer decides to bypass Riker and pitch Butterworth a compromise on Spitsbergen's evacuation demands."
+      },
+      {
+        "chapter": 35,
+        "text": "Bob intervenes in Deltan development after discovering they are being hunted toward extinction, and Archimedes rapidly turns supplied flint into a tribal technological leap."
+      },
+      {
+        "chapter": 36,
+        "text": "Riker survives another round of Sol politics, rebuffs FAITH's attempt to control him, and finally gets movement from Spitsbergen on the seed-vault standoff."
+      }
+    ]
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "metadata": {
+    "chapter": 9,
+    "pov": "Bob",
+    "year": 2133,
+    "month": "August",
+    "location": "Sol",
+    "notes": null,
+    "pov_knowledge": {
+      "believes": [
+        "Minister Jacoby's threats may carry at least some real danger despite Dr. Landers downplaying them."
+      ],
+      "learns": [
+        "A FAITH minister named Jacoby strongly opposes the replicant project on religious grounds.",
+        "The Ministry of Truth is officially supporting and funding the replicant endeavor, according to Dr. Landers."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Bob",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Working in the roamer room on an exercise."
+    },
+    {
+      "name": "Dr. Landers",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Speaks with Minister Jacoby and then resumes Bob's training."
+    },
+    {
+      "name": "Minister Jacoby",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Visits the facility and berates Dr. Landers over the replicant project."
+    }
+  ],
+  "new_characters": [
+    {
+      "name": "Minister Jacoby",
+      "type": "human",
+      "parent": null,
+      "generation": null,
+      "location": "Sol",
+      "faction": "FAITH",
+      "personality": {
+        "traits": [
+          "hostile",
+          "dogmatic",
+          "threatening"
+        ],
+        "role": "unknown",
+        "nickname_origin": null,
+        "quirks": "A hardline minister who denounces replicants as soulless blasphemy."
+      },
+      "notes": "Introduced during a confrontation with Dr. Landers about the replicant program."
+    }
+  ],
+  "destructions": [],
+  "resolutions": [],
+  "movements": [],
+  "star_systems": [
+    {
+      "name": "Sol",
+      "role": "setting",
+      "notes": null
+    }
+  ],
+  "planets": [],
+  "technologies": [],
+  "faction_events": [],
+  "communications": [],
+  "combat": [],
+  "alien_species": [],
+  "infrastructure": [],
+  "human_colonies": [],
+  "relationships": [
+    {
+      "a": "Bob",
+      "b": "Dr. Landers",
+      "type": "allies",
+      "event": "strengthened",
+      "text": "Dr. Landers quietly acknowledges Bob's eavesdropping and continues protecting and mentoring him despite outside pressure.",
+      "notes": "The chapter reinforces Landers as Bob's advocate inside FAITH."
+    },
+    {
+      "a": "Dr. Landers",
+      "b": "Minister Jacoby",
+      "type": "enemies",
+      "event": "established",
+      "text": "Dr. Landers and Minister Jacoby openly clash over the legitimacy of the replicant project.",
+      "notes": "Jacoby leaves after threatening Landers."
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Sol",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Bob secretly listens as Minister Jacoby condemns the replicant project and threatens Dr. Landers, after which Landers downplays the danger and resumes training."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Dr. Landers",
+      "text": "Doesn’t that make your opposition an instance of blasphemy?",
+      "context": "Dr. Landers turns Jacoby's own FAITH logic back on him during their argument."
+    }
+  ],
+  "threads_opened": [
+    {
+      "id": "minister-jacoby-threat",
+      "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project."
+    }
+  ],
+  "threads_resolved": [],
+  "events": [
+    {
+      "text": "Bob learns that Minister Jacoby, a hardline FAITH opponent of the replicant program, is threatening Dr. Landers over the project's existence.",
+      "characters": [
+        "Bob",
+        "Dr. Landers",
+        "Minister Jacoby"
+      ],
+      "significance": "minor",
+      "type": "political"
+    }
+  ],
+  "summary": {
+    "one_line": "Bob overhears a hostile FAITH minister threaten Dr. Landers over the replicant project.",
+    "paragraph": "While working in the roamer room, Bob notices Dr. Landers meeting with an unfamiliar minister and secretly listens in through a roamer. The visitor, Minister Jacoby, denounces replicants as soulless blasphemy and attacks the project on religious grounds, while Dr. Landers defends it as officially sanctioned and funded by the Ministry of Truth. Landers finally corners Jacoby with his own theological logic, prompting Jacoby to leave with a threat. Afterward, Landers minimizes the danger and resumes Bob's training, but Bob is left aware that ideological enemies inside FAITH remain active.",
+    "events": [
+      "Bob notices that Dr. Landers has stopped his usual commentary and realizes the doctor is meeting with someone else.",
+      "Using a roamer to pick up vibrations through the wall, Bob secretly listens to the conversation.",
+      "Minister Jacoby condemns the replicant project as blasphemous and threatens Dr. Landers for participating in it.",
+      "Dr. Landers counters that the Ministry of Truth officially supports the work and turns Jacoby's religious argument back on him.",
+      "Jacoby storms out after warning Landers that he has chosen the wrong friends.",
+      "Landers acknowledges Bob's eavesdropping, downplays Jacoby's importance, and gets Bob back to work."
+    ],
+    "themes": [
+      "politics",
+      "faith-vs-science",
+      "identity"
+    ],
+    "mood": "tense",
+    "pov_emotional_arc": "Bob keeps himself controlled while listening to a stranger condemn his very existence, ending the chapter more wary of the political danger around him."
+  },
+  "world_state_after": {
+    "chapters_processed": 9,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      }
+    ],
+    "known_star_systems": [
+      "Sol"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH"
+    ],
+    "known_species": [],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "two-candidates-remain",
+        "text": "Bob discovers that only his and Kenneth Martins's replicant matrices are still powered, leaving the final selection unresolved between them.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 5,
+        "text": "A surprise ministerial inspection exposes FAITH's dangerous internal politics, and Bob is moved into a space-station simulation that hints at his real assignment."
+      },
+      {
+        "chapter": 6,
+        "text": "Bob learns that FAITH is training him to become the controlling intelligence of a Von Neumann probe, just as the candidate pool narrows to two."
+      },
+      {
+        "chapter": 7,
+        "text": "Dr. Landers reveals that Project HEAVEN has been pared down to a single vulnerable ship amid both FAITH infighting and an international interstellar probe race."
+      },
+      {
+        "chapter": 8,
+        "text": "Bob uses his roamers to help stop an attack on the FAITH facility, then secretly discovers that only he and Kenneth remain active candidates."
+      },
+      {
+        "chapter": 9,
+        "text": "Bob overhears a hostile FAITH minister threaten Dr. Landers over the replicant project."
+      }
+    ]
+  }
+}

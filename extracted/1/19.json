@@ -1,0 +1,667 @@
+{
+  "metadata": {
+    "chapter": 19,
+    "pov": "Milo",
+    "year": 2152,
+    "month": "July",
+    "location": "Omicron Eridani",
+    "notes": "Chapter spans several weeks to months as Milo surveys the system, establishes resource extraction, and begins biological exploration.",
+    "pov_knowledge": {
+      "believes": [
+        "Omicron Eridani was not initially considered a prime candidate for livable planets.",
+        "Humanity may not have survived technologically after the war.",
+        "Exploration for its own sake is ultimately insufficient without helping spread humanity."
+      ],
+      "learns": [
+        "Bill has developed practical planetary exploration drone designs based on use on Ragnarök.",
+        "Riker has made a copy of himself to accompany him back to Sol.",
+        "Bill's subspace research is producing potentially important new technology and he wants Milo to prepare manufacturing capacity.",
+        "Omicron Eridani contains a double planet in the habitable zone with atmospheres and oxygen.",
+        "Life on Vulcan and Romulus is probably related between the two planets."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Milo",
+      "type": "replicant",
+      "location": "Omicron Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "POV character conducting system survey and setup."
+    },
+    {
+      "name": "GUPPI",
+      "type": "ai",
+      "location": "Omicron Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Milo's AI interface assisting with survey and logistics."
+    },
+    {
+      "name": "Bill",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "mentioned_only",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Sends technical specifications and a text message to Milo."
+    },
+    {
+      "name": "Riker",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "mentioned_only",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Mentioned in Bill's message as having made a copy to accompany him to Sol."
+    }
+  ],
+  "new_characters": [],
+  "destructions": [],
+  "resolutions": [],
+  "movements": [
+    {
+      "character": "Milo",
+      "type": "arrival",
+      "from": "Epsilon Eridani",
+      "to": "Omicron Eridani",
+      "ship": null,
+      "companions": [],
+      "cargo": "autofactories and scavenging units",
+      "drive": "SURGE",
+      "max_g": null,
+      "notes": "Milo decelerates into the Omicron Eridani A system at chapter start."
+    }
+  ],
+  "star_systems": [
+    {
+      "name": "Omicron Eridani",
+      "role": "setting",
+      "notes": "Milo surveys the A system and its planets."
+    },
+    {
+      "name": "Epsilon Eridani",
+      "role": "mentioned",
+      "notes": "Source of Bill's message and Milo's departure point."
+    },
+    {
+      "name": "Sol",
+      "role": "mentioned",
+      "notes": "Milo tags a preliminary report to be sent there."
+    }
+  ],
+  "planets": [
+    {
+      "name": "Omicron Eridani asteroid belt",
+      "star_system": "Omicron Eridani",
+      "orbital_position": null,
+      "type": "asteroid_belt",
+      "habitable": false,
+      "features": "Surprisingly diffuse and disappointing as a source of heavier elements.",
+      "life": null,
+      "status": "surveyed",
+      "notes": "Located just inside the first Jovian."
+    },
+    {
+      "name": "OE-1A",
+      "star_system": "Omicron Eridani",
+      "orbital_position": 1,
+      "type": "rocky",
+      "habitable": true,
+      "features": "0.9 Earth masses; one half of a close double planet at 0.81 AU; atmosphere, clouds, extensive oceans, oxygen atmosphere, green landmasses, thicker atmosphere and more CO2 than its companion.",
+      "life": "Diverse biosphere including animals almost as big as dinosaurs.",
+      "status": "surveyed",
+      "notes": "Milo names this planet Vulcan despite mission parameters."
+    },
+    {
+      "name": "OE-1B",
+      "star_system": "Omicron Eridani",
+      "orbital_position": 1,
+      "type": "rocky",
+      "habitable": true,
+      "features": "0.7 Earth masses; one half of a close double planet at 0.81 AU; atmosphere, clouds, extensive oceans, oxygen atmosphere, green landmasses, ice caps that may be seasonal.",
+      "life": "Sparse biosphere with no animal life larger than a wolf.",
+      "status": "surveyed",
+      "notes": "Milo names this planet Romulus despite mission parameters; he suspects a recent extinction-level event."
+    },
+    {
+      "name": "OE-2",
+      "star_system": "Omicron Eridani",
+      "orbital_position": 2,
+      "type": "gas_giant",
+      "habitable": false,
+      "features": "Inner Jovian almost three times Jupiter's mass with a twenty-hour rotation period, huge weather bands, and several hundred satellites.",
+      "life": null,
+      "status": "surveyed",
+      "notes": "At least 60 satellites are large enough to be spherical and about half of those have significant atmospheres."
+    }
+  ],
+  "technologies": [
+    {
+      "name": "exploration drone",
+      "full_name": "planetary exploration drone",
+      "event": "deployed",
+      "by": "Milo",
+      "location": "Omicron Eridani",
+      "notes": "Milo receives Bill's designs, manufactures a first batch of biological-analysis variants, and sends them to Vulcan and Romulus."
+    }
+  ],
+  "faction_events": [],
+  "communications": [
+    {
+      "from_character": "Bill",
+      "from_system": "Epsilon Eridani",
+      "to_character": "Milo",
+      "to_system": "Omicron Eridani",
+      "medium": "radio",
+      "direction": "received",
+      "contents_summary": "Bill sends Milo technical specifications for practical planetary exploration drones and asks him to prepare a manufacturing-capable AMI station for possible future subspace-related blueprints.",
+      "notes": "Message was sent less than a year after Milo left and catches up with him in transit."
+    },
+    {
+      "from_character": "Milo",
+      "from_system": "Omicron Eridani",
+      "to_character": "Bill",
+      "to_system": "Epsilon Eridani",
+      "medium": "radio",
+      "direction": "sent",
+      "contents_summary": "Milo sends Bill telemetry and preliminary findings on the habitable double planet he names Vulcan and Romulus.",
+      "notes": null
+    },
+    {
+      "from_character": "Milo",
+      "from_system": "Omicron Eridani",
+      "to_character": "broadcast",
+      "to_system": null,
+      "medium": "radio",
+      "direction": "sent",
+      "contents_summary": "Milo stores and tags a preliminary report on Omicron Eridani's habitable worlds to be sent to Sol as well as Bill.",
+      "notes": "He sends it in case any human technological civilization remains active after the war."
+    }
+  ],
+  "combat": [],
+  "alien_species": [
+    {
+      "name": "Vulcan and Romulus native life",
+      "event": "first_sighting",
+      "location": "Omicron Eridani",
+      "planet": "OE-1A",
+      "tech_level": "unknown",
+      "intelligent": false,
+      "hostile": null,
+      "notes": "Exploration drones observe diverse animal life on Vulcan and sparse animal life on Romulus; cellular analysis suggests the biospheres are related across the two planets."
+    }
+  ],
+  "infrastructure": [
+    {
+      "system": "Omicron Eridani",
+      "type": "autofactory",
+      "event": "established",
+      "owner": "Milo",
+      "notes": "Milo deploys one autofactory near the asteroid belt with half his scavenging units for initial gathering and refining."
+    },
+    {
+      "system": "Omicron Eridani",
+      "type": "autofactory",
+      "event": "expanded",
+      "owner": "Milo",
+      "notes": "Milo deploys a second autofactory in the inner Jovian satellite system to exploit heavy-element deposits."
+    },
+    {
+      "system": "Omicron Eridani",
+      "type": "research_station",
+      "event": "established",
+      "owner": "Milo",
+      "notes": "Milo begins building a space station intended to host a high-level AMI with manufacturing capability and support exploration work."
+    }
+  ],
+  "human_colonies": [],
+  "relationships": [],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Omicron Eridani",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Milo arrives in Omicron Eridani, reflects on tensions left behind at Epsilon Eridani, and begins his system survey."
+    },
+    {
+      "order": 2,
+      "location": "Omicron Eridani",
+      "time_offset": "later",
+      "pov": null,
+      "summary": "Milo receives Bill's delayed message with exploration drone plans, news about Riker's copied companion, and a request to prepare manufacturing infrastructure."
+    },
+    {
+      "order": 3,
+      "location": "Omicron Eridani",
+      "time_offset": "later",
+      "pov": null,
+      "summary": "Survey data reveals a close double planet in the habitable zone, and Milo eagerly waits for confirmation."
+    },
+    {
+      "order": 4,
+      "location": "Omicron Eridani",
+      "time_offset": "a day later",
+      "pov": null,
+      "summary": "In orbit around the larger world, Milo confirms that both planets have oceans, oxygen atmospheres, and green landmasses, and names them Vulcan and Romulus."
+    },
+    {
+      "order": 5,
+      "location": "Omicron Eridani",
+      "time_offset": "several weeks later",
+      "pov": null,
+      "summary": "Milo surveys the asteroid belt and inner Jovian system, deploys two autofactories, and sets up resource logistics to support local manufacturing."
+    },
+    {
+      "order": 6,
+      "location": "Omicron Eridani",
+      "time_offset": "later",
+      "pov": null,
+      "summary": "Milo receives his first biological exploration drones, sends them to both planets, and learns that both worlds host life with probable shared ancestry."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Milo",
+      "text": "Oh. My. God. I’ve hit the jackpot.",
+      "context": "Milo reacts after confirming that both habitable-zone planets have oceans, oxygen atmospheres, and green landmasses."
+    }
+  ],
+  "threads_opened": [
+    {
+      "id": "omicron-eridani-biocompatibility",
+      "text": "Milo has found two apparently habitable living worlds at Omicron Eridani, but it remains unresolved whether Earth life and humans are biologically compatible with them."
+    }
+  ],
+  "threads_resolved": [],
+  "events": [
+    {
+      "text": "Milo arrives at Omicron Eridani and discovers a habitable double-planet system, naming the worlds Vulcan and Romulus.",
+      "characters": [
+        "Milo"
+      ],
+      "significance": "major",
+      "type": "discovery"
+    },
+    {
+      "text": "Milo establishes initial industrial infrastructure in Omicron Eridani by deploying autofactories and beginning construction of a manufacturing-capable station.",
+      "characters": [
+        "Milo"
+      ],
+      "significance": "major",
+      "type": "creation"
+    },
+    {
+      "text": "Milo deploys Bill's new exploration drones to Vulcan and Romulus and confirms that both planets host native life with probable shared ancestry.",
+      "characters": [
+        "Milo",
+        "Bill"
+      ],
+      "significance": "minor",
+      "type": "discovery"
+    }
+  ],
+  "summary": {
+    "one_line": "Milo reaches Omicron Eridani, finds a spectacular habitable double world he names Vulcan and Romulus, and begins building the infrastructure to explore it properly.",
+    "paragraph": "Milo arrives in Omicron Eridani excited by its Star Trek associations but expecting little, only to discover an extraordinary double-planet system in the habitable zone. Both worlds have atmospheres, oceans, oxygen, and visible plant life, prompting him to name them Vulcan and Romulus and immediately report the find to Bill and Sol. After a disappointing asteroid-belt survey, he sets up two autofactories and starts building a station to support local manufacturing and exploration. When his first biological drones descend, they confirm thriving ecosystems on both planets and suggest that life on the pair may share a common origin, though human biocompatibility remains unproven.",
+    "events": [
+      "Milo decelerates into Omicron Eridani and reflects on the awkward split from the other Bobs back at Epsilon Eridani.",
+      "He receives a delayed radio message from Bill containing exploration drone designs, news that Riker has copied himself for the Sol mission, and hints about promising subspace research.",
+      "His survey reveals a close double planet in the habitable zone, and further observation confirms that both worlds have atmospheres, oceans, oxygen, and green land.",
+      "Milo names the planets Vulcan and Romulus and sends his telemetry and preliminary findings back to Bill.",
+      "After finding the asteroid belt poor in heavy elements, he surveys the inner Jovian system, deploys two autofactories, and organizes in-system resource transport.",
+      "Once his first biological exploration drones are ready, he sends them to both planets and learns that each hosts native life, with evidence suggesting the two biospheres are related.",
+      "Milo begins investigating whether Earth life could safely survive on these seemingly ideal colony worlds."
+    ],
+    "themes": [
+      "exploration",
+      "colonization",
+      "life-detection",
+      "identity"
+    ],
+    "mood": "hopeful",
+    "pov_emotional_arc": "Milo moves from lingering discomfort over his strained departure from the other Bobs into exhilaration and renewed purpose as he discovers worlds that might genuinely matter for humanity's future."
+  },
+  "world_state_after": {
+    "chapters_processed": 19,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "in transit to Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 18
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 19
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 10,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Dr. Doucette",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Spike",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Jeeves",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Major Ernesto Medeiros",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Serra do Mar",
+        "type": "ship",
+        "location": "Epsilon Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 15,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Bill",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 19
+      },
+      {
+        "name": "Riker",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 19
+      },
+      {
+        "name": "Milo",
+        "type": "replicant",
+        "location": "Omicron Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 19
+      },
+      {
+        "name": "Mario",
+        "type": "replicant",
+        "location": "in transit to Beta Hydri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 18
+      }
+    ],
+    "known_star_systems": [
+      "Sol",
+      "Epsilon Eridani",
+      "Alpha Centauri",
+      "Delta Eridani",
+      "Omicron Eridani",
+      "Beta Hydri"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon",
+      "Saturn",
+      "Titan",
+      "Epsilon Eridani 1",
+      "Epsilon Eridani 2",
+      "Epsilon Eridani inner asteroid belt",
+      "Epsilon Eridani 4",
+      "Epsilon Eridani outer asteroid belt",
+      "Epsilon Eridani 5",
+      "Epsilon Eridani 3",
+      "Ragnarök",
+      "Omicron Eridani asteroid belt",
+      "OE-1A",
+      "OE-1B",
+      "OE-2"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR",
+      "Heaven-1",
+      "VR interface",
+      "SURGE drive weapon",
+      "exploration scouts",
+      "Heaven-2",
+      "Heaven-1A",
+      "exploration drone"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH",
+      "Brazilian Empire"
+    ],
+    "known_species": [
+      "Vulcan and Romulus native life"
+    ],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      },
+      {
+        "id": "who-attacked-heaven-1-launch",
+        "text": "The launch turns into a confused orbital battle with missiles, military ships, and multiple unknown attackers, leaving the identity of the factions involved unresolved.",
+        "opened_chapter": 12
+      },
+      {
+        "id": "earth-nuclear-war-escalation",
+        "text": "Bob detects apparent nuclear detonations on Earth after hearing of escalating conflict, leaving the scale of the war and Sol's survival uncertain.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "bob-grief-after-endocrine-control",
+        "text": "After disabling his endocrine control system, Bob begins fully mourning his lost human life, raising the question of how this emotional release will affect him going forward.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "other-national-probes-still-out-there",
+        "text": "Bob concludes that at least one more Brazilian Empire ship exists and that USE, Chinese, and possibly Australian probes may also be active somewhere in space.",
+        "opened_chapter": 15
+      },
+      {
+        "id": "first-bob-cohort-divergence",
+        "text": "Bob's first cohort of clones diverges in personality immediately, raising questions about how future Bob society and identity will evolve.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "riker-sol-recon-mission",
+        "text": "Riker is considering a cautious reconnaissance mission back toward Sol to find out what happened to Earth.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "bill-subspace-research",
+        "text": "Bill suspects weak SUDDAR emissions may reveal new subspace behavior and plans to investigate the theory from Epsilon Eridani.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "omicron-eridani-biocompatibility",
+        "text": "Milo has found two apparently habitable living worlds at Omicron Eridani, but it remains unresolved whether Earth life and humans are biologically compatible with them.",
+        "opened_chapter": 19
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 15,
+        "text": "Bob survives his first space battle by destroying Major Ernesto Medeiros and the Brazilian ship Serra do Mar at Epsilon Eridani."
+      },
+      {
+        "chapter": 16,
+        "text": "Bob surveys more of Epsilon Eridani and finally commits to building the infrastructure for replication."
+      },
+      {
+        "chapter": 17,
+        "text": "Bob creates his first four clones, upgrades into Heaven-1A, and watches the new Bobs immediately begin diverging into distinct personalities and missions."
+      },
+      {
+        "chapter": 18,
+        "text": "Bill watches the first Bob cohort disperse from Epsilon Eridani as he prepares new clones and Riker's Sol mission hardware."
+      },
+      {
+        "chapter": 19,
+        "text": "Milo reaches Omicron Eridani, finds a spectacular habitable double world he names Vulcan and Romulus, and begins building the infrastructure to explore it properly."
+      }
+    ]
+  }
+}

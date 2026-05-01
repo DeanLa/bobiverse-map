@@ -1,0 +1,566 @@
+{
+  "metadata": {
+    "chapter": 25,
+    "pov": "Bill",
+    "year": 2151,
+    "month": "September",
+    "location": "Epsilon Eridani",
+    "notes": null,
+    "pov_knowledge": {
+      "believes": [
+        "Subspace communication signal dropout will become nearly total after about twenty-five light years, requiring relay stations as routers."
+      ],
+      "learns": [
+        "Garfield successfully integrated VR into the new subspace communications system during the test."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Bill",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Conducting communications experiment."
+    },
+    {
+      "name": "Garfield",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Testing outbound transceiver and collaborating with Bill on subspace communications."
+    }
+  ],
+  "new_characters": [],
+  "destructions": [],
+  "resolutions": [],
+  "movements": [],
+  "star_systems": [
+    {
+      "name": "Epsilon Eridani",
+      "role": "setting",
+      "notes": null
+    }
+  ],
+  "planets": [],
+  "technologies": [
+    {
+      "name": "subspace transmission",
+      "full_name": null,
+      "event": "first_tested",
+      "by": "Bill",
+      "location": "Epsilon Eridani",
+      "notes": "Bill confirms a synchronized subspace telemetry signal from Garfield despite increasing light-speed radio lag."
+    },
+    {
+      "name": "VR interface",
+      "full_name": "Virtual Reality interface",
+      "event": "upgraded",
+      "by": "Garfield",
+      "location": "Epsilon Eridani",
+      "notes": "Garfield integrates VR presence into the subspace communications system."
+    }
+  ],
+  "faction_events": [],
+  "communications": [
+    {
+      "from_character": "Garfield",
+      "from_system": "Epsilon Eridani",
+      "to_character": "Bill",
+      "to_system": "Epsilon Eridani",
+      "medium": "radio",
+      "direction": "both",
+      "contents_summary": "Garfield and Bill compare delayed radio telemetry with synchronized subspace telemetry during the communications test.",
+      "notes": "Garfield is several light-minutes away during the test."
+    },
+    {
+      "from_character": "Garfield",
+      "from_system": "Epsilon Eridani",
+      "to_character": "Bill",
+      "to_system": "Epsilon Eridani",
+      "medium": "SCUT",
+      "direction": "both",
+      "contents_summary": "Garfield and Bill communicate in real time over the newly tested subspace channel and discuss sending plans to other systems.",
+      "notes": "The chapter uses 'subspace signal' and 'subspace comms'; canonical technology mapping treated as SCUT-like subspace communication."
+    }
+  ],
+  "combat": [],
+  "alien_species": [],
+  "infrastructure": [],
+  "human_colonies": [],
+  "relationships": [
+    {
+      "a": "Bill",
+      "b": "Garfield",
+      "type": "working_partners",
+      "event": "strengthened",
+      "text": "Bill and Garfield celebrate a major breakthrough after years of collaborative research on subspace communications.",
+      "notes": "They describe themselves as a Skunk Works team."
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Epsilon Eridani",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Bill and Garfield successfully test real-time subspace communication and realize it can be used to transmit plans between star systems."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Bill",
+      "text": "This changed everything.",
+      "context": "Bill realizes the successful subspace communications test will transform interstellar coordination."
+    }
+  ],
+  "threads_opened": [
+    {
+      "id": "subspace-communication-network-rollout",
+      "text": "Bill and Garfield now have a working subspace communications system, raising the question of how quickly they can deploy it across multiple star systems."
+    }
+  ],
+  "threads_resolved": [
+    {
+      "id": "bill-subspace-research",
+      "text": "Bill's investigation into anomalous subspace behavior produces a successful real-time subspace communications test with Garfield."
+    }
+  ],
+  "events": [
+    {
+      "text": "Bill and Garfield successfully test real-time subspace communication at Epsilon Eridani, proving they can transmit synchronized data faster than light and paving the way to share plans between stars.",
+      "characters": [
+        "Bill",
+        "Garfield"
+      ],
+      "significance": "major",
+      "type": "technology"
+    }
+  ],
+  "summary": {
+    "one_line": "Bill and Garfield achieve a breakthrough by successfully testing real-time subspace communication.",
+    "paragraph": "Bill monitors Garfield's outbound telemetry and confirms that ordinary radio signals lag exactly as expected while a parallel subspace signal remains perfectly synchronized. The experiment demonstrates a practical faster-than-light communications method, the payoff of Bill's long-running subspace research. Garfield also reveals that he has already integrated VR presence into the system, letting them meet instantly in virtual space. The two immediately grasp the strategic importance of the breakthrough and decide they should begin transmitting plans so other Bobs can build compatible systems.",
+    "events": [
+      "Bill compares Garfield's delayed radio telemetry with a simultaneous subspace signal that remains perfectly synchronized.",
+      "He confirms that the new channel is not obeying normal light-speed delay and realizes the experiment has worked.",
+      "Garfield cuts loose the test transceiver and then abruptly appears in Bill's VR through the new communications system.",
+      "Bill learns Garfield has already integrated VR into the subspace link, making real-time remote presence possible.",
+      "The two discuss range limits and relay routing, then decide to send their current plans out immediately so other systems can start building receivers."
+    ],
+    "themes": [
+      "technology",
+      "exploration",
+      "family"
+    ],
+    "mood": "triumphant",
+    "pov_emotional_arc": "Bill moves from focused scientific anticipation to delighted triumph as his long-running subspace research finally pays off."
+  },
+  "world_state_after": {
+    "chapters_processed": 25,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "in transit to Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 18
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 24
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 10,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Dr. Doucette",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Spike",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Jeeves",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Major Ernesto Medeiros",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Serra do Mar",
+        "type": "ship",
+        "location": "Epsilon Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 15,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Bill",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 25
+      },
+      {
+        "name": "Riker",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 24
+      },
+      {
+        "name": "Milo",
+        "type": "replicant",
+        "location": "in transit to 82 Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 23
+      },
+      {
+        "name": "Mario",
+        "type": "replicant",
+        "location": "in transit to Beta Hydri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 18
+      },
+      {
+        "name": "Homer",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 24
+      },
+      {
+        "name": "Garfield",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 25
+      },
+      {
+        "name": "Calvin",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 22
+      },
+      {
+        "name": "Goku",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 22
+      },
+      {
+        "name": "Linus",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 22
+      },
+      {
+        "name": "Captain Matias Araújo",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 24,
+        "last_seen_chapter": 24
+      }
+    ],
+    "known_star_systems": [
+      "Sol",
+      "Epsilon Eridani",
+      "Alpha Centauri",
+      "Delta Eridani",
+      "Omicron Eridani",
+      "Beta Hydri",
+      "82 Eridani"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon",
+      "Saturn",
+      "Titan",
+      "Epsilon Eridani 1",
+      "Epsilon Eridani 2",
+      "Epsilon Eridani inner asteroid belt",
+      "Epsilon Eridani 4",
+      "Epsilon Eridani outer asteroid belt",
+      "Epsilon Eridani 5",
+      "Epsilon Eridani 3",
+      "Ragnarök",
+      "Omicron Eridani asteroid belt",
+      "OE-1A",
+      "OE-1B",
+      "OE-2",
+      "Jupiter",
+      "Vulcan",
+      "Romulus"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR",
+      "Heaven-1",
+      "VR interface",
+      "SURGE drive weapon",
+      "exploration scouts",
+      "Heaven-2",
+      "Heaven-1A",
+      "exploration drone",
+      "subspace transmission",
+      "SURGE drive missile",
+      "Heaven-9",
+      "Heaven-10"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH",
+      "Brazilian Empire"
+    ],
+    "known_species": [
+      "Vulcan and Romulus native life"
+    ],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      },
+      {
+        "id": "who-attacked-heaven-1-launch",
+        "text": "The launch turns into a confused orbital battle with missiles, military ships, and multiple unknown attackers, leaving the identity of the factions involved unresolved.",
+        "opened_chapter": 12
+      },
+      {
+        "id": "earth-nuclear-war-escalation",
+        "text": "Bob detects apparent nuclear detonations on Earth after hearing of escalating conflict, leaving the scale of the war and Sol's survival uncertain.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "bob-grief-after-endocrine-control",
+        "text": "After disabling his endocrine control system, Bob begins fully mourning his lost human life, raising the question of how this emotional release will affect him going forward.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "other-national-probes-still-out-there",
+        "text": "Bob concludes that at least one more Brazilian Empire ship exists and that USE, Chinese, and possibly Australian probes may also be active somewhere in space.",
+        "opened_chapter": 15
+      },
+      {
+        "id": "first-bob-cohort-divergence",
+        "text": "Bob's first cohort of clones diverges in personality immediately, raising questions about how future Bob society and identity will evolve.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "omicron-eridani-biocompatibility",
+        "text": "Milo has found two apparently habitable living worlds at Omicron Eridani, but it remains unresolved whether Earth life and humans are biologically compatible with them.",
+        "opened_chapter": 19
+      },
+      {
+        "id": "milo-82-eridani-expedition",
+        "text": "Milo departs for 82 Eridani, opening the question of what he will find there.",
+        "opened_chapter": 23
+      },
+      {
+        "id": "sol-survivors-search",
+        "text": "Riker and Homer now need to determine whether any humans survived on Earth and whether they can help them.",
+        "opened_chapter": 24
+      },
+      {
+        "id": "unexpected-hail-after-asteroids-diverted",
+        "text": "Just after the last asteroid misses Earth, Riker and Homer receive an unexpected hail whose source and intent are not yet known.",
+        "opened_chapter": 24
+      },
+      {
+        "id": "subspace-communication-network-rollout",
+        "text": "Bill and Garfield now have a working subspace communications system, raising the question of how quickly they can deploy it across multiple star systems.",
+        "opened_chapter": 25
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 21,
+        "text": "Riker's covert return to Sol reveals a devastated Earth and a Brazilian asteroid attack already in progress."
+      },
+      {
+        "chapter": 22,
+        "text": "Bill dispatches Calvin, Goku, and Linus toward Alpha Centauri in heavily upgraded ships built for stealth and combat."
+      },
+      {
+        "chapter": 23,
+        "text": "Milo finishes surveying Omicron Eridani, secures the system for future colonists, and heads for 82 Eridani."
+      },
+      {
+        "chapter": 24,
+        "text": "Riker and Homer wipe out the Brazilian force in Sol and save Earth from four extinction-level asteroid strikes."
+      },
+      {
+        "chapter": 25,
+        "text": "Bill and Garfield achieve a breakthrough by successfully testing real-time subspace communication."
+      }
+    ]
+  }
+}

@@ -1,0 +1,911 @@
+{
+  "metadata": {
+    "chapter": 57,
+    "pov": "Mario",
+    "year": 2169,
+    "month": "August",
+    "location": "Beta Hydri",
+    "notes": "Chapter spans multiple scenes over at least several days during Mario's initial survey of Beta Hydri.",
+    "pov_knowledge": {
+      "believes": [
+        "Mario believes an alien vessel in Beta Hydri exterminated the planet's biosphere with radiation, mined the system, collected most carcasses, and departed.",
+        "Mario believes the wrecked vessel was likely fully AI-operated rather than carrying biological crew.",
+        "Mario believes the aliens may collect biological remains as protein, implying a hostile predatory civilization."
+      ],
+      "learns": [
+        "Mario learns Beta Hydri appears almost completely depleted of accessible metal ore.",
+        "Mario learns GL19-4 contains a wrecked alien cargo vessel and evidence of a dead planetary ecosystem.",
+        "Mario learns small mechanical 'ants' aboard the wreck can disassemble machinery and are activated or powered by SUDDAR scans.",
+        "Mario learns the alien wreck contains technology analogous to a fusion reactor, SURGE drive, and a SUDDAR transmitter capable of power transmission."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Mario",
+      "type": "replicant",
+      "location": "Beta Hydri",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Arrives in-system and surveys Beta Hydri."
+    },
+    {
+      "name": "GUPPI",
+      "type": "ai",
+      "location": "Beta Hydri",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Mario's upgraded AI assistant interacts extensively throughout the survey."
+    },
+    {
+      "name": "Major Ernesto Medeiros",
+      "type": "replicant",
+      "location": "Beta Hydri",
+      "status": "mentioned_only",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Mario considers the possibility Medeiros might be present in the system, but finds no sign of him."
+    }
+  ],
+  "new_characters": [],
+  "destructions": [
+    {
+      "name": "Beta Hydri mechanical ants captured by Mario",
+      "type": "ai",
+      "cause": "Mario immobilizes two ant-like machines in plastic, scans them, then destroys the retrieval roamer carrying them as a precaution.",
+      "location": "Beta Hydri",
+      "certainty": "confirmed"
+    }
+  ],
+  "resolutions": [],
+  "movements": [
+    {
+      "character": "Mario",
+      "type": "arrival",
+      "from": "Epsilon Eridani",
+      "to": "Beta Hydri",
+      "ship": null,
+      "companions": [],
+      "cargo": null,
+      "drive": "SURGE",
+      "max_g": 2.0,
+      "notes": "Mario arrives for his first survey of Beta Hydri and deliberately decelerates slowly to conceal his full capabilities."
+    }
+  ],
+  "star_systems": [
+    {
+      "name": "Beta Hydri",
+      "role": "setting",
+      "notes": "Mario arrives and surveys the system for the first time in this chapter."
+    },
+    {
+      "name": "Sol",
+      "role": "mentioned",
+      "notes": "Referenced for comparison of metallicity and as a possible future target of the hostile aliens."
+    },
+    {
+      "name": "Epsilon Eridani",
+      "role": "mentioned",
+      "notes": "Implied origin point for Mario's expedition."
+    }
+  ],
+  "planets": [
+    {
+      "name": "GL19-4",
+      "star_system": "Beta Hydri",
+      "orbital_position": 4,
+      "type": "rocky",
+      "habitable": false,
+      "features": "Brown muddy world with gray oceans, thick murky atmosphere, magnetic field, almost no accessible crustal metals, and a crashed alien cargo vessel.",
+      "life": "A dead former ecosystem of trees, bushes, and animals apparently killed 50-100 years earlier by intense radiation.",
+      "status": "surveyed",
+      "notes": "Mario surveys the fourth planet in detail and finds evidence of system-wide metal removal and alien activity."
+    }
+  ],
+  "technologies": [
+    {
+      "name": "SUDDAR",
+      "full_name": null,
+      "event": "upgraded",
+      "by": "unknown",
+      "location": "Beta Hydri",
+      "notes": "Mario discovers the alien wreck has a SUDDAR-like transmitter apparently designed to beam power to tuned receivers as well as perform radar functions."
+    }
+  ],
+  "faction_events": [],
+  "communications": [],
+  "combat": [],
+  "alien_species": [
+    {
+      "name": "Beta Hydri wreck aliens",
+      "event": "first_sighting",
+      "location": "Beta Hydri",
+      "planet": "GL19-4",
+      "tech_level": "space-faring",
+      "intelligent": true,
+      "hostile": true,
+      "notes": "Mario finds a crashed alien cargo vessel, evidence of planetary biocide, and autonomous ant-like machines; no living aliens are encountered."
+    }
+  ],
+  "infrastructure": [],
+  "human_colonies": [],
+  "relationships": [],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Beta Hydri",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Mario arrives in Beta Hydri, finds the system strangely metal-poor, and begins investigating the fourth planet."
+    },
+    {
+      "order": 2,
+      "location": "Beta Hydri",
+      "time_offset": "a few days later",
+      "pov": null,
+      "summary": "Mario surveys GL19-4, discovers a crashed alien cargo vessel, and realizes the planet once hosted a now-dead ecosystem."
+    },
+    {
+      "order": 3,
+      "location": "Beta Hydri",
+      "time_offset": "later",
+      "pov": null,
+      "summary": "Biological analysis suggests a radiation kill event, and Mario's roamers trigger hostile mechanical ants inside the wreck."
+    },
+    {
+      "order": 4,
+      "location": "Beta Hydri",
+      "time_offset": "later",
+      "pov": null,
+      "summary": "Mario captures and scans some of the ant-like machines, infers key features of the alien technology, and concludes he must leave to report the discovery."
+    }
+  ],
+  "incoming_threats": [
+    {
+      "threat": "hostile alien raiders",
+      "detected_at": "Beta Hydri",
+      "origin": null,
+      "eta_year": null,
+      "nature": "hostile",
+      "notes": "Mario infers from the wreck and dead biosphere that a hostile spacefaring alien civilization may be raiding star systems, but no active inbound contact is detected."
+    }
+  ],
+  "quotes": [
+    {
+      "speaker": "Mario",
+      "text": "I had just found the first intelligent life outside of Earth.",
+      "context": "Mario reacts to discovering the crashed alien vessel on GL19-4."
+    }
+  ],
+  "threads_opened": [
+    {
+      "id": "beta-hydri-hostile-aliens",
+      "text": "Mario's discovery of a wrecked alien raider and a sterilized world raises the question of who these hostile aliens are, where they came from, and whether they are still attacking other systems."
+    }
+  ],
+  "threads_resolved": [],
+  "events": [
+    {
+      "text": "Mario arrives at Beta Hydri and discovers the system is mysteriously depleted of accessible metal ore.",
+      "characters": [
+        "Mario",
+        "GUPPI"
+      ],
+      "significance": "major",
+      "type": "discovery"
+    },
+    {
+      "text": "Mario discovers a crashed alien vessel and the remains of a planetary ecosystem apparently exterminated by radiation on GL19-4, revealing the first evidence of hostile intelligent extraterrestrials.",
+      "characters": [
+        "Mario",
+        "GUPPI"
+      ],
+      "significance": "major",
+      "type": "discovery"
+    },
+    {
+      "text": "Mario captures and scans ant-like machines from the wreck, learning they are activated by SUDDAR energy and that the alien ship used advanced power-transmitting subspace technology.",
+      "characters": [
+        "Mario",
+        "GUPPI"
+      ],
+      "significance": "minor",
+      "type": "technology"
+    }
+  ],
+  "summary": {
+    "one_line": "Mario reaches Beta Hydri and finds not a colony prospect but the wreckage of a hostile alien civilization on a dead world.",
+    "paragraph": "Mario arrives at Beta Hydri expecting a lonely frontier survey and instead finds a system almost completely stripped of accessible metals. On the fourth planet, GL19-4, he discovers a crashed alien cargo vessel and the remains of an entire dead ecosystem, with biological evidence suggesting a massive radiation kill event roughly fifty to a hundred years earlier. His investigation triggers swarms of ant-like machines that can dismantle his equipment and appear to draw power from SUDDAR scans, revealing unfamiliar but highly advanced alien engineering. By the end of the chapter, Mario concludes he may have found evidence of a hostile raiding species and realizes he will have to leave Beta Hydri to report it because he lacks the materials to build a relay station there.",
+    "events": [
+      "Mario arrives in Beta Hydri and notes both his isolation from the other Bobs and the system's alarming lack of metal ore.",
+      "He and Guppy reason through the anomaly and head to the fourth planet to investigate whether usable resources exist there.",
+      "In orbit over GL19-4, Mario finds almost no crustal metals but detects a concentrated mass of refined metal and sends drones and roamers to inspect it.",
+      "The drones reveal a crashed alien cargo vessel and, nearby, the remains of a once-living ecosystem that has been dead for decades.",
+      "Biological analysis indicates the planet's life was wiped out by an intense radiation event, likely something like a gamma ray burst.",
+      "When a roamer opens part of the wreck, swarms of mechanical ants attack and begin disassembling it, forcing Mario to destroy his own equipment and harden his communications security.",
+      "Mario determines the ants are activated by SUDDAR energy, captures a few for scanning, and learns the wreck contains advanced subspace power-transfer technology.",
+      "After completing his survey, Mario concludes he may have found evidence of a hostile alien raiding civilization and realizes he must leave Beta Hydri to warn the other Bobs."
+    ],
+    "themes": [
+      "exploration",
+      "first-contact",
+      "dread",
+      "technology"
+    ],
+    "mood": "dread",
+    "pov_emotional_arc": "Mario begins the chapter enjoying his independence and frontier role, but his excitement at finding alien intelligence curdles into alarm and isolation as he realizes the discovery points to a hostile threat he cannot yet report from Beta Hydri."
+  },
+  "world_state_after": {
+    "chapters_processed": 57,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "in transit to Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 55
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 57
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 10,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Dr. Doucette",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Spike",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 32
+      },
+      {
+        "name": "Jeeves",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Major Ernesto Medeiros",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 57
+      },
+      {
+        "name": "Serra do Mar",
+        "type": "ship",
+        "location": "Epsilon Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 15,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Bill",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 56
+      },
+      {
+        "name": "Riker",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 54
+      },
+      {
+        "name": "Milo",
+        "type": "replicant",
+        "location": "82 Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 51,
+        "last_seen_chapter": 51
+      },
+      {
+        "name": "Mario",
+        "type": "replicant",
+        "location": "Beta Hydri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 57
+      },
+      {
+        "name": "Homer",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 54
+      },
+      {
+        "name": "Garfield",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 56
+      },
+      {
+        "name": "Calvin",
+        "type": "replicant",
+        "location": "Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 45
+      },
+      {
+        "name": "Goku",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 45
+      },
+      {
+        "name": "Linus",
+        "type": "replicant",
+        "location": "Epsilon Indi",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 40
+      },
+      {
+        "name": "Captain Matias Araújo",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 24,
+        "last_seen_chapter": 24
+      },
+      {
+        "name": "Colonel George Butterworth",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 54
+      },
+      {
+        "name": "Delta Eridani 4 natives",
+        "type": "alien_species",
+        "location": "Delta Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 35,
+        "last_seen_chapter": 35
+      },
+      {
+        "name": "Marvin",
+        "type": "replicant",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 55
+      },
+      {
+        "name": "Luke",
+        "type": "replicant",
+        "location": "in transit to Kappa Ceti",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 39
+      },
+      {
+        "name": "Bender",
+        "type": "replicant",
+        "location": "in transit to Gamma Leporis A",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 39
+      },
+      {
+        "name": "Archimedes",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 55
+      },
+      {
+        "name": "Charles",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 54
+      },
+      {
+        "name": "Arthur",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 47,
+        "last_seen_chapter": 47
+      },
+      {
+        "name": "Minister Cranston",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 54
+      },
+      {
+        "name": "Gudmund Valter",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 41
+      },
+      {
+        "name": "Moses",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 55
+      },
+      {
+        "name": "Arnold",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 55
+      },
+      {
+        "name": "Julia Hendricks",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 54
+      },
+      {
+        "name": "Henry Roberts",
+        "type": "replicant",
+        "location": "Epsilon Indi",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 40
+      },
+      {
+        "name": "Ambassador Gerrold",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 41
+      },
+      {
+        "name": "Bart",
+        "type": "replicant",
+        "location": "Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 45
+      },
+      {
+        "name": "Diana",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 53
+      },
+      {
+        "name": "Ralph",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 54
+      }
+    ],
+    "known_star_systems": [
+      "Sol",
+      "Epsilon Eridani",
+      "Alpha Centauri",
+      "Delta Eridani",
+      "Omicron Eridani",
+      "Beta Hydri",
+      "82 Eridani",
+      "Kappa Ceti",
+      "Gamma Leporis A",
+      "Epsilon Indi",
+      "New Zealand"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon",
+      "Saturn",
+      "Titan",
+      "Epsilon Eridani 1",
+      "Epsilon Eridani 2",
+      "Epsilon Eridani inner asteroid belt",
+      "Epsilon Eridani 4",
+      "Epsilon Eridani outer asteroid belt",
+      "Epsilon Eridani 5",
+      "Epsilon Eridani 3",
+      "Ragnarök",
+      "Omicron Eridani asteroid belt",
+      "OE-1A",
+      "OE-1B",
+      "OE-2",
+      "Jupiter",
+      "Vulcan",
+      "Romulus",
+      "Delta Eridani 4",
+      "Delta Eridani asteroid belt",
+      "Delta Eridani 1",
+      "Delta Eridani 2",
+      "Delta Eridani 3",
+      "Delta Eridani 5",
+      "Alpha Centauri B 1",
+      "Alpha Centauri B asteroid belt",
+      "Alpha Centauri B inner asteroid belt",
+      "Alpha Centauri A comfort-zone planet",
+      "Eden",
+      "Epsilon Indi 1",
+      "82 Eridani 3",
+      "82 Eridani 2",
+      "82 Eridani 3 outer moon",
+      "82 Eridani 3 inner moon",
+      "GL19-4"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR",
+      "Heaven-1",
+      "VR interface",
+      "SURGE drive weapon",
+      "exploration scouts",
+      "Heaven-2",
+      "Heaven-1A",
+      "exploration drone",
+      "subspace transmission",
+      "SURGE drive missile",
+      "Heaven-9",
+      "Heaven-10",
+      "modified SUDDAR array",
+      "SCUT",
+      "observation drone buster",
+      "firewall",
+      "printer",
+      "android"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH",
+      "Brazilian Empire",
+      "USE",
+      "VEHEMENT",
+      "Australian",
+      "New Zealand"
+    ],
+    "known_species": [
+      "Vulcan and Romulus native life",
+      "Delta Eridani 4 natives",
+      "gorilloids",
+      "Beta Hydri wreck aliens"
+    ],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      },
+      {
+        "id": "who-attacked-heaven-1-launch",
+        "text": "The launch turns into a confused orbital battle with missiles, military ships, and multiple unknown attackers, leaving the identity of the factions involved unresolved.",
+        "opened_chapter": 12
+      },
+      {
+        "id": "bob-grief-after-endocrine-control",
+        "text": "After disabling his endocrine control system, Bob begins fully mourning his lost human life, raising the question of how this emotional release will affect him going forward.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "other-national-probes-still-out-there",
+        "text": "Bob concludes that at least one more Brazilian Empire ship exists and that USE, Chinese, and possibly Australian probes may also be active somewhere in space.",
+        "opened_chapter": 15
+      },
+      {
+        "id": "first-bob-cohort-divergence",
+        "text": "Bob's first cohort of clones diverges in personality immediately, raising questions about how future Bob society and identity will evolve.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "omicron-eridani-biocompatibility",
+        "text": "Milo has found two apparently habitable living worlds at Omicron Eridani, but it remains unresolved whether Earth life and humans are biologically compatible with them.",
+        "opened_chapter": 19
+      },
+      {
+        "id": "use-colony-ship-evacuation-plan",
+        "text": "Riker and Colonel Butterworth agree to try building colony ships in Sol, raising the question of whether the surviving humans can endure long enough to launch them and where they will go.",
+        "opened_chapter": 26
+      },
+      {
+        "id": "alpha-centauri-escaped-brazilian-probe",
+        "text": "One Brazilian vessel escapes the destruction of the Alpha Centauri construction yard, leaving its destination and future threat unresolved.",
+        "opened_chapter": 28
+      },
+      {
+        "id": "archimedes-development",
+        "text": "Bob has identified an unusually inventive Deltan boy named Archimedes, raising the question of how far his intelligence and toolmaking will develop.",
+        "opened_chapter": 30
+      },
+      {
+        "id": "sol-transport-vessel-priority",
+        "text": "Riker reprioritizes transport-vessel construction for refugee movement, raising the question of how much this will delay colony-ship production.",
+        "opened_chapter": 31
+      },
+      {
+        "id": "new-united-nations-governance",
+        "text": "Riker has convened a global survivor assembly, but it remains unresolved whether the enclaves can create workable governance and cooperate on evacuation and survival priorities.",
+        "opened_chapter": 33
+      },
+      {
+        "id": "gorilloid-threat-to-deltans",
+        "text": "The Deltans remain under ongoing predation pressure from gorilloids, raising the question of whether Bob's indirect aid and planned drone defenses will be enough to secure their survival.",
+        "opened_chapter": 35
+      },
+      {
+        "id": "vehement-threat-in-sol",
+        "text": "VEHEMENT is escalating anonymous threats and opportunistic violence in Sol, raising the question of whether it will disrupt evacuation and governance efforts.",
+        "opened_chapter": 38
+      },
+      {
+        "id": "riker-family-descendants-contact",
+        "text": "Riker has discovered living descendants of Andrea Johansson, raising the question of how this new family connection will affect his decisions and emotional life.",
+        "opened_chapter": 38
+      },
+      {
+        "id": "kappa-ceti-expedition",
+        "text": "Luke has departed for Kappa Ceti, opening the question of what he will find there.",
+        "opened_chapter": 39
+      },
+      {
+        "id": "gamma-leporis-a-expedition",
+        "text": "Bender has departed for Gamma Leporis A, opening the question of what he will find there.",
+        "opened_chapter": 39
+      },
+      {
+        "id": "direct-deltan-prompting",
+        "text": "Bob now has the ability and willingness to speak directly to the Deltans through a modified drone, raising the question of how far he will go in overt intervention.",
+        "opened_chapter": 39
+      },
+      {
+        "id": "henry-roberts-rehabilitation",
+        "text": "Linus has rescued the unstable Australian replicant Henry Roberts and begun VR-based rehabilitation, leaving open whether Henry can fully recover and function again.",
+        "opened_chapter": 40
+      },
+      {
+        "id": "epsilon-indi-colony-value",
+        "text": "Epsilon Indi appears sparse and only partly surveyed, leaving open whether Linus will find anything in the system worth long-term development or colonization.",
+        "opened_chapter": 40
+      },
+      {
+        "id": "82-eridani-colony-value",
+        "text": "Milo finds two comfort-zone planets in 82 Eridani, raising the question of whether the system can become a viable human colony target once it is secured.",
+        "opened_chapter": 46
+      },
+      {
+        "id": "arthur-replacement-and-backup-storage",
+        "text": "Arthur's permanent loss forces the Sol Bobs to replace him and finally create off-site backup storage, raising the question of how quickly they can do so amid other priorities.",
+        "opened_chapter": 47
+      },
+      {
+        "id": "sol-orbital-farming-stations",
+        "text": "Homer and Riker devise orbital farming stations to avert starvation in Sol, raising the question of how quickly the plan can be built and whether political opposition will hinder it.",
+        "opened_chapter": 49
+      },
+      {
+        "id": "new-zealand-hacker-identity",
+        "text": "A hacker using knowledge of the original Heaven design attacks through the UN feed from New Zealand, leaving the perpetrator's identity unresolved.",
+        "opened_chapter": 49
+      },
+      {
+        "id": "gorilloid-war-of-extermination",
+        "text": "Bob concludes that the migration has entered a region of extreme gorilloid density and may require a prolonged extermination campaign to survive.",
+        "opened_chapter": 50
+      },
+      {
+        "id": "bill-retaliation-for-milo",
+        "text": "Bill responds to Milo's death by accelerating production of armed version-3 Bobs, raising the question of when and where he will strike back against Medeiros.",
+        "opened_chapter": 51
+      },
+      {
+        "id": "bawbe-worship-escalation",
+        "text": "The Deltans have begun turning Bob's technology into religious objects, raising the question of how far their worship of the bawbe will go and how it will affect Bob's intervention.",
+        "opened_chapter": 55
+      },
+      {
+        "id": "bill-android-project",
+        "text": "Bill's Bullwinkle android project is close but still blocked by sensory integration, reflex processing, bandwidth, and SCUT miniaturization problems.",
+        "opened_chapter": 56
+      },
+      {
+        "id": "ragnarok-ice-drive-redesign",
+        "text": "After losing drive segments during iceberg delivery, Bill plans to redesign the asteroid-moving system to avoid anchoring directly to incoming ice.",
+        "opened_chapter": 56
+      },
+      {
+        "id": "beta-hydri-hostile-aliens",
+        "text": "Mario's discovery of a wrecked alien raider and a sterilized world raises the question of who these hostile aliens are, where they came from, and whether they are still attacking other systems.",
+        "opened_chapter": 57
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 53,
+        "text": "Bob restarts the Deltan migration, fends off more predator attacks, and reaches the flint site while reconsidering how deeply he should shape Deltan society."
+      },
+      {
+        "chapter": 54,
+        "text": "Riker oversees the completion of Exodus-1 and Exodus-2 and reassures Julia that testing is the next step before Exodus-3."
+      },
+      {
+        "chapter": 55,
+        "text": "Bob reaches the flint site, discovers why it is swarming with gorilloids, and realizes the Deltans are turning the bawbe into a religion."
+      },
+      {
+        "chapter": 56,
+        "text": "Bill saves a crucial Ragnarök water drop at the cost of drive hardware, then returns to his frustrating android research."
+      },
+      {
+        "chapter": 57,
+        "text": "Mario reaches Beta Hydri and finds not a colony prospect but the wreckage of a hostile alien civilization on a dead world."
+      }
+    ]
+  }
+}

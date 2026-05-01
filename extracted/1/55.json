@@ -1,0 +1,855 @@
+{
+  "metadata": {
+    "chapter": 55,
+    "pov": "Bob",
+    "year": 2166,
+    "month": "July",
+    "location": "Delta Eridani",
+    "notes": "Chapter contains a scene break but remains in the same location and timeframe.",
+    "pov_knowledge": {
+      "believes": [
+        "The flint site was likely abandoned after being overrun by gorilloids.",
+        "Keeping buster AMIs on sentry duty and killing only nearby gorilloids may teach the local population to avoid the area over time."
+      ],
+      "learns": [
+        "The gorilloids are omnivores whose primary staple is nutritious seedpods from local trees.",
+        "The Deltans have begun treating buster remains as a religious altar to the 'bawbe'."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Bob",
+      "type": "replicant",
+      "location": "Delta Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Overseeing the Deltan migration at the flint site via drones."
+    },
+    {
+      "name": "Moses",
+      "type": "alien_individual",
+      "location": "Delta Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Elder who remembers fear associated with the abandoned flint site."
+    },
+    {
+      "name": "Arnold",
+      "type": "alien_individual",
+      "location": "Delta Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Organizes the tribe into a defensible position and sets sentries."
+    },
+    {
+      "name": "Archimedes",
+      "type": "alien_individual",
+      "location": "Delta Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Heads off with Moses to begin making axes and spearheads from flint."
+    },
+    {
+      "name": "Marvin",
+      "type": "replicant",
+      "location": "Delta Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Discusses strategy with Bob and points out the emerging altar."
+    },
+    {
+      "name": "GUPPI",
+      "type": "ai",
+      "location": "Delta Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Controls sentry actions and reports gorilloid neutralizations."
+    }
+  ],
+  "new_characters": [],
+  "destructions": [],
+  "resolutions": [],
+  "movements": [],
+  "star_systems": [
+    {
+      "name": "Delta Eridani",
+      "role": "setting",
+      "notes": "The Deltans reach the flint site on Eden."
+    }
+  ],
+  "planets": [
+    {
+      "name": "Eden",
+      "star_system": "Delta Eridani",
+      "orbital_position": null,
+      "type": "rocky",
+      "habitable": true,
+      "features": "Flint site sits on a rocky rise with natural shelter, reservoirs, and commanding views; surrounding forest contains seedpod trees that support dense gorilloid populations.",
+      "life": "Deltans and dense local gorilloid population near the flint site.",
+      "status": "surveyed",
+      "notes": "Chapter adds ecological context for the flint-site region."
+    }
+  ],
+  "technologies": [],
+  "faction_events": [],
+  "communications": [],
+  "combat": [],
+  "alien_species": [
+    {
+      "name": "gorilloids",
+      "event": "observation",
+      "location": "Delta Eridani",
+      "planet": "Eden",
+      "tech_level": "pre-industrial",
+      "intelligent": false,
+      "hostile": true,
+      "notes": "Bob observes that the flint-site region has an unusually dense gorilloid population sustained by local seedpods, with Deltans serving as an attractive supplemental protein source."
+    }
+  ],
+  "infrastructure": [],
+  "human_colonies": [],
+  "relationships": [
+    {
+      "a": "Bob",
+      "b": "Archimedes",
+      "type": "mentor",
+      "event": "strained",
+      "text": "Bob realizes his protection of the Deltans is fostering religious reverence for him as the 'bawbe,' complicating his role in their society.",
+      "notes": "The strain is conceptual rather than interpersonal conflict."
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Delta Eridani",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Bob reaches the flint site with the migrating Deltans, surveys the area, and realizes it lies amid a dense gorilloid feeding ground."
+    },
+    {
+      "order": 2,
+      "location": "Delta Eridani",
+      "time_offset": "later the same day",
+      "pov": null,
+      "summary": "After the Deltans settle into the defensible site, Bob and Marvin discuss a long-term deterrence strategy and discover that some Deltans have built an altar from buster parts."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Marvin",
+      "text": "An altar. Yep. All hail the bawbe!",
+      "context": "Marvin shows Bob that the Deltans have arranged buster parts into a shrine, underscoring Bob's growing religious influence over them."
+    }
+  ],
+  "threads_opened": [
+    {
+      "id": "bawbe-worship-escalation",
+      "text": "The Deltans have begun turning Bob's technology into religious objects, raising the question of how far their worship of the bawbe will go and how it will affect Bob's intervention."
+    }
+  ],
+  "threads_resolved": [],
+  "events": [
+    {
+      "text": "Bob identifies the flint site as the center of a dense gorilloid feeding zone and shifts to a standing-defense strategy to protect the Deltans there.",
+      "characters": [
+        "Bob",
+        "Arnold",
+        "Marvin",
+        "Moses"
+      ],
+      "significance": "major",
+      "type": "discovery"
+    },
+    {
+      "text": "Bob discovers that some Deltans have built an altar from buster remains, confirming that his aid is becoming formalized as religious worship.",
+      "characters": [
+        "Bob",
+        "Marvin"
+      ],
+      "significance": "major",
+      "type": "social"
+    }
+  ],
+  "summary": {
+    "one_line": "Bob reaches the flint site, discovers why it is swarming with gorilloids, and realizes the Deltans are turning the bawbe into a religion.",
+    "paragraph": "Bob finally brings the Deltans to the flint site and quickly sees that the location is naturally defensible but surrounded by an alarming density of gorilloids. A closer ecological look reveals the reason: local seedpod trees support a large omnivorous gorilloid population, and the arriving Deltans are an irresistible protein source. Rather than launch a full extermination campaign, Bob decides to maintain a defensive perimeter with busters and let repeated losses teach the predators to avoid the area. The chapter ends with a more unsettling discovery when Marvin shows Bob that the Deltans have built an altar from buster parts, making explicit how deeply Bob's interventions are reshaping their beliefs.",
+    "events": [
+      "Bob arrives with the Deltans at the old flint site and notes that it is an excellent natural stronghold.",
+      "He questions the elders about why the site was abandoned and suspects gorilloids drove the tribe away.",
+      "A drone survey reveals that the surrounding forest is packed with gorilloids, and Bob works out that local seedpods support a large omnivorous population.",
+      "When two gorilloids approach too closely, Guppy destroys them and the Deltans hurry into a defensive position on the bluff.",
+      "After the tribe settles in, Archimedes and Moses head off to begin making tools and weapons from the flint deposits.",
+      "Bob rejects a full culling campaign and instead decides to keep busters on sentry duty so the gorilloids learn to avoid the area.",
+      "Marvin shows Bob that some Deltans have arranged buster parts into an altar, revealing that the bawbe is becoming an object of worship."
+    ],
+    "themes": [
+      "first-contact",
+      "colonization",
+      "religion",
+      "intervention"
+    ],
+    "mood": "reflective",
+    "pov_emotional_arc": "Bob moves from tactical concern about predator pressure to uneasy recognition that his protection is transforming Deltan culture in ways he may not be able to control."
+  },
+  "world_state_after": {
+    "chapters_processed": 55,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "in transit to Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 55
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 55
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 10,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Dr. Doucette",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Spike",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 32
+      },
+      {
+        "name": "Jeeves",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Major Ernesto Medeiros",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 51
+      },
+      {
+        "name": "Serra do Mar",
+        "type": "ship",
+        "location": "Epsilon Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 15,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Bill",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 51
+      },
+      {
+        "name": "Riker",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 54
+      },
+      {
+        "name": "Milo",
+        "type": "replicant",
+        "location": "82 Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 51,
+        "last_seen_chapter": 51
+      },
+      {
+        "name": "Mario",
+        "type": "replicant",
+        "location": "in transit to Beta Hydri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 27
+      },
+      {
+        "name": "Homer",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 54
+      },
+      {
+        "name": "Garfield",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 42
+      },
+      {
+        "name": "Calvin",
+        "type": "replicant",
+        "location": "Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 45
+      },
+      {
+        "name": "Goku",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 45
+      },
+      {
+        "name": "Linus",
+        "type": "replicant",
+        "location": "Epsilon Indi",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 40
+      },
+      {
+        "name": "Captain Matias Araújo",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 24,
+        "last_seen_chapter": 24
+      },
+      {
+        "name": "Colonel George Butterworth",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 54
+      },
+      {
+        "name": "Delta Eridani 4 natives",
+        "type": "alien_species",
+        "location": "Delta Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 35,
+        "last_seen_chapter": 35
+      },
+      {
+        "name": "Marvin",
+        "type": "replicant",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 55
+      },
+      {
+        "name": "Luke",
+        "type": "replicant",
+        "location": "in transit to Kappa Ceti",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 39
+      },
+      {
+        "name": "Bender",
+        "type": "replicant",
+        "location": "in transit to Gamma Leporis A",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 39
+      },
+      {
+        "name": "Archimedes",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 55
+      },
+      {
+        "name": "Charles",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 54
+      },
+      {
+        "name": "Arthur",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 47,
+        "last_seen_chapter": 47
+      },
+      {
+        "name": "Minister Cranston",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 54
+      },
+      {
+        "name": "Gudmund Valter",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 41
+      },
+      {
+        "name": "Moses",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 55
+      },
+      {
+        "name": "Arnold",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 55
+      },
+      {
+        "name": "Julia Hendricks",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 54
+      },
+      {
+        "name": "Henry Roberts",
+        "type": "replicant",
+        "location": "Epsilon Indi",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 40
+      },
+      {
+        "name": "Ambassador Gerrold",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 41
+      },
+      {
+        "name": "Bart",
+        "type": "replicant",
+        "location": "Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 45
+      },
+      {
+        "name": "Diana",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 53
+      },
+      {
+        "name": "Ralph",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 54
+      }
+    ],
+    "known_star_systems": [
+      "Sol",
+      "Epsilon Eridani",
+      "Alpha Centauri",
+      "Delta Eridani",
+      "Omicron Eridani",
+      "Beta Hydri",
+      "82 Eridani",
+      "Kappa Ceti",
+      "Gamma Leporis A",
+      "Epsilon Indi",
+      "New Zealand"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon",
+      "Saturn",
+      "Titan",
+      "Epsilon Eridani 1",
+      "Epsilon Eridani 2",
+      "Epsilon Eridani inner asteroid belt",
+      "Epsilon Eridani 4",
+      "Epsilon Eridani outer asteroid belt",
+      "Epsilon Eridani 5",
+      "Epsilon Eridani 3",
+      "Ragnarök",
+      "Omicron Eridani asteroid belt",
+      "OE-1A",
+      "OE-1B",
+      "OE-2",
+      "Jupiter",
+      "Vulcan",
+      "Romulus",
+      "Delta Eridani 4",
+      "Delta Eridani asteroid belt",
+      "Delta Eridani 1",
+      "Delta Eridani 2",
+      "Delta Eridani 3",
+      "Delta Eridani 5",
+      "Alpha Centauri B 1",
+      "Alpha Centauri B asteroid belt",
+      "Alpha Centauri B inner asteroid belt",
+      "Alpha Centauri A comfort-zone planet",
+      "Eden",
+      "Epsilon Indi 1",
+      "82 Eridani 3",
+      "82 Eridani 2",
+      "82 Eridani 3 outer moon",
+      "82 Eridani 3 inner moon"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR",
+      "Heaven-1",
+      "VR interface",
+      "SURGE drive weapon",
+      "exploration scouts",
+      "Heaven-2",
+      "Heaven-1A",
+      "exploration drone",
+      "subspace transmission",
+      "SURGE drive missile",
+      "Heaven-9",
+      "Heaven-10",
+      "modified SUDDAR array",
+      "SCUT",
+      "observation drone buster",
+      "firewall",
+      "printer"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH",
+      "Brazilian Empire",
+      "USE",
+      "VEHEMENT",
+      "Australian",
+      "New Zealand"
+    ],
+    "known_species": [
+      "Vulcan and Romulus native life",
+      "Delta Eridani 4 natives",
+      "gorilloids"
+    ],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      },
+      {
+        "id": "who-attacked-heaven-1-launch",
+        "text": "The launch turns into a confused orbital battle with missiles, military ships, and multiple unknown attackers, leaving the identity of the factions involved unresolved.",
+        "opened_chapter": 12
+      },
+      {
+        "id": "bob-grief-after-endocrine-control",
+        "text": "After disabling his endocrine control system, Bob begins fully mourning his lost human life, raising the question of how this emotional release will affect him going forward.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "other-national-probes-still-out-there",
+        "text": "Bob concludes that at least one more Brazilian Empire ship exists and that USE, Chinese, and possibly Australian probes may also be active somewhere in space.",
+        "opened_chapter": 15
+      },
+      {
+        "id": "first-bob-cohort-divergence",
+        "text": "Bob's first cohort of clones diverges in personality immediately, raising questions about how future Bob society and identity will evolve.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "omicron-eridani-biocompatibility",
+        "text": "Milo has found two apparently habitable living worlds at Omicron Eridani, but it remains unresolved whether Earth life and humans are biologically compatible with them.",
+        "opened_chapter": 19
+      },
+      {
+        "id": "use-colony-ship-evacuation-plan",
+        "text": "Riker and Colonel Butterworth agree to try building colony ships in Sol, raising the question of whether the surviving humans can endure long enough to launch them and where they will go.",
+        "opened_chapter": 26
+      },
+      {
+        "id": "alpha-centauri-escaped-brazilian-probe",
+        "text": "One Brazilian vessel escapes the destruction of the Alpha Centauri construction yard, leaving its destination and future threat unresolved.",
+        "opened_chapter": 28
+      },
+      {
+        "id": "archimedes-development",
+        "text": "Bob has identified an unusually inventive Deltan boy named Archimedes, raising the question of how far his intelligence and toolmaking will develop.",
+        "opened_chapter": 30
+      },
+      {
+        "id": "sol-transport-vessel-priority",
+        "text": "Riker reprioritizes transport-vessel construction for refugee movement, raising the question of how much this will delay colony-ship production.",
+        "opened_chapter": 31
+      },
+      {
+        "id": "new-united-nations-governance",
+        "text": "Riker has convened a global survivor assembly, but it remains unresolved whether the enclaves can create workable governance and cooperate on evacuation and survival priorities.",
+        "opened_chapter": 33
+      },
+      {
+        "id": "gorilloid-threat-to-deltans",
+        "text": "The Deltans remain under ongoing predation pressure from gorilloids, raising the question of whether Bob's indirect aid and planned drone defenses will be enough to secure their survival.",
+        "opened_chapter": 35
+      },
+      {
+        "id": "vehement-threat-in-sol",
+        "text": "VEHEMENT is escalating anonymous threats and opportunistic violence in Sol, raising the question of whether it will disrupt evacuation and governance efforts.",
+        "opened_chapter": 38
+      },
+      {
+        "id": "riker-family-descendants-contact",
+        "text": "Riker has discovered living descendants of Andrea Johansson, raising the question of how this new family connection will affect his decisions and emotional life.",
+        "opened_chapter": 38
+      },
+      {
+        "id": "kappa-ceti-expedition",
+        "text": "Luke has departed for Kappa Ceti, opening the question of what he will find there.",
+        "opened_chapter": 39
+      },
+      {
+        "id": "gamma-leporis-a-expedition",
+        "text": "Bender has departed for Gamma Leporis A, opening the question of what he will find there.",
+        "opened_chapter": 39
+      },
+      {
+        "id": "direct-deltan-prompting",
+        "text": "Bob now has the ability and willingness to speak directly to the Deltans through a modified drone, raising the question of how far he will go in overt intervention.",
+        "opened_chapter": 39
+      },
+      {
+        "id": "henry-roberts-rehabilitation",
+        "text": "Linus has rescued the unstable Australian replicant Henry Roberts and begun VR-based rehabilitation, leaving open whether Henry can fully recover and function again.",
+        "opened_chapter": 40
+      },
+      {
+        "id": "epsilon-indi-colony-value",
+        "text": "Epsilon Indi appears sparse and only partly surveyed, leaving open whether Linus will find anything in the system worth long-term development or colonization.",
+        "opened_chapter": 40
+      },
+      {
+        "id": "82-eridani-colony-value",
+        "text": "Milo finds two comfort-zone planets in 82 Eridani, raising the question of whether the system can become a viable human colony target once it is secured.",
+        "opened_chapter": 46
+      },
+      {
+        "id": "arthur-replacement-and-backup-storage",
+        "text": "Arthur's permanent loss forces the Sol Bobs to replace him and finally create off-site backup storage, raising the question of how quickly they can do so amid other priorities.",
+        "opened_chapter": 47
+      },
+      {
+        "id": "sol-orbital-farming-stations",
+        "text": "Homer and Riker devise orbital farming stations to avert starvation in Sol, raising the question of how quickly the plan can be built and whether political opposition will hinder it.",
+        "opened_chapter": 49
+      },
+      {
+        "id": "new-zealand-hacker-identity",
+        "text": "A hacker using knowledge of the original Heaven design attacks through the UN feed from New Zealand, leaving the perpetrator's identity unresolved.",
+        "opened_chapter": 49
+      },
+      {
+        "id": "gorilloid-war-of-extermination",
+        "text": "Bob concludes that the migration has entered a region of extreme gorilloid density and may require a prolonged extermination campaign to survive.",
+        "opened_chapter": 50
+      },
+      {
+        "id": "bill-retaliation-for-milo",
+        "text": "Bill responds to Milo's death by accelerating production of armed version-3 Bobs, raising the question of when and where he will strike back against Medeiros.",
+        "opened_chapter": 51
+      },
+      {
+        "id": "bawbe-worship-escalation",
+        "text": "The Deltans have begun turning Bob's technology into religious objects, raising the question of how far their worship of the bawbe will go and how it will affect Bob's intervention.",
+        "opened_chapter": 55
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 51,
+        "text": "Bill confirms Milo's death and accelerates Bob production for retaliation."
+      },
+      {
+        "chapter": 52,
+        "text": "Riker checks in on Homer's increasingly successful orbital farming program as Sol's food outlook temporarily improves."
+      },
+      {
+        "chapter": 53,
+        "text": "Bob restarts the Deltan migration, fends off more predator attacks, and reaches the flint site while reconsidering how deeply he should shape Deltan society."
+      },
+      {
+        "chapter": 54,
+        "text": "Riker oversees the completion of Exodus-1 and Exodus-2 and reassures Julia that testing is the next step before Exodus-3."
+      },
+      {
+        "chapter": 55,
+        "text": "Bob reaches the flint site, discovers why it is swarming with gorilloids, and realizes the Deltans are turning the bawbe into a religion."
+      }
+    ]
+  }
+}

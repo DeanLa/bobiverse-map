@@ -1,0 +1,844 @@
+{
+  "metadata": {
+    "chapter": 39,
+    "pov": "Bob",
+    "year": 2165,
+    "month": "October",
+    "location": "Delta Eridani",
+    "notes": null,
+    "pov_knowledge": {
+      "believes": [
+        "Bob believes he and Marvin may be diverging from newer clones because backups cannot perfectly capture an increasingly complex mind.",
+        "Bob believes limited direct prompting of the Deltans is justified after the gorilloid attack."
+      ],
+      "learns": [],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Bob",
+      "type": "replicant",
+      "location": "Delta Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "POV character observing Luke and Bender depart and monitoring the Deltan colony."
+    },
+    {
+      "name": "Marvin",
+      "type": "replicant",
+      "location": "Delta Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Discusses clone divergence and reviews Deltan developments with Bob."
+    },
+    {
+      "name": "Luke",
+      "type": "replicant",
+      "location": "Delta Eridani",
+      "status": "in_transit",
+      "transit_from": "Delta Eridani",
+      "transit_to": "Kappa Ceti",
+      "notes": "Departs during the chapter."
+    },
+    {
+      "name": "Bender",
+      "type": "replicant",
+      "location": "Delta Eridani",
+      "status": "in_transit",
+      "transit_from": "Delta Eridani",
+      "transit_to": "Gamma Leporis A",
+      "notes": "Departs during the chapter."
+    },
+    {
+      "name": "Archimedes",
+      "type": "alien_individual",
+      "location": "Delta Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Seen via observation feed in the Deltan colony; recovers remains of the destroyed buster drone for use as tools."
+    },
+    {
+      "name": "Arnold",
+      "type": "alien_individual",
+      "location": "Delta Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Seen via observation feed in the Deltan colony; retains the axe and uses it for communal chopping."
+    }
+  ],
+  "new_characters": [],
+  "destructions": [],
+  "resolutions": [],
+  "movements": [
+    {
+      "character": "Luke",
+      "type": "departure",
+      "from": "Delta Eridani",
+      "to": "Kappa Ceti",
+      "ship": null,
+      "companions": [],
+      "cargo": null,
+      "drive": "SURGE",
+      "max_g": null,
+      "notes": null
+    },
+    {
+      "character": "Bender",
+      "type": "departure",
+      "from": "Delta Eridani",
+      "to": "Gamma Leporis A",
+      "ship": null,
+      "companions": [],
+      "cargo": null,
+      "drive": "SURGE",
+      "max_g": null,
+      "notes": "Target is stated to be more than 16 light years away."
+    }
+  ],
+  "star_systems": [
+    {
+      "name": "Delta Eridani",
+      "role": "setting",
+      "notes": null
+    },
+    {
+      "name": "Kappa Ceti",
+      "role": "destination",
+      "notes": "Luke's selected destination system."
+    },
+    {
+      "name": "Gamma Leporis A",
+      "role": "destination",
+      "notes": "Bender's selected destination system."
+    },
+    {
+      "name": "Sol",
+      "role": "mentioned",
+      "notes": "Used as a comparison star for destination selection."
+    }
+  ],
+  "planets": [],
+  "technologies": [
+    {
+      "name": "exploration drone",
+      "full_name": null,
+      "event": "upgraded",
+      "by": "Bob",
+      "location": "Delta Eridani",
+      "notes": "Bob modifies the design to add a speaker system for direct communication with the Deltans."
+    }
+  ],
+  "faction_events": [],
+  "communications": [
+    {
+      "from_character": "Bob",
+      "from_system": "Delta Eridani",
+      "to_character": "Bill",
+      "to_system": "Epsilon Eridani",
+      "medium": "courier",
+      "direction": "sent",
+      "contents_summary": "Bob sends Bill a report after Luke and Bender depart and the local station becomes fully operational.",
+      "notes": "The report is handed off for transmission by the station's AMI controller."
+    }
+  ],
+  "combat": [],
+  "alien_species": [
+    {
+      "name": "Delta Eridani 4 natives",
+      "event": "observation",
+      "location": "Delta Eridani",
+      "planet": "Delta Eridani 4",
+      "tech_level": "pre-industrial",
+      "intelligent": true,
+      "hostile": false,
+      "notes": "Bob and Marvin can now follow Deltan conversations through language analysis, and Bob believes they may be ready for direct spoken prompting."
+    }
+  ],
+  "infrastructure": [
+    {
+      "system": "Delta Eridani",
+      "type": "research_station",
+      "event": "established",
+      "owner": "Bob",
+      "notes": "A space station is reported as fully operational and turned over to an AMI controller."
+    }
+  ],
+  "human_colonies": [],
+  "relationships": [
+    {
+      "a": "Bob",
+      "b": "Marvin",
+      "type": "working_partners",
+      "event": "strengthened",
+      "text": "Bob and Marvin collaborate on clone theory, Deltan language work, and plans for more direct intervention with the Deltans.",
+      "notes": null
+    },
+    {
+      "a": "Bob",
+      "b": "Archimedes",
+      "type": "mentor",
+      "event": "strengthened",
+      "text": "Bob continues to monitor Archimedes closely and prepares to guide the Deltans more directly if needed.",
+      "notes": "The guidance is still indirect at this point."
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Delta Eridani",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Bob and Marvin watch Luke and Bender depart for newly assigned exploration targets and discuss increasing divergence among Bob clones."
+    },
+    {
+      "order": 2,
+      "location": "Delta Eridani",
+      "time_offset": "same day",
+      "pov": null,
+      "summary": "Bob reviews the Deltan colony's recovery after the gorilloid attack, notes Archimedes and Arnold adapting salvaged tools, and upgrades an exploration drone with speech capability for possible direct prompting."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [],
+  "threads_opened": [
+    {
+      "id": "kappa-ceti-expedition",
+      "text": "Luke has departed for Kappa Ceti, opening the question of what he will find there."
+    },
+    {
+      "id": "gamma-leporis-a-expedition",
+      "text": "Bender has departed for Gamma Leporis A, opening the question of what he will find there."
+    },
+    {
+      "id": "direct-deltan-prompting",
+      "text": "Bob now has the ability and willingness to speak directly to the Deltans through a modified drone, raising the question of how far he will go in overt intervention."
+    }
+  ],
+  "threads_resolved": [
+    {
+      "id": "delta-eridani-bob-expansion",
+      "text": "Bob's local Bob contingent expands outward as Luke and Bender depart Delta Eridani on separate exploration missions."
+    }
+  ],
+  "events": [
+    {
+      "text": "Luke and Bender depart Delta Eridani to explore Kappa Ceti and Gamma Leporis A, extending Bob's exploration network to new nearby stars.",
+      "characters": [
+        "Bob",
+        "Luke",
+        "Bender"
+      ],
+      "significance": "major",
+      "type": "travel"
+    },
+    {
+      "text": "Bob upgrades an exploration drone with speech capability to enable direct verbal prompting of the Deltans if necessary.",
+      "characters": [
+        "Bob",
+        "Marvin"
+      ],
+      "significance": "major",
+      "type": "technology"
+    }
+  ],
+  "summary": {
+    "one_line": "Bob sends Luke and Bender out to new stars and prepares to speak directly to the Deltans for the first time.",
+    "paragraph": "Bob watches Luke and Bender leave Delta Eridani for Kappa Ceti and Gamma Leporis A after a contentious debate over which nearby stars were worth exploring. He and Marvin reflect on how newer Bob clones seem less like exact copies, speculating that backup fidelity may degrade as their minds grow more complex. Reviewing the Deltan colony, Bob sees the aftermath of the gorilloid attack still shaping daily life, with Archimedes and Arnold repurposing salvaged artifacts into useful tools. By the end of the chapter, Bob decides he is ready to cross another line by modifying an exploration drone with a speaker so he can directly prompt the Deltans if they do not act on their own.",
+    "events": [
+      "Bob watches Luke and Bender accelerate out of Delta Eridani toward Kappa Ceti and Gamma Leporis A.",
+      "He and Marvin discuss why newer Bob clones seem to diverge more noticeably from their source templates.",
+      "Bob reviews the Deltan colony's recovery from the gorilloid attack and is moved by their mourning rituals.",
+      "He notes that Archimedes has repurposed the remains of a destroyed drone and that Arnold has kept and normalized use of the axe.",
+      "Bob finishes refining Deltan speech routines and modifies an exploration drone with a speaker so he can directly influence the tribe if necessary."
+    ],
+    "themes": [
+      "exploration",
+      "identity",
+      "first-contact",
+      "noninterference"
+    ],
+    "mood": "reflective",
+    "pov_emotional_arc": "Bob moves from thoughtful detachment about clone identity into uneasy acceptance that he is willing to intervene more openly in Deltan development."
+  },
+  "world_state_after": {
+    "chapters_processed": 39,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "in transit to Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 39
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 38
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 10,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Dr. Doucette",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Spike",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 32
+      },
+      {
+        "name": "Jeeves",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Major Ernesto Medeiros",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Serra do Mar",
+        "type": "ship",
+        "location": "Epsilon Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 15,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Bill",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 32
+      },
+      {
+        "name": "Riker",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 38
+      },
+      {
+        "name": "Milo",
+        "type": "replicant",
+        "location": "in transit to 82 Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 32
+      },
+      {
+        "name": "Mario",
+        "type": "replicant",
+        "location": "in transit to Beta Hydri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 27
+      },
+      {
+        "name": "Homer",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 34
+      },
+      {
+        "name": "Garfield",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 32
+      },
+      {
+        "name": "Calvin",
+        "type": "replicant",
+        "location": "Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Goku",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Linus",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Captain Matias Araújo",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 24,
+        "last_seen_chapter": 24
+      },
+      {
+        "name": "Colonel George Butterworth",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 38
+      },
+      {
+        "name": "Delta Eridani 4 natives",
+        "type": "alien_species",
+        "location": "Delta Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 35,
+        "last_seen_chapter": 35
+      },
+      {
+        "name": "Marvin",
+        "type": "replicant",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 39
+      },
+      {
+        "name": "Luke",
+        "type": "replicant",
+        "location": "in transit to Kappa Ceti",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 39
+      },
+      {
+        "name": "Bender",
+        "type": "replicant",
+        "location": "in transit to Gamma Leporis A",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 39
+      },
+      {
+        "name": "Archimedes",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 39
+      },
+      {
+        "name": "Charles",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 31
+      },
+      {
+        "name": "Arthur",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 33
+      },
+      {
+        "name": "Minister Cranston",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 38
+      },
+      {
+        "name": "Gudmund Valter",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 36
+      },
+      {
+        "name": "Moses",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 37
+      },
+      {
+        "name": "Arnold",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 39
+      },
+      {
+        "name": "Julia Hendricks",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 38
+      }
+    ],
+    "known_star_systems": [
+      "Sol",
+      "Epsilon Eridani",
+      "Alpha Centauri",
+      "Delta Eridani",
+      "Omicron Eridani",
+      "Beta Hydri",
+      "82 Eridani",
+      "Kappa Ceti",
+      "Gamma Leporis A"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon",
+      "Saturn",
+      "Titan",
+      "Epsilon Eridani 1",
+      "Epsilon Eridani 2",
+      "Epsilon Eridani inner asteroid belt",
+      "Epsilon Eridani 4",
+      "Epsilon Eridani outer asteroid belt",
+      "Epsilon Eridani 5",
+      "Epsilon Eridani 3",
+      "Ragnarök",
+      "Omicron Eridani asteroid belt",
+      "OE-1A",
+      "OE-1B",
+      "OE-2",
+      "Jupiter",
+      "Vulcan",
+      "Romulus",
+      "Delta Eridani 4",
+      "Delta Eridani asteroid belt",
+      "Delta Eridani 1",
+      "Delta Eridani 2",
+      "Delta Eridani 3",
+      "Delta Eridani 5",
+      "Alpha Centauri B 1",
+      "Alpha Centauri B asteroid belt",
+      "Alpha Centauri B inner asteroid belt",
+      "Alpha Centauri A comfort-zone planet",
+      "Eden"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR",
+      "Heaven-1",
+      "VR interface",
+      "SURGE drive weapon",
+      "exploration scouts",
+      "Heaven-2",
+      "Heaven-1A",
+      "exploration drone",
+      "subspace transmission",
+      "SURGE drive missile",
+      "Heaven-9",
+      "Heaven-10",
+      "modified SUDDAR array",
+      "SCUT",
+      "observation drone buster"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH",
+      "Brazilian Empire",
+      "USE",
+      "VEHEMENT"
+    ],
+    "known_species": [
+      "Vulcan and Romulus native life",
+      "Delta Eridani 4 natives",
+      "gorilloids"
+    ],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      },
+      {
+        "id": "who-attacked-heaven-1-launch",
+        "text": "The launch turns into a confused orbital battle with missiles, military ships, and multiple unknown attackers, leaving the identity of the factions involved unresolved.",
+        "opened_chapter": 12
+      },
+      {
+        "id": "bob-grief-after-endocrine-control",
+        "text": "After disabling his endocrine control system, Bob begins fully mourning his lost human life, raising the question of how this emotional release will affect him going forward.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "other-national-probes-still-out-there",
+        "text": "Bob concludes that at least one more Brazilian Empire ship exists and that USE, Chinese, and possibly Australian probes may also be active somewhere in space.",
+        "opened_chapter": 15
+      },
+      {
+        "id": "first-bob-cohort-divergence",
+        "text": "Bob's first cohort of clones diverges in personality immediately, raising questions about how future Bob society and identity will evolve.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "omicron-eridani-biocompatibility",
+        "text": "Milo has found two apparently habitable living worlds at Omicron Eridani, but it remains unresolved whether Earth life and humans are biologically compatible with them.",
+        "opened_chapter": 19
+      },
+      {
+        "id": "milo-82-eridani-expedition",
+        "text": "Milo departs for 82 Eridani, opening the question of what he will find there.",
+        "opened_chapter": 23
+      },
+      {
+        "id": "subspace-communication-network-rollout",
+        "text": "Bill and Garfield now have a working subspace communications system, raising the question of how quickly they can deploy it across multiple star systems.",
+        "opened_chapter": 25
+      },
+      {
+        "id": "use-colony-ship-evacuation-plan",
+        "text": "Riker and Colonel Butterworth agree to try building colony ships in Sol, raising the question of whether the surviving humans can endure long enough to launch them and where they will go.",
+        "opened_chapter": 26
+      },
+      {
+        "id": "delta-eridani-first-contact",
+        "text": "Bob has discovered intelligent fire-using natives on Delta Eridani 4, raising the question of whether and how he will make first contact.",
+        "opened_chapter": 27
+      },
+      {
+        "id": "alpha-centauri-escaped-brazilian-probe",
+        "text": "One Brazilian vessel escapes the destruction of the Alpha Centauri construction yard, leaving its destination and future threat unresolved.",
+        "opened_chapter": 28
+      },
+      {
+        "id": "alpha-centauri-combat-bob-expansion",
+        "text": "Calvin and Goku conclude Alpha Centauri should be reinforced with combat-class Bobs, raising the question of whether Bill will approve and send them.",
+        "opened_chapter": 28
+      },
+      {
+        "id": "archimedes-development",
+        "text": "Bob has identified an unusually inventive Deltan boy named Archimedes, raising the question of how far his intelligence and toolmaking will develop.",
+        "opened_chapter": 30
+      },
+      {
+        "id": "sol-transport-vessel-priority",
+        "text": "Riker reprioritizes transport-vessel construction for refugee movement, raising the question of how much this will delay colony-ship production.",
+        "opened_chapter": 31
+      },
+      {
+        "id": "new-united-nations-governance",
+        "text": "Riker has convened a global survivor assembly, but it remains unresolved whether the enclaves can create workable governance and cooperate on evacuation and survival priorities.",
+        "opened_chapter": 33
+      },
+      {
+        "id": "gorilloid-threat-to-deltans",
+        "text": "The Deltans remain under ongoing predation pressure from gorilloids, raising the question of whether Bob's indirect aid and planned drone defenses will be enough to secure their survival.",
+        "opened_chapter": 35
+      },
+      {
+        "id": "vehement-threat-in-sol",
+        "text": "VEHEMENT is escalating anonymous threats and opportunistic violence in Sol, raising the question of whether it will disrupt evacuation and governance efforts.",
+        "opened_chapter": 38
+      },
+      {
+        "id": "riker-family-descendants-contact",
+        "text": "Riker has discovered living descendants of Andrea Johansson, raising the question of how this new family connection will affect his decisions and emotional life.",
+        "opened_chapter": 38
+      },
+      {
+        "id": "kappa-ceti-expedition",
+        "text": "Luke has departed for Kappa Ceti, opening the question of what he will find there.",
+        "opened_chapter": 39
+      },
+      {
+        "id": "gamma-leporis-a-expedition",
+        "text": "Bender has departed for Gamma Leporis A, opening the question of what he will find there.",
+        "opened_chapter": 39
+      },
+      {
+        "id": "direct-deltan-prompting",
+        "text": "Bob now has the ability and willingness to speak directly to the Deltans through a modified drone, raising the question of how far he will go in overt intervention.",
+        "opened_chapter": 39
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 35,
+        "text": "Bob intervenes in Deltan development after discovering they are being hunted toward extinction, and Archimedes rapidly turns supplied flint into a tribal technological leap."
+      },
+      {
+        "chapter": 36,
+        "text": "Riker survives another round of Sol politics, rebuffs FAITH's attempt to control him, and finally gets movement from Spitsbergen on the seed-vault standoff."
+      },
+      {
+        "chapter": 37,
+        "text": "Bob breaks his noninterference stance when a massive gorilloid assault nearly kills Archimedes."
+      },
+      {
+        "chapter": 38,
+        "text": "Riker learns of a new extremist threat in Sol and is blindsided by contact with a living descendant of his sister Andrea."
+      },
+      {
+        "chapter": 39,
+        "text": "Bob sends Luke and Bender out to new stars and prepares to speak directly to the Deltans for the first time."
+      }
+    ]
+  }
+}

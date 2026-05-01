@@ -1,0 +1,749 @@
+{
+  "metadata": {
+    "chapter": 27,
+    "pov": "Bob",
+    "year": 2165,
+    "month": "April",
+    "location": "Delta Eridani",
+    "notes": "Chapter takes place in multiple scenes within Delta Eridani; planet naming uses Bob's shorthand 'DE-4' for Delta Eridani 4.",
+    "pov_knowledge": {
+      "believes": [
+        "The newly discovered natives on Delta Eridani 4 are intelligent at least to the level of fire use and likely speech.",
+        "Delta Eridani 4 is no longer a viable human colonization target because it has native intelligent life."
+      ],
+      "learns": [
+        "Delta Eridani contains ten planets, including one habitable-zone rocky world.",
+        "Delta Eridani has a resource-rich asteroid belt suitable for mining.",
+        "Delta Eridani 4 hosts abundant native life, including what Bob identifies as intelligent fire-using beings."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Bob",
+      "type": "replicant",
+      "location": "Delta Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Surveying the Delta Eridani system and investigating Delta Eridani 4."
+    },
+    {
+      "name": "Spike",
+      "type": "ai",
+      "location": "Delta Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Bob's AI present with him."
+    },
+    {
+      "name": "Guppy",
+      "type": "ai",
+      "location": "Delta Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Assists Bob with surveys, analysis, and drone deployment."
+    },
+    {
+      "name": "Bill",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "mentioned_only",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Bob thinks about Bill receiving reports and possibly forwarding news."
+    },
+    {
+      "name": "Milo",
+      "type": "replicant",
+      "location": "in_transit",
+      "status": "mentioned_only",
+      "transit_from": "Omicron2 Eridani",
+      "transit_to": "82 Eridani",
+      "notes": "Mentioned by Bob while reflecting on clone personality divergence."
+    },
+    {
+      "name": "Riker",
+      "type": "replicant",
+      "location": "in_transit",
+      "status": "mentioned_only",
+      "transit_from": "Epsilon Eridani",
+      "transit_to": "Sol",
+      "notes": "Mentioned by Bob while reflecting on clone personality divergence."
+    },
+    {
+      "name": "Mario",
+      "type": "replicant",
+      "location": "in_transit",
+      "status": "mentioned_only",
+      "transit_from": "Epsilon Eridani",
+      "transit_to": "Beta Hydri",
+      "notes": "Mentioned by Bob while reflecting on clone personality divergence."
+    }
+  ],
+  "new_characters": [
+    {
+      "name": "Delta Eridani 4 natives",
+      "type": "alien_species",
+      "parent": null,
+      "generation": null,
+      "location": "Delta Eridani",
+      "faction": null,
+      "personality": {
+        "traits": [],
+        "role": "unknown",
+        "nickname_origin": null,
+        "quirks": null
+      },
+      "notes": "Fire-using native beings observed on Delta Eridani 4; species not yet named."
+    }
+  ],
+  "destructions": [],
+  "resolutions": [],
+  "movements": [],
+  "star_systems": [
+    {
+      "name": "Delta Eridani",
+      "role": "setting",
+      "notes": "Bob surveys the system on arrival and begins establishing infrastructure."
+    },
+    {
+      "name": "Epsilon Eridani",
+      "role": "mentioned",
+      "notes": "Referenced as Bob's point of origin and for comparison of asteroid resources."
+    },
+    {
+      "name": "Sol",
+      "role": "mentioned",
+      "notes": "Referenced for comparison to system layout and planetary features."
+    }
+  ],
+  "planets": [
+    {
+      "name": "Delta Eridani 4",
+      "star_system": "Delta Eridani",
+      "orbital_position": 4,
+      "type": "rocky",
+      "habitable": true,
+      "features": "Rocky world in the inner half of the habitable zone with slightly lower gravity than Earth, somewhat denser atmosphere, extensive forest-like ecosystems, and two moons.",
+      "life": "Complex native ecosystem including insect analogues, mammal analogues, bird analogues, and fire-using intelligent beings.",
+      "status": "surveyed",
+      "notes": "Bob abbreviates it as DE-4."
+    },
+    {
+      "name": "Delta Eridani asteroid belt",
+      "star_system": "Delta Eridani",
+      "orbital_position": null,
+      "type": "asteroid_belt",
+      "habitable": false,
+      "features": "Contains at least six significant ore locations suitable for mining; better resource yield than Epsilon Eridani or Sol.",
+      "life": null,
+      "status": "surveyed",
+      "notes": null
+    },
+    {
+      "name": "Delta Eridani 1",
+      "star_system": "Delta Eridani",
+      "orbital_position": 1,
+      "type": "rocky",
+      "habitable": null,
+      "features": "Innermost rocky planet; only inner planet noted as lacking a moon.",
+      "life": null,
+      "status": "discovered",
+      "notes": null
+    },
+    {
+      "name": "Delta Eridani 2",
+      "star_system": "Delta Eridani",
+      "orbital_position": 2,
+      "type": "rocky",
+      "habitable": null,
+      "features": null,
+      "life": null,
+      "status": "discovered",
+      "notes": null
+    },
+    {
+      "name": "Delta Eridani 3",
+      "star_system": "Delta Eridani",
+      "orbital_position": 3,
+      "type": "rocky",
+      "habitable": null,
+      "features": null,
+      "life": null,
+      "status": "discovered",
+      "notes": null
+    },
+    {
+      "name": "Delta Eridani 5",
+      "star_system": "Delta Eridani",
+      "orbital_position": 5,
+      "type": "rocky",
+      "habitable": null,
+      "features": null,
+      "life": null,
+      "status": "discovered",
+      "notes": null
+    }
+  ],
+  "technologies": [],
+  "faction_events": [],
+  "communications": [],
+  "combat": [],
+  "alien_species": [
+    {
+      "name": "Delta Eridani 4 natives",
+      "event": "first_sighting",
+      "location": "Delta Eridani",
+      "planet": "Delta Eridani 4",
+      "tech_level": "pre-industrial",
+      "intelligent": true,
+      "hostile": null,
+      "notes": "Observed at night gathered around multiple fires; Bob believes they are talking and handling objects purposefully."
+    }
+  ],
+  "infrastructure": [
+    {
+      "system": "Delta Eridani",
+      "type": "mining_base",
+      "event": "established",
+      "owner": "Bob",
+      "notes": "Bob deploys mining roamers and transport drones at the largest ore deposits in the asteroid belt."
+    },
+    {
+      "system": "Delta Eridani",
+      "type": "defensive_array",
+      "event": "established",
+      "owner": "Bob",
+      "notes": "Bob manufactures twelve observation drones and places them in an icosahedral early-warning network around the system."
+    },
+    {
+      "system": "Delta Eridani",
+      "type": "radio_relay",
+      "event": "established",
+      "owner": "Bob",
+      "notes": "Bob orders construction of a communications station by AMIs."
+    },
+    {
+      "system": "Delta Eridani",
+      "type": "clone_facility",
+      "event": "established",
+      "owner": "Bob",
+      "notes": "Bob instructs his AMIs to begin building new Bobs, though none come online in this chapter."
+    }
+  ],
+  "human_colonies": [],
+  "relationships": [],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Delta Eridani",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Bob surveys the Delta Eridani system, identifies a promising habitable planet and a rich asteroid belt, and notices suspicious nighttime fires on Delta Eridani 4."
+    },
+    {
+      "order": 2,
+      "location": "Delta Eridani",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Bob establishes mining, communications, clone-production, and early-warning infrastructure in the system while reflecting uneasily on clone divergence."
+    },
+    {
+      "order": 3,
+      "location": "Delta Eridani",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Bob deploys exploration drones to Delta Eridani 4, studies its rich biosphere, and confirms the presence of fire-using intelligent natives."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Bob",
+      "text": "Well… That’s it for this planet as a colonization target, I guess.",
+      "context": "Bob reacts after realizing the beings around the fires on Delta Eridani 4 are intelligent natives."
+    }
+  ],
+  "threads_opened": [
+    {
+      "id": "delta-eridani-first-contact",
+      "text": "Bob has discovered intelligent fire-using natives on Delta Eridani 4, raising the question of whether and how he will make first contact."
+    }
+  ],
+  "threads_resolved": [],
+  "events": [
+    {
+      "text": "Bob surveys Delta Eridani, identifies a habitable rocky world and a resource-rich asteroid belt, and begins establishing mining, communications, defense, and clone-production infrastructure there.",
+      "characters": [
+        "Bob",
+        "Guppy"
+      ],
+      "significance": "major",
+      "type": "creation"
+    },
+    {
+      "text": "Bob discovers intelligent pre-industrial native life on Delta Eridani 4, removing it from consideration as a human colony target.",
+      "characters": [
+        "Bob",
+        "Guppy"
+      ],
+      "significance": "major",
+      "type": "discovery"
+    }
+  ],
+  "summary": {
+    "one_line": "Bob reaches Delta Eridani, starts building up the system, and discovers intelligent alien life on its promising habitable world.",
+    "paragraph": "Bob arrives in Delta Eridani and finds exactly the kind of system he had hoped for: a stable star, ten planets, a habitable-zone rocky world, and an unusually rich asteroid belt. He quickly surveys Delta Eridani 4, notices suspicious nighttime fires, and then pauses long enough to establish mining operations, an early-warning drone network, a communications station, and the beginnings of a clone facility. While exploring the planet with camouflaged drones, he is delighted by a complex Earthlike biosphere full of convergent analogues to insects, mammals, birds, and snakes. The chapter culminates with Bob confirming that the fires belong to intelligent native beings, making Delta Eridani 4 unsuitable for human colonization but marking a major first-contact discovery.",
+    "events": [
+      "Bob surveys the Delta Eridani system and is thrilled to find a highly promising arrangement of planets, including a habitable-zone rocky world.",
+      "He performs an orbital scan of Delta Eridani 4, notices suspicious points of light on the night side, and postpones investigating them until after finishing his resource survey.",
+      "Bob completes the asteroid-belt survey, finds excellent mining prospects, and sets up mining equipment, transport drones, an early-warning observation network, and a communications station.",
+      "He reflects uneasily on how much his first cohort of clones has already diverged in personality and admits he is nervous about eventually making more Bobs.",
+      "Unable to resist exploring, Bob deploys camouflaged drones to Delta Eridani 4 and studies a rich alien ecosystem full of familiar-looking evolutionary analogues.",
+      "At night, his drones locate the source of the fires and reveal groups of native beings tending them and apparently speaking, convincing Bob he has found intelligent alien life."
+    ],
+    "themes": [
+      "exploration",
+      "first-contact",
+      "colonization",
+      "family"
+    ],
+    "mood": "hopeful",
+    "pov_emotional_arc": "Bob moves from exuberant explorer's joy and mild loneliness to awe and triumph as he realizes he has found intelligent alien life."
+  },
+  "world_state_after": {
+    "chapters_processed": 27,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "in transit to Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 27
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 24
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 10,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Dr. Doucette",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Spike",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 27
+      },
+      {
+        "name": "Jeeves",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Major Ernesto Medeiros",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Serra do Mar",
+        "type": "ship",
+        "location": "Epsilon Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 15,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Bill",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 27
+      },
+      {
+        "name": "Riker",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 27
+      },
+      {
+        "name": "Milo",
+        "type": "replicant",
+        "location": "in transit to 82 Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 27
+      },
+      {
+        "name": "Mario",
+        "type": "replicant",
+        "location": "in transit to Beta Hydri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 27
+      },
+      {
+        "name": "Homer",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 26
+      },
+      {
+        "name": "Garfield",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 25
+      },
+      {
+        "name": "Calvin",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 22
+      },
+      {
+        "name": "Goku",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 22
+      },
+      {
+        "name": "Linus",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 22
+      },
+      {
+        "name": "Captain Matias Araújo",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 24,
+        "last_seen_chapter": 24
+      },
+      {
+        "name": "Colonel George Butterworth",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 26
+      },
+      {
+        "name": "Delta Eridani 4 natives",
+        "type": "alien_species",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 27
+      }
+    ],
+    "known_star_systems": [
+      "Sol",
+      "Epsilon Eridani",
+      "Alpha Centauri",
+      "Delta Eridani",
+      "Omicron Eridani",
+      "Beta Hydri",
+      "82 Eridani"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon",
+      "Saturn",
+      "Titan",
+      "Epsilon Eridani 1",
+      "Epsilon Eridani 2",
+      "Epsilon Eridani inner asteroid belt",
+      "Epsilon Eridani 4",
+      "Epsilon Eridani outer asteroid belt",
+      "Epsilon Eridani 5",
+      "Epsilon Eridani 3",
+      "Ragnarök",
+      "Omicron Eridani asteroid belt",
+      "OE-1A",
+      "OE-1B",
+      "OE-2",
+      "Jupiter",
+      "Vulcan",
+      "Romulus",
+      "Delta Eridani 4",
+      "Delta Eridani asteroid belt",
+      "Delta Eridani 1",
+      "Delta Eridani 2",
+      "Delta Eridani 3",
+      "Delta Eridani 5"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR",
+      "Heaven-1",
+      "VR interface",
+      "SURGE drive weapon",
+      "exploration scouts",
+      "Heaven-2",
+      "Heaven-1A",
+      "exploration drone",
+      "subspace transmission",
+      "SURGE drive missile",
+      "Heaven-9",
+      "Heaven-10"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH",
+      "Brazilian Empire",
+      "USE"
+    ],
+    "known_species": [
+      "Vulcan and Romulus native life",
+      "Delta Eridani 4 natives"
+    ],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      },
+      {
+        "id": "who-attacked-heaven-1-launch",
+        "text": "The launch turns into a confused orbital battle with missiles, military ships, and multiple unknown attackers, leaving the identity of the factions involved unresolved.",
+        "opened_chapter": 12
+      },
+      {
+        "id": "earth-nuclear-war-escalation",
+        "text": "Bob detects apparent nuclear detonations on Earth after hearing of escalating conflict, leaving the scale of the war and Sol's survival uncertain.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "bob-grief-after-endocrine-control",
+        "text": "After disabling his endocrine control system, Bob begins fully mourning his lost human life, raising the question of how this emotional release will affect him going forward.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "other-national-probes-still-out-there",
+        "text": "Bob concludes that at least one more Brazilian Empire ship exists and that USE, Chinese, and possibly Australian probes may also be active somewhere in space.",
+        "opened_chapter": 15
+      },
+      {
+        "id": "first-bob-cohort-divergence",
+        "text": "Bob's first cohort of clones diverges in personality immediately, raising questions about how future Bob society and identity will evolve.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "omicron-eridani-biocompatibility",
+        "text": "Milo has found two apparently habitable living worlds at Omicron Eridani, but it remains unresolved whether Earth life and humans are biologically compatible with them.",
+        "opened_chapter": 19
+      },
+      {
+        "id": "milo-82-eridani-expedition",
+        "text": "Milo departs for 82 Eridani, opening the question of what he will find there.",
+        "opened_chapter": 23
+      },
+      {
+        "id": "subspace-communication-network-rollout",
+        "text": "Bill and Garfield now have a working subspace communications system, raising the question of how quickly they can deploy it across multiple star systems.",
+        "opened_chapter": 25
+      },
+      {
+        "id": "use-colony-ship-evacuation-plan",
+        "text": "Riker and Colonel Butterworth agree to try building colony ships in Sol, raising the question of whether the surviving humans can endure long enough to launch them and where they will go.",
+        "opened_chapter": 26
+      },
+      {
+        "id": "missing-use-probe",
+        "text": "Butterworth reveals that the USE probe launched after Heaven-1 but was never heard from again, leaving its fate unknown.",
+        "opened_chapter": 26
+      },
+      {
+        "id": "delta-eridani-first-contact",
+        "text": "Bob has discovered intelligent fire-using natives on Delta Eridani 4, raising the question of whether and how he will make first contact.",
+        "opened_chapter": 27
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 23,
+        "text": "Milo finishes surveying Omicron Eridani, secures the system for future colonists, and heads for 82 Eridani."
+      },
+      {
+        "chapter": 24,
+        "text": "Riker and Homer wipe out the Brazilian force in Sol and save Earth from four extinction-level asteroid strikes."
+      },
+      {
+        "chapter": 25,
+        "text": "Bill and Garfield achieve a breakthrough by successfully testing real-time subspace communication."
+      },
+      {
+        "chapter": 26,
+        "text": "Riker's mysterious hail turns out to be surviving USE forces, who ask for Bob help to build colony ships and evacuate humanity from dying Earth."
+      },
+      {
+        "chapter": 27,
+        "text": "Bob reaches Delta Eridani, starts building up the system, and discovers intelligent alien life on its promising habitable world."
+      }
+    ]
+  }
+}

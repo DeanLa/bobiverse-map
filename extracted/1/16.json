@@ -1,0 +1,494 @@
+{
+  "metadata": {
+    "chapter": 16,
+    "pov": "Bob",
+    "year": 2144,
+    "month": "September",
+    "location": "Epsilon Eridani",
+    "notes": "Chapter consists of multiple survey scenes within Epsilon Eridani before Bob begins replication infrastructure.",
+    "pov_knowledge": {
+      "believes": [
+        "There may be no one left on Earth to receive his survey reports."
+      ],
+      "learns": [],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Bob",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Surveying the system and deciding whether to begin replication."
+    },
+    {
+      "name": "GUPPI",
+      "type": "ai",
+      "location": "Epsilon Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Advises Bob and presses mission priorities."
+    }
+  ],
+  "new_characters": [],
+  "destructions": [],
+  "resolutions": [],
+  "movements": [],
+  "star_systems": [
+    {
+      "name": "Epsilon Eridani",
+      "role": "setting",
+      "notes": "Bob surveys additional planets in the system and begins manufacturing operations."
+    }
+  ],
+  "planets": [
+    {
+      "name": "Epsilon Eridani 1",
+      "star_system": "Epsilon Eridani",
+      "orbital_position": 1,
+      "type": "rocky",
+      "habitable": false,
+      "features": "Tidally locked, no atmosphere, very hot surface with magma chasms and probable high mineral wealth.",
+      "life": null,
+      "status": "surveyed",
+      "notes": "Bob notes it could interest colonists for resources."
+    },
+    {
+      "name": "Epsilon Eridani 2",
+      "star_system": "Epsilon Eridani",
+      "orbital_position": 2,
+      "type": "rocky",
+      "habitable": false,
+      "features": "About 90% of Earth's size, thin oxygen-bearing atmosphere, about 30% surface water in isolated seas, polar ice and equatorial frost, small moon.",
+      "life": "Possible photosynthetic sea life implied by 3% atmospheric oxygen, but unconfirmed.",
+      "status": "surveyed",
+      "notes": "Bob judges humans could probably live there with technological assistance such as domes."
+    },
+    {
+      "name": "Epsilon Eridani 3",
+      "star_system": "Epsilon Eridani",
+      "orbital_position": 3,
+      "type": "gas_giant",
+      "habitable": false,
+      "features": "About 30% larger than Jupiter, at least 67 moons, thin ring of ice gravel, fewer storms than Jupiter.",
+      "life": null,
+      "status": "surveyed",
+      "notes": "Bob notes 20 moons large enough to have atmospheres, but none seem livable due to low solar radiation."
+    },
+    {
+      "name": "Epsilon Eridani 4",
+      "star_system": "Epsilon Eridani",
+      "orbital_position": 4,
+      "type": "gas_giant",
+      "habitable": false,
+      "features": "Outer planet with smooth laminar weather patterns driven mostly by rotation and many small rocky moons.",
+      "life": null,
+      "status": "surveyed",
+      "notes": "Described as only mildly interesting."
+    }
+  ],
+  "technologies": [
+    {
+      "name": "exploration scouts",
+      "full_name": "planetary exploration scouts",
+      "event": "invented",
+      "by": "Bob",
+      "location": "Epsilon Eridani",
+      "notes": "Bob identifies the need to design exploration scouts because his mission lacks surface investigation capability."
+    }
+  ],
+  "faction_events": [],
+  "communications": [],
+  "combat": [],
+  "alien_species": [],
+  "infrastructure": [
+    {
+      "system": "Epsilon Eridani",
+      "type": "autofactory",
+      "event": "established",
+      "owner": "Bob",
+      "notes": "Bob orders deployment of manufacturing systems and launches drones to begin building replication infrastructure near his former construction site."
+    }
+  ],
+  "human_colonies": [],
+  "relationships": [],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Epsilon Eridani",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Bob reflects on life and enjoys a brief period of freedom after defeating Medeiros."
+    },
+    {
+      "order": 2,
+      "location": "Epsilon Eridani",
+      "time_offset": "later",
+      "pov": null,
+      "summary": "Bob surveys Epsilon Eridani 1 and records it as a resource-rich but uninhabitable rocky world."
+    },
+    {
+      "order": 3,
+      "location": "Epsilon Eridani",
+      "time_offset": "later",
+      "pov": null,
+      "summary": "Bob surveys Epsilon Eridani 2, finds it marginally colonizable, and becomes frustrated by his inability to investigate possible life directly."
+    },
+    {
+      "order": 4,
+      "location": "Epsilon Eridani",
+      "time_offset": "later",
+      "pov": null,
+      "summary": "Bob surveys Epsilon Eridani 3 and finds a large gas giant with many moons but no promising habitats."
+    },
+    {
+      "order": 5,
+      "location": "Epsilon Eridani",
+      "time_offset": "later",
+      "pov": null,
+      "summary": "Bob briefly surveys Epsilon Eridani 4 and finds it unremarkable."
+    },
+    {
+      "order": 6,
+      "location": "Epsilon Eridani",
+      "time_offset": "later",
+      "pov": null,
+      "summary": "Back near the battle site, Bob wrestles with the implications of cloning himself and finally orders the manufacturing systems deployed."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Bob",
+      "text": "Okay, Guppy. Deploy manufacturing systems. Let’s get the party started.",
+      "context": "After agonizing over whether to clone himself, Bob finally commits to beginning replication."
+    }
+  ],
+  "threads_opened": [
+    {
+      "id": "bob-cloning-identity-anxiety",
+      "text": "Bob begins replication despite deep anxiety about whether cloning himself will undermine his individuality and sense of self."
+    }
+  ],
+  "threads_resolved": [],
+  "events": [
+    {
+      "text": "Bob completes orbital surveys of Epsilon Eridani 1 through 4, finding no clearly habitable world and only possible unconfirmed sea life on Epsilon Eridani 2.",
+      "characters": [
+        "Bob"
+      ],
+      "significance": "major",
+      "type": "discovery"
+    },
+    {
+      "text": "Bob deploys his manufacturing systems at Epsilon Eridani to begin building replication infrastructure and more Bobs.",
+      "characters": [
+        "Bob",
+        "GUPPI"
+      ],
+      "significance": "major",
+      "type": "creation"
+    }
+  ],
+  "summary": {
+    "one_line": "Bob surveys more of Epsilon Eridani and finally commits to building the infrastructure for replication.",
+    "paragraph": "With Medeiros gone, Bob takes time to enjoy being in another star system and systematically surveys more of Epsilon Eridani's planets. He finds EE-1 resource-rich but utterly unlivable, EE-2 marginally colonizable with a tantalizing hint of possible sea life, EE-3 a large gas giant with many moons, and EE-4 largely unremarkable. The inability to investigate planetary surfaces frustrates him and prompts the idea of designing exploration scouts. Back at his construction site, Bob confronts his fear that cloning himself may diminish his individuality, then finally orders Guppy to deploy the manufacturing systems and start building more Bobs.",
+    "events": [
+      "Bob savors a rare moment of freedom after defeating Medeiros and decides to explore his new star system properly.",
+      "He surveys Epsilon Eridani 1 and finds a tidally locked, airless, mineral-rich world too hostile for habitation.",
+      "He surveys Epsilon Eridani 2 and finds a bleak but potentially domed colony world with oxygen in the atmosphere that may indicate sea life.",
+      "He examines Epsilon Eridani 3 and Epsilon Eridani 4, finding gas giants and moons but nothing especially promising for settlement.",
+      "Frustrated by his inability to inspect planets up close, Bob notes that he needs to design exploration scouts.",
+      "Back near the battle site, Bob wrestles with the philosophical and emotional implications of cloning himself.",
+      "Bob finally tells Guppy to deploy the manufacturing systems and begin building more Bobs."
+    ],
+    "themes": [
+      "exploration",
+      "identity",
+      "colonization",
+      "family"
+    ],
+    "mood": "reflective",
+    "pov_emotional_arc": "Bob moves from wonder and disappointment into anxious self-examination, then forces himself to act despite his fear of what replication means for his identity."
+  },
+  "world_state_after": {
+    "chapters_processed": 16,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 16
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 16
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 10,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Dr. Doucette",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Spike",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Jeeves",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Major Ernesto Medeiros",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Serra do Mar",
+        "type": "ship",
+        "location": "Epsilon Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 15,
+        "last_seen_chapter": 15
+      }
+    ],
+    "known_star_systems": [
+      "Sol",
+      "Epsilon Eridani",
+      "Alpha Centauri"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon",
+      "Saturn",
+      "Titan",
+      "Epsilon Eridani 1",
+      "Epsilon Eridani 2",
+      "Epsilon Eridani inner asteroid belt",
+      "Epsilon Eridani 4",
+      "Epsilon Eridani outer asteroid belt",
+      "Epsilon Eridani 5",
+      "Epsilon Eridani 3"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR",
+      "Heaven-1",
+      "VR interface",
+      "SURGE drive weapon",
+      "exploration scouts"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH",
+      "Brazilian Empire"
+    ],
+    "known_species": [],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      },
+      {
+        "id": "who-attacked-heaven-1-launch",
+        "text": "The launch turns into a confused orbital battle with missiles, military ships, and multiple unknown attackers, leaving the identity of the factions involved unresolved.",
+        "opened_chapter": 12
+      },
+      {
+        "id": "earth-nuclear-war-escalation",
+        "text": "Bob detects apparent nuclear detonations on Earth after hearing of escalating conflict, leaving the scale of the war and Sol's survival uncertain.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "bob-grief-after-endocrine-control",
+        "text": "After disabling his endocrine control system, Bob begins fully mourning his lost human life, raising the question of how this emotional release will affect him going forward.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "other-national-probes-still-out-there",
+        "text": "Bob concludes that at least one more Brazilian Empire ship exists and that USE, Chinese, and possibly Australian probes may also be active somewhere in space.",
+        "opened_chapter": 15
+      },
+      {
+        "id": "bob-cloning-identity-anxiety",
+        "text": "Bob begins replication despite deep anxiety about whether cloning himself will undermine his individuality and sense of self.",
+        "opened_chapter": 16
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 12,
+        "text": "Dr. Landers frees Bob from his software shackles and Bob survives a chaotic missile attack to launch Heaven-1 toward Epsilon Eridani."
+      },
+      {
+        "chapter": 13,
+        "text": "Bob cleans hidden sabotage out of Heaven-1, builds himself a virtual life for the voyage, and learns that Brazil is pursuing him while Earth slides toward nuclear war."
+      },
+      {
+        "chapter": 14,
+        "text": "Bob reaches Epsilon Eridani, surveys the system, and starts building a trap for the Brazilian probe he expects to follow him there."
+      },
+      {
+        "chapter": 15,
+        "text": "Bob survives his first space battle by destroying Major Ernesto Medeiros and the Brazilian ship Serra do Mar at Epsilon Eridani."
+      },
+      {
+        "chapter": 16,
+        "text": "Bob surveys more of Epsilon Eridani and finally commits to building the infrastructure for replication."
+      }
+    ]
+  }
+}

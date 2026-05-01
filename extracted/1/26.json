@@ -1,0 +1,691 @@
+{
+  "metadata": {
+    "chapter": 26,
+    "pov": "Riker",
+    "year": 2157,
+    "month": "April",
+    "location": "Sol",
+    "notes": "Chapter spans an initial contact scene and a second scene three weeks later.",
+    "pov_knowledge": {
+      "believes": [
+        "Epsilon Eridani is not a viable open-air human colony world and would require domed habitation.",
+        "Bill may receive survey reports from other Bob expeditions within a few years."
+      ],
+      "learns": [
+        "The unexpected hail comes from Colonel George Butterworth of the United States of Eurasia Army Corps.",
+        "A USE refugee camp of about twenty thousand people survives in an underground military installation.",
+        "Colonel Butterworth estimates Earth's surviving human population at under twenty million, with high uncertainty.",
+        "USE had prepared colony ship plans before the war and still has scientific personnel capable of using them.",
+        "The USE and Chinese probes launched shortly after Heaven-1, but the USE probe was never heard from again.",
+        "The war escalated gradually after the attempted destruction of Heaven-1, eventually becoming a full-system conflict that devastated Earth and orbital infrastructure.",
+        "Earth is expected to remain uninhabitable for humanity for five to ten thousand years, according to Butterworth's scientists."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Riker",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "POV character aboard Heaven-2."
+    },
+    {
+      "name": "Homer",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Present with Riker during first contact and negotiations."
+    },
+    {
+      "name": "Colonel George Butterworth",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Communicates remotely from a hidden USE underground installation."
+    },
+    {
+      "name": "Bill",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "mentioned_only",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Riker forwards negotiation recordings to him and discusses awaiting reports."
+    }
+  ],
+  "new_characters": [
+    {
+      "name": "Colonel George Butterworth",
+      "type": "human",
+      "parent": null,
+      "generation": null,
+      "location": "Sol",
+      "faction": "USE",
+      "personality": {
+        "traits": [
+          "cautious",
+          "pragmatic",
+          "guarded"
+        ],
+        "role": "unknown",
+        "nickname_origin": null,
+        "quirks": "A British USE officer who keeps his position hidden and negotiates warily over video link."
+      },
+      "notes": "Leader of a surviving USE refugee camp and military installation."
+    }
+  ],
+  "destructions": [],
+  "resolutions": [],
+  "movements": [],
+  "star_systems": [
+    {
+      "name": "Sol",
+      "role": "setting",
+      "notes": null
+    },
+    {
+      "name": "Epsilon Eridani",
+      "role": "mentioned",
+      "notes": "Discussed as an unsuitable colony destination for open-air human settlement."
+    }
+  ],
+  "planets": [
+    {
+      "name": "Earth",
+      "star_system": "Sol",
+      "orbital_position": 3,
+      "type": "rocky",
+      "habitable": false,
+      "features": "Planetary ecosystem devastated by nuclear war and orbital bombardment; recovery estimated at five to ten thousand years.",
+      "life": "Human survivors remain in scattered refuges; Colonel Butterworth estimates fewer than twenty million globally.",
+      "status": "surveyed",
+      "notes": "Assessment is based on Butterworth's scientists and wartime aftermath, not a new orbital survey by Riker in this chapter."
+    }
+  ],
+  "technologies": [],
+  "faction_events": [
+    {
+      "faction": "USE",
+      "type": "policy_change",
+      "counterparty": null,
+      "text": "USE survivors decide to pursue off-world evacuation by building colony ships with Riker's help.",
+      "location": "Sol",
+      "notes": "Decision emerges through negotiations with Colonel Butterworth rather than a formal government announcement."
+    }
+  ],
+  "communications": [
+    {
+      "from_character": "Colonel George Butterworth",
+      "from_system": "Sol",
+      "to_character": "Riker",
+      "to_system": "Sol",
+      "medium": "radio",
+      "direction": "both",
+      "contents_summary": "Butterworth identifies himself as a USE survivor, opens cautious negotiations, and proposes building colony ships to evacuate surviving humans from Earth.",
+      "notes": "Initial weak hail leads into three weeks of continued discussions."
+    },
+    {
+      "from_character": "Riker",
+      "from_system": "Sol",
+      "to_character": "Bill",
+      "to_system": "Epsilon Eridani",
+      "medium": "radio",
+      "direction": "sent",
+      "contents_summary": "Riker forwards recordings of all negotiations with the USE survivors to Bill.",
+      "notes": "Light-speed delay applies."
+    }
+  ],
+  "combat": [],
+  "alien_species": [],
+  "infrastructure": [
+    {
+      "system": "Sol",
+      "type": "colony",
+      "event": "established",
+      "owner": "USE",
+      "notes": "An underground military installation shelters about twenty thousand refugees under Colonel Butterworth's authority."
+    },
+    {
+      "system": "Sol",
+      "type": "shipyard",
+      "event": "established",
+      "owner": "USE",
+      "notes": "Only as plans at this stage: USE has completed virtual designs for a colony ship and seeks to bootstrap a space-based construction yard using Bob autofactories."
+    }
+  ],
+  "human_colonies": [
+    {
+      "name": "USE refugee camp",
+      "planet": "Earth",
+      "system": "Sol",
+      "event": "founded",
+      "population": 20000,
+      "governor": "Colonel George Butterworth",
+      "origin": "USE civilians and personnel collected into an underground military installation during the bombardments",
+      "notes": "Refugee shelter rather than an off-world colony, but it is the chapter's persistent organized human settlement."
+    }
+  ],
+  "relationships": [
+    {
+      "a": "Riker",
+      "b": "Colonel George Butterworth",
+      "type": "working_partners",
+      "event": "established",
+      "text": "Riker and Colonel Butterworth move from wary first contact to practical cooperation on a plan to build colony ships for surviving humans.",
+      "notes": "Trust develops slowly over three weeks of negotiation."
+    },
+    {
+      "a": "Riker",
+      "b": "Bill",
+      "type": "working_partners",
+      "event": "strengthened",
+      "text": "Riker keeps Bill informed by forwarding recordings of the USE negotiations for strategic coordination.",
+      "notes": null
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Sol",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Riker answers the unexpected hail and makes first contact with Colonel George Butterworth, a hidden USE survivor."
+    },
+    {
+      "order": 2,
+      "location": "Sol",
+      "time_offset": "3 weeks later",
+      "pov": null,
+      "summary": "After weeks of cautious talks, Butterworth explains the scale of humanity's collapse and proposes building colony ships with Bob assistance."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Colonel George Butterworth",
+      "text": "We had no way to stop them. They just started slowly pounding away at everyone.",
+      "context": "Butterworth describes the final Brazilian bombardment campaign after most organized resistance had collapsed."
+    }
+  ],
+  "threads_opened": [
+    {
+      "id": "use-colony-ship-evacuation-plan",
+      "text": "Riker and Colonel Butterworth agree to try building colony ships in Sol, raising the question of whether the surviving humans can endure long enough to launch them and where they will go."
+    },
+    {
+      "id": "missing-use-probe",
+      "text": "Butterworth reveals that the USE probe launched after Heaven-1 but was never heard from again, leaving its fate unknown."
+    }
+  ],
+  "threads_resolved": [
+    {
+      "id": "unexpected-hail-after-asteroids-diverted",
+      "text": "The mysterious hail is revealed to come from Colonel George Butterworth, a surviving USE officer leading an underground refugee camp in Sol."
+    },
+    {
+      "id": "sol-survivors-search",
+      "text": "Riker confirms that organized human survivors remain on Earth, including a USE refuge of about twenty thousand people under Colonel Butterworth."
+    }
+  ],
+  "events": [
+    {
+      "text": "Riker makes contact with surviving USE forces in Sol when Colonel George Butterworth answers the post-battle hail and opens negotiations.",
+      "characters": [
+        "Riker",
+        "Homer",
+        "Colonel George Butterworth"
+      ],
+      "significance": "major",
+      "type": "social"
+    },
+    {
+      "text": "Riker and Colonel Butterworth agree to pursue construction of colony ships in Sol as a last-ditch evacuation plan for surviving humanity.",
+      "characters": [
+        "Riker",
+        "Colonel George Butterworth"
+      ],
+      "significance": "major",
+      "type": "creation"
+    }
+  ],
+  "summary": {
+    "one_line": "Riker's mysterious hail turns out to be surviving USE forces, who ask for Bob help to build colony ships and evacuate humanity from dying Earth.",
+    "paragraph": "Riker answers the unexpected transmission after the asteroid crisis and discovers that Colonel George Butterworth is leading a hidden USE survivor enclave in Sol. Over three weeks of cautious negotiations, Butterworth becomes convinced that Riker and Homer are not FAITH loyalists and shares a grim account of the war's escalation and Earth's devastation. He estimates that fewer than twenty million humans remain alive worldwide, with about twenty thousand sheltered in his underground installation. Because Earth will not recover in time for humanity, Butterworth proposes using Bob autofactories and prewar USE colony ship plans to build evacuation vessels, and Riker agrees to help while they wait for news of viable destinations from other Bob expeditions.",
+    "events": [
+      "Riker answers the weak unknown hail and identifies himself in full Star Trek style as Commander Riker of Heaven-2.",
+      "The caller reveals himself as Colonel George Butterworth of the USE and cautiously confirms that Riker has just prevented a global catastrophe.",
+      "Over the next three weeks, Riker and Homer negotiate with the hidden USE survivors while Riker forwards recordings to Bill.",
+      "Butterworth explains that the war escalated step by step after the Heaven-1 incident until orbital conflict, nuclear exchange, and bombardment devastated Earth and near-space infrastructure.",
+      "He tells Riker that about twenty thousand refugees are sheltered in his underground base and guesses that fewer than twenty million humans survive globally.",
+      "Butterworth shows Riker completed USE colony ship plans and asks for Bob help building ships so humanity can leave Sol.",
+      "Riker agrees to begin the project, though a final destination will depend on reports from other Bob expeditions."
+    ],
+    "themes": [
+      "survival",
+      "colonization",
+      "politics",
+      "post-apocalypse"
+    ],
+    "mood": "hopeful",
+    "pov_emotional_arc": "Riker moves from wary curiosity and lingering guilt over arriving too late to a renewed sense of purpose when a concrete plan to save humanity emerges."
+  },
+  "world_state_after": {
+    "chapters_processed": 26,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "in transit to Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 18
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 24
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 10,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Dr. Doucette",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Spike",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Jeeves",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Major Ernesto Medeiros",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Serra do Mar",
+        "type": "ship",
+        "location": "Epsilon Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 15,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Bill",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 26
+      },
+      {
+        "name": "Riker",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 26
+      },
+      {
+        "name": "Milo",
+        "type": "replicant",
+        "location": "in transit to 82 Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 23
+      },
+      {
+        "name": "Mario",
+        "type": "replicant",
+        "location": "in transit to Beta Hydri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 18
+      },
+      {
+        "name": "Homer",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 26
+      },
+      {
+        "name": "Garfield",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 25
+      },
+      {
+        "name": "Calvin",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 22
+      },
+      {
+        "name": "Goku",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 22
+      },
+      {
+        "name": "Linus",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 22
+      },
+      {
+        "name": "Captain Matias Araújo",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 24,
+        "last_seen_chapter": 24
+      },
+      {
+        "name": "Colonel George Butterworth",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 26
+      }
+    ],
+    "known_star_systems": [
+      "Sol",
+      "Epsilon Eridani",
+      "Alpha Centauri",
+      "Delta Eridani",
+      "Omicron Eridani",
+      "Beta Hydri",
+      "82 Eridani"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon",
+      "Saturn",
+      "Titan",
+      "Epsilon Eridani 1",
+      "Epsilon Eridani 2",
+      "Epsilon Eridani inner asteroid belt",
+      "Epsilon Eridani 4",
+      "Epsilon Eridani outer asteroid belt",
+      "Epsilon Eridani 5",
+      "Epsilon Eridani 3",
+      "Ragnarök",
+      "Omicron Eridani asteroid belt",
+      "OE-1A",
+      "OE-1B",
+      "OE-2",
+      "Jupiter",
+      "Vulcan",
+      "Romulus"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR",
+      "Heaven-1",
+      "VR interface",
+      "SURGE drive weapon",
+      "exploration scouts",
+      "Heaven-2",
+      "Heaven-1A",
+      "exploration drone",
+      "subspace transmission",
+      "SURGE drive missile",
+      "Heaven-9",
+      "Heaven-10"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH",
+      "Brazilian Empire",
+      "USE"
+    ],
+    "known_species": [
+      "Vulcan and Romulus native life"
+    ],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      },
+      {
+        "id": "who-attacked-heaven-1-launch",
+        "text": "The launch turns into a confused orbital battle with missiles, military ships, and multiple unknown attackers, leaving the identity of the factions involved unresolved.",
+        "opened_chapter": 12
+      },
+      {
+        "id": "earth-nuclear-war-escalation",
+        "text": "Bob detects apparent nuclear detonations on Earth after hearing of escalating conflict, leaving the scale of the war and Sol's survival uncertain.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "bob-grief-after-endocrine-control",
+        "text": "After disabling his endocrine control system, Bob begins fully mourning his lost human life, raising the question of how this emotional release will affect him going forward.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "other-national-probes-still-out-there",
+        "text": "Bob concludes that at least one more Brazilian Empire ship exists and that USE, Chinese, and possibly Australian probes may also be active somewhere in space.",
+        "opened_chapter": 15
+      },
+      {
+        "id": "first-bob-cohort-divergence",
+        "text": "Bob's first cohort of clones diverges in personality immediately, raising questions about how future Bob society and identity will evolve.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "omicron-eridani-biocompatibility",
+        "text": "Milo has found two apparently habitable living worlds at Omicron Eridani, but it remains unresolved whether Earth life and humans are biologically compatible with them.",
+        "opened_chapter": 19
+      },
+      {
+        "id": "milo-82-eridani-expedition",
+        "text": "Milo departs for 82 Eridani, opening the question of what he will find there.",
+        "opened_chapter": 23
+      },
+      {
+        "id": "subspace-communication-network-rollout",
+        "text": "Bill and Garfield now have a working subspace communications system, raising the question of how quickly they can deploy it across multiple star systems.",
+        "opened_chapter": 25
+      },
+      {
+        "id": "use-colony-ship-evacuation-plan",
+        "text": "Riker and Colonel Butterworth agree to try building colony ships in Sol, raising the question of whether the surviving humans can endure long enough to launch them and where they will go.",
+        "opened_chapter": 26
+      },
+      {
+        "id": "missing-use-probe",
+        "text": "Butterworth reveals that the USE probe launched after Heaven-1 but was never heard from again, leaving its fate unknown.",
+        "opened_chapter": 26
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 22,
+        "text": "Bill dispatches Calvin, Goku, and Linus toward Alpha Centauri in heavily upgraded ships built for stealth and combat."
+      },
+      {
+        "chapter": 23,
+        "text": "Milo finishes surveying Omicron Eridani, secures the system for future colonists, and heads for 82 Eridani."
+      },
+      {
+        "chapter": 24,
+        "text": "Riker and Homer wipe out the Brazilian force in Sol and save Earth from four extinction-level asteroid strikes."
+      },
+      {
+        "chapter": 25,
+        "text": "Bill and Garfield achieve a breakthrough by successfully testing real-time subspace communication."
+      },
+      {
+        "chapter": 26,
+        "text": "Riker's mysterious hail turns out to be surviving USE forces, who ask for Bob help to build colony ships and evacuate humanity from dying Earth."
+      }
+    ]
+  }
+}

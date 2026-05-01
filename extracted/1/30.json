@@ -1,0 +1,789 @@
+{
+  "metadata": {
+    "chapter": 30,
+    "pov": "Bob",
+    "year": 2165,
+    "month": "April",
+    "location": "Delta Eridani",
+    "notes": "Chapter takes place over multiple days on Delta Eridani 4 while Bob observes the natives and activates new clones.",
+    "pov_knowledge": {
+      "believes": [
+        "Archimedes is unusually inventive and intellectually curious compared with other observed Deltans.",
+        "The Deltans have a tribal social structure broadly analogous to primitive humans."
+      ],
+      "learns": [
+        "One Deltan juvenile makes a handled stone tool and uses vine fibers as twine.",
+        "Additional Bob clones can help monitor the growing drone network at Delta Eridani."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Bob",
+      "type": "replicant",
+      "location": "Delta Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Observing Deltans from orbit and VR simulation."
+    },
+    {
+      "name": "Delta Eridani 4 natives",
+      "type": "alien_species",
+      "location": "Delta Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Observed in village footage and live drone surveillance on Delta Eridani 4."
+    },
+    {
+      "name": "Marvin",
+      "type": "replicant",
+      "location": "Delta Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Newly activated Bob clone assisting with drone monitoring and flint search."
+    },
+    {
+      "name": "Luke",
+      "type": "replicant",
+      "location": "Delta Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Newly activated Bob clone assisting Bob's Delta Eridani project."
+    },
+    {
+      "name": "Bender",
+      "type": "replicant",
+      "location": "Delta Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Newly activated Bob clone who proposes naming Delta Eridani 4 'Eden'."
+    },
+    {
+      "name": "Archimedes",
+      "type": "alien_individual",
+      "location": "Delta Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Bob's name for Deltan juvenile C.3.41, an unusually inventive boy."
+    }
+  ],
+  "new_characters": [
+    {
+      "name": "Marvin",
+      "type": "replicant",
+      "parent": "Bob",
+      "generation": 2,
+      "location": "Delta Eridani",
+      "faction": null,
+      "personality": {
+        "traits": [
+          "helpful",
+          "enthusiastic"
+        ],
+        "role": "explorer",
+        "nickname_origin": null,
+        "quirks": "Immediately volunteers to help investigate the Deltans and search for flint."
+      },
+      "notes": "Introduced as HIC17378-1 before choosing/using the name Marvin."
+    },
+    {
+      "name": "Luke",
+      "type": "replicant",
+      "parent": "Bob",
+      "generation": 2,
+      "location": "Delta Eridani",
+      "faction": null,
+      "personality": {
+        "traits": [
+          "enthusiastic"
+        ],
+        "role": "explorer",
+        "nickname_origin": null,
+        "quirks": "Quickly joins Bob's Deltan-observation project."
+      },
+      "notes": "Activated a couple of days after Marvin."
+    },
+    {
+      "name": "Bender",
+      "type": "replicant",
+      "parent": "Bob",
+      "generation": 2,
+      "location": "Delta Eridani",
+      "faction": null,
+      "personality": {
+        "traits": [
+          "enthusiastic",
+          "creative"
+        ],
+        "role": "explorer",
+        "nickname_origin": null,
+        "quirks": "Suggests naming Delta Eridani 4 'Eden'."
+      },
+      "notes": "Activated a couple of days after Marvin."
+    },
+    {
+      "name": "Archimedes",
+      "type": "alien_individual",
+      "parent": null,
+      "generation": null,
+      "location": "Delta Eridani",
+      "faction": null,
+      "personality": {
+        "traits": [
+          "curious",
+          "inventive",
+          "solitary"
+        ],
+        "role": "unknown",
+        "nickname_origin": "Bob names Deltan juvenile C.3.41 after noticing his unusual toolmaking ability.",
+        "quirks": "A Deltan boy who constantly experiments with rocks, plants, and simple tools."
+      },
+      "notes": "Individual member of the Delta Eridani 4 native species singled out by Bob for close observation."
+    }
+  ],
+  "destructions": [],
+  "resolutions": [],
+  "movements": [],
+  "star_systems": [
+    {
+      "name": "Delta Eridani",
+      "role": "setting",
+      "notes": "Bob continues his observation of the natives on Delta Eridani 4."
+    }
+  ],
+  "planets": [
+    {
+      "name": "Eden",
+      "star_system": "Delta Eridani",
+      "orbital_position": 4,
+      "type": "rocky",
+      "habitable": true,
+      "features": "Humid living world inhabited by intelligent tribal natives.",
+      "life": "Deltans, including the inventive juvenile Bob names Archimedes.",
+      "status": "surveyed",
+      "notes": "Bender proposes the name 'Eden' for Delta Eridani 4 and Bob agrees."
+    }
+  ],
+  "technologies": [],
+  "faction_events": [],
+  "communications": [
+    {
+      "from_character": "Bob",
+      "from_system": "Delta Eridani",
+      "to_character": "Marvin",
+      "to_system": "Delta Eridani",
+      "medium": "BobNet",
+      "direction": "received",
+      "contents_summary": "Marvin contacts Bob immediately after activation, and Bob briefs him on the Deltan observation project.",
+      "notes": "Real-time intra-system replicant communication."
+    }
+  ],
+  "combat": [],
+  "alien_species": [
+    {
+      "name": "Delta Eridani 4 natives",
+      "event": "observation",
+      "location": "Delta Eridani",
+      "planet": "Eden",
+      "tech_level": "pre-industrial",
+      "intelligent": true,
+      "hostile": null,
+      "notes": "Bob studies their social structure, language, vigilance, and tool use in increasing detail."
+    }
+  ],
+  "infrastructure": [
+    {
+      "system": "Delta Eridani",
+      "type": "clone_facility",
+      "event": "established",
+      "owner": "Bob",
+      "notes": "Bob reprioritizes the autofactory to produce computer cores and cradles for disembodied Bob clones to help monitor drones."
+    }
+  ],
+  "human_colonies": [],
+  "relationships": [
+    {
+      "a": "Bob",
+      "b": "Archimedes",
+      "type": "mentor",
+      "event": "established",
+      "text": "Bob becomes emotionally invested in the inventive Deltan boy he names Archimedes and begins watching him constantly, wishing he could teach him.",
+      "notes": "The mentorship is one-sided and observational only at this stage."
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Delta Eridani",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Bob studies the Deltans through VR and live drone footage, analyzes their society and language, and decides he needs more Bob clones to help monitor them."
+    },
+    {
+      "order": 2,
+      "location": "Delta Eridani",
+      "time_offset": "a few days later",
+      "pov": null,
+      "summary": "Bob notices a Deltan juvenile making a handled stone tool, names him Archimedes, and begins tracking him closely while Marvin, then Luke and Bender, come online to assist."
+    },
+    {
+      "order": 3,
+      "location": "Delta Eridani",
+      "time_offset": "over the next few days",
+      "pov": null,
+      "summary": "Bender proposes naming Delta Eridani 4 'Eden,' and Bob's close observation of Archimedes deepens into empathy and a desire to guide him."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Bob",
+      "text": "This was so frustrating. I found myself wishing that I could go there, sit down with Archimedes, and show him a few things.",
+      "context": "Bob reflects on his growing attachment to the unusually inventive Deltan boy."
+    }
+  ],
+  "threads_opened": [
+    {
+      "id": "archimedes-development",
+      "text": "Bob has identified an unusually inventive Deltan boy named Archimedes, raising the question of how far his intelligence and toolmaking will develop."
+    },
+    {
+      "id": "delta-eridani-bob-expansion",
+      "text": "Bob begins activating additional clones at Delta Eridani to support observation and development work, opening the question of how large his local Bob contingent will become."
+    }
+  ],
+  "threads_resolved": [],
+  "events": [
+    {
+      "text": "Bob activates Marvin, Luke, and Bender at Delta Eridani to help monitor the Deltans and support his growing operations there.",
+      "characters": [
+        "Bob",
+        "Marvin",
+        "Luke",
+        "Bender"
+      ],
+      "significance": "major",
+      "type": "creation"
+    },
+    {
+      "text": "Bob identifies an unusually inventive Deltan juvenile, names him Archimedes, and begins focused observation of his toolmaking behavior.",
+      "characters": [
+        "Bob",
+        "Archimedes"
+      ],
+      "significance": "major",
+      "type": "discovery"
+    }
+  ],
+  "summary": {
+    "one_line": "Bob expands his Delta Eridani operation with three new clones and becomes fascinated by an unusually inventive young Deltan he names Archimedes.",
+    "paragraph": "Bob spends several days intensively observing the Delta Eridani 4 natives through drones and VR, learning more about their tribal structure, vigilance, and language. As the surveillance workload grows, he reprioritizes his autofactory and activates three new Bob clones—Marvin, Luke, and Bender—to help manage the project. Bob then notices a juvenile Deltan making a handled stone tool, marks him as exceptional, and names him Archimedes. By the end of the chapter, Bob's detached scientific interest has shifted into personal empathy, and he finds himself wanting to teach the lonely, curious child directly.",
+    "events": [
+      "Bob studies the Deltans in VR and through live drone feeds, building a clearer picture of their social structure, language, and daily life.",
+      "He realizes the growing surveillance effort is too much for one mind to manage and orders his autofactory to prioritize computer cores over vessel assembly.",
+      "Bob spots a Deltan juvenile making a handled stone tool, identifies him as unusually inventive, and names him Archimedes.",
+      "Marvin comes online first and eagerly joins the project, followed over the next couple of days by Luke and Bender.",
+      "Bender suggests naming Delta Eridani 4 'Eden,' and the group adopts the name.",
+      "As Bob watches Archimedes experiment with rocks, plants, and twine, he stops seeing him as an alien curiosity and starts seeing him as a lonely child he wishes he could help."
+    ],
+    "themes": [
+      "first-contact",
+      "exploration",
+      "identity",
+      "family"
+    ],
+    "mood": "reflective",
+    "pov_emotional_arc": "Bob begins in detached anthropological curiosity but ends the chapter feeling protective and emotionally connected to Archimedes."
+  },
+  "world_state_after": {
+    "chapters_processed": 30,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "in transit to Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 30
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 10,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Dr. Doucette",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Spike",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 27
+      },
+      {
+        "name": "Jeeves",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Major Ernesto Medeiros",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Serra do Mar",
+        "type": "ship",
+        "location": "Epsilon Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 15,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Bill",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Riker",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 29
+      },
+      {
+        "name": "Milo",
+        "type": "replicant",
+        "location": "in transit to 82 Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 27
+      },
+      {
+        "name": "Mario",
+        "type": "replicant",
+        "location": "in transit to Beta Hydri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 27
+      },
+      {
+        "name": "Homer",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 29
+      },
+      {
+        "name": "Garfield",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 25
+      },
+      {
+        "name": "Calvin",
+        "type": "replicant",
+        "location": "Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Goku",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Linus",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Captain Matias Araújo",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 24,
+        "last_seen_chapter": 24
+      },
+      {
+        "name": "Colonel George Butterworth",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 29
+      },
+      {
+        "name": "Delta Eridani 4 natives",
+        "type": "alien_species",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 30
+      },
+      {
+        "name": "Marvin",
+        "type": "replicant",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 30
+      },
+      {
+        "name": "Luke",
+        "type": "replicant",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 30
+      },
+      {
+        "name": "Bender",
+        "type": "replicant",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 30
+      },
+      {
+        "name": "Archimedes",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 30
+      }
+    ],
+    "known_star_systems": [
+      "Sol",
+      "Epsilon Eridani",
+      "Alpha Centauri",
+      "Delta Eridani",
+      "Omicron Eridani",
+      "Beta Hydri",
+      "82 Eridani"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon",
+      "Saturn",
+      "Titan",
+      "Epsilon Eridani 1",
+      "Epsilon Eridani 2",
+      "Epsilon Eridani inner asteroid belt",
+      "Epsilon Eridani 4",
+      "Epsilon Eridani outer asteroid belt",
+      "Epsilon Eridani 5",
+      "Epsilon Eridani 3",
+      "Ragnarök",
+      "Omicron Eridani asteroid belt",
+      "OE-1A",
+      "OE-1B",
+      "OE-2",
+      "Jupiter",
+      "Vulcan",
+      "Romulus",
+      "Delta Eridani 4",
+      "Delta Eridani asteroid belt",
+      "Delta Eridani 1",
+      "Delta Eridani 2",
+      "Delta Eridani 3",
+      "Delta Eridani 5",
+      "Alpha Centauri B 1",
+      "Alpha Centauri B asteroid belt",
+      "Alpha Centauri B inner asteroid belt",
+      "Alpha Centauri A comfort-zone planet",
+      "Eden"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR",
+      "Heaven-1",
+      "VR interface",
+      "SURGE drive weapon",
+      "exploration scouts",
+      "Heaven-2",
+      "Heaven-1A",
+      "exploration drone",
+      "subspace transmission",
+      "SURGE drive missile",
+      "Heaven-9",
+      "Heaven-10",
+      "modified SUDDAR array"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH",
+      "Brazilian Empire",
+      "USE"
+    ],
+    "known_species": [
+      "Vulcan and Romulus native life",
+      "Delta Eridani 4 natives"
+    ],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      },
+      {
+        "id": "who-attacked-heaven-1-launch",
+        "text": "The launch turns into a confused orbital battle with missiles, military ships, and multiple unknown attackers, leaving the identity of the factions involved unresolved.",
+        "opened_chapter": 12
+      },
+      {
+        "id": "earth-nuclear-war-escalation",
+        "text": "Bob detects apparent nuclear detonations on Earth after hearing of escalating conflict, leaving the scale of the war and Sol's survival uncertain.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "bob-grief-after-endocrine-control",
+        "text": "After disabling his endocrine control system, Bob begins fully mourning his lost human life, raising the question of how this emotional release will affect him going forward.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "other-national-probes-still-out-there",
+        "text": "Bob concludes that at least one more Brazilian Empire ship exists and that USE, Chinese, and possibly Australian probes may also be active somewhere in space.",
+        "opened_chapter": 15
+      },
+      {
+        "id": "first-bob-cohort-divergence",
+        "text": "Bob's first cohort of clones diverges in personality immediately, raising questions about how future Bob society and identity will evolve.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "omicron-eridani-biocompatibility",
+        "text": "Milo has found two apparently habitable living worlds at Omicron Eridani, but it remains unresolved whether Earth life and humans are biologically compatible with them.",
+        "opened_chapter": 19
+      },
+      {
+        "id": "milo-82-eridani-expedition",
+        "text": "Milo departs for 82 Eridani, opening the question of what he will find there.",
+        "opened_chapter": 23
+      },
+      {
+        "id": "subspace-communication-network-rollout",
+        "text": "Bill and Garfield now have a working subspace communications system, raising the question of how quickly they can deploy it across multiple star systems.",
+        "opened_chapter": 25
+      },
+      {
+        "id": "use-colony-ship-evacuation-plan",
+        "text": "Riker and Colonel Butterworth agree to try building colony ships in Sol, raising the question of whether the surviving humans can endure long enough to launch them and where they will go.",
+        "opened_chapter": 26
+      },
+      {
+        "id": "delta-eridani-first-contact",
+        "text": "Bob has discovered intelligent fire-using natives on Delta Eridani 4, raising the question of whether and how he will make first contact.",
+        "opened_chapter": 27
+      },
+      {
+        "id": "alpha-centauri-escaped-brazilian-probe",
+        "text": "One Brazilian vessel escapes the destruction of the Alpha Centauri construction yard, leaving its destination and future threat unresolved.",
+        "opened_chapter": 28
+      },
+      {
+        "id": "alpha-centauri-combat-bob-expansion",
+        "text": "Calvin and Goku conclude Alpha Centauri should be reinforced with combat-class Bobs, raising the question of whether Bill will approve and send them.",
+        "opened_chapter": 28
+      },
+      {
+        "id": "archimedes-development",
+        "text": "Bob has identified an unusually inventive Deltan boy named Archimedes, raising the question of how far his intelligence and toolmaking will develop.",
+        "opened_chapter": 30
+      },
+      {
+        "id": "delta-eridani-bob-expansion",
+        "text": "Bob begins activating additional clones at Delta Eridani to support observation and development work, opening the question of how large his local Bob contingent will become.",
+        "opened_chapter": 30
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 26,
+        "text": "Riker's mysterious hail turns out to be surviving USE forces, who ask for Bob help to build colony ships and evacuate humanity from dying Earth."
+      },
+      {
+        "chapter": 27,
+        "text": "Bob reaches Delta Eridani, starts building up the system, and discovers intelligent alien life on its promising habitable world."
+      },
+      {
+        "chapter": 28,
+        "text": "Calvin finds the lost USE probe's wreckage in Alpha Centauri B, then joins Goku in destroying a Brazilian construction yard in Alpha Centauri A."
+      },
+      {
+        "chapter": 29,
+        "text": "Riker and Homer move the Sol evacuation plan from negotiation into industrial buildup after confirming enough salvage exists to start construction."
+      },
+      {
+        "chapter": 30,
+        "text": "Bob expands his Delta Eridani operation with three new clones and becomes fascinated by an unusually inventive young Deltan he names Archimedes."
+      }
+    ]
+  }
+}

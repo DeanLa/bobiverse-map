@@ -1,0 +1,855 @@
+{
+  "metadata": {
+    "chapter": 33,
+    "pov": "Riker",
+    "year": 2158,
+    "month": "March",
+    "location": "Sol",
+    "notes": "Chapter spans multiple meetings over at least several days.",
+    "pov_knowledge": {
+      "believes": [
+        "Most of the fifteen million surviving humans cannot be evacuated off Earth in any reasonable time and many will have to be sustained on the planet.",
+        "Earth's climate is degrading toward a new ice age that could encase the planet in glaciers within fifty to a hundred years."
+      ],
+      "learns": [
+        "Arthur has reduced hostile reactions to outreach and only about five small survivor groups still refuse contact.",
+        "The Spitsbergen enclave still controls the Svalbard Global Seed Vault and the Svalbard Global Genetic Diversity Vault."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Riker",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "POV."
+    },
+    {
+      "name": "Arthur",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Works on survivor outreach and communications."
+    },
+    {
+      "name": "Homer",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Present during delegate meetings and advises Riker."
+    },
+    {
+      "name": "GUPPI",
+      "type": "ai",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Acts as receptionist/secretary."
+    },
+    {
+      "name": "Minister Cranston",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Leader of the FAITH enclave in San Diego."
+    },
+    {
+      "name": "Gudmund Valter",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Leader of the Spitsbergen refuge."
+    },
+    {
+      "name": "Colonel George Butterworth",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Contacted at chapter end; conversation not shown."
+    }
+  ],
+  "new_characters": [
+    {
+      "name": "Minister Cranston",
+      "type": "human",
+      "parent": null,
+      "generation": null,
+      "location": "Sol",
+      "faction": "FAITH",
+      "personality": {
+        "traits": [
+          "blunt",
+          "entitled"
+        ],
+        "role": "unknown",
+        "nickname_origin": null,
+        "quirks": null
+      },
+      "notes": "Leader of the FAITH enclave in San Diego."
+    },
+    {
+      "name": "Gudmund Valter",
+      "type": "human",
+      "parent": null,
+      "generation": null,
+      "location": "Sol",
+      "faction": null,
+      "personality": {
+        "traits": [
+          "abrupt",
+          "pragmatic"
+        ],
+        "role": "unknown",
+        "nickname_origin": null,
+        "quirks": "Ex-military leader of the Spitsbergen refuge who leverages the seed vault as bargaining power."
+      },
+      "notes": "Leader of the Spitsbergen island refuge."
+    }
+  ],
+  "destructions": [],
+  "resolutions": [],
+  "movements": [],
+  "star_systems": [
+    {
+      "name": "Sol",
+      "role": "setting",
+      "notes": null
+    }
+  ],
+  "planets": [
+    {
+      "name": "Earth",
+      "star_system": "Sol",
+      "orbital_position": 3,
+      "type": "rocky",
+      "habitable": true,
+      "features": "Postwar human population reduced to about fifteen million; climate is cooling with less sunlight, more snow, and expanding ice.",
+      "life": "Human survivors remain in scattered enclaves including New Zealand, Madagascar, Florianópolis, island chains, San Diego, Okinawa, Augsburg, and Spitsbergen.",
+      "status": "surveyed",
+      "notes": "Riker's team believes Earth may become fully glaciated within fifty to a hundred years."
+    }
+  ],
+  "technologies": [],
+  "faction_events": [
+    {
+      "faction": "FAITH",
+      "type": "policy_change",
+      "counterparty": null,
+      "text": "The San Diego FAITH enclave explicitly demands preferential treatment in evacuation planning on the grounds that Riker owes loyalty to FAITH.",
+      "location": "Sol",
+      "notes": "This is presented as Minister Cranston's demand from the enclave leadership; no compliance occurs."
+    }
+  ],
+  "communications": [
+    {
+      "from_character": "Arthur",
+      "from_system": "Sol",
+      "to_character": "broadcast",
+      "to_system": null,
+      "medium": "unknown",
+      "direction": "sent",
+      "contents_summary": "Arthur uses giant holographic presentations and later dropped communicators to persuade survivor enclaves to accept contact.",
+      "notes": "Medium for the holographic presentation is not named in the text."
+    },
+    {
+      "from_character": "Riker",
+      "from_system": "Sol",
+      "to_character": "broadcast",
+      "to_system": null,
+      "medium": "unknown",
+      "direction": "sent",
+      "contents_summary": "Riker invites survivor groups to the first meeting of a new United Nations once communications are ready.",
+      "notes": "Invitation is described prospectively but appears to be acted on by the subsequent meeting."
+    },
+    {
+      "from_character": "Minister Cranston",
+      "from_system": "Sol",
+      "to_character": "Riker",
+      "to_system": "Sol",
+      "medium": "radio",
+      "direction": "both",
+      "contents_summary": "Cranston tells Riker that FAITH should receive more favorable treatment, and Riker refuses.",
+      "notes": null
+    },
+    {
+      "from_character": "Gudmund Valter",
+      "from_system": "Sol",
+      "to_character": "Riker",
+      "to_system": "Sol",
+      "medium": "radio",
+      "direction": "both",
+      "contents_summary": "Valter presses Spitsbergen's case for priority and reveals that his enclave still controls the Svalbard seed and genetic vaults.",
+      "notes": "Conversation carries an implied bargaining threat."
+    },
+    {
+      "from_character": "Riker",
+      "from_system": "Sol",
+      "to_character": "Colonel George Butterworth",
+      "to_system": "Sol",
+      "medium": "radio",
+      "direction": "sent",
+      "contents_summary": "Riker requests a connection with Butterworth after learning about Spitsbergen's leverage over the seed and genetic vaults.",
+      "notes": "The ensuing conversation is not shown in this chapter."
+    }
+  ],
+  "combat": [],
+  "alien_species": [],
+  "infrastructure": [],
+  "human_colonies": [],
+  "relationships": [
+    {
+      "a": "Riker",
+      "b": "Homer",
+      "type": "working_partners",
+      "event": "strained",
+      "text": "Riker snaps at Homer after Homer criticizes his handling of the delegates, and Homer leaves the conversation abruptly.",
+      "notes": null
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Sol",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Riker and Arthur review the final survivor count and discuss the need to organize Earth's remaining enclaves for cooperation."
+    },
+    {
+      "order": 2,
+      "location": "Sol",
+      "time_offset": "later",
+      "pov": null,
+      "summary": "Riker chairs a chaotic first meeting of survivor delegates and forcibly adjourns it after the session devolves into shouting."
+    },
+    {
+      "order": 3,
+      "location": "Sol",
+      "time_offset": "same day",
+      "pov": null,
+      "summary": "Homer advises Riker to give the frightened delegates more agency, and Riker rebuffs him harshly."
+    },
+    {
+      "order": 4,
+      "location": "Sol",
+      "time_offset": "the next day",
+      "pov": null,
+      "summary": "Riker restarts the assembly under stricter rules and pushes the delegates to choose their own chairing procedures."
+    },
+    {
+      "order": 5,
+      "location": "Sol",
+      "time_offset": "later",
+      "pov": null,
+      "summary": "Riker takes follow-up calls from enclave leaders, rejects FAITH's demand for favoritism, and learns that Spitsbergen controls the Svalbard vaults."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Riker",
+      "text": "Ladies and Gentlemen, and I use those terms loosely, we’re done for the day.",
+      "context": "Riker cuts off the delegates' microphones and adjourns the first disastrous survivor assembly meeting."
+    }
+  ],
+  "threads_opened": [
+    {
+      "id": "new-united-nations-governance",
+      "text": "Riker has convened a global survivor assembly, but it remains unresolved whether the enclaves can create workable governance and cooperate on evacuation and survival priorities."
+    },
+    {
+      "id": "spitsbergen-seed-vault-leverage",
+      "text": "Gudmund Valter reveals that Spitsbergen controls the Svalbard seed and genetic vaults, raising the question of how this leverage will affect evacuation priorities and colony planning."
+    }
+  ],
+  "threads_resolved": [
+    {
+      "id": "earth-survivor-enclave-outreach",
+      "text": "Arthur's outreach succeeds with nearly all survivor groups, leaving only about five small enclaves still refusing contact."
+    }
+  ],
+  "events": [
+    {
+      "text": "Riker consolidates contact with Earth's surviving enclaves and convenes a new global assembly to coordinate humanity's survival and evacuation priorities.",
+      "characters": [
+        "Riker",
+        "Arthur",
+        "Homer"
+      ],
+      "significance": "major",
+      "type": "political"
+    },
+    {
+      "text": "Spitsbergen reveals that it still controls the Svalbard seed and genetic vaults, giving its enclave major leverage over future colony planning.",
+      "characters": [
+        "Riker",
+        "Gudmund Valter"
+      ],
+      "significance": "major",
+      "type": "political"
+    }
+  ],
+  "summary": {
+    "one_line": "Riker brings Earth's survivor enclaves into a shaky new political process and discovers that Spitsbergen holds the seed stock humanity may need to rebuild elsewhere.",
+    "paragraph": "Riker and Arthur finish accounting for humanity's survivors and conclude that only about fifteen million people remain on Earth, far too many to evacuate quickly and increasingly threatened by a worsening global freeze. Arthur's outreach campaign has largely succeeded, allowing Riker to convene a first meeting of a new global assembly, but the delegates immediately descend into angry fights over evacuation priority and old wartime grudges. Homer offers perceptive advice about giving the delegates more agency, though Riker reacts badly and strains their working relationship. In follow-up calls, Riker rejects a FAITH demand for favoritism and then learns from Gudmund Valter that Spitsbergen still possesses the Svalbard seed and genetic vaults, a discovery with enormous implications for any future colony.",
+    "events": [
+      "Riker and Arthur review the final survivor census and face the reality that most of humanity will have to remain on a freezing Earth for the foreseeable future.",
+      "Arthur reports that his outreach campaign has persuaded almost every survivor enclave to accept contact, and Riker prepares invitations to a new United Nations.",
+      "The first delegate meeting collapses into shouting over evacuation priority, resentment toward the USE enclave, and hatred of the Brazilian survivors.",
+      "Homer tells Riker that the delegates need agency rather than just orders, but Riker dismisses him sharply and Homer leaves offended.",
+      "At the next session, Riker forces order and tells the delegates to design their own chairing and procedural rules.",
+      "Riker rejects Minister Cranston's blunt demand that FAITH receive preferential treatment.",
+      "Gudmund Valter of Spitsbergen reveals that his enclave still controls the Svalbard seed and genetic vaults and implies that this should affect priority decisions.",
+      "Realizing how important that leverage is for future colonies, Riker reaches out to Colonel Butterworth."
+    ],
+    "themes": [
+      "politics",
+      "colonization",
+      "survival",
+      "leadership"
+    ],
+    "mood": "tense",
+    "pov_emotional_arc": "Riker moves from grim determination into frustration and anger as he tries to impose order on a frightened, quarrelsome remnant of humanity."
+  },
+  "world_state_after": {
+    "chapters_processed": 33,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "in transit to Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 30
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 33
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 10,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Dr. Doucette",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Spike",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 32
+      },
+      {
+        "name": "Jeeves",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Major Ernesto Medeiros",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Serra do Mar",
+        "type": "ship",
+        "location": "Epsilon Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 15,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Bill",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 32
+      },
+      {
+        "name": "Riker",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 33
+      },
+      {
+        "name": "Milo",
+        "type": "replicant",
+        "location": "in transit to 82 Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 32
+      },
+      {
+        "name": "Mario",
+        "type": "replicant",
+        "location": "in transit to Beta Hydri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 27
+      },
+      {
+        "name": "Homer",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 33
+      },
+      {
+        "name": "Garfield",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 32
+      },
+      {
+        "name": "Calvin",
+        "type": "replicant",
+        "location": "Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Goku",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Linus",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 28
+      },
+      {
+        "name": "Captain Matias Araújo",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 24,
+        "last_seen_chapter": 24
+      },
+      {
+        "name": "Colonel George Butterworth",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 33
+      },
+      {
+        "name": "Delta Eridani 4 natives",
+        "type": "alien_species",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 30
+      },
+      {
+        "name": "Marvin",
+        "type": "replicant",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 30
+      },
+      {
+        "name": "Luke",
+        "type": "replicant",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 30
+      },
+      {
+        "name": "Bender",
+        "type": "replicant",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 30
+      },
+      {
+        "name": "Archimedes",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 30
+      },
+      {
+        "name": "Charles",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 31
+      },
+      {
+        "name": "Arthur",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 33
+      },
+      {
+        "name": "Minister Cranston",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 33
+      },
+      {
+        "name": "Gudmund Valter",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 33
+      }
+    ],
+    "known_star_systems": [
+      "Sol",
+      "Epsilon Eridani",
+      "Alpha Centauri",
+      "Delta Eridani",
+      "Omicron Eridani",
+      "Beta Hydri",
+      "82 Eridani"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon",
+      "Saturn",
+      "Titan",
+      "Epsilon Eridani 1",
+      "Epsilon Eridani 2",
+      "Epsilon Eridani inner asteroid belt",
+      "Epsilon Eridani 4",
+      "Epsilon Eridani outer asteroid belt",
+      "Epsilon Eridani 5",
+      "Epsilon Eridani 3",
+      "Ragnarök",
+      "Omicron Eridani asteroid belt",
+      "OE-1A",
+      "OE-1B",
+      "OE-2",
+      "Jupiter",
+      "Vulcan",
+      "Romulus",
+      "Delta Eridani 4",
+      "Delta Eridani asteroid belt",
+      "Delta Eridani 1",
+      "Delta Eridani 2",
+      "Delta Eridani 3",
+      "Delta Eridani 5",
+      "Alpha Centauri B 1",
+      "Alpha Centauri B asteroid belt",
+      "Alpha Centauri B inner asteroid belt",
+      "Alpha Centauri A comfort-zone planet",
+      "Eden"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR",
+      "Heaven-1",
+      "VR interface",
+      "SURGE drive weapon",
+      "exploration scouts",
+      "Heaven-2",
+      "Heaven-1A",
+      "exploration drone",
+      "subspace transmission",
+      "SURGE drive missile",
+      "Heaven-9",
+      "Heaven-10",
+      "modified SUDDAR array",
+      "SCUT"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH",
+      "Brazilian Empire",
+      "USE"
+    ],
+    "known_species": [
+      "Vulcan and Romulus native life",
+      "Delta Eridani 4 natives"
+    ],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      },
+      {
+        "id": "who-attacked-heaven-1-launch",
+        "text": "The launch turns into a confused orbital battle with missiles, military ships, and multiple unknown attackers, leaving the identity of the factions involved unresolved.",
+        "opened_chapter": 12
+      },
+      {
+        "id": "bob-grief-after-endocrine-control",
+        "text": "After disabling his endocrine control system, Bob begins fully mourning his lost human life, raising the question of how this emotional release will affect him going forward.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "other-national-probes-still-out-there",
+        "text": "Bob concludes that at least one more Brazilian Empire ship exists and that USE, Chinese, and possibly Australian probes may also be active somewhere in space.",
+        "opened_chapter": 15
+      },
+      {
+        "id": "first-bob-cohort-divergence",
+        "text": "Bob's first cohort of clones diverges in personality immediately, raising questions about how future Bob society and identity will evolve.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "omicron-eridani-biocompatibility",
+        "text": "Milo has found two apparently habitable living worlds at Omicron Eridani, but it remains unresolved whether Earth life and humans are biologically compatible with them.",
+        "opened_chapter": 19
+      },
+      {
+        "id": "milo-82-eridani-expedition",
+        "text": "Milo departs for 82 Eridani, opening the question of what he will find there.",
+        "opened_chapter": 23
+      },
+      {
+        "id": "subspace-communication-network-rollout",
+        "text": "Bill and Garfield now have a working subspace communications system, raising the question of how quickly they can deploy it across multiple star systems.",
+        "opened_chapter": 25
+      },
+      {
+        "id": "use-colony-ship-evacuation-plan",
+        "text": "Riker and Colonel Butterworth agree to try building colony ships in Sol, raising the question of whether the surviving humans can endure long enough to launch them and where they will go.",
+        "opened_chapter": 26
+      },
+      {
+        "id": "delta-eridani-first-contact",
+        "text": "Bob has discovered intelligent fire-using natives on Delta Eridani 4, raising the question of whether and how he will make first contact.",
+        "opened_chapter": 27
+      },
+      {
+        "id": "alpha-centauri-escaped-brazilian-probe",
+        "text": "One Brazilian vessel escapes the destruction of the Alpha Centauri construction yard, leaving its destination and future threat unresolved.",
+        "opened_chapter": 28
+      },
+      {
+        "id": "alpha-centauri-combat-bob-expansion",
+        "text": "Calvin and Goku conclude Alpha Centauri should be reinforced with combat-class Bobs, raising the question of whether Bill will approve and send them.",
+        "opened_chapter": 28
+      },
+      {
+        "id": "archimedes-development",
+        "text": "Bob has identified an unusually inventive Deltan boy named Archimedes, raising the question of how far his intelligence and toolmaking will develop.",
+        "opened_chapter": 30
+      },
+      {
+        "id": "delta-eridani-bob-expansion",
+        "text": "Bob begins activating additional clones at Delta Eridani to support observation and development work, opening the question of how large his local Bob contingent will become.",
+        "opened_chapter": 30
+      },
+      {
+        "id": "sol-transport-vessel-priority",
+        "text": "Riker reprioritizes transport-vessel construction for refugee movement, raising the question of how much this will delay colony-ship production.",
+        "opened_chapter": 31
+      },
+      {
+        "id": "new-united-nations-governance",
+        "text": "Riker has convened a global survivor assembly, but it remains unresolved whether the enclaves can create workable governance and cooperate on evacuation and survival priorities.",
+        "opened_chapter": 33
+      },
+      {
+        "id": "spitsbergen-seed-vault-leverage",
+        "text": "Gudmund Valter reveals that Spitsbergen controls the Svalbard seed and genetic vaults, raising the question of how this leverage will affect evacuation priorities and colony planning.",
+        "opened_chapter": 33
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 29,
+        "text": "Riker and Homer move the Sol evacuation plan from negotiation into industrial buildup after confirming enough salvage exists to start construction."
+      },
+      {
+        "chapter": 30,
+        "text": "Bob expands his Delta Eridani operation with three new clones and becomes fascinated by an unusually inventive young Deltan he names Archimedes."
+      },
+      {
+        "chapter": 31,
+        "text": "Riker expands the Sol operation with two new Bobs and confirms that only about fifteen million humans survive on devastated Earth."
+      },
+      {
+        "chapter": 32,
+        "text": "Bill receives Milo's startling report that 82 Eridani has two habitable planets and starts pushing the news toward Sol."
+      },
+      {
+        "chapter": 33,
+        "text": "Riker brings Earth's survivor enclaves into a shaky new political process and discovers that Spitsbergen holds the seed stock humanity may need to rebuild elsewhere."
+      }
+    ]
+  }
+}

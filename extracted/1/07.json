@@ -1,0 +1,326 @@
+{
+  "metadata": {
+    "chapter": 7,
+    "pov": "Bob",
+    "year": 2133,
+    "month": "July",
+    "location": "Sol",
+    "notes": "Chapter contains two scenes on the same date at the FAITH facility in Sol.",
+    "pov_knowledge": {
+      "believes": [
+        "Internal FAITH factions may sabotage Project HEAVEN because a single remaining vessel is a convenient single point of failure.",
+        "Multiple rival nations are pursuing interstellar probe programs, and the Brazilian Empire may intend to arm probes against competitors."
+      ],
+      "learns": [
+        "Project HEAVEN stands for Habitable Earths Abiogenic Vessel Exploration Network.",
+        "Project HEAVEN was originally planned for eight vessels, then reduced to four, then one.",
+        "FAITH is competing with the USE, China, and the Brazilian Empire in interstellar probe development, and suspects Australia may also have a project.",
+        "The SURGE drive and SUDDAR became possible through a breakthrough in subspace theory.",
+        "The USE began its interstellar probe project two years earlier.",
+        "China plans to use an AMI for its probe project.",
+        "The Brazilian Empire is believed to be arming probes and may attempt sabotage.",
+        "The USE is considered the strongest long-term competitor and is ahead in colonization capability."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Bob",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "POV character at the FAITH facility."
+    },
+    {
+      "name": "Dr. Landers",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Briefs Bob on Project HEAVEN politics and foreign competitors."
+    }
+  ],
+  "new_characters": [],
+  "destructions": [],
+  "resolutions": [],
+  "movements": [],
+  "star_systems": [
+    {
+      "name": "Sol",
+      "role": "setting",
+      "notes": "Chapter takes place at the FAITH facility in the Solar System."
+    }
+  ],
+  "planets": [],
+  "technologies": [
+    {
+      "name": "SURGE drive",
+      "full_name": null,
+      "event": "mentioned",
+      "by": null,
+      "location": "Sol",
+      "notes": "Dr. Landers says a breakthrough in subspace theory enabled it."
+    },
+    {
+      "name": "SUDDAR",
+      "full_name": null,
+      "event": "mentioned",
+      "by": null,
+      "location": "Sol",
+      "notes": "Dr. Landers says it became possible through the same subspace theory breakthrough as the SURGE drive."
+    }
+  ],
+  "faction_events": [],
+  "communications": [],
+  "combat": [],
+  "alien_species": [],
+  "infrastructure": [],
+  "human_colonies": [],
+  "relationships": [
+    {
+      "a": "Bob",
+      "b": "Dr. Landers",
+      "type": "working_partners",
+      "event": "strengthened",
+      "text": "Dr. Landers gives Bob complete project and library access and speaks more candidly with him about political and strategic realities.",
+      "notes": "Their interactions become more open and collaborative."
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Sol",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Dr. Landers warns Bob that hostile FAITH factions may sabotage Project HEAVEN and grants him full project and library access."
+    },
+    {
+      "order": 2,
+      "location": "Sol",
+      "time_offset": "later the same day",
+      "pov": null,
+      "summary": "After a lesson on controlling 3D printers, Bob questions Dr. Landers about world politics and rival interstellar probe programs."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Dr. Landers",
+      "text": "We have you and the other replicant, Bob.",
+      "context": "Landers reassures Bob that FAITH still has an advantage despite rival nations' stronger resources."
+    }
+  ],
+  "threads_opened": [
+    {
+      "id": "foreign-probe-race-and-sabotage-threat",
+      "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition."
+    }
+  ],
+  "threads_resolved": [
+    {
+      "id": "replicant-project-competition",
+      "text": "Bob learns the broader stakes of the selection process as Project HEAVEN has been reduced to a single vessel competing against foreign national probe programs."
+    }
+  ],
+  "events": [
+    {
+      "text": "Bob learns that Project HEAVEN has been cut from eight planned vessels to one, making it vulnerable to sabotage by hostile factions inside FAITH.",
+      "characters": [
+        "Bob",
+        "Dr. Landers"
+      ],
+      "significance": "major",
+      "type": "political"
+    },
+    {
+      "text": "Bob learns that the USE, China, and the Brazilian Empire are running rival interstellar probe programs, with the Brazilian Empire suspected of planning armed competition.",
+      "characters": [
+        "Bob",
+        "Dr. Landers"
+      ],
+      "significance": "major",
+      "type": "political"
+    }
+  ],
+  "summary": {
+    "one_line": "Dr. Landers reveals that Project HEAVEN has been pared down to a single vulnerable ship amid both FAITH infighting and an international interstellar probe race.",
+    "paragraph": "Dr. Landers warns Bob that anti-project factions inside FAITH reacted violently to the announcement of viable Project HEAVEN candidates and may try to sabotage the mission. He explains that the project was originally planned as a network of eight vessels, then four, before being reduced to a single ship. Later, Bob questions him about global politics and learns that several major powers are pursuing their own interstellar probe programs after the breakthrough that enabled the SURGE drive and SUDDAR. Landers describes China as reckless, the Brazilian Empire as the most dangerous and potentially aggressive, and the USE as the strongest long-term competitor. Bob comes away understanding that his mission is not just a technical experiment but part of a high-stakes geopolitical race.",
+    "events": [
+      "Dr. Landers tells Bob that hostile factions inside FAITH are trying to shut down Project HEAVEN.",
+      "Bob learns that Project HEAVEN originally called for eight vessels, then four, and has now been reduced to one.",
+      "Landers gives Bob complete project and library access so he can help accelerate his own preparation.",
+      "Later, Bob asks about the geopolitical situation and reviews how a handful of major powers now dominate most of Earth.",
+      "Dr. Landers explains that breakthroughs in subspace theory enabled the SURGE drive and SUDDAR, triggering an international race to launch interstellar probes.",
+      "Bob learns that the USE, China, and the Brazilian Empire all have probe projects, and that Australia may have one as well.",
+      "Landers warns that Brazil may arm its probes and sabotage competitors, while the USE is the most capable long-term rival.",
+      "Bob ends the conversation with a joke after Landers reassures him that FAITH's best asset is still its replicants."
+    ],
+    "themes": [
+      "politics",
+      "colonization",
+      "faith-vs-science",
+      "identity"
+    ],
+    "mood": "tense",
+    "pov_emotional_arc": "Bob shifts from curiosity to unease as he realizes his mission sits at the center of both internal FAITH intrigue and a dangerous international power struggle."
+  },
+  "world_state_after": {
+    "chapters_processed": 7,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 7
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 7
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      }
+    ],
+    "known_star_systems": [
+      "Sol"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH"
+    ],
+    "known_species": [],
+    "open_threads": [
+      {
+        "id": "sealed-training-room-security",
+        "text": "Bob notices the roamer training room is heavily sealed and wonders why the facility needs that level of security around him and the roamers.",
+        "opened_chapter": 3
+      },
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "von-neumann-probe-selection",
+        "text": "Bob now knows the project is a Von Neumann probe mission, but it remains unresolved whether he or the last rival candidate will be chosen.",
+        "opened_chapter": 6
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 3,
+        "text": "Bob's training accelerates when he rapidly masters manipulator arms and ROAMers at the FAITH facility."
+      },
+      {
+        "chapter": 4,
+        "text": "Bob learns a rival replicant has gone irretrievably insane and realizes FAITH's control extends even to his access to history and family ties."
+      },
+      {
+        "chapter": 5,
+        "text": "A surprise ministerial inspection exposes FAITH's dangerous internal politics, and Bob is moved into a space-station simulation that hints at his real assignment."
+      },
+      {
+        "chapter": 6,
+        "text": "Bob learns that FAITH is training him to become the controlling intelligence of a Von Neumann probe, just as the candidate pool narrows to two."
+      },
+      {
+        "chapter": 7,
+        "text": "Dr. Landers reveals that Project HEAVEN has been pared down to a single vulnerable ship amid both FAITH infighting and an international interstellar probe race."
+      }
+    ]
+  }
+}

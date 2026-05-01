@@ -1,0 +1,924 @@
+{
+  "metadata": {
+    "chapter": 49,
+    "pov": "Riker",
+    "year": 2166,
+    "month": "May",
+    "location": "Sol",
+    "notes": "Chapter contains multiple scenes on the same general day.",
+    "pov_knowledge": {
+      "believes": [
+        "Riker initially suspects the hack attempt originated from the FAITH enclave before Guppy traces it to New Zealand."
+      ],
+      "learns": [
+        "The hack attempt against Bob systems was routed through the UN meeting video feed from New Zealand.",
+        "FAITH's probe technology likely incorporated stolen Australian research, which could explain how someone knew weaknesses in the original Heaven design.",
+        "Minister Cranston is willing to trade FAITH food surplus in exchange for allocation of remaining berths on ship three."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Riker",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "POV character."
+    },
+    {
+      "name": "GUPPI",
+      "type": "ai",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Monitors and traces the hack attempt."
+    },
+    {
+      "name": "Homer",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Present via real-time SCUT/VR conversation while physically elsewhere in Sol."
+    },
+    {
+      "name": "Minister Cranston",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Speaks with Riker about food surplus, ship allocation, and the hack attempt."
+    },
+    {
+      "name": "Charles",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "mentioned_only",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Responds by IM to Riker's proposal query."
+    },
+    {
+      "name": "Julia Hendricks",
+      "type": "human",
+      "location": "Sol",
+      "status": "mentioned_only",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Sends Riker a family-history message."
+    },
+    {
+      "name": "Colonel George Butterworth",
+      "type": "human",
+      "location": "Sol",
+      "status": "mentioned_only",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Discussed as likely to oppose diversion of resources to orbital farming."
+    }
+  ],
+  "new_characters": [],
+  "destructions": [],
+  "resolutions": [],
+  "movements": [],
+  "star_systems": [
+    {
+      "name": "Sol",
+      "role": "setting",
+      "notes": null
+    },
+    {
+      "name": "New Zealand",
+      "role": "mentioned",
+      "notes": "Used here as the traced geographic source of the hack attempt within Sol politics; not a star system."
+    }
+  ],
+  "planets": [],
+  "technologies": [
+    {
+      "name": "firewall",
+      "full_name": null,
+      "event": "mentioned",
+      "by": "Riker",
+      "location": "Sol",
+      "notes": "Bob-1's firewall blocks a hack attempt exploiting weaknesses in the original Heaven design."
+    }
+  ],
+  "faction_events": [
+    {
+      "faction": "FAITH",
+      "type": "policy_change",
+      "counterparty": null,
+      "text": "FAITH offers to release some of its food surplus in exchange for receiving the remaining allocation on ship three.",
+      "location": "Sol",
+      "notes": "Proposal appears accepted in principle pending team discussion."
+    }
+  ],
+  "communications": [
+    {
+      "from_character": "Homer",
+      "from_system": "Sol",
+      "to_character": "Riker",
+      "to_system": "Sol",
+      "medium": "SCUT",
+      "direction": "both",
+      "contents_summary": "Homer proposes orbital farming stations as a way to address Sol's looming food shortage, and he and Riker work through the concept together.",
+      "notes": "Real-time conversation emphasizes the end of light-speed lag within the Bob network."
+    },
+    {
+      "from_character": "Julia Hendricks",
+      "from_system": "Sol",
+      "to_character": "Riker",
+      "to_system": "Sol",
+      "medium": "unknown",
+      "direction": "received",
+      "contents_summary": "Julia sends Riker a long message about family history and treats him as a relative.",
+      "notes": null
+    },
+    {
+      "from_character": "Riker",
+      "from_system": "Sol",
+      "to_character": "Minister Cranston",
+      "to_system": "Sol",
+      "medium": "unknown",
+      "direction": "both",
+      "contents_summary": "Riker and Cranston negotiate FAITH's food surplus for ship-three berths and discuss the traced hack attempt.",
+      "notes": null
+    },
+    {
+      "from_character": "Riker",
+      "from_system": "Sol",
+      "to_character": "Charles",
+      "to_system": "Sol",
+      "medium": "SCUT",
+      "direction": "sent",
+      "contents_summary": "Riker asks Charles for input on Cranston's proposal, and Charles agrees it is reasonable.",
+      "notes": "Reply is described as an IM."
+    },
+    {
+      "from_character": "Riker",
+      "from_system": "Sol",
+      "to_character": "Homer",
+      "to_system": "Sol",
+      "medium": "SCUT",
+      "direction": "sent",
+      "contents_summary": "Riker asks Homer for input on Cranston's proposal and the Australian explanation for the hack attempt, and Homer agrees.",
+      "notes": "Reply is described as an IM."
+    }
+  ],
+  "combat": [],
+  "alien_species": [],
+  "infrastructure": [
+    {
+      "system": "Sol",
+      "type": "research_station",
+      "event": "established",
+      "owner": "Homer",
+      "notes": "Homer proposes using printer-built orbital stations as agricultural facilities rather than habitats to grow food."
+    }
+  ],
+  "human_colonies": [],
+  "relationships": [
+    {
+      "a": "Riker",
+      "b": "Julia Hendricks",
+      "type": "parent_child",
+      "event": "strengthened",
+      "text": "Julia's warm family-history message deepens Riker's sense of connection to Andrea's descendants.",
+      "notes": "Biologically descendant rather than literal daughter; using family-link category for map relevance."
+    },
+    {
+      "a": "Riker",
+      "b": "Minister Cranston",
+      "type": "working_partners",
+      "event": "strengthened",
+      "text": "Riker and Cranston reach tentative agreement on trading FAITH food surplus for ship-three berths and exchange useful information about the hack attempt.",
+      "notes": "Their interaction is notably more cooperative than usual."
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Sol",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Riker detects and investigates a hack attempt coming through the UN meeting feed, then receives messages from Homer and Julia."
+    },
+    {
+      "order": 2,
+      "location": "Sol",
+      "time_offset": "later the same day",
+      "pov": null,
+      "summary": "Riker joins Homer in VR and helps develop the idea of orbital farming stations to relieve Sol's food crisis."
+    },
+    {
+      "order": 3,
+      "location": "Sol",
+      "time_offset": "later the same day",
+      "pov": null,
+      "summary": "Riker presents the farming-station plan to the UN assembly and faces furious opposition from most enclaves."
+    },
+    {
+      "order": 4,
+      "location": "Sol",
+      "time_offset": "later the same day",
+      "pov": null,
+      "summary": "Riker speaks with Minister Cranston, tentatively trades ship-three berths for FAITH food surplus, and learns the hack may derive from stolen Australian probe research."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Homer",
+      "text": "The answer to our problems.",
+      "context": "Homer introduces his idea of orbital farming stations as a solution to Sol's food shortage."
+    }
+  ],
+  "threads_opened": [
+    {
+      "id": "sol-orbital-farming-stations",
+      "text": "Homer and Riker devise orbital farming stations to avert starvation in Sol, raising the question of how quickly the plan can be built and whether political opposition will hinder it."
+    },
+    {
+      "id": "new-zealand-hacker-identity",
+      "text": "A hacker using knowledge of the original Heaven design attacks through the UN feed from New Zealand, leaving the perpetrator's identity unresolved."
+    }
+  ],
+  "threads_resolved": [],
+  "events": [
+    {
+      "text": "Riker and Homer develop a plan to build orbital farming stations in Sol to grow food and mitigate the coming starvation crisis.",
+      "characters": [
+        "Riker",
+        "Homer"
+      ],
+      "significance": "major",
+      "type": "creation"
+    },
+    {
+      "text": "FAITH offers food surplus in exchange for the remaining berths on ship three, and Riker tentatively agrees.",
+      "characters": [
+        "Riker",
+        "Minister Cranston"
+      ],
+      "significance": "major",
+      "type": "political"
+    }
+  ],
+  "summary": {
+    "one_line": "Riker uncovers a hack attempt, embraces Homer's orbital-farming solution to Sol's food crisis, and strikes a tentative food-for-berths deal with FAITH.",
+    "paragraph": "Riker's day is interrupted when Guppy blocks a hack attempt coming through the UN meeting feed, apparently exploiting weaknesses in the original Heaven design. After receiving an enthusiastic message from Homer, Riker joins him in VR and realizes that orbital stations do not need to house people to be useful—they can be built as agricultural habitats to grow engineered kudzu and relieve Sol's looming famine. The UN reacts with outrage when Riker presents the idea, but he pushes back, arguing that immediate lives matter more than future ship capacity. Later, Minister Cranston unexpectedly offers FAITH's food surplus in exchange for the remaining berths on ship three, and also explains that FAITH's probe work likely drew on stolen Australian research, which may explain the hack attempt's origin in New Zealand.",
+    "events": [
+      "Guppy blocks a hacking attempt against Bob systems that appears to come through the UN meeting video feed.",
+      "Riker reviews messages, including Homer's cryptic note about a space station idea and a warm family-history message from Julia.",
+      "Riker meets Homer in VR and realizes that nonhabitable orbital farming stations could grow food far more cheaply than full human habitats.",
+      "Riker presents the farming-station plan to the UN and is met with furious political resistance from enclaves not yet facing starvation.",
+      "Minister Cranston offers FAITH's food surplus in exchange for the remaining berths on ship three, and Riker finds the proposal reasonable.",
+      "Cranston explains that FAITH may have built on stolen Australian probe research, giving Riker a plausible explanation for the hack attempt traced to New Zealand."
+    ],
+    "themes": [
+      "politics",
+      "survival",
+      "engineering",
+      "family"
+    ],
+    "mood": "hopeful",
+    "pov_emotional_arc": "Riker moves from alarm and suspicion to cautious optimism as a practical food solution and an unexpectedly workable political bargain both emerge."
+  },
+  "world_state_after": {
+    "chapters_processed": 49,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "in transit to Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 48
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 49
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 10,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Dr. Doucette",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Spike",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 32
+      },
+      {
+        "name": "Jeeves",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Major Ernesto Medeiros",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 46
+      },
+      {
+        "name": "Serra do Mar",
+        "type": "ship",
+        "location": "Epsilon Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 15,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Bill",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 47
+      },
+      {
+        "name": "Riker",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 49
+      },
+      {
+        "name": "Milo",
+        "type": "replicant",
+        "location": "82 Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 46
+      },
+      {
+        "name": "Mario",
+        "type": "replicant",
+        "location": "in transit to Beta Hydri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 27
+      },
+      {
+        "name": "Homer",
+        "type": "replicant",
+        "location": "in transit to Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 49
+      },
+      {
+        "name": "Garfield",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 42
+      },
+      {
+        "name": "Calvin",
+        "type": "replicant",
+        "location": "Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 45
+      },
+      {
+        "name": "Goku",
+        "type": "replicant",
+        "location": "in transit to Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 45
+      },
+      {
+        "name": "Linus",
+        "type": "replicant",
+        "location": "Epsilon Indi",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 40
+      },
+      {
+        "name": "Captain Matias Araújo",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 24,
+        "last_seen_chapter": 24
+      },
+      {
+        "name": "Colonel George Butterworth",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 49
+      },
+      {
+        "name": "Delta Eridani 4 natives",
+        "type": "alien_species",
+        "location": "Delta Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 35,
+        "last_seen_chapter": 35
+      },
+      {
+        "name": "Marvin",
+        "type": "replicant",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 48
+      },
+      {
+        "name": "Luke",
+        "type": "replicant",
+        "location": "in transit to Kappa Ceti",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 39
+      },
+      {
+        "name": "Bender",
+        "type": "replicant",
+        "location": "in transit to Gamma Leporis A",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 39
+      },
+      {
+        "name": "Archimedes",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 48
+      },
+      {
+        "name": "Charles",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 49
+      },
+      {
+        "name": "Arthur",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 47,
+        "last_seen_chapter": 47
+      },
+      {
+        "name": "Minister Cranston",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 49
+      },
+      {
+        "name": "Gudmund Valter",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 41
+      },
+      {
+        "name": "Moses",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 48
+      },
+      {
+        "name": "Arnold",
+        "type": "alien_individual",
+        "location": "Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 48
+      },
+      {
+        "name": "Julia Hendricks",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 49
+      },
+      {
+        "name": "Henry Roberts",
+        "type": "replicant",
+        "location": "Epsilon Indi",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 40
+      },
+      {
+        "name": "Ambassador Gerrold",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 41
+      },
+      {
+        "name": "Bart",
+        "type": "replicant",
+        "location": "Alpha Centauri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 45
+      }
+    ],
+    "known_star_systems": [
+      "Sol",
+      "Epsilon Eridani",
+      "Alpha Centauri",
+      "Delta Eridani",
+      "Omicron Eridani",
+      "Beta Hydri",
+      "82 Eridani",
+      "Kappa Ceti",
+      "Gamma Leporis A",
+      "Epsilon Indi",
+      "New Zealand"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon",
+      "Saturn",
+      "Titan",
+      "Epsilon Eridani 1",
+      "Epsilon Eridani 2",
+      "Epsilon Eridani inner asteroid belt",
+      "Epsilon Eridani 4",
+      "Epsilon Eridani outer asteroid belt",
+      "Epsilon Eridani 5",
+      "Epsilon Eridani 3",
+      "Ragnarök",
+      "Omicron Eridani asteroid belt",
+      "OE-1A",
+      "OE-1B",
+      "OE-2",
+      "Jupiter",
+      "Vulcan",
+      "Romulus",
+      "Delta Eridani 4",
+      "Delta Eridani asteroid belt",
+      "Delta Eridani 1",
+      "Delta Eridani 2",
+      "Delta Eridani 3",
+      "Delta Eridani 5",
+      "Alpha Centauri B 1",
+      "Alpha Centauri B asteroid belt",
+      "Alpha Centauri B inner asteroid belt",
+      "Alpha Centauri A comfort-zone planet",
+      "Eden",
+      "Epsilon Indi 1",
+      "82 Eridani 3",
+      "82 Eridani 2",
+      "82 Eridani 3 outer moon",
+      "82 Eridani 3 inner moon"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR",
+      "Heaven-1",
+      "VR interface",
+      "SURGE drive weapon",
+      "exploration scouts",
+      "Heaven-2",
+      "Heaven-1A",
+      "exploration drone",
+      "subspace transmission",
+      "SURGE drive missile",
+      "Heaven-9",
+      "Heaven-10",
+      "modified SUDDAR array",
+      "SCUT",
+      "observation drone buster",
+      "firewall"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH",
+      "Brazilian Empire",
+      "USE",
+      "VEHEMENT",
+      "Australian",
+      "New Zealand"
+    ],
+    "known_species": [
+      "Vulcan and Romulus native life",
+      "Delta Eridani 4 natives",
+      "gorilloids"
+    ],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      },
+      {
+        "id": "who-attacked-heaven-1-launch",
+        "text": "The launch turns into a confused orbital battle with missiles, military ships, and multiple unknown attackers, leaving the identity of the factions involved unresolved.",
+        "opened_chapter": 12
+      },
+      {
+        "id": "bob-grief-after-endocrine-control",
+        "text": "After disabling his endocrine control system, Bob begins fully mourning his lost human life, raising the question of how this emotional release will affect him going forward.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "other-national-probes-still-out-there",
+        "text": "Bob concludes that at least one more Brazilian Empire ship exists and that USE, Chinese, and possibly Australian probes may also be active somewhere in space.",
+        "opened_chapter": 15
+      },
+      {
+        "id": "first-bob-cohort-divergence",
+        "text": "Bob's first cohort of clones diverges in personality immediately, raising questions about how future Bob society and identity will evolve.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "omicron-eridani-biocompatibility",
+        "text": "Milo has found two apparently habitable living worlds at Omicron Eridani, but it remains unresolved whether Earth life and humans are biologically compatible with them.",
+        "opened_chapter": 19
+      },
+      {
+        "id": "use-colony-ship-evacuation-plan",
+        "text": "Riker and Colonel Butterworth agree to try building colony ships in Sol, raising the question of whether the surviving humans can endure long enough to launch them and where they will go.",
+        "opened_chapter": 26
+      },
+      {
+        "id": "alpha-centauri-escaped-brazilian-probe",
+        "text": "One Brazilian vessel escapes the destruction of the Alpha Centauri construction yard, leaving its destination and future threat unresolved.",
+        "opened_chapter": 28
+      },
+      {
+        "id": "archimedes-development",
+        "text": "Bob has identified an unusually inventive Deltan boy named Archimedes, raising the question of how far his intelligence and toolmaking will develop.",
+        "opened_chapter": 30
+      },
+      {
+        "id": "sol-transport-vessel-priority",
+        "text": "Riker reprioritizes transport-vessel construction for refugee movement, raising the question of how much this will delay colony-ship production.",
+        "opened_chapter": 31
+      },
+      {
+        "id": "new-united-nations-governance",
+        "text": "Riker has convened a global survivor assembly, but it remains unresolved whether the enclaves can create workable governance and cooperate on evacuation and survival priorities.",
+        "opened_chapter": 33
+      },
+      {
+        "id": "gorilloid-threat-to-deltans",
+        "text": "The Deltans remain under ongoing predation pressure from gorilloids, raising the question of whether Bob's indirect aid and planned drone defenses will be enough to secure their survival.",
+        "opened_chapter": 35
+      },
+      {
+        "id": "vehement-threat-in-sol",
+        "text": "VEHEMENT is escalating anonymous threats and opportunistic violence in Sol, raising the question of whether it will disrupt evacuation and governance efforts.",
+        "opened_chapter": 38
+      },
+      {
+        "id": "riker-family-descendants-contact",
+        "text": "Riker has discovered living descendants of Andrea Johansson, raising the question of how this new family connection will affect his decisions and emotional life.",
+        "opened_chapter": 38
+      },
+      {
+        "id": "kappa-ceti-expedition",
+        "text": "Luke has departed for Kappa Ceti, opening the question of what he will find there.",
+        "opened_chapter": 39
+      },
+      {
+        "id": "gamma-leporis-a-expedition",
+        "text": "Bender has departed for Gamma Leporis A, opening the question of what he will find there.",
+        "opened_chapter": 39
+      },
+      {
+        "id": "direct-deltan-prompting",
+        "text": "Bob now has the ability and willingness to speak directly to the Deltans through a modified drone, raising the question of how far he will go in overt intervention.",
+        "opened_chapter": 39
+      },
+      {
+        "id": "henry-roberts-rehabilitation",
+        "text": "Linus has rescued the unstable Australian replicant Henry Roberts and begun VR-based rehabilitation, leaving open whether Henry can fully recover and function again.",
+        "opened_chapter": 40
+      },
+      {
+        "id": "epsilon-indi-colony-value",
+        "text": "Epsilon Indi appears sparse and only partly surveyed, leaving open whether Linus will find anything in the system worth long-term development or colonization.",
+        "opened_chapter": 40
+      },
+      {
+        "id": "milo-fate-after-82-eridani-ambush",
+        "text": "Milo is caught in a missile ambush at 82 Eridani after transmitting a partial backup, leaving his survival unresolved.",
+        "opened_chapter": 46
+      },
+      {
+        "id": "82-eridani-colony-value",
+        "text": "Milo finds two comfort-zone planets in 82 Eridani, raising the question of whether the system can become a viable human colony target once it is secured.",
+        "opened_chapter": 46
+      },
+      {
+        "id": "arthur-replacement-and-backup-storage",
+        "text": "Arthur's permanent loss forces the Sol Bobs to replace him and finally create off-site backup storage, raising the question of how quickly they can do so amid other priorities.",
+        "opened_chapter": 47
+      },
+      {
+        "id": "deltan-migration-disaster",
+        "text": "After the enlarged Deltan migration clears the mountain pass and reaches forest again, an unspecified disaster strikes two days later.",
+        "opened_chapter": 48
+      },
+      {
+        "id": "sol-orbital-farming-stations",
+        "text": "Homer and Riker devise orbital farming stations to avert starvation in Sol, raising the question of how quickly the plan can be built and whether political opposition will hinder it.",
+        "opened_chapter": 49
+      },
+      {
+        "id": "new-zealand-hacker-identity",
+        "text": "A hacker using knowledge of the original Heaven design attacks through the UN feed from New Zealand, leaving the perpetrator's identity unresolved.",
+        "opened_chapter": 49
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 45,
+        "text": "Bill learns that Alpha Centauri has been secured, linked into BobNet, and left in the hands of a new Bob named Bart."
+      },
+      {
+        "chapter": 46,
+        "text": "Milo reaches 82 Eridani, finds two promising habitable worlds, and is immediately caught in a lethal missile ambush."
+      },
+      {
+        "chapter": 47,
+        "text": "As Sol's food crisis worsens under VEHEMENT sabotage, Riker learns that Arthur has been killed by a nuclear booby trap near Saturn."
+      },
+      {
+        "chapter": 48,
+        "text": "Bob shepherds the Deltans into a growing migration across dangerous territory, but gorilloid predation and a final hinted disaster keep the journey precarious."
+      },
+      {
+        "chapter": 49,
+        "text": "Riker uncovers a hack attempt, embraces Homer's orbital-farming solution to Sol's food crisis, and strikes a tentative food-for-berths deal with FAITH."
+      }
+    ]
+  }
+}

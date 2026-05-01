@@ -1,0 +1,531 @@
+{
+  "metadata": {
+    "chapter": 18,
+    "pov": "Bill",
+    "year": 2145,
+    "month": "September",
+    "location": "Epsilon Eridani",
+    "notes": null,
+    "pov_knowledge": {
+      "believes": [
+        "Riker intends to return to Sol to investigate Earth's situation.",
+        "Bob is heading to Delta Eridani.",
+        "Milo is heading to Omicron Eridani.",
+        "Mario is heading to Beta Hydri.",
+        "Riker has some undisclosed plan involving a third vessel piloted by an AMI."
+      ],
+      "learns": [],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Bill",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "POV character observing departures and ongoing construction."
+    },
+    {
+      "name": "Bob",
+      "type": "human",
+      "location": "Epsilon Eridani",
+      "status": "mentioned_only",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Observed departing the system at the start of the chapter excerpt."
+    },
+    {
+      "name": "Mario",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "mentioned_only",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Observed departing the system at the start of the chapter excerpt."
+    },
+    {
+      "name": "Milo",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "mentioned_only",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Observed departing the system at the start of the chapter excerpt."
+    },
+    {
+      "name": "Riker",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Present in-system; his clone and an additional AMI-piloted vessel are under construction."
+    }
+  ],
+  "new_characters": [],
+  "destructions": [],
+  "resolutions": [],
+  "movements": [
+    {
+      "character": "Bob",
+      "type": "departure",
+      "from": "Epsilon Eridani",
+      "to": "Delta Eridani",
+      "ship": null,
+      "companions": [],
+      "cargo": null,
+      "drive": "SURGE",
+      "max_g": null,
+      "notes": "Bill watches Bob leave the system."
+    },
+    {
+      "character": "Milo",
+      "type": "departure",
+      "from": "Epsilon Eridani",
+      "to": "Omicron Eridani",
+      "ship": null,
+      "companions": [],
+      "cargo": null,
+      "drive": "SURGE",
+      "max_g": null,
+      "notes": "Bill watches Milo leave the system."
+    },
+    {
+      "character": "Mario",
+      "type": "departure",
+      "from": "Epsilon Eridani",
+      "to": "Beta Hydri",
+      "ship": null,
+      "companions": [],
+      "cargo": null,
+      "drive": "SURGE",
+      "max_g": null,
+      "notes": "Bill watches Mario leave the system."
+    }
+  ],
+  "star_systems": [
+    {
+      "name": "Epsilon Eridani",
+      "role": "setting",
+      "notes": null
+    },
+    {
+      "name": "Delta Eridani",
+      "role": "destination",
+      "notes": "Bob's destination."
+    },
+    {
+      "name": "Sol",
+      "role": "destination",
+      "notes": "Riker plans to return there, but does not depart in this chapter."
+    },
+    {
+      "name": "Omicron Eridani",
+      "role": "destination",
+      "notes": "Milo's destination; text uses 'Omicron Eridani' while prior recap uses canonical 'Omicron2 Eridani'."
+    },
+    {
+      "name": "Beta Hydri",
+      "role": "destination",
+      "notes": "Mario's destination."
+    }
+  ],
+  "planets": [],
+  "technologies": [],
+  "faction_events": [],
+  "communications": [],
+  "combat": [],
+  "alien_species": [],
+  "infrastructure": [
+    {
+      "system": "Epsilon Eridani",
+      "type": "clone_facility",
+      "event": "expanded",
+      "owner": "Bill",
+      "notes": "Bill oversees construction of matrices and vessels for two new Bobs and an additional AMI-piloted vessel."
+    }
+  ],
+  "human_colonies": [],
+  "relationships": [
+    {
+      "a": "Bill",
+      "b": "Bob",
+      "type": "working_partners",
+      "event": "strained",
+      "text": "Bill feels sad watching Bob leave quickly after the cloning episode, reading it as a reaction to his discomfort with the new divergence among the Bobs.",
+      "notes": "Emotional distance rather than open conflict."
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Epsilon Eridani",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Bill reflects on the departures of Bob, Mario, and Milo while supervising construction of two new clone matrices and an extra vessel for Riker."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [],
+  "threads_opened": [],
+  "threads_resolved": [],
+  "events": [
+    {
+      "text": "Bob, Milo, and Mario depart Epsilon Eridani for Delta Eridani, Omicron Eridani, and Beta Hydri respectively, beginning the first outward spread of Bob replicants to new systems.",
+      "characters": [
+        "Bob",
+        "Milo",
+        "Mario",
+        "Bill"
+      ],
+      "significance": "major",
+      "type": "travel"
+    }
+  ],
+  "summary": {
+    "one_line": "Bill watches the first Bob cohort disperse from Epsilon Eridani as he prepares new clones and Riker's Sol mission hardware.",
+    "paragraph": "From Epsilon Eridani, Bill watches Bob, Milo, and Mario leave for their chosen target stars, marking the first real dispersal of the Bob replicants. He reflects on each destination and on the personalities already emerging among the clones, especially Mario's desire to get far beyond the local neighborhood. Bill is also supervising construction of two new matrices, one his own clone and one Riker's, along with a third AMI-piloted vessel that Riker intends to use for his planned reconnaissance of Sol. The chapter is quiet and reflective, with Bill feeling the emotional weight of so many departures at once.",
+    "events": [
+      "Bill watches the fusion signatures as Bob, Mario, and Milo leave Epsilon Eridani and feels the sadness of another round of partings.",
+      "He checks on the construction of two new matrices and vessels, one for his own clone and one for Riker's clone.",
+      "Bill reflects that Riker plans to return to Sol and wants backup for the mission.",
+      "He thinks through the destinations chosen by Bob, Milo, and Mario: Delta Eridani, Omicron Eridani, and Beta Hydri.",
+      "Bill inspects a third, AMI-piloted vessel Riker has requested and notes that Riker is keeping the details of his plan to himself.",
+      "He concludes that Bob fled the system quickly because the cloning experience confirmed his fears about divergence among his descendants."
+    ],
+    "themes": [
+      "family",
+      "exploration",
+      "identity"
+    ],
+    "mood": "reflective",
+    "pov_emotional_arc": "Bill quietly processes the loneliness and emotional cost of watching his new family scatter into space while trying to stay focused on the work ahead."
+  },
+  "world_state_after": {
+    "chapters_processed": 18,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "in transit to Delta Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 18
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 10,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Dr. Doucette",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Spike",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Jeeves",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Major Ernesto Medeiros",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Serra do Mar",
+        "type": "ship",
+        "location": "Epsilon Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 15,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Bill",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 18
+      },
+      {
+        "name": "Riker",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 18
+      },
+      {
+        "name": "Milo",
+        "type": "replicant",
+        "location": "in transit to Omicron Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 18
+      },
+      {
+        "name": "Mario",
+        "type": "replicant",
+        "location": "in transit to Beta Hydri",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 18
+      }
+    ],
+    "known_star_systems": [
+      "Sol",
+      "Epsilon Eridani",
+      "Alpha Centauri",
+      "Delta Eridani",
+      "Omicron Eridani",
+      "Beta Hydri"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon",
+      "Saturn",
+      "Titan",
+      "Epsilon Eridani 1",
+      "Epsilon Eridani 2",
+      "Epsilon Eridani inner asteroid belt",
+      "Epsilon Eridani 4",
+      "Epsilon Eridani outer asteroid belt",
+      "Epsilon Eridani 5",
+      "Epsilon Eridani 3",
+      "Ragnarök"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR",
+      "Heaven-1",
+      "VR interface",
+      "SURGE drive weapon",
+      "exploration scouts",
+      "Heaven-2",
+      "Heaven-1A"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH",
+      "Brazilian Empire"
+    ],
+    "known_species": [],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      },
+      {
+        "id": "who-attacked-heaven-1-launch",
+        "text": "The launch turns into a confused orbital battle with missiles, military ships, and multiple unknown attackers, leaving the identity of the factions involved unresolved.",
+        "opened_chapter": 12
+      },
+      {
+        "id": "earth-nuclear-war-escalation",
+        "text": "Bob detects apparent nuclear detonations on Earth after hearing of escalating conflict, leaving the scale of the war and Sol's survival uncertain.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "bob-grief-after-endocrine-control",
+        "text": "After disabling his endocrine control system, Bob begins fully mourning his lost human life, raising the question of how this emotional release will affect him going forward.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "other-national-probes-still-out-there",
+        "text": "Bob concludes that at least one more Brazilian Empire ship exists and that USE, Chinese, and possibly Australian probes may also be active somewhere in space.",
+        "opened_chapter": 15
+      },
+      {
+        "id": "first-bob-cohort-divergence",
+        "text": "Bob's first cohort of clones diverges in personality immediately, raising questions about how future Bob society and identity will evolve.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "riker-sol-recon-mission",
+        "text": "Riker is considering a cautious reconnaissance mission back toward Sol to find out what happened to Earth.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "bill-subspace-research",
+        "text": "Bill suspects weak SUDDAR emissions may reveal new subspace behavior and plans to investigate the theory from Epsilon Eridani.",
+        "opened_chapter": 17
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 14,
+        "text": "Bob reaches Epsilon Eridani, surveys the system, and starts building a trap for the Brazilian probe he expects to follow him there."
+      },
+      {
+        "chapter": 15,
+        "text": "Bob survives his first space battle by destroying Major Ernesto Medeiros and the Brazilian ship Serra do Mar at Epsilon Eridani."
+      },
+      {
+        "chapter": 16,
+        "text": "Bob surveys more of Epsilon Eridani and finally commits to building the infrastructure for replication."
+      },
+      {
+        "chapter": 17,
+        "text": "Bob creates his first four clones, upgrades into Heaven-1A, and watches the new Bobs immediately begin diverging into distinct personalities and missions."
+      },
+      {
+        "chapter": 18,
+        "text": "Bill watches the first Bob cohort disperse from Epsilon Eridani as he prepares new clones and Riker's Sol mission hardware."
+      }
+    ]
+  }
+}

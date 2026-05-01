@@ -1,0 +1,795 @@
+{
+  "metadata": {
+    "chapter": 17,
+    "pov": "Bob",
+    "year": 2145,
+    "month": "July",
+    "location": "Epsilon Eridani",
+    "notes": "Chapter spans multiple scenes over several days, including activation of new replicants, Bob's transfer to Heaven-1A, and departures.",
+    "pov_knowledge": {
+      "believes": [
+        "Earth may no longer harbor a technological civilization.",
+        "At least one more Brazilian probe may still be active somewhere.",
+        "The newly activated Bobs are not identical clones in personality despite sharing his memories."
+      ],
+      "learns": [
+        "Bill's defective SUDDAR emitter may indicate unexpected long-range subspace signal behavior.",
+        "The new Bobs diverge in temperament immediately after activation, with Riker and Milo clashing and Mario notably taciturn."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Bob",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Transferred from Heaven-1 to Heaven-1A during the chapter."
+    },
+    {
+      "name": "Spike",
+      "type": "ai",
+      "location": "Epsilon Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Present in Bob's VR."
+    },
+    {
+      "name": "GUPPI",
+      "type": "ai",
+      "location": "Epsilon Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Multiple shipboard instances assist Bob and the new replicants."
+    },
+    {
+      "name": "Bill",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Activated as Heaven-3 / Bob-3."
+    },
+    {
+      "name": "Riker",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Activated as Heaven-2 / Bob-2."
+    },
+    {
+      "name": "Milo",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Activated as Heaven-4 / Bob-4."
+    },
+    {
+      "name": "Mario",
+      "type": "replicant",
+      "location": "Epsilon Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Activated as Heaven-5 / Bob-5."
+    },
+    {
+      "name": "Jeeves",
+      "type": "ai",
+      "location": "Epsilon Eridani",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Present in Bob's VR after transfer to Heaven-1A."
+    },
+    {
+      "name": "Dr. Landers",
+      "type": "human",
+      "location": "Sol",
+      "status": "mentioned_only",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Referenced in discussion about Earth's motives."
+    },
+    {
+      "name": "Major Ernesto Medeiros",
+      "type": "replicant",
+      "location": "unknown",
+      "status": "mentioned_only",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Discussed as a continuing threat via possible other Brazilian probes."
+    }
+  ],
+  "new_characters": [
+    {
+      "name": "Bill",
+      "type": "replicant",
+      "parent": "Bob",
+      "generation": 2,
+      "location": "Epsilon Eridani",
+      "faction": null,
+      "personality": {
+        "traits": [
+          "analytical",
+          "wry",
+          "scholarly"
+        ],
+        "role": "researcher",
+        "nickname_origin": "Named after Bill the Cat / Bill D. Cat.",
+        "quirks": "Interested in subspace theory and willing to stay behind to run the system and do research."
+      },
+      "notes": "Activated from one of Bob's backups; chooses to remain in Epsilon Eridani."
+    },
+    {
+      "name": "Riker",
+      "type": "replicant",
+      "parent": "Bob",
+      "generation": 2,
+      "location": "Epsilon Eridani",
+      "faction": null,
+      "personality": {
+        "traits": [
+          "serious",
+          "dutiful",
+          "assertive"
+        ],
+        "role": "explorer",
+        "nickname_origin": "Named after William Riker from Star Trek, reflecting his status as Bob-2.",
+        "quirks": "Uses a starship-bridge VR and immediately frames himself as 'number two'."
+      },
+      "notes": "Activated as Bob-2 and quickly volunteers for a reconnaissance mission toward Sol."
+    },
+    {
+      "name": "Milo",
+      "type": "replicant",
+      "parent": "Bob",
+      "generation": 2,
+      "location": "Epsilon Eridani",
+      "faction": null,
+      "personality": {
+        "traits": [
+          "independent",
+          "flippant",
+          "risk-averse"
+        ],
+        "role": "explorer",
+        "nickname_origin": null,
+        "quirks": "Uses a Flash-Gordon-style airship VR over the Amazon and refuses to return toward Sol."
+      },
+      "notes": "Activated as Bob-4."
+    },
+    {
+      "name": "Mario",
+      "type": "replicant",
+      "parent": "Bob",
+      "generation": 2,
+      "location": "Epsilon Eridani",
+      "faction": null,
+      "personality": {
+        "traits": [
+          "quiet",
+          "antisocial",
+          "reserved"
+        ],
+        "role": "explorer",
+        "nickname_origin": null,
+        "quirks": "Barely speaks and keeps a plain gray VR environment."
+      },
+      "notes": "Activated as Bob-5."
+    }
+  ],
+  "destructions": [],
+  "resolutions": [],
+  "movements": [
+    {
+      "character": "Bob",
+      "type": "arrival",
+      "from": "Epsilon Eridani",
+      "to": "Epsilon Eridani",
+      "ship": "Heaven-1A",
+      "companions": [],
+      "cargo": null,
+      "drive": "unknown",
+      "max_g": null,
+      "notes": "Bob's replicant hardware transfer into his upgraded vessel completes; intra-system transfer rather than interstellar travel."
+    },
+    {
+      "character": "Milo",
+      "type": "departure",
+      "from": "Epsilon Eridani",
+      "to": "unknown",
+      "ship": "Heaven-4",
+      "companions": [],
+      "cargo": null,
+      "drive": "SURGE",
+      "max_g": null,
+      "notes": "Departs after choosing a destination system not named in the chapter."
+    },
+    {
+      "character": "Mario",
+      "type": "departure",
+      "from": "Epsilon Eridani",
+      "to": "unknown",
+      "ship": "Heaven-5",
+      "companions": [],
+      "cargo": null,
+      "drive": "SURGE",
+      "max_g": null,
+      "notes": "Departs after choosing a destination system not named in the chapter."
+    }
+  ],
+  "star_systems": [
+    {
+      "name": "Epsilon Eridani",
+      "role": "setting",
+      "notes": null
+    },
+    {
+      "name": "Sol",
+      "role": "mentioned",
+      "notes": "Discussed as a possible reconnaissance target and destination for status reports."
+    }
+  ],
+  "planets": [
+    {
+      "name": "Epsilon Eridani 2",
+      "star_system": "Epsilon Eridani",
+      "orbital_position": 2,
+      "type": "rocky",
+      "habitable": true,
+      "features": "Candidate colony world that Bob and Bill discuss lightly terraforming by redirecting icy bodies to enlarge its oceans.",
+      "life": null,
+      "status": "surveyed",
+      "notes": "Bill names the planet Ragnarök in this chapter."
+    },
+    {
+      "name": "Ragnarök",
+      "star_system": "Epsilon Eridani",
+      "orbital_position": 2,
+      "type": "rocky",
+      "habitable": true,
+      "features": "Bill's chosen name for Epsilon Eridani 2; proposed target for light terraforming via redirected ice objects.",
+      "life": null,
+      "status": "mentioned",
+      "notes": "Existing planet given a new informal name by Bill."
+    },
+    {
+      "name": "Epsilon Eridani inner asteroid belt",
+      "star_system": "Epsilon Eridani",
+      "orbital_position": null,
+      "type": "asteroid_belt",
+      "habitable": false,
+      "features": "Site of Bob's manufacturing yard and relay-station construction.",
+      "life": null,
+      "status": "mentioned",
+      "notes": null
+    }
+  ],
+  "technologies": [
+    {
+      "name": "Heaven-2",
+      "full_name": "Version-2 HEAVEN vessel",
+      "event": "deployed",
+      "by": "Bob",
+      "location": "Epsilon Eridani",
+      "notes": "Second-generation HEAVEN ships are completed and activated with upgraded reactors, drives, weapons, cargo, and replicant capacity."
+    },
+    {
+      "name": "Heaven-1A",
+      "full_name": "Upgraded Heaven-1 vessel",
+      "event": "upgraded",
+      "by": "Bob",
+      "location": "Epsilon Eridani",
+      "notes": "Bob transfers into an upgraded ship with version-2 capabilities."
+    }
+  ],
+  "faction_events": [],
+  "communications": [
+    {
+      "from_character": "Bob",
+      "from_system": "Epsilon Eridani",
+      "to_character": "broadcast",
+      "to_system": null,
+      "medium": "radio",
+      "direction": "sent",
+      "contents_summary": "Bob's automated relay station is intended to send encrypted status reports and planetary surveys back to Earth.",
+      "notes": "The station is still under construction in this chapter, but Bob states its first task and that his survey report is already on its way back to Earth."
+    }
+  ],
+  "combat": [],
+  "alien_species": [],
+  "infrastructure": [
+    {
+      "system": "Epsilon Eridani",
+      "type": "shipyard",
+      "event": "established",
+      "owner": "Bob",
+      "notes": "Bob has a large automated construction yard in the inner asteroid belt building version-2 HEAVEN vessels, roamers, and weapons."
+    },
+    {
+      "system": "Epsilon Eridani",
+      "type": "radio_relay",
+      "event": "established",
+      "owner": "Bob",
+      "notes": "An automated interstellar communications relay station is under construction; 40% complete with AMI staffing and limited manufacturing planned."
+    },
+    {
+      "system": "Epsilon Eridani",
+      "type": "clone_facility",
+      "event": "established",
+      "owner": "Bob",
+      "notes": "Replicant matrices for Heaven-2 through Heaven-5 are completed and used to activate Bob's first cohort of clones."
+    }
+  ],
+  "human_colonies": [],
+  "relationships": [
+    {
+      "a": "Bob",
+      "b": "Bill",
+      "type": "working_partners",
+      "event": "established",
+      "text": "Bob and Bill align closely on staying useful to humanity while Bill takes responsibility for running Epsilon Eridani and pursuing research.",
+      "notes": "Bob privately identifies Bill as the most similar to himself behaviorally."
+    },
+    {
+      "a": "Riker",
+      "b": "Milo",
+      "type": "rivalry",
+      "event": "established",
+      "text": "Riker and Milo immediately clash over whether anyone should risk returning toward Sol.",
+      "notes": "Their disagreement is the first clear sign of personality divergence among the new Bobs."
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Epsilon Eridani",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Bob reviews his growing industrial base, upgraded ships, and relay-station plans, then decides to begin creating new Bobs."
+    },
+    {
+      "order": 2,
+      "location": "Epsilon Eridani",
+      "time_offset": "after the backup process",
+      "pov": "Bill",
+      "summary": "A newly awakened copy realizes he is not Bob-1, accepts the need for a new identity, and takes over manufacturing while Bob transfers ships."
+    },
+    {
+      "order": 3,
+      "location": "Epsilon Eridani",
+      "time_offset": "later the same day",
+      "pov": null,
+      "summary": "Bob wakes in Heaven-1A, confirms the transfer succeeded, and tells the other new ships they can proceed with shakedown and departure plans."
+    },
+    {
+      "order": 4,
+      "location": "Epsilon Eridani",
+      "time_offset": "shortly later",
+      "pov": null,
+      "summary": "A SUDDAR defect brings all five Bobs into conference, where they choose names and begin discussing roles and future missions."
+    },
+    {
+      "order": 5,
+      "location": "Epsilon Eridani",
+      "time_offset": "later",
+      "pov": null,
+      "summary": "Bob and the others debate obligations to Earth, possible missions, terraforming, research, and whether to search for other probes or return to Sol."
+    },
+    {
+      "order": 6,
+      "location": "Epsilon Eridani",
+      "time_offset": "after the meeting",
+      "pov": null,
+      "summary": "Bob and Bill privately reflect on how quickly the new Bobs have diverged in personality and what that means for Bob's identity."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Bill",
+      "text": "Whether or not I’m original Bob, I’m original me.",
+      "context": "Bob internally settles on a personal answer after Bill challenges his assumption that Bob-1 is the only true continuation of original Bob."
+    }
+  ],
+  "threads_opened": [
+    {
+      "id": "first-bob-cohort-divergence",
+      "text": "Bob's first cohort of clones diverges in personality immediately, raising questions about how future Bob society and identity will evolve."
+    },
+    {
+      "id": "riker-sol-recon-mission",
+      "text": "Riker is considering a cautious reconnaissance mission back toward Sol to find out what happened to Earth."
+    },
+    {
+      "id": "bill-subspace-research",
+      "text": "Bill suspects weak SUDDAR emissions may reveal new subspace behavior and plans to investigate the theory from Epsilon Eridani."
+    }
+  ],
+  "threads_resolved": [
+    {
+      "id": "bob-cloning-identity-anxiety",
+      "text": "Bob goes through with creating his first cohort of clones and begins coping with the result by treating each copy as an independent person with a distinct name."
+    }
+  ],
+  "events": [
+    {
+      "text": "Bob activates his first cohort of replicants at Epsilon Eridani: Riker, Bill, Milo, and Mario.",
+      "characters": [
+        "Bob",
+        "Riker",
+        "Bill",
+        "Milo",
+        "Mario"
+      ],
+      "significance": "major",
+      "type": "creation"
+    },
+    {
+      "text": "Bob transfers from Heaven-1 into the upgraded Heaven-1A while his new cohort begins dividing future roles and destinations.",
+      "characters": [
+        "Bob",
+        "Riker",
+        "Bill",
+        "Milo",
+        "Mario"
+      ],
+      "significance": "major",
+      "type": "creation"
+    }
+  ],
+  "summary": {
+    "one_line": "Bob creates his first four clones, upgrades into Heaven-1A, and watches the new Bobs immediately begin diverging into distinct personalities and missions.",
+    "paragraph": "Bob surveys the bustling industrial yard he has built in Epsilon Eridani, prepares upgraded version-2 HEAVEN ships, and finally commits to making copies of himself. The new replicants wake one by one, choose the names Riker, Bill, Milo, and Mario, and reveal sharply different temperaments almost immediately. After Bob successfully transfers into Heaven-1A, the five Bobs debate what obligations they still owe Earth, whether anyone should scout Sol, how to handle other possible national probes, and who should remain in-system. Bill volunteers to stay behind to run Epsilon Eridani, terraform Epsilon Eridani 2, and investigate subspace theory, while Milo and Mario prepare to head outward and Riker considers a future Sol reconnaissance mission. The chapter ends with Bob unsettled but newly certain that whatever the metaphysics of copying may be, each Bob is becoming his own person.",
+    "events": [
+      "Bob relaxes in VR while monitoring a rapidly expanding construction yard in the Epsilon Eridani inner belt.",
+      "He reviews the upgraded version-2 HEAVEN ships, the relay station under construction, and the lack of any incoming messages from Sol.",
+      "Despite renewed anxiety about identity, Bob starts the backup process to create more replicants.",
+      "The first awakened copy realizes he is not Bob-1, later takes the name Bill, and temporarily assumes manufacturing oversight while Bob transfers into Heaven-1A.",
+      "Bob wakes in his upgraded ship and confirms that the transfer succeeded.",
+      "A SUDDAR defect brings all five Bobs together, where they choose names and begin sounding different from one another almost immediately.",
+      "The group debates whether to help Earth, search for other probes, terraform Epsilon Eridani 2, or simply explore, and Bill volunteers to stay behind as researcher and system manager.",
+      "After a private conversation with Bill about identity and divergence, Bob rejoins the others as Milo and Mario prepare to depart."
+    ],
+    "themes": [
+      "identity",
+      "family",
+      "exploration",
+      "replicant-philosophy"
+    ],
+    "mood": "reflective",
+    "pov_emotional_arc": "Bob moves from anxious dread about cloning himself to uneasy acceptance that the new Bobs are distinct individuals and that he must redefine what it means to be 'original.'"
+  },
+  "world_state_after": {
+    "chapters_processed": 17,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 6
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Kenneth Martins",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 10,
+        "last_seen_chapter": 10
+      },
+      {
+        "name": "Jiro Tanaka",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Neves Reijnder",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Joana Almeida",
+        "type": "replicant",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 8
+      },
+      {
+        "name": "Minister Jacoby",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 9
+      },
+      {
+        "name": "Dr. Doucette",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 13
+      },
+      {
+        "name": "Spike",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Jeeves",
+        "type": "ai",
+        "location": "in_transit",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Major Ernesto Medeiros",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Serra do Mar",
+        "type": "ship",
+        "location": "Epsilon Eridani",
+        "status": "destroyed",
+        "destroyed_chapter": 15,
+        "last_seen_chapter": 15
+      },
+      {
+        "name": "Bill",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Riker",
+        "type": "replicant",
+        "location": "Epsilon Eridani",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Milo",
+        "type": "replicant",
+        "location": "in transit to unknown",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      },
+      {
+        "name": "Mario",
+        "type": "replicant",
+        "location": "in transit to unknown",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 17
+      }
+    ],
+    "known_star_systems": [
+      "Sol",
+      "Epsilon Eridani",
+      "Alpha Centauri"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon",
+      "Saturn",
+      "Titan",
+      "Epsilon Eridani 1",
+      "Epsilon Eridani 2",
+      "Epsilon Eridani inner asteroid belt",
+      "Epsilon Eridani 4",
+      "Epsilon Eridani outer asteroid belt",
+      "Epsilon Eridani 5",
+      "Epsilon Eridani 3",
+      "Ragnarök"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST",
+      "Von Neumann probe",
+      "nanite",
+      "SURGE drive",
+      "SUDDAR",
+      "Heaven-1",
+      "VR interface",
+      "SURGE drive weapon",
+      "exploration scouts",
+      "Heaven-2",
+      "Heaven-1A"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH",
+      "Brazilian Empire"
+    ],
+    "known_species": [],
+    "open_threads": [
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "foreign-probe-race-and-sabotage-threat",
+        "text": "Bob now knows several rival nations are racing to launch interstellar probes, with the Brazilian Empire suspected of sabotage and armed competition.",
+        "opened_chapter": 7
+      },
+      {
+        "id": "facility-nuclear-failsafe",
+        "text": "Bob learns the FAITH facility has a hidden tactical nuclear failsafe that could kill him and everyone nearby if someone decides he is too dangerous.",
+        "opened_chapter": 8
+      },
+      {
+        "id": "minister-jacoby-threat",
+        "text": "Minister Jacoby leaves after threatening Dr. Landers, raising the question of whether he will act against the replicant project.",
+        "opened_chapter": 9
+      },
+      {
+        "id": "who-attacked-heaven-1-launch",
+        "text": "The launch turns into a confused orbital battle with missiles, military ships, and multiple unknown attackers, leaving the identity of the factions involved unresolved.",
+        "opened_chapter": 12
+      },
+      {
+        "id": "earth-nuclear-war-escalation",
+        "text": "Bob detects apparent nuclear detonations on Earth after hearing of escalating conflict, leaving the scale of the war and Sol's survival uncertain.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "bob-grief-after-endocrine-control",
+        "text": "After disabling his endocrine control system, Bob begins fully mourning his lost human life, raising the question of how this emotional release will affect him going forward.",
+        "opened_chapter": 13
+      },
+      {
+        "id": "other-national-probes-still-out-there",
+        "text": "Bob concludes that at least one more Brazilian Empire ship exists and that USE, Chinese, and possibly Australian probes may also be active somewhere in space.",
+        "opened_chapter": 15
+      },
+      {
+        "id": "first-bob-cohort-divergence",
+        "text": "Bob's first cohort of clones diverges in personality immediately, raising questions about how future Bob society and identity will evolve.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "riker-sol-recon-mission",
+        "text": "Riker is considering a cautious reconnaissance mission back toward Sol to find out what happened to Earth.",
+        "opened_chapter": 17
+      },
+      {
+        "id": "bill-subspace-research",
+        "text": "Bill suspects weak SUDDAR emissions may reveal new subspace behavior and plans to investigate the theory from Epsilon Eridani.",
+        "opened_chapter": 17
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 13,
+        "text": "Bob cleans hidden sabotage out of Heaven-1, builds himself a virtual life for the voyage, and learns that Brazil is pursuing him while Earth slides toward nuclear war."
+      },
+      {
+        "chapter": 14,
+        "text": "Bob reaches Epsilon Eridani, surveys the system, and starts building a trap for the Brazilian probe he expects to follow him there."
+      },
+      {
+        "chapter": 15,
+        "text": "Bob survives his first space battle by destroying Major Ernesto Medeiros and the Brazilian ship Serra do Mar at Epsilon Eridani."
+      },
+      {
+        "chapter": 16,
+        "text": "Bob surveys more of Epsilon Eridani and finally commits to building the infrastructure for replication."
+      },
+      {
+        "chapter": 17,
+        "text": "Bob creates his first four clones, upgrades into Heaven-1A, and watches the new Bobs immediately begin diverging into distinct personalities and missions."
+      }
+    ]
+  }
+}

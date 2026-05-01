@@ -1,0 +1,434 @@
+{
+  "metadata": {
+    "chapter": 1,
+    "pov": "Bob",
+    "year": 2016,
+    "month": null,
+    "location": "Sol",
+    "notes": "Chapter spans multiple scenes over the same day in Las Vegas and ends with Bob's death in a hospital setting.",
+    "pov_knowledge": {
+      "believes": [
+        "Cryonics may allow him to be revived in the future with a new body if medicine advances enough.",
+        "As a humanist, death means either possible revival through cryonics or nothing at all."
+      ],
+      "learns": [],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Bob",
+      "type": "human",
+      "location": "Sol",
+      "status": "destroyed",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Human Bob Johansson in 2016; struck by a car and dies at the end of the chapter."
+    },
+    {
+      "name": "Kevin",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "CryoEterna sales representative who signs Bob up for cryonics."
+    },
+    {
+      "name": "Carl",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Bob's friend and former employee, present at lunch."
+    },
+    {
+      "name": "Karen",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Bob's former employee, argues against cryonics at lunch."
+    },
+    {
+      "name": "Alan",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Bob's former employee, present at lunch."
+    },
+    {
+      "name": "Bob's mother",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Speaks with Bob by phone from Minnesota; not physically present."
+    },
+    {
+      "name": "Andrea",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Bob's sister, speaks with him by phone; not physically present."
+    }
+  ],
+  "new_characters": [
+    {
+      "name": "Bob",
+      "type": "human",
+      "parent": null,
+      "generation": null,
+      "location": "Sol",
+      "faction": null,
+      "personality": {
+        "traits": [
+          "witty",
+          "geeky",
+          "reflective",
+          "recently-heartbroken"
+        ],
+        "role": "unknown",
+        "nickname_origin": null,
+        "quirks": "A science-fiction convention regular who jokes about his own cryonic decapitation."
+      },
+      "notes": "Series introduction of Bob Johansson as a human in 2016."
+    },
+    {
+      "name": "Kevin",
+      "type": "human",
+      "parent": null,
+      "generation": null,
+      "location": "Sol",
+      "faction": "CryoEterna",
+      "personality": {
+        "traits": [
+          "slick",
+          "patient",
+          "salesmanlike"
+        ],
+        "role": "unknown",
+        "nickname_origin": null,
+        "quirks": "Well-dressed cryonics sales rep who matter-of-factly explains that Bob's head will be removed and frozen."
+      },
+      "notes": "CryoEterna sales representative."
+    },
+    {
+      "name": "Carl",
+      "type": "human",
+      "parent": null,
+      "generation": null,
+      "location": "Sol",
+      "faction": null,
+      "personality": {
+        "traits": [
+          "loyal",
+          "friendly",
+          "perceptive"
+        ],
+        "role": "unknown",
+        "nickname_origin": null,
+        "quirks": "Able to be both Bob's employee and genuine friend without seeming sycophantic."
+      },
+      "notes": "One of Bob's first hires at InterGator Software."
+    },
+    {
+      "name": "Karen",
+      "type": "human",
+      "parent": null,
+      "generation": null,
+      "location": "Sol",
+      "faction": null,
+      "personality": {
+        "traits": [
+          "blunt",
+          "skeptical",
+          "protective"
+        ],
+        "role": "unknown",
+        "nickname_origin": null,
+        "quirks": "Strongly disapproves of Bob's cryonics decision and says so directly."
+      },
+      "notes": "One of Bob's first hires at InterGator Software."
+    },
+    {
+      "name": "Alan",
+      "type": "human",
+      "parent": null,
+      "generation": null,
+      "location": "Sol",
+      "faction": null,
+      "personality": {
+        "traits": [
+          "teasing",
+          "practical",
+          "less-geeky"
+        ],
+        "role": "unknown",
+        "nickname_origin": null,
+        "quirks": "Software developer who is less interested in science-fiction tech talk than Bob and Carl."
+      },
+      "notes": "One of Bob's first hires at InterGator Software."
+    },
+    {
+      "name": "Andrea",
+      "type": "human",
+      "parent": null,
+      "generation": null,
+      "location": "Sol",
+      "faction": null,
+      "personality": {
+        "traits": [
+          "close",
+          "teasing",
+          "affectionate"
+        ],
+        "role": "unknown",
+        "nickname_origin": null,
+        "quirks": "Bob's sister who immediately resumes their familiar insult-comedy routine on the phone."
+      },
+      "notes": "Bob's sister, introduced via phone conversation."
+    }
+  ],
+  "destructions": [
+    {
+      "name": "Bob",
+      "type": "human",
+      "cause": "Bob is struck by a car while crossing the street outside the convention and later pronounced dead.",
+      "location": "Sol",
+      "certainty": "confirmed"
+    }
+  ],
+  "resolutions": [],
+  "movements": [],
+  "star_systems": [
+    {
+      "name": "Sol",
+      "role": "setting",
+      "notes": "All scenes occur on Earth in Las Vegas and via phone calls within the Solar System."
+    }
+  ],
+  "planets": [
+    {
+      "name": "Earth",
+      "star_system": "Sol",
+      "orbital_position": 3,
+      "type": "rocky",
+      "habitable": true,
+      "features": "Human-inhabited world; scenes take place in Las Vegas and Bob's family is in Minnesota.",
+      "life": "Human civilization",
+      "status": "mentioned",
+      "notes": "Chapter setting is Earth, though the action is localized to Las Vegas."
+    }
+  ],
+  "technologies": [],
+  "faction_events": [],
+  "communications": [
+    {
+      "from_character": "Bob's mother",
+      "from_system": "Sol",
+      "to_character": "Bob",
+      "to_system": "Sol",
+      "medium": "unknown",
+      "direction": "received",
+      "contents_summary": "Bob receives texts from his mother prompting him to call her back.",
+      "notes": null
+    }
+  ],
+  "combat": [],
+  "alien_species": [],
+  "infrastructure": [],
+  "human_colonies": [],
+  "relationships": [
+    {
+      "a": "Bob",
+      "b": "Carl",
+      "type": "friendship",
+      "event": "established",
+      "text": "Carl's concern for Bob's emotional state after the breakup shows that their former boss-employee relationship has become a real friendship.",
+      "notes": null
+    },
+    {
+      "a": "Bob",
+      "b": "Andrea",
+      "type": "friendship",
+      "event": "established",
+      "text": "Bob and Andrea are shown to have a close, affectionate sibling bond expressed through constant teasing.",
+      "notes": "Sibling relationship, but tracked here as a close personal bond per available schema."
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Sol",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Bob signs up with CryoEterna for cryonic preservation after death."
+    },
+    {
+      "order": 2,
+      "location": "Sol",
+      "time_offset": "later that day",
+      "pov": null,
+      "summary": "Bob attends science-fiction convention panels about interstellar probes and extraterrestrial life."
+    },
+    {
+      "order": 3,
+      "location": "Sol",
+      "time_offset": "later",
+      "pov": null,
+      "summary": "Bob has lunch with Carl, Karen, and Alan, discussing his breakup, cryonics, and Von Neumann probes."
+    },
+    {
+      "order": 4,
+      "location": "Sol",
+      "time_offset": "later",
+      "pov": null,
+      "summary": "Bob calls his mother and talks with his family from his hotel room."
+    },
+    {
+      "order": 5,
+      "location": "Sol",
+      "time_offset": "later that evening",
+      "pov": null,
+      "summary": "On his way back out, Bob is hit by a car and dies."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Bob",
+      "text": "I’m a humanist, Karen. You know that. No afterlife. If I die, my choices are revival or nothing. I’ll take my chances with whatever I wake up to.",
+      "context": "Bob explains to Karen at lunch why he chose cryonic preservation despite the cost and uncertainty."
+    }
+  ],
+  "threads_opened": [
+    {
+      "id": "bob-cryonic-revival",
+      "text": "Bob has arranged for his head to be cryonically preserved, raising the question of whether he will ever be revived."
+    }
+  ],
+  "threads_resolved": [],
+  "events": [
+    {
+      "text": "Bob signs a cryonics contract with CryoEterna, arranging for his head to be preserved after death.",
+      "characters": [
+        "Bob",
+        "Kevin"
+      ],
+      "significance": "major",
+      "type": "political"
+    },
+    {
+      "text": "Bob is killed in a traffic accident outside the convention shortly after setting up cryonic preservation.",
+      "characters": [
+        "Bob"
+      ],
+      "significance": "major",
+      "type": "destruction"
+    }
+  ],
+  "summary": {
+    "one_line": "Bob Johansson signs up for cryonic preservation, spends a day at a science-fiction convention, and is killed in a sudden traffic accident.",
+    "paragraph": "In 2016, human Bob Johansson visits CryoEterna and formally arranges to have his head cryonically preserved after death, seeing it as his only rational shot at continued existence. Flush from selling his software company, he spends the day at The Vortex science-fiction convention and later has lunch with former employees and friends, where he defends both cryonics and his humanist worldview. He also reconnects by phone with his mother and sister, showing the warmth of his family relationships beneath their teasing. That evening, while heading back out into the convention crowds, Bob is struck by a car and dies, abruptly turning his speculative investment in the future into an immediate necessity.",
+    "events": [
+      "Bob visits CryoEterna and signs a contract for cryonic preservation after joking through the gruesome details with the sales rep Kevin.",
+      "He heads to The Vortex convention in Las Vegas and attends panels on interstellar exploration, extraterrestrial biology, and Von Neumann probes.",
+      "At lunch with Carl, Karen, and Alan, Bob talks about the breakup with Jenny, defends his cryonics decision, and enthusiastically explains self-replicating probes.",
+      "Back in his hotel room, Bob calls his mother and ends up talking with his family in their usual affectionate, sarcastic style.",
+      "When he goes back out toward the convention, a car swerves through the street chaos and hits him, and Bob dies as voices fade around him."
+    ],
+    "themes": [
+      "identity",
+      "loss",
+      "family",
+      "exploration"
+    ],
+    "mood": "reflective",
+    "pov_emotional_arc": "Bob spends the chapter trying to reclaim optimism and control after heartbreak, only to have his ordinary human life end without warning."
+  },
+  "world_state_after": {
+    "chapters_processed": 1,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "Sol",
+        "status": "destroyed",
+        "destroyed_chapter": 1,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      }
+    ],
+    "known_star_systems": [
+      "Sol"
+    ],
+    "known_planets": [
+      "Earth"
+    ],
+    "known_technologies": [],
+    "known_factions": [
+      "CryoEterna"
+    ],
+    "known_species": [],
+    "open_threads": [
+      {
+        "id": "bob-cryonic-revival",
+        "text": "Bob has arranged for his head to be cryonically preserved, raising the question of whether he will ever be revived.",
+        "opened_chapter": 1
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 1,
+        "text": "Bob Johansson signs up for cryonic preservation, spends a day at a science-fiction convention, and is killed in a sudden traffic accident."
+      }
+    ]
+  }
+}

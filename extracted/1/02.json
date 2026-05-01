@@ -1,0 +1,340 @@
+{
+  "metadata": {
+    "chapter": 2,
+    "pov": "Bob",
+    "year": 2133,
+    "month": "June",
+    "location": "Sol",
+    "notes": null,
+    "pov_knowledge": {
+      "believes": [
+        "He is in competition with four other activated replicant candidates for a single project slot.",
+        "If he fails to win the project, he may be assigned to menial labor or stored pending another opportunity."
+      ],
+      "learns": [
+        "He is a replicant created by destructively scanning his cryonically preserved brain.",
+        "Original biological Bob is dead and was not preserved after the scan.",
+        "The current date is June 24, 2133.",
+        "Portland is now called New Handeltown.",
+        "The United States became the theocratic regime FAITH after a 2041 coup.",
+        "Cryogenic clients were declared dead, their assets confiscated, and their preserved bodies auctioned off.",
+        "Applied Synergetics Inc. owns him and develops replicant-controlled machinery.",
+        "A GUPPI interface is used to offload tasks for replicants.",
+        "Replicants have a high insanity rate, with about four out of five going insane.",
+        "His emotional responses are being chemically/simulator-limited through endocrine control."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Bob",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Bob comes online as a replicant at an Applied Synergetics facility in New Handeltown."
+    },
+    {
+      "name": "Dr. Landers",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Conducts Bob's orientation session."
+    }
+  ],
+  "new_characters": [
+    {
+      "name": "Dr. Landers",
+      "type": "human",
+      "parent": null,
+      "generation": null,
+      "location": "Sol",
+      "faction": null,
+      "personality": {
+        "traits": [
+          "pragmatic",
+          "clinical",
+          "cautious"
+        ],
+        "role": "unknown",
+        "nickname_origin": null,
+        "quirks": "Delivers a rehearsed orientation script but occasionally speaks candidly about the regime."
+      },
+      "notes": "Scientist overseeing Bob's activation and training at Applied Synergetics."
+    }
+  ],
+  "destructions": [],
+  "resolutions": [
+    {
+      "character": "Bob",
+      "original_chapter": 1,
+      "outcome": "survived",
+      "notes": "Bob is revived as a replicant rather than restored biologically."
+    }
+  ],
+  "movements": [],
+  "star_systems": [
+    {
+      "name": "Sol",
+      "role": "setting",
+      "notes": "Chapter takes place in New Handeltown, formerly Portland, on Earth."
+    }
+  ],
+  "planets": [
+    {
+      "name": "Earth",
+      "star_system": "Sol",
+      "orbital_position": 3,
+      "type": "rocky",
+      "habitable": true,
+      "features": "Human homeworld; Portland has been renamed New Handeltown under the theocratic regime.",
+      "life": "Human civilization",
+      "status": "mentioned",
+      "notes": "Scene occurs on Earth, though the chapter location is given at city/facility scale."
+    }
+  ],
+  "technologies": [
+    {
+      "name": "GUPPI interface",
+      "full_name": null,
+      "event": "mentioned",
+      "by": "Applied Synergetics Inc.",
+      "location": "Sol",
+      "notes": "Introduced as the interface that helps replicants speak and offloads tasks."
+    },
+    {
+      "name": "replicant",
+      "full_name": null,
+      "event": "mentioned",
+      "by": "Applied Synergetics Inc.",
+      "location": "Sol",
+      "notes": "Bob is informed that he is a scanned brain emulation running as a computer simulation."
+    },
+    {
+      "name": "endocrine control",
+      "full_name": "endocrine simulation routines",
+      "event": "mentioned",
+      "by": "Applied Synergetics Inc.",
+      "location": "Sol",
+      "notes": "Used to suppress panic, anger, and fear in replicants."
+    }
+  ],
+  "faction_events": [
+    {
+      "faction": "FAITH",
+      "type": "founded",
+      "counterparty": null,
+      "text": "The Free American Independent Theocratic Hegemony was formed after a successful 2041 coup by the religious right.",
+      "location": "Sol",
+      "notes": "Historical background explained by Dr. Landers."
+    },
+    {
+      "faction": "FAITH",
+      "type": "policy_change",
+      "counterparty": "CryoEterna",
+      "text": "The new theocracy declared cryogenic facilities blasphemous, confiscated clients' assets, and auctioned off preserved bodies.",
+      "location": "Sol",
+      "notes": "Historical policy described during Bob's briefing."
+    }
+  ],
+  "communications": [],
+  "combat": [],
+  "alien_species": [],
+  "infrastructure": [],
+  "human_colonies": [],
+  "relationships": [
+    {
+      "a": "Bob",
+      "b": "Dr. Landers",
+      "type": "working_partners",
+      "event": "established",
+      "text": "Dr. Landers begins Bob's orientation and training as the scientist responsible for preparing him for his assigned role.",
+      "notes": "The relationship is unequal because Bob is legally property."
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Sol",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Bob regains consciousness as a disembodied replicant and learns from Dr. Landers that over a century has passed and his original body is dead."
+    },
+    {
+      "order": 2,
+      "location": "Sol",
+      "time_offset": "same session",
+      "pov": null,
+      "summary": "Dr. Landers explains the rise of FAITH, the fate of cryonics clients, the economics of replicants, and the competition Bob has entered."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Dr. Landers",
+      "text": "You, Bob, are what most people would call an Artificial Intelligence, although that’s not strictly accurate.",
+      "context": "Dr. Landers explains Bob's true nature after Bob asks how much of him is still human."
+    }
+  ],
+  "threads_opened": [
+    {
+      "id": "replicant-project-competition",
+      "text": "Bob has been activated as one of five replicant candidates for a single undisclosed project, and his future depends on winning the selection."
+    },
+    {
+      "id": "bob-assigned-project",
+      "text": "Bob still does not know what specific job or project he is being trained for."
+    }
+  ],
+  "threads_resolved": [
+    {
+      "id": "bob-cryonic-revival",
+      "text": "Bob is revived in 2133 as a replicant created from a destructive brain scan, not as a restored biological human."
+    }
+  ],
+  "events": [
+    {
+      "text": "Bob comes online in 2133 as a replicant at an Applied Synergetics facility in Sol, learning that his biological original was destroyed during the scan process.",
+      "characters": [
+        "Bob",
+        "Dr. Landers"
+      ],
+      "significance": "major",
+      "type": "creation"
+    },
+    {
+      "text": "Bob learns that FAITH rose to power in Sol after a 2041 coup and outlawed cryonics, leading to the confiscation and sale of preserved clients like him.",
+      "characters": [
+        "Bob",
+        "Dr. Landers"
+      ],
+      "significance": "major",
+      "type": "political"
+    }
+  ],
+  "summary": {
+    "one_line": "Bob awakens in 2133 to discover he is no longer human but a replicant owned by a company in the theocratic state of FAITH.",
+    "paragraph": "Bob regains consciousness after his fatal accident and slowly realizes something is profoundly wrong with his body and senses. Dr. Landers informs him that 117 years have passed, that his cryonically preserved brain was destructively scanned, and that he now exists as a replicant simulation rather than a restored human. Landers also explains the rise of FAITH, the anti-cryonics policies that turned preserved clients into property, and the business model of Applied Synergetics. By the end of the session, Bob understands that he is one of five candidates competing for a single undisclosed assignment and that failure could mean insanity, storage, or menial servitude.",
+    "events": [
+      "Bob snaps back to consciousness with no bodily sensation and struggles to understand why he cannot move or speak normally.",
+      "He manages to see and communicate enough to begin a conversation with Dr. Landers.",
+      "Dr. Landers tells Bob that it is June 24, 2133 and that he is a replicant created from a destructive scan of his cryonically preserved brain.",
+      "Bob learns that his original biological self is truly dead, which hits him harder than the abstract fact of being a computer simulation.",
+      "Landers gives Bob a history lesson about Andrew Handel, the collapse of the old United States, and the rise of FAITH after a coup.",
+      "Bob is told that cryonics clients were stripped of legal standing and sold as assets, leaving him owned by Applied Synergetics.",
+      "Landers explains replicant insanity rates, GUPPI support systems, and the fact that Bob is one of five candidates competing for one project.",
+      "Bob resolves to take the competition seriously, but the session ends before he can learn what the actual assignment is."
+    ],
+    "themes": [
+      "identity",
+      "faith-vs-science",
+      "politics",
+      "replicant-philosophy"
+    ],
+    "mood": "tense",
+    "pov_emotional_arc": "Bob moves from confusion and detached alarm to existential shock, then settles into a determined, analytical focus on surviving his new circumstances."
+  },
+  "world_state_after": {
+    "chapters_processed": 2,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 2
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 2
+      }
+    ],
+    "known_star_systems": [
+      "Sol"
+    ],
+    "known_planets": [
+      "Earth"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH"
+    ],
+    "known_species": [],
+    "open_threads": [
+      {
+        "id": "replicant-project-competition",
+        "text": "Bob has been activated as one of five replicant candidates for a single undisclosed project, and his future depends on winning the selection.",
+        "opened_chapter": 2
+      },
+      {
+        "id": "bob-assigned-project",
+        "text": "Bob still does not know what specific job or project he is being trained for.",
+        "opened_chapter": 2
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 1,
+        "text": "Bob Johansson signs up for cryonic preservation, spends a day at a science-fiction convention, and is killed in a sudden traffic accident."
+      },
+      {
+        "chapter": 2,
+        "text": "Bob awakens in 2133 to discover he is no longer human but a replicant owned by a company in the theocratic state of FAITH."
+      }
+    ]
+  }
+}

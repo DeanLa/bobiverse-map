@@ -1,0 +1,276 @@
+{
+  "metadata": {
+    "chapter": 3,
+    "pov": "Bob",
+    "year": 2133,
+    "month": "June",
+    "location": "Sol",
+    "notes": "Chapter takes place on June 25, 2133 and includes a scene change between training rooms on the same facility premises.",
+    "pov_knowledge": {
+      "believes": [
+        "Bob believes endocrine controls are muting his grief and making him feel less human.",
+        "Bob believes he is one of several replicant candidates competing for a single project assignment.",
+        "Bob believes the sealed training room security may indicate the facility is afraid of him, the roamers, or both."
+      ],
+      "learns": [
+        "Bob learns he can directly access internal system functions such as date/time and calculation.",
+        "Bob learns he can control a waldo manipulator arm.",
+        "Bob learns his active peripherals can be switched between rooms while his core hardware remains elsewhere in the facility.",
+        "Bob learns about ROAMers and their low-level AMIs.",
+        "Bob learns the roamers use VAST for climbing and surface adhesion."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Bob",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Undergoing training at the FAITH facility."
+    },
+    {
+      "name": "Dr. Landers",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Supervises Bob's training exercises."
+    }
+  ],
+  "new_characters": [],
+  "destructions": [],
+  "resolutions": [],
+  "movements": [],
+  "star_systems": [
+    {
+      "name": "Sol",
+      "role": "setting",
+      "notes": "FAITH training facility on Earth."
+    }
+  ],
+  "planets": [
+    {
+      "name": "Earth",
+      "star_system": "Sol",
+      "orbital_position": 3,
+      "type": "rocky",
+      "habitable": true,
+      "features": "FAITH facility where Bob undergoes manipulator and roamer training.",
+      "life": null,
+      "status": "mentioned",
+      "notes": "Scene occurs at a facility on Earth within Sol."
+    }
+  ],
+  "technologies": [
+    {
+      "name": "ROAMer",
+      "full_name": "Remote Observation and Manipulation device",
+      "event": "mentioned",
+      "by": "Dr. Landers",
+      "location": "Sol",
+      "notes": "Bob is introduced to roamers as part of training."
+    },
+    {
+      "name": "VAST",
+      "full_name": "Variable Attachment Surface Tension",
+      "event": "mentioned",
+      "by": null,
+      "location": "Sol",
+      "notes": "Bob learns the roamers use VAST to grip and climb surfaces."
+    }
+  ],
+  "faction_events": [],
+  "communications": [],
+  "combat": [],
+  "alien_species": [],
+  "infrastructure": [],
+  "human_colonies": [],
+  "relationships": [
+    {
+      "a": "Bob",
+      "b": "Dr. Landers",
+      "type": "working_partners",
+      "event": "strengthened",
+      "text": "Dr. Landers accelerates Bob's training after Bob demonstrates unexpectedly rapid aptitude with manipulators and roamers.",
+      "notes": "Their interactions are increasingly cooperative and lightly humorous."
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Sol",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Bob wakes for another training day, explores his internal functions, and quickly learns to control a waldo manipulator arm."
+    },
+    {
+      "order": 2,
+      "location": "Sol",
+      "time_offset": "immediately after",
+      "pov": null,
+      "summary": "Dr. Landers switches Bob to a roamer-training room, where Bob rapidly masters one and then multiple ROAMers."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Bob",
+      "text": "Woo hoo, I’m Data.",
+      "context": "Bob reacts with delight after discovering he can query his internal date and calculation functions."
+    }
+  ],
+  "threads_opened": [
+    {
+      "id": "sealed-training-room-security",
+      "text": "Bob notices the roamer training room is heavily sealed and wonders why the facility needs that level of security around him and the roamers."
+    }
+  ],
+  "threads_resolved": [],
+  "events": [
+    {
+      "text": "Bob demonstrates unexpectedly advanced control of his new replicant peripherals, mastering both a waldo arm and multiple ROAMers during accelerated training at the FAITH facility.",
+      "characters": [
+        "Bob",
+        "Dr. Landers"
+      ],
+      "significance": "major",
+      "type": "technology"
+    }
+  ],
+  "summary": {
+    "one_line": "Bob's training accelerates when he rapidly masters manipulator arms and ROAMers at the FAITH facility.",
+    "paragraph": "Bob wakes on June 25 feeling mentally sharp and increasingly aware of both the advantages and emotional limitations of being a replicant under endocrine control. While experimenting on his own, he discovers built-in system functions and quickly learns to operate a waldo manipulator arm before Dr. Landers can even begin that lesson. Impressed, Landers jumps Bob ahead to ROAMer training, explaining that Bob's real hardware remains elsewhere while his peripherals are switched between rooms. Bob adapts quickly to commanding one and then several roamers, using their low-level AMIs and VAST climbing system to complete increasingly complex tasks. By the end of the session, Bob is impressed by his capabilities but unsettled by the heavily sealed training environment and what it might imply.",
+    "events": [
+      "Bob wakes for another training session and reflects on how endocrine controls are muting his grief and changing his sense of humanity.",
+      "He experiments with his internal systems, discovering built-in functions like instant calculation and date retrieval.",
+      "Bob unexpectedly gains control of a waldo manipulator arm and impresses Dr. Landers by mastering it ahead of schedule.",
+      "Dr. Landers transfers Bob's peripherals to a different room and explains that Bob's core hardware remains stored safely elsewhere in the facility.",
+      "Bob is introduced to ROAMers and learns to command them through the ROAM interface rather than micromanaging every movement.",
+      "He quickly masters increasingly complex multi-roamer construction tasks and becomes impressed by the speed and flexibility of his new abilities.",
+      "As the session continues, Bob notices the training room is heavily sealed and begins to wonder why the facility considers such precautions necessary."
+    ],
+    "themes": [
+      "identity",
+      "technology",
+      "training",
+      "faith-vs-science"
+    ],
+    "mood": "reflective",
+    "pov_emotional_arc": "Bob moves from uneasy self-examination about his altered humanity to genuine excitement about his new capabilities, ending with renewed suspicion about the people controlling his environment."
+  },
+  "world_state_after": {
+    "chapters_processed": 3,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 3
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 3
+      }
+    ],
+    "known_star_systems": [
+      "Sol"
+    ],
+    "known_planets": [
+      "Earth"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH"
+    ],
+    "known_species": [],
+    "open_threads": [
+      {
+        "id": "replicant-project-competition",
+        "text": "Bob has been activated as one of five replicant candidates for a single undisclosed project, and his future depends on winning the selection.",
+        "opened_chapter": 2
+      },
+      {
+        "id": "bob-assigned-project",
+        "text": "Bob still does not know what specific job or project he is being trained for.",
+        "opened_chapter": 2
+      },
+      {
+        "id": "sealed-training-room-security",
+        "text": "Bob notices the roamer training room is heavily sealed and wonders why the facility needs that level of security around him and the roamers.",
+        "opened_chapter": 3
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 1,
+        "text": "Bob Johansson signs up for cryonic preservation, spends a day at a science-fiction convention, and is killed in a sudden traffic accident."
+      },
+      {
+        "chapter": 2,
+        "text": "Bob awakens in 2133 to discover he is no longer human but a replicant owned by a company in the theocratic state of FAITH."
+      },
+      {
+        "chapter": 3,
+        "text": "Bob's training accelerates when he rapidly masters manipulator arms and ROAMers at the FAITH facility."
+      }
+    ]
+  }
+}

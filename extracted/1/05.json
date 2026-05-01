@@ -1,0 +1,419 @@
+{
+  "metadata": {
+    "chapter": 5,
+    "pov": "Bob",
+    "year": 2133,
+    "month": "July",
+    "location": "Sol",
+    "notes": "Chapter takes place at a FAITH facility in Sol and then in a virtual simulation of a geosynchronous space station; no real-world location change occurs.",
+    "pov_knowledge": {
+      "believes": [
+        "Senior Minister Travis has authority to terminate him if dissatisfied.",
+        "The simulation may indicate he is being trained for a space-based assignment.",
+        "FAITH's internal politics are dangerous and could affect the replicant project."
+      ],
+      "learns": [
+        "Senior Minister Travis is evaluating his fitness for the project.",
+        "FAITH contains competing internal factions and ministries with conflicting views on AI and technology.",
+        "The Ministry of Truth is financing the venture involving Bob and the other replicants.",
+        "The Ministry of Proper Thought uses coercive neurological re-education on dissenters.",
+        "GUPPI stands for General Unit Primary Peripheral Interface."
+      ],
+      "unaware_of": []
+    }
+  },
+  "characters_present": [
+    {
+      "name": "Bob",
+      "type": "replicant",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Present first in the FAITH facility and then inside a virtual training simulation."
+    },
+    {
+      "name": "Dr. Landers",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Briefs Bob and starts his simulation exercise."
+    },
+    {
+      "name": "Senior Minister Travis",
+      "type": "human",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Visits to evaluate Bob's suitability for the project."
+    },
+    {
+      "name": "GUPPI",
+      "type": "ai",
+      "location": "Sol",
+      "status": "active",
+      "transit_from": null,
+      "transit_to": null,
+      "notes": "Bob queries it inside the simulation interface."
+    }
+  ],
+  "new_characters": [
+    {
+      "name": "Senior Minister Travis",
+      "type": "human",
+      "parent": null,
+      "generation": null,
+      "location": "Sol",
+      "faction": "FAITH",
+      "personality": {
+        "traits": [
+          "stern",
+          "intimidating",
+          "formal"
+        ],
+        "role": "unknown",
+        "nickname_origin": null,
+        "quirks": "Speaks in a future dialect that Bob initially struggles to understand."
+      },
+      "notes": "Senior minister from the Ministry of Truth who evaluates Bob."
+    },
+    {
+      "name": "GUPPI",
+      "type": "ai",
+      "parent": null,
+      "generation": null,
+      "location": "Sol",
+      "faction": "FAITH",
+      "personality": {
+        "traits": [],
+        "role": "unknown",
+        "nickname_origin": null,
+        "quirks": null
+      },
+      "notes": "Bob directly queries GUPPI by name and learns its full expansion in this chapter."
+    }
+  ],
+  "destructions": [],
+  "resolutions": [],
+  "movements": [],
+  "star_systems": [
+    {
+      "name": "Sol",
+      "role": "setting",
+      "notes": "Both the FAITH facility and the simulated geosynchronous station are in Sol."
+    }
+  ],
+  "planets": [
+    {
+      "name": "Earth",
+      "star_system": "Sol",
+      "orbital_position": 3,
+      "type": "rocky",
+      "habitable": true,
+      "features": "Referenced as the planet below a geosynchronous orbital station in the simulation context.",
+      "life": null,
+      "status": "mentioned",
+      "notes": "Not directly visited in-scene."
+    },
+    {
+      "name": "Mars",
+      "star_system": "Sol",
+      "orbital_position": 4,
+      "type": "rocky",
+      "habitable": false,
+      "features": "Library references colonies on Mars.",
+      "life": null,
+      "status": "mentioned",
+      "notes": "Mentioned only as part of the simulation library."
+    },
+    {
+      "name": "Moon",
+      "star_system": "Sol",
+      "orbital_position": null,
+      "type": "moon",
+      "habitable": false,
+      "features": "Library references colonies on the Moon.",
+      "life": null,
+      "status": "mentioned",
+      "notes": "Natural satellite of Earth; mentioned only as part of the simulation library."
+    }
+  ],
+  "technologies": [
+    {
+      "name": "GUPPI interface",
+      "full_name": "General Unit Primary Peripheral Interface",
+      "event": "mentioned",
+      "by": null,
+      "location": "Sol",
+      "notes": "Bob queries the acronym expansion during the simulation."
+    }
+  ],
+  "faction_events": [
+    {
+      "faction": "FAITH",
+      "type": "policy_change",
+      "counterparty": null,
+      "text": "FAITH uses the Ministry of Proper Thought to enforce ideological conformity through neurological re-education.",
+      "location": "Sol",
+      "notes": "Described by Dr. Landers as an existing government practice rather than a newly enacted policy."
+    }
+  ],
+  "communications": [],
+  "combat": [],
+  "alien_species": [],
+  "infrastructure": [],
+  "human_colonies": [],
+  "relationships": [
+    {
+      "a": "Bob",
+      "b": "Dr. Landers",
+      "type": "working_partners",
+      "event": "strengthened",
+      "text": "Dr. Landers becomes more candid with Bob about FAITH politics and the stakes of the replicant project.",
+      "notes": null
+    }
+  ],
+  "scenes": [
+    {
+      "order": 1,
+      "location": "Sol",
+      "time_offset": null,
+      "pov": null,
+      "summary": "Senior Minister Travis unexpectedly visits the FAITH facility to evaluate Bob's religious attitude and suitability for the project."
+    },
+    {
+      "order": 2,
+      "location": "Sol",
+      "time_offset": "immediately after",
+      "pov": null,
+      "summary": "After Travis leaves, Dr. Landers explains FAITH's internal factions and the brutality of ideological enforcement."
+    },
+    {
+      "order": 3,
+      "location": "Sol",
+      "time_offset": "immediately after",
+      "pov": null,
+      "summary": "Dr. Landers places Bob into a virtual-reality simulation where he manages a geosynchronous space station and begins exploring its library."
+    }
+  ],
+  "incoming_threats": [],
+  "quotes": [
+    {
+      "speaker": "Dr. Landers",
+      "text": "FAITH is riddled with factions and power-blocs.",
+      "context": "Landers explains to Bob that internal political struggles inside FAITH make Travis's visit dangerous."
+    }
+  ],
+  "threads_opened": [
+    {
+      "id": "faith-internal-factions-threat",
+      "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project."
+    },
+    {
+      "id": "space-based-project-hint",
+      "text": "Bob's new simulation strongly suggests he is being prepared for a space-based assignment, but his actual project remains undisclosed."
+    }
+  ],
+  "threads_resolved": [],
+  "events": [
+    {
+      "text": "Senior Minister Travis evaluates Bob for the FAITH replicant project, confirming that powerful ministries are directly involved in his selection.",
+      "characters": [
+        "Bob",
+        "Senior Minister Travis",
+        "Dr. Landers"
+      ],
+      "significance": "major",
+      "type": "political"
+    },
+    {
+      "text": "Dr. Landers begins Bob's first virtual-reality station-management simulation, expanding his training toward a likely space-based role.",
+      "characters": [
+        "Bob",
+        "Dr. Landers",
+        "GUPPI"
+      ],
+      "significance": "major",
+      "type": "technology"
+    }
+  ],
+  "summary": {
+    "one_line": "A surprise ministerial inspection exposes FAITH's dangerous internal politics, and Bob is moved into a space-station simulation that hints at his real assignment.",
+    "paragraph": "Senior Minister Travis arrives without warning to evaluate Bob, forcing Bob to carefully conceal his true views on religion and politics. After the interview, Dr. Landers reveals that the replicant project is backed by FAITH's Ministry of Truth and threatened by rival ministries that consider artificial intelligences abominations. He also describes the regime's brutal re-education methods, giving Bob a clearer picture of the society controlling him. Landers then advances Bob's training by placing him in a virtual simulation where he manages a geosynchronous space station, reinforcing Bob's suspicion that his eventual role will be space-based.",
+    "events": [
+      "Bob is startled when Dr. Landers returns with Senior Minister Travis, who has come to evaluate him.",
+      "Bob struggles through Travis's archaic dialect, uses translation tools, and answers careful questions about religion and family.",
+      "After Travis leaves, Dr. Landers admits the visit was dangerous and explains that FAITH is divided into hostile ministries and factions.",
+      "Landers tells Bob that the Ministry of Truth is funding the venture and that dissent in FAITH can be punished with neurological re-education.",
+      "Landers starts a new training exercise by cutting Bob over to a virtual-reality simulation.",
+      "Bob finds himself in control of a geosynchronous space station, learns what GUPPI stands for, automates his monitoring tasks, and begins studying the simulation library."
+    ],
+    "themes": [
+      "politics",
+      "identity",
+      "training",
+      "faith-vs-science"
+    ],
+    "mood": "tense",
+    "pov_emotional_arc": "Bob moves from anxious self-censorship under political scrutiny to wary curiosity as his training finally begins to hint at a larger purpose."
+  },
+  "world_state_after": {
+    "chapters_processed": 5,
+    "active_characters": [
+      {
+        "name": "Bob",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 5
+      },
+      {
+        "name": "Kevin",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Carl",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Karen",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Alan",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Andrea",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 1
+      },
+      {
+        "name": "Dr. Landers",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 5
+      },
+      {
+        "name": "Senior Minister Travis",
+        "type": "human",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 5
+      },
+      {
+        "name": "GUPPI",
+        "type": "ai",
+        "location": "Sol",
+        "status": "active",
+        "destroyed_chapter": null,
+        "last_seen_chapter": 5
+      }
+    ],
+    "known_star_systems": [
+      "Sol"
+    ],
+    "known_planets": [
+      "Earth",
+      "Mars",
+      "Moon"
+    ],
+    "known_technologies": [
+      "GUPPI interface",
+      "replicant",
+      "endocrine control",
+      "ROAMer",
+      "VAST"
+    ],
+    "known_factions": [
+      "CryoEterna",
+      "FAITH"
+    ],
+    "known_species": [],
+    "open_threads": [
+      {
+        "id": "replicant-project-competition",
+        "text": "Bob has been activated as one of five replicant candidates for a single undisclosed project, and his future depends on winning the selection.",
+        "opened_chapter": 2
+      },
+      {
+        "id": "bob-assigned-project",
+        "text": "Bob still does not know what specific job or project he is being trained for.",
+        "opened_chapter": 2
+      },
+      {
+        "id": "sealed-training-room-security",
+        "text": "Bob notices the roamer training room is heavily sealed and wonders why the facility needs that level of security around him and the roamers.",
+        "opened_chapter": 3
+      },
+      {
+        "id": "replicant-insanity-risk",
+        "text": "Bob now knows replicants can go insane during unstructured subjective time, raising the question of whether he can stay sane through training and standby.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "bob-cut-off-from-descendants",
+        "text": "Bob is denied access to genealogy records and remains cut off from any living descendants or family connections.",
+        "opened_chapter": 4
+      },
+      {
+        "id": "faith-internal-factions-threat",
+        "text": "Bob learns that hostile factions inside FAITH could sabotage or terminate the replicant project.",
+        "opened_chapter": 5
+      },
+      {
+        "id": "space-based-project-hint",
+        "text": "Bob's new simulation strongly suggests he is being prepared for a space-based assignment, but his actual project remains undisclosed.",
+        "opened_chapter": 5
+      }
+    ],
+    "recent_events": [
+      {
+        "chapter": 1,
+        "text": "Bob Johansson signs up for cryonic preservation, spends a day at a science-fiction convention, and is killed in a sudden traffic accident."
+      },
+      {
+        "chapter": 2,
+        "text": "Bob awakens in 2133 to discover he is no longer human but a replicant owned by a company in the theocratic state of FAITH."
+      },
+      {
+        "chapter": 3,
+        "text": "Bob's training accelerates when he rapidly masters manipulator arms and ROAMers at the FAITH facility."
+      },
+      {
+        "chapter": 4,
+        "text": "Bob learns a rival replicant has gone irretrievably insane and realizes FAITH's control extends even to his access to history and family ties."
+      },
+      {
+        "chapter": 5,
+        "text": "A surprise ministerial inspection exposes FAITH's dangerous internal politics, and Bob is moved into a space-station simulation that hints at his real assignment."
+      }
+    ]
+  }
+}

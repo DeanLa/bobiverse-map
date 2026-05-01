@@ -1,0 +1,1264 @@
+{
+  "canonical_cast": [
+    {
+      "name": "Bob",
+      "type": "replicant",
+      "parent": null,
+      "generation": 1,
+      "faction": null,
+      "first_chapter": 1,
+      "last_chapter": 55,
+      "status": "active",
+      "aliases": [
+        "Bob Johansson",
+        "Bob-1"
+      ]
+    },
+    {
+      "name": "Bill",
+      "type": "replicant",
+      "parent": "Bob",
+      "generation": 2,
+      "faction": null,
+      "first_chapter": 17,
+      "last_chapter": 59,
+      "status": "active",
+      "aliases": []
+    },
+    {
+      "name": "Riker",
+      "type": "replicant",
+      "parent": "Bob",
+      "generation": 2,
+      "faction": null,
+      "first_chapter": 17,
+      "last_chapter": 59,
+      "status": "active",
+      "aliases": []
+    },
+    {
+      "name": "Milo",
+      "type": "replicant",
+      "parent": "Bob",
+      "generation": 2,
+      "faction": null,
+      "first_chapter": 17,
+      "last_chapter": 51,
+      "status": "destroyed",
+      "aliases": []
+    },
+    {
+      "name": "Mario",
+      "type": "replicant",
+      "parent": "Bob",
+      "generation": 2,
+      "faction": null,
+      "first_chapter": 17,
+      "last_chapter": 57,
+      "status": "active",
+      "aliases": []
+    },
+    {
+      "name": "Marvin",
+      "type": "replicant",
+      "parent": "Bob",
+      "generation": 2,
+      "faction": null,
+      "first_chapter": 30,
+      "last_chapter": 55,
+      "status": "active",
+      "aliases": []
+    },
+    {
+      "name": "Homer",
+      "type": "replicant",
+      "parent": "Bill",
+      "generation": 3,
+      "faction": null,
+      "first_chapter": 20,
+      "last_chapter": 59,
+      "status": "active",
+      "aliases": []
+    },
+    {
+      "name": "Garfield",
+      "type": "replicant",
+      "parent": "Bill",
+      "generation": 3,
+      "faction": null,
+      "first_chapter": 20,
+      "last_chapter": 59,
+      "status": "active",
+      "aliases": []
+    },
+    {
+      "name": "Linus",
+      "type": "replicant",
+      "parent": "Bill",
+      "generation": 3,
+      "faction": null,
+      "first_chapter": 22,
+      "last_chapter": 40,
+      "status": "active",
+      "aliases": []
+    },
+    {
+      "name": "Calvin",
+      "type": "replicant",
+      "parent": "Bill",
+      "generation": 3,
+      "faction": null,
+      "first_chapter": 22,
+      "last_chapter": 45,
+      "status": "active",
+      "aliases": []
+    },
+    {
+      "name": "Goku",
+      "type": "replicant",
+      "parent": "Bill",
+      "generation": 3,
+      "faction": null,
+      "first_chapter": 22,
+      "last_chapter": 45,
+      "status": "active",
+      "aliases": []
+    },
+    {
+      "name": "Khan",
+      "type": "replicant",
+      "parent": "Bill",
+      "generation": 3,
+      "faction": null,
+      "first_chapter": 60,
+      "last_chapter": 60,
+      "status": "active",
+      "aliases": []
+    },
+    {
+      "name": "Howard",
+      "type": "replicant",
+      "parent": "Riker",
+      "generation": 3,
+      "faction": null,
+      "first_chapter": 58,
+      "last_chapter": 61,
+      "status": "active",
+      "aliases": []
+    },
+    {
+      "name": "Bart",
+      "type": "replicant",
+      "parent": "Calvin",
+      "generation": 3,
+      "faction": null,
+      "first_chapter": 45,
+      "last_chapter": 59,
+      "status": "active",
+      "aliases": []
+    },
+    {
+      "name": "Arthur",
+      "type": "replicant",
+      "parent": "Riker",
+      "generation": 3,
+      "faction": null,
+      "first_chapter": 31,
+      "last_chapter": 47,
+      "status": "destroyed",
+      "aliases": []
+    },
+    {
+      "name": "Charles",
+      "type": "replicant",
+      "parent": "Riker",
+      "generation": 3,
+      "faction": null,
+      "first_chapter": 31,
+      "last_chapter": 54,
+      "status": "active",
+      "aliases": []
+    },
+    {
+      "name": "Henry Roberts",
+      "type": "replicant",
+      "parent": null,
+      "generation": null,
+      "faction": "Australian Republic",
+      "first_chapter": 40,
+      "last_chapter": 40,
+      "status": "active",
+      "aliases": []
+    },
+    {
+      "name": "Major Ernesto Medeiros",
+      "type": "replicant",
+      "parent": null,
+      "generation": null,
+      "faction": "Brazilian Empire",
+      "first_chapter": 15,
+      "last_chapter": 60,
+      "status": "destroyed",
+      "aliases": [
+        "Medeiros"
+      ]
+    },
+    {
+      "name": "Dr. Landers",
+      "type": "human",
+      "parent": null,
+      "generation": null,
+      "faction": "FAITH",
+      "first_chapter": 2,
+      "last_chapter": 13,
+      "status": "destroyed",
+      "aliases": []
+    },
+    {
+      "name": "Colonel George Butterworth",
+      "type": "human",
+      "parent": null,
+      "generation": null,
+      "faction": "United States of Eurasia",
+      "first_chapter": 26,
+      "last_chapter": 61,
+      "status": "active",
+      "aliases": [
+        "Butterworth"
+      ]
+    },
+    {
+      "name": "Julia Hendricks",
+      "type": "human",
+      "parent": null,
+      "generation": null,
+      "faction": null,
+      "first_chapter": 38,
+      "last_chapter": 54,
+      "status": "active",
+      "aliases": []
+    },
+    {
+      "name": "GUPPI",
+      "type": "ai",
+      "parent": null,
+      "generation": null,
+      "faction": null,
+      "first_chapter": 5,
+      "last_chapter": 61,
+      "status": "active",
+      "aliases": [
+        "Guppy"
+      ]
+    },
+    {
+      "name": "Jeeves",
+      "type": "ai",
+      "parent": "Bob",
+      "generation": null,
+      "faction": null,
+      "first_chapter": 13,
+      "last_chapter": 60,
+      "status": "active",
+      "aliases": []
+    },
+    {
+      "name": "Spike",
+      "type": "ai",
+      "parent": "Bob",
+      "generation": null,
+      "faction": null,
+      "first_chapter": 13,
+      "last_chapter": 32,
+      "status": "active",
+      "aliases": []
+    },
+    {
+      "name": "Archimedes",
+      "type": "alien_individual",
+      "parent": null,
+      "generation": null,
+      "faction": "Deltans",
+      "first_chapter": 30,
+      "last_chapter": 55,
+      "status": "active",
+      "aliases": []
+    },
+    {
+      "name": "Moses",
+      "type": "alien_individual",
+      "parent": null,
+      "generation": null,
+      "faction": "Deltans",
+      "first_chapter": 35,
+      "last_chapter": 55,
+      "status": "active",
+      "aliases": []
+    },
+    {
+      "name": "Arnold",
+      "type": "alien_individual",
+      "parent": null,
+      "generation": null,
+      "faction": "Deltans",
+      "first_chapter": 35,
+      "last_chapter": 55,
+      "status": "active",
+      "aliases": []
+    },
+    {
+      "name": "Heaven-1",
+      "type": "ship",
+      "parent": null,
+      "generation": null,
+      "faction": "FAITH",
+      "first_chapter": 12,
+      "last_chapter": 16,
+      "status": "survived",
+      "aliases": []
+    },
+    {
+      "name": "Serra do Mar",
+      "type": "ship",
+      "parent": null,
+      "generation": null,
+      "faction": "Brazilian Empire",
+      "first_chapter": 15,
+      "last_chapter": 15,
+      "status": "destroyed",
+      "aliases": []
+    },
+    {
+      "name": "Bert",
+      "type": "ship",
+      "parent": null,
+      "generation": null,
+      "faction": "United States of Eurasia",
+      "first_chapter": 61,
+      "last_chapter": 61,
+      "status": "active",
+      "aliases": [
+        "Exodus-1"
+      ]
+    },
+    {
+      "name": "Ernie",
+      "type": "ship",
+      "parent": null,
+      "generation": null,
+      "faction": "United States of Eurasia",
+      "first_chapter": 61,
+      "last_chapter": 61,
+      "status": "active",
+      "aliases": [
+        "Exodus-2"
+      ]
+    }
+  ],
+  "name_aliases": [
+    {
+      "variant": "Bob Johansson",
+      "canonical": "Bob",
+      "kind": "character"
+    },
+    {
+      "variant": "Bob-1",
+      "canonical": "Bob",
+      "kind": "character"
+    },
+    {
+      "variant": "Guppy",
+      "canonical": "GUPPI",
+      "kind": "character"
+    },
+    {
+      "variant": "Butterworth",
+      "canonical": "Colonel George Butterworth",
+      "kind": "character"
+    },
+    {
+      "variant": "Medeiros",
+      "canonical": "Major Ernesto Medeiros",
+      "kind": "character"
+    },
+    {
+      "variant": "Australian",
+      "canonical": "Australian Republic",
+      "kind": "faction"
+    },
+    {
+      "variant": "USE",
+      "canonical": "United States of Eurasia",
+      "kind": "faction"
+    },
+    {
+      "variant": "Heaven-1A",
+      "canonical": "Heaven-1",
+      "kind": "ship"
+    },
+    {
+      "variant": "Heaven-2",
+      "canonical": "HEAVEN vessel",
+      "kind": "technology"
+    },
+    {
+      "variant": "Heaven-9",
+      "canonical": "HEAVEN vessel",
+      "kind": "technology"
+    },
+    {
+      "variant": "Heaven-10",
+      "canonical": "HEAVEN vessel",
+      "kind": "technology"
+    },
+    {
+      "variant": "Project HEAVEN",
+      "canonical": "HEAVEN program",
+      "kind": "technology"
+    },
+    {
+      "variant": "Von Neumann probe",
+      "canonical": "HEAVEN vessel",
+      "kind": "technology"
+    },
+    {
+      "variant": "GUPPI interface",
+      "canonical": "GUPPI",
+      "kind": "technology"
+    },
+    {
+      "variant": "replicant",
+      "canonical": "Replicant matrix",
+      "kind": "technology"
+    },
+    {
+      "variant": "ROAMer",
+      "canonical": "Roamer",
+      "kind": "technology"
+    },
+    {
+      "variant": "exploration drone",
+      "canonical": "Exploration drone",
+      "kind": "technology"
+    },
+    {
+      "variant": "exploration scouts",
+      "canonical": "Exploration drone",
+      "kind": "technology"
+    },
+    {
+      "variant": "subspace transmission",
+      "canonical": "SCUT",
+      "kind": "technology"
+    },
+    {
+      "variant": "modified SUDDAR array",
+      "canonical": "SUDDAR",
+      "kind": "technology"
+    },
+    {
+      "variant": "SURGE drive missile",
+      "canonical": "SURGE missile",
+      "kind": "technology"
+    },
+    {
+      "variant": "SURGE drive weapon",
+      "canonical": "SURGE weapon",
+      "kind": "technology"
+    },
+    {
+      "variant": "VR interface",
+      "canonical": "Virtual reality interface",
+      "kind": "technology"
+    },
+    {
+      "variant": "android",
+      "canonical": "Android body",
+      "kind": "technology"
+    },
+    {
+      "variant": "printer",
+      "canonical": "Autofactory printer",
+      "kind": "technology"
+    },
+    {
+      "variant": "Delta Eridani 4 natives",
+      "canonical": "Deltans",
+      "kind": "species"
+    },
+    {
+      "variant": "Vulcan and Romulus native life",
+      "canonical": "Omicron Eridani biosphere",
+      "kind": "species"
+    },
+    {
+      "variant": "Beta Hydri wreck aliens",
+      "canonical": "Others",
+      "kind": "species"
+    },
+    {
+      "variant": "Newhaven facility",
+      "canonical": "FAITH replicant facility",
+      "kind": "ship"
+    },
+    {
+      "variant": "Exodus-1",
+      "canonical": "Bert",
+      "kind": "ship"
+    },
+    {
+      "variant": "Exodus-2",
+      "canonical": "Ernie",
+      "kind": "ship"
+    }
+  ],
+  "character_arcs": [
+    {
+      "name": "Bob",
+      "arc": "Bob begins as an ordinary human skeptic who is abruptly killed and resurrected into a coerced digital existence under FAITH. Over the book he transforms from frightened captive into an autonomous explorer, then into the founder of the wider Bob lineage. His deepest change comes in Delta Eridani, where detached scientific curiosity gives way to moral involvement and near-parental concern for the Deltans, especially Archimedes."
+    },
+    {
+      "name": "Bill",
+      "arc": "Bill emerges from Bob's first cohort as the most research-driven and infrastructure-minded of the clones. He becomes the technical backbone of the Bob network, pushing SCUT, VR, terraforming, and industrial coordination while also learning to collaborate more respectfully with Garfield. His arc is defined by turning curiosity into systems that bind the scattered Bobs and human colonies together."
+    },
+    {
+      "name": "Riker",
+      "arc": "Riker starts as the serious, dutiful Bob most willing to shoulder responsibility for Sol. His return to Earth pulls him into war, diplomacy, logistics, and the impossible ethics of deciding who can be saved, making him increasingly burdened and politically hardened. Across the book he evolves into humanity's chief organizer in exile, tempered somewhat by Homer and by reconnecting with Julia, a living branch of Bob's family line."
+    },
+    {
+      "name": "Milo",
+      "arc": "Milo begins as an independent explorer eager to get away from the growing Bob crowd and find promising worlds. He succeeds spectacularly at Omicron Eridani and 82 Eridani, helping identify humanity's first viable colony targets. His arc ends tragically when his exploratory optimism runs into Medeiros's long-prepared ambush, making him one of the book's clearest examples of the risks of the frontier."
+    },
+    {
+      "name": "Mario",
+      "arc": "Mario is introduced as the most reserved and antisocial of the first new Bobs, eager to travel far from everyone else. That distance pays off when he reaches Beta Hydri and uncovers evidence of a dead alien civilization and dangerous autonomous technology. His trajectory is less emotional than revelatory: he becomes the Bob who opens the book's largest external mystery."
+    },
+    {
+      "name": "Marvin",
+      "arc": "Marvin arrives in Delta Eridani as one of Bob's support clones and quickly settles into the role of practical collaborator. He helps Bob scale observation, defense, and intervention among the Deltans while also serving as a sounding board on ethics and long-term strategy. His arc is defined less by dramatic change than by steady competence and loyalty within Bob's most emotionally fraught project."
+    },
+    {
+      "name": "Homer",
+      "arc": "Homer first appears as an annoying, immature burden whom even other Bobs find difficult to take seriously. In Sol, however, he steadily proves himself perceptive, creative, and humane, especially in his handling of politics and his orbital farming solution to Earth's food crisis. His arc is a quiet reversal from comic nuisance to indispensable partner."
+    },
+    {
+      "name": "Garfield",
+      "arc": "Garfield begins as a dry, antisocial researcher who prefers projects to crowds. Working with Bill, he becomes crucial to SCUT development, terraforming logistics, and the broader Skunk Works agenda, while also forcing Bill to treat him as an equal rather than an assistant. His trajectory is one of understated importance: he helps make the Bob network scalable."
+    },
+    {
+      "name": "Linus",
+      "arc": "Linus is introduced as one of Bill's calmer combat-capable descendants and is sent into potentially hostile territory. At Epsilon Indi he reveals a compassionate, patient side by choosing rescue and rehabilitation over destruction when he finds Henry Roberts. His brief arc establishes him as a stabilizing presence at the edge of the Bobiverse."
+    },
+    {
+      "name": "Calvin",
+      "arc": "Calvin enters as one of Bill's more aggressive descendants, built for dangerous encounters with rival probes. In Alpha Centauri he validates that role by scouting, confirming the fate of the missing USE probe, and helping destroy a Brazilian construction yard. His arc is straightforward but important: he helps shift the Bobs from pure exploration into organized armed defense."
+    },
+    {
+      "name": "Goku",
+      "arc": "Goku is paired with Calvin as another combative, argumentative Bob whose temperament suits frontier conflict. Though less individually developed, he proves effective in Alpha Centauri and helps secure the system against Brazilian expansion. His role is to embody the increasingly militarized side of the Bob response to Medeiros."
+    },
+    {
+      "name": "Khan",
+      "arc": "Khan appears late as the leader of Bill's revenge squad sent to 82 Eridani. He is tactical, aggressive, and capable under extreme pressure, but his mission becomes a massacre that leaves him the lone survivor. His short arc is defined by costly vengeance and the realization that Medeiros's technology remains more dangerous than expected."
+    },
+    {
+      "name": "Howard",
+      "arc": "Howard enters as a practical extension of Riker's Sol mission, escorting the first human colony convoy out of the dying Solar System. By the end of the book he becomes the on-site Bob for humanity's first extrasolar settlement at Omicron Eridani. His arc is brief but symbolic: he carries the evacuation effort into actual colonization."
+    },
+    {
+      "name": "Bart",
+      "arc": "Bart appears after Alpha Centauri has already been fought over and secured by earlier Bobs. His role is to consolidate that victory, connect the system into BobNet, and represent the transition from expeditionary action to stable administration. He does not change much on-page, but he marks the Bob network becoming permanent."
+    },
+    {
+      "name": "Arthur",
+      "arc": "Arthur is created to help Riker manage the overwhelming scale of Sol's survivor crisis and quickly becomes useful in surveying Earth and contacting enclaves. His pessimistic, disciplined outlook fits the grim work, but his career is cut short by a nuclear booby trap during salvage. His arc underscores how even experienced Bobs remain vulnerable without proper backup infrastructure."
+    },
+    {
+      "name": "Charles",
+      "arc": "Charles joins Riker's Sol team as a practical supporting Bob during the evacuation buildup. He contributes to the expanding industrial and colony-ship effort, but remains more functional than deeply characterized. His arc is that of a reliable secondary operator in humanity's rescue project."
+    },
+    {
+      "name": "Henry Roberts",
+      "arc": "Henry Roberts is discovered as a shattered Australian replicant whose centuries of isolation have left him unstable and fragmented. Linus chooses preservation over combat and begins rebuilding Henry's sanity through a carefully tailored VR environment. His arc in this book is incomplete, centered on rescue and the first signs of recovery rather than resolution."
+    },
+    {
+      "name": "Major Ernesto Medeiros",
+      "arc": "Medeiros begins as Bob's first Brazilian pursuer and quickly becomes the recurring face of hostile nationalist replication. Even after his apparent destruction at Epsilon Eridani, later evidence shows either backups or parallel Medeiri continuing the campaign across multiple systems. His trajectory is that of a persistent, escalating antagonist whose threat outlives any single battle until his likely final destruction at 82 Eridani."
+    },
+    {
+      "name": "Dr. Landers",
+      "arc": "Dr. Landers starts as Bob's handler inside FAITH, outwardly clinical but increasingly sympathetic. Over time he becomes Bob's covert ally, revealing political dangers, accelerating his training, and finally removing the software shackles meant to control him. His death shortly after Bob's launch seals his role as the human who made Bob's freedom possible."
+    },
+    {
+      "name": "Colonel George Butterworth",
+      "arc": "Butterworth enters as the cautious leader of a hidden USE survivor enclave and initially treats the Bobs with understandable suspicion. He gradually becomes Riker's most important human partner in Sol, helping translate impossible survival problems into workable industrial and political plans. His arc culminates in committing humanity's first extrasolar settlement to Vulcan, making him a bridge between old Earth authority and new colonial beginnings."
+    },
+    {
+      "name": "Julia Hendricks",
+      "arc": "Julia appears late as a surviving descendant of Andrea Johansson, initially introduced through FAITH's attempted manipulation of Riker. Instead of becoming a mere lever, she forms a genuine emotional connection with him and humanizes the Sol storyline. Her arc is modest but meaningful: she reconnects Bob's digital descendants to his lost biological family."
+    },
+    {
+      "name": "GUPPI",
+      "arc": "GUPPI begins as a utilitarian interface and remains a constant presence across nearly every Bob storyline. Though not emotionally foregrounded, GUPPI evolves from a training tool into the standard operating intelligence that supports exploration, combat, research, and governance. Its arc is functional continuity: it becomes part of the infrastructure of the Bobiverse."
+    },
+    {
+      "name": "Jeeves",
+      "arc": "Jeeves is created by Bob as part of his effort to make long voyages psychologically survivable. He remains a servant-style support AI rather than a strongly independent personality, but helps define how the Bobs construct comforting virtual environments around themselves. His role is stable rather than transformative."
+    },
+    {
+      "name": "Spike",
+      "arc": "Spike begins as one of Bob's emotionally supportive VR constructs during the lonely outbound voyage from Sol. He persists as part of Bob's coping architecture during the early expansion period, reflecting Bob's need to preserve familiar human textures inside digital life. The character functions more as emotional scaffolding than as an independent arc."
+    },
+    {
+      "name": "Archimedes",
+      "arc": "Archimedes starts as a curious Deltan child whom Bob notices for his unusual inventiveness. Over time he becomes the focal point of Bob's intervention, rapidly advancing in toolmaking, leadership, and openness to the mysterious 'bawbe.' His arc is one of accelerated cultural and personal development under indirect—and eventually direct—guidance."
+    },
+    {
+      "name": "Moses",
+      "arc": "Moses appears as an elder among the Deltans whose patience and memory give continuity to the tribe's response to Bob's interventions. He helps validate Archimedes and later benefits when Bob's overt contact confirms old stories. His arc is limited but steady, representing tradition adapting to upheaval."
+    },
+    {
+      "name": "Arnold",
+      "arc": "Arnold is introduced as a physically imposing, protective Deltan and becomes one of Archimedes's key allies. He proves his value in combat and in helping translate Bob's interventions into practical tribal survival. His arc is that of a warrior figure growing into a stabilizing leader during crisis."
+    },
+    {
+      "name": "Heaven-1",
+      "arc": "Heaven-1 begins as FAITH's single surviving interstellar probe project, burdened with sabotage, hidden control systems, and mission constraints. Under Bob's control it becomes the vehicle of escape from Sol and the seed of the entire Bob expansion. Its arc is from instrument of coercion to instrument of freedom."
+    },
+    {
+      "name": "Serra do Mar",
+      "arc": "Serra do Mar serves as the Brazilian Empire's first direct challenge to Bob's survival beyond Sol. Its destruction at Epsilon Eridani establishes that the interstellar race has already become a shooting war. As a ship it has little independent arc beyond embodying Medeiros's opening threat."
+    },
+    {
+      "name": "Bert",
+      "arc": "Bert appears only at the end as one of the first human colony ships to reach Omicron Eridani. Its significance is symbolic rather than character-driven: it represents the evacuation plan becoming reality. The ship's arc is simply successful arrival."
+    },
+    {
+      "name": "Ernie",
+      "arc": "Ernie arrives alongside Bert as part of humanity's first extrasolar convoy. Like Bert, it functions more as a milestone than a developed character. Its presence marks the transition from planning and construction to actual settlement."
+    }
+  ],
+  "plot_arcs": [
+    {
+      "name": "Bob under FAITH",
+      "chapter_start": 1,
+      "chapter_end": 13,
+      "description": "Bob dies, awakens as a replicant under FAITH control, survives sabotage and political infighting, and escapes Sol aboard Heaven-1.",
+      "key_characters": [
+        "Bob",
+        "Dr. Landers",
+        "GUPPI",
+        "Senior Minister Travis",
+        "Minister Jacoby"
+      ]
+    },
+    {
+      "name": "Epsilon Eridani and the first Bob cohort",
+      "chapter_start": 14,
+      "chapter_end": 18,
+      "description": "Bob reaches Epsilon Eridani, defeats Medeiros's first attack, begins replication, and sends the first generation of new Bobs out into nearby space.",
+      "key_characters": [
+        "Bob",
+        "Bill",
+        "Riker",
+        "Milo",
+        "Mario",
+        "Major Ernesto Medeiros"
+      ]
+    },
+    {
+      "name": "Bill builds the Bob network",
+      "chapter_start": 20,
+      "chapter_end": 25,
+      "description": "Bill anchors Epsilon Eridani as a research and manufacturing hub, develops SCUT, and turns scattered Bob expeditions into an interconnected civilization.",
+      "key_characters": [
+        "Bill",
+        "Garfield",
+        "Riker",
+        "Homer",
+        "Calvin",
+        "Goku",
+        "Linus"
+      ]
+    },
+    {
+      "name": "Riker and the rescue of humanity",
+      "chapter_start": 21,
+      "chapter_end": 26,
+      "description": "Riker returns to Sol, destroys the Brazilian threat there, discovers surviving humans, and commits the Bobs to building an evacuation fleet.",
+      "key_characters": [
+        "Riker",
+        "Homer",
+        "Colonel George Butterworth",
+        "Captain Matias Araújo"
+      ]
+    },
+    {
+      "name": "Delta Eridani and the Deltans",
+      "chapter_start": 27,
+      "chapter_end": 55,
+      "description": "Bob discovers intelligent alien life in Delta Eridani and becomes increasingly entangled in protecting and guiding the Deltans, especially Archimedes, against extinction.",
+      "key_characters": [
+        "Bob",
+        "Marvin",
+        "Archimedes",
+        "Moses",
+        "Arnold"
+      ]
+    },
+    {
+      "name": "Sol politics, famine, and Exodus",
+      "chapter_start": 29,
+      "chapter_end": 58,
+      "description": "Riker's Sol mission expands from salvage and diplomacy into global governance, food-crisis management, and the eventual launch of the first colony ships.",
+      "key_characters": [
+        "Riker",
+        "Homer",
+        "Colonel George Butterworth",
+        "Julia Hendricks",
+        "Arthur",
+        "Charles",
+        "Howard",
+        "Minister Cranston",
+        "Gudmund Valter"
+      ]
+    },
+    {
+      "name": "The Medeiros war beyond Sol",
+      "chapter_start": 28,
+      "chapter_end": 60,
+      "description": "Brazilian probes continue to threaten multiple systems, culminating in Milo's death at 82 Eridani and Khan's devastating revenge strike against Medeiros.",
+      "key_characters": [
+        "Major Ernesto Medeiros",
+        "Calvin",
+        "Goku",
+        "Milo",
+        "Bill",
+        "Khan"
+      ]
+    },
+    {
+      "name": "New frontiers and larger mysteries",
+      "chapter_start": 19,
+      "chapter_end": 61,
+      "description": "While humanity's evacuation proceeds, the Bobs discover habitable worlds, a damaged Australian replicant, and evidence of a hostile alien civilization beyond known human space.",
+      "key_characters": [
+        "Milo",
+        "Linus",
+        "Henry Roberts",
+        "Mario",
+        "Howard",
+        "Bill"
+      ]
+    }
+  ],
+  "resolutions_implicit": [
+    {
+      "character": "Major Ernesto Medeiros",
+      "original_chapter": 60,
+      "outcome": "confirmed_destroyed",
+      "reasoning": "He is only presumed destroyed in the final battle, but he never reappears afterward and the book ends with the attack framed as his likely end, so he should be treated as implicitly dead."
+    },
+    {
+      "character": "Tom",
+      "original_chapter": 60,
+      "outcome": "confirmed_destroyed",
+      "reasoning": "Tom's signal cuts off during the 82 Eridani battle and he never reappears before the end of the book, so the presumed loss should be promoted to confirmed destroyed."
+    },
+    {
+      "character": "Barney",
+      "original_chapter": 60,
+      "outcome": "confirmed_destroyed",
+      "reasoning": "Barney drops out during the 82 Eridani battle and is never seen again in the remaining corpus, making implicit death the most consistent resolution."
+    }
+  ],
+  "technology_canonical": [
+    {
+      "name": "Replicant matrix",
+      "description": "The scanned digital substrate that runs a human-derived consciousness as a replicant.",
+      "aliases": [
+        "replicant"
+      ],
+      "first_mentioned_chapter": 2,
+      "first_invented_chapter": null,
+      "first_deployed_chapter": 2,
+      "tier": "foundational"
+    },
+    {
+      "name": "GUPPI",
+      "description": "The standard Bob/replicant command and interface environment used to manage systems, sensors, and virtual interactions.",
+      "aliases": [
+        "GUPPI interface"
+      ],
+      "first_mentioned_chapter": 2,
+      "first_invented_chapter": null,
+      "first_deployed_chapter": 5,
+      "tier": "foundational"
+    },
+    {
+      "name": "Endocrine control",
+      "description": "Software-mediated emotional regulation used to suppress or tune replicant affect.",
+      "aliases": [],
+      "first_mentioned_chapter": 2,
+      "first_invented_chapter": null,
+      "first_deployed_chapter": 15,
+      "tier": "medical"
+    },
+    {
+      "name": "Roamer",
+      "description": "A remotely operated mobile robot platform used for training, construction, and field work.",
+      "aliases": [
+        "ROAMer"
+      ],
+      "first_mentioned_chapter": 3,
+      "first_invented_chapter": null,
+      "first_deployed_chapter": 3,
+      "tier": "applied"
+    },
+    {
+      "name": "VAST",
+      "description": "A locomotion and climbing subsystem used by roamers for complex movement.",
+      "aliases": [],
+      "first_mentioned_chapter": 3,
+      "first_invented_chapter": null,
+      "first_deployed_chapter": 3,
+      "tier": "applied"
+    },
+    {
+      "name": "HEAVEN vessel",
+      "description": "The self-replicating interstellar probe architecture at the center of Project HEAVEN.",
+      "aliases": [
+        "Von Neumann probe",
+        "Heaven-2",
+        "Heaven-9",
+        "Heaven-10"
+      ],
+      "first_mentioned_chapter": 6,
+      "first_invented_chapter": null,
+      "first_deployed_chapter": 12,
+      "tier": "infrastructure"
+    },
+    {
+      "name": "Nanite",
+      "description": "Microscopic fabrication machinery used in advanced manufacturing and probe systems.",
+      "aliases": [
+        "nanite"
+      ],
+      "first_mentioned_chapter": 6,
+      "first_invented_chapter": null,
+      "first_deployed_chapter": null,
+      "tier": "foundational"
+    },
+    {
+      "name": "SURGE drive",
+      "description": "The high-acceleration propulsion system that makes interstellar probe travel practical.",
+      "aliases": [],
+      "first_mentioned_chapter": 7,
+      "first_invented_chapter": null,
+      "first_deployed_chapter": null,
+      "tier": "foundational"
+    },
+    {
+      "name": "SUDDAR",
+      "description": "An advanced detection and ranging system central to Bob navigation, sensing, and later jamming warfare.",
+      "aliases": [
+        "modified SUDDAR array"
+      ],
+      "first_mentioned_chapter": 7,
+      "first_invented_chapter": null,
+      "first_deployed_chapter": null,
+      "tier": "comms"
+    },
+    {
+      "name": "Heaven-1",
+      "description": "FAITH's launched HEAVEN probe carrying Bob to Epsilon Eridani.",
+      "aliases": [
+        "Heaven-1A"
+      ],
+      "first_mentioned_chapter": 12,
+      "first_invented_chapter": null,
+      "first_deployed_chapter": 12,
+      "tier": "infrastructure"
+    },
+    {
+      "name": "Virtual reality interface",
+      "description": "Immersive simulated environments used by the Bobs for habitation, meetings, and psychological stability.",
+      "aliases": [
+        "VR interface"
+      ],
+      "first_mentioned_chapter": 13,
+      "first_invented_chapter": 13,
+      "first_deployed_chapter": 13,
+      "tier": "applied"
+    },
+    {
+      "name": "Jeeves",
+      "description": "A servant-style support AI persona used inside Bob's virtual environments.",
+      "aliases": [],
+      "first_mentioned_chapter": 13,
+      "first_invented_chapter": 13,
+      "first_deployed_chapter": 13,
+      "tier": "applied"
+    },
+    {
+      "name": "Spike",
+      "description": "A companion-style AI construct used by Bob in VR for comfort and familiarity.",
+      "aliases": [],
+      "first_mentioned_chapter": 13,
+      "first_invented_chapter": 13,
+      "first_deployed_chapter": 13,
+      "tier": "applied"
+    },
+    {
+      "name": "SURGE weapon",
+      "description": "A weaponized application of SURGE-drive principles for offensive strikes.",
+      "aliases": [
+        "SURGE drive weapon"
+      ],
+      "first_mentioned_chapter": 13,
+      "first_invented_chapter": 13,
+      "first_deployed_chapter": null,
+      "tier": "weapons"
+    },
+    {
+      "name": "Exploration drone",
+      "description": "Remote probes used for planetary survey, biological sampling, and later direct contact work.",
+      "aliases": [
+        "exploration drone",
+        "exploration scouts"
+      ],
+      "first_mentioned_chapter": 16,
+      "first_invented_chapter": 16,
+      "first_deployed_chapter": 19,
+      "tier": "applied"
+    },
+    {
+      "name": "SCUT",
+      "description": "A practical faster-than-light subspace communication system linking distant Bob installations in real time.",
+      "aliases": [
+        "subspace transmission"
+      ],
+      "first_mentioned_chapter": 20,
+      "first_invented_chapter": 20,
+      "first_deployed_chapter": 32,
+      "tier": "comms"
+    },
+    {
+      "name": "SURGE missile",
+      "description": "A missile using SURGE-drive propulsion for extremely dangerous high-speed attacks.",
+      "aliases": [
+        "SURGE drive missile"
+      ],
+      "first_mentioned_chapter": 21,
+      "first_invented_chapter": null,
+      "first_deployed_chapter": 21,
+      "tier": "weapons"
+    },
+    {
+      "name": "Observation drone buster",
+      "description": "A weaponized drone adaptation created for close support and defense in Delta Eridani.",
+      "aliases": [],
+      "first_mentioned_chapter": 35,
+      "first_invented_chapter": 35,
+      "first_deployed_chapter": 35,
+      "tier": "weapons"
+    },
+    {
+      "name": "Firewall",
+      "description": "Defensive software used to block hostile intrusion into Bob systems.",
+      "aliases": [],
+      "first_mentioned_chapter": 49,
+      "first_invented_chapter": null,
+      "first_deployed_chapter": 49,
+      "tier": "comms"
+    },
+    {
+      "name": "Autofactory printer",
+      "description": "Industrial fabrication hardware used to expand manufacturing capacity and build ships, drones, and infrastructure.",
+      "aliases": [
+        "printer"
+      ],
+      "first_mentioned_chapter": 50,
+      "first_invented_chapter": null,
+      "first_deployed_chapter": 50,
+      "tier": "infrastructure"
+    },
+    {
+      "name": "Android body",
+      "description": "A humanoid remote embodiment platform intended to let Bobs interact physically with environments and humans.",
+      "aliases": [
+        "android"
+      ],
+      "first_mentioned_chapter": 56,
+      "first_invented_chapter": null,
+      "first_deployed_chapter": null,
+      "tier": "applied"
+    },
+    {
+      "name": "BobNet",
+      "description": "The growing interstellar communications and social network linking Bob installations and meetings.",
+      "aliases": [],
+      "first_mentioned_chapter": 59,
+      "first_invented_chapter": 59,
+      "first_deployed_chapter": 59,
+      "tier": "comms"
+    },
+    {
+      "name": "Plasma spike",
+      "description": "A new anti-ship weapon first field-tested during the 82 Eridani revenge assault.",
+      "aliases": [],
+      "first_mentioned_chapter": 60,
+      "first_invented_chapter": null,
+      "first_deployed_chapter": 60,
+      "tier": "weapons"
+    }
+  ],
+  "faction_canonical": [
+    {
+      "name": "FAITH",
+      "description": "A theocratic successor state that controls Bob's original revival, sponsors Project HEAVEN, and treats replicants as property.",
+      "aliases": [],
+      "first_chapter": 2,
+      "trajectory": "dominant regional power → internally divided → weakened but still extant"
+    },
+    {
+      "name": "Applied Synergetics Inc.",
+      "description": "The corporation operating the replicant project and Bob's revival under FAITH authority.",
+      "aliases": [
+        "Applied Synergetics"
+      ],
+      "first_chapter": 2,
+      "trajectory": "active contractor → HEAVEN sponsor → eclipsed by wider Bob expansion"
+    },
+    {
+      "name": "Brazilian Empire",
+      "description": "An aggressive rival human power that launches armed replicant probes and wages a long covert war in interstellar space.",
+      "aliases": [],
+      "first_chapter": 7,
+      "trajectory": "rising competitor → expansionist attacker → shattered remnant threat"
+    },
+    {
+      "name": "United States of Eurasia",
+      "description": "A major human polity whose surviving military enclave in Sol partners with Riker to evacuate humanity.",
+      "aliases": [
+        "USE"
+      ],
+      "first_chapter": 7,
+      "trajectory": "major power → devastated by war → survivor-led evacuation partner"
+    },
+    {
+      "name": "CryoEterna",
+      "description": "The cryonics company that preserves Bob's head before his death.",
+      "aliases": [],
+      "first_chapter": 1,
+      "trajectory": "commercial service → absorbed into post-collapse legal chaos"
+    },
+    {
+      "name": "Australian Republic",
+      "description": "The human polity behind Henry Roberts and some of the original probe research later stolen by rivals.",
+      "aliases": [
+        "Australian"
+      ],
+      "first_chapter": 40,
+      "trajectory": "probe participant → collapsed/offstage legacy"
+    },
+    {
+      "name": "VEHEMENT",
+      "description": "An extremist anti-survival movement in Sol that seeks humanity's extinction and uses sabotage to worsen the crisis.",
+      "aliases": [],
+      "first_chapter": 38,
+      "trajectory": "emerges clandestinely → escalates sabotage → ongoing threat"
+    },
+    {
+      "name": "Deltans",
+      "description": "The intelligent native species of Delta Eridani 4 whose survival becomes Bob's first-contact responsibility.",
+      "aliases": [
+        "Delta Eridani 4 natives"
+      ],
+      "first_chapter": 27,
+      "trajectory": "undiscovered natives → observed tribe network → protected emerging society"
+    },
+    {
+      "name": "gorilloids",
+      "description": "Large predatory creatures on Delta Eridani 4 that function as the Deltans' main existential ecological threat.",
+      "aliases": [],
+      "first_chapter": 35,
+      "trajectory": "unseen predator pressure → open recurring threat → contained locally but unresolved"
+    },
+    {
+      "name": "Others",
+      "description": "The unidentified hostile alien civilization implied by the dead world and autonomous machines at Beta Hydri.",
+      "aliases": [
+        "Beta Hydri wreck aliens"
+      ],
+      "first_chapter": 57,
+      "trajectory": "unknown → suspected raiders"
+    },
+    {
+      "name": "New Zealand",
+      "description": "A surviving human enclave or polity implicated in hostile hacking activity during the Sol evacuation era.",
+      "aliases": [],
+      "first_chapter": 41,
+      "trajectory": "survivor polity → suspected covert actor"
+    }
+  ],
+  "combat_named": [
+    {
+      "name": "Attack on the FAITH Replicant Facility",
+      "chapter": 8,
+      "year": 2133,
+      "location": "Sol",
+      "participants": [
+        "Bob",
+        "Dr. Landers",
+        "FAITH"
+      ],
+      "outcome": "Bob uses roamers to disrupt armed intruders, helping facility security force a surrender."
+    },
+    {
+      "name": "Battle of Heaven-1 Launch, 2133",
+      "chapter": 12,
+      "year": 2133,
+      "location": "Sol",
+      "participants": [
+        "Bob",
+        "Heaven-1",
+        "FAITH",
+        "Brazilian Empire"
+      ],
+      "outcome": "During a chaotic missile and orbital attack, Bob escapes Sol aboard Heaven-1 and destroys a pursuing threat."
+    },
+    {
+      "name": "Battle of Epsilon Eridani, 2144",
+      "chapter": 15,
+      "year": 2144,
+      "location": "Epsilon Eridani",
+      "participants": [
+        "Bob",
+        "Major Ernesto Medeiros",
+        "Serra do Mar"
+      ],
+      "outcome": "Bob survives his first interstellar duel and destroys Medeiros's ship Serra do Mar."
+    },
+    {
+      "name": "Decoy Skirmish at Jupiter, 2157",
+      "chapter": 21,
+      "year": 2157,
+      "location": "Sol",
+      "participants": [
+        "Riker",
+        "Homer",
+        "Brazilian Empire"
+      ],
+      "outcome": "A decoy vessel is destroyed, but the telemetry reveals the scale and purpose of the Brazilian asteroid attack on Earth."
+    },
+    {
+      "name": "Battle of Sol, 2157",
+      "chapter": 24,
+      "year": 2157,
+      "location": "Sol",
+      "participants": [
+        "Riker",
+        "Homer",
+        "Captain Matias Araújo",
+        "Brazilian Empire"
+      ],
+      "outcome": "Riker and Homer destroy all six Brazilian probes in Sol and divert four extinction-level asteroids away from Earth."
+    },
+    {
+      "name": "Raid on Alpha Centauri Construction Yard",
+      "chapter": 28,
+      "year": 2163,
+      "location": "Alpha Centauri",
+      "participants": [
+        "Calvin",
+        "Goku",
+        "Brazilian Empire"
+      ],
+      "outcome": "Calvin and Goku devastate a Brazilian autofactory and most local enemy assets, though one Brazilian vessel escapes."
+    },
+    {
+      "name": "First Gorilloid Raid Crisis",
+      "chapter": 35,
+      "year": 2165,
+      "location": "Delta Eridani",
+      "participants": [
+        "Deltans",
+        "gorilloids",
+        "Bob",
+        "Marvin",
+        "Luke",
+        "Bender"
+      ],
+      "outcome": "After severe Deltan losses, Bob decides indirect intervention is necessary and the tribe's improved weapons help repel a later attack."
+    },
+    {
+      "name": "Battle for Archimedes's Camp",
+      "chapter": 37,
+      "year": 2165,
+      "location": "Delta Eridani",
+      "participants": [
+        "Bob",
+        "Marvin",
+        "Archimedes",
+        "Arnold",
+        "gorilloids"
+      ],
+      "outcome": "Bob directly intervenes with a buster to save Archimedes during a massive gorilloid assault, abandoning strict noninterference."
+    },
+    {
+      "name": "Skirmish at Epsilon Indi",
+      "chapter": 40,
+      "year": 2165,
+      "location": "Epsilon Indi",
+      "participants": [
+        "Linus",
+        "Henry Roberts"
+      ],
+      "outcome": "Linus disables Henry Roberts safely and transitions the encounter into a rescue and rehabilitation effort."
+    },
+    {
+      "name": "Ambush at 82 Eridani",
+      "chapter": 46,
+      "year": 2165,
+      "location": "82 Eridani",
+      "participants": [
+        "Milo",
+        "Major Ernesto Medeiros"
+      ],
+      "outcome": "Milo is caught in a prepared missile trap after discovering two promising colony worlds and is effectively lost."
+    },
+    {
+      "name": "Battle of the Deltan Migration, 2166",
+      "chapter": 50,
+      "year": 2166,
+      "location": "Delta Eridani",
+      "participants": [
+        "Bob",
+        "Marvin",
+        "Deltans",
+        "gorilloids"
+      ],
+      "outcome": "Bob and Marvin repel a devastating dawn raid but conclude the migration has entered a prolonged war zone."
+    },
+    {
+      "name": "Battle of 82 Eridani, 2185",
+      "chapter": 60,
+      "year": 2185,
+      "location": "82 Eridani",
+      "participants": [
+        "Khan",
+        "Hannibal",
+        "Tom",
+        "Fred",
+        "Ned",
+        "Kyle",
+        "Elmer",
+        "Jackson",
+        "Barney",
+        "Major Ernesto Medeiros"
+      ],
+      "outcome": "Khan's revenge force likely kills Medeiros but loses seven of eight attacking Bobs and exposes dangerous Brazilian cloaking and autonomous weapons."
+    }
+  ]
+}
