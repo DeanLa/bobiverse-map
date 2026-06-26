@@ -26,7 +26,7 @@ Numbered task list with a session-by-session plan. Tasks are renumberable, sessi
 7. **Run `/audit-extractions`.** Not re-run since the events consolidation, spoiler-safe label, and factions-not-characters changes. May surface canonical-name drift.
 8. **Star coordinates for new systems.** Ragnarok, Odin, Zeta Tucanae, Pi3 Orionis, etc. currently stubbed at `distance_ly: 30`, `ra_h: 0`, `dec_deg: 0`. Real astronomical lookup.
 9. **`human_colonies` is empty.** 0 records despite explicit prompt guidance. The LLM may be putting them in `infrastructure[type=colony]` only. Verify whether the overlap rule is firing.
-10. **Custom layout positions.** `app.js` `customLayout` covers ~21 stars; new systems pulled in by extractions don't have entries.
+10. **Custom layout positions.** `app.js` `customLayout` covers ~21 stars; new systems pulled in by extractions don't have entries.  
 
 ### Bigger ticket
 
