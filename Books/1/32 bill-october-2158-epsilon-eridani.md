@@ -1,12 +1,12 @@
-## 32. Bill – October 2158 –  Epsilon Eridani
-<!-- Page 279 -->
-[Communication received from Milo] “Right on time.” I grinned at Guppy. Predictably, he returned a fishy poker face. “I wonder if he found Vulcans.”
+## 32. Bill – October 2158 – Epsilon Eridani
 
-[Not quite] I raised an eyebrow. That was a far cry from the flat “no”
+[Communication received from Milo]
 
-that I’d normally expect from Guppy. If he responded at all.
+“Right on time.” I grinned at Guppy. Predictably, he returned a fishy poker face. “I wonder if he found Vulcans.”
 
-Now my curiosity was way up.
+[Not quite]
+
+I raised an eyebrow. That was a far cry from the flat “no” that I’d normally expect from Guppy. If he responded at all. Now my curiosity was way up.
 
 I’d been deep into one of my pet projects—creating realistic artificial bodies. The ultimate problem was producing a muscle analog that worked, looked, and generally acted similar enough to the natural thing. Gears, pistons, and cables would never produce a workable android.
 
@@ -15,8 +15,6 @@ I forced myself to close the project folder, invoked a coffee, kicked off a goos
 “Okay, Guppy. Let’s see it.”
 
 Milo’s report spread before me in mid-air. System schematics, close-ups of the twin planets—two habitable planets!—and biological analyses. I chuckled at his insistence on naming them. I’d have done the same. Probably would have picked the same names, come to that.
-
-<!-- Page 280 -->
 
 I sat back, staring into space, so preoccupied that I stopped patting Spike. I was reminded of my primary duty by a furry head butting against my chin.
 
@@ -32,11 +30,7 @@ I pinged Garfield. “Hey, Gar, have you read the latest from Milo?”
 
 He popped into my VR and pointed at his face. “Does this look boggled enough?”
 
-We shared a laugh, and he continued, “It’s awesome. We have a place to put people. Assuming there are still people.”
-
-Garfield grimaced. “That would be just the kind of sick joke the universe likes to play. Let’s hope not this time.”
-
-<!-- Page 281 -->
+We shared a laugh, and he continued, “It’s awesome. We have a place to put people. Assuming there are still people.” Garfield grimaced. “That would be just the kind of sick joke the universe likes to play. Let’s hope not this time.”
 
 I nodded. “Yeppers. You know, it’s funny. When I left Earth, I just wanted to get away from humanity. Now I find myself acting like some kind of, I dunno, shepherd or something.”
 

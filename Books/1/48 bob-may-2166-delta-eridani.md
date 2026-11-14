@@ -1,22 +1,14 @@
-## 48. Bob – May 2166 – Delta  Eridani
-<!-- Page 387 -->
+## 48. Bob – May 2166 – Delta Eridani
+
 It took almost a month to get ready. The trek to the best village site would be long and arduous. From discussion with Moses, it seemed that it was one of the first villages to be abandoned, and unfortunately it was the one with the best supply of flint.
 
-Moses wasn’t clear on why it hadn’t been better defended.
-
-He apparently had been a young cub at the time, and most of his information from that era was second-hand. He’d been one of the last Deltans to be trained to knap flint before they were forced to leave.
+Moses wasn’t clear on why it hadn’t been better defended. He apparently had been a young cub at the time, and most of his information from that era was second-hand. He’d been one of the last Deltans to be trained to knap flint before they were forced to leave.
 
 In any case, Marvin had surveyed the route that they would have to take. It would not be easy or quick. A mountainous spine ran down the center of this continent, and there were only a couple of passes that were low enough to be useful. During that part of the trek, there would be no local food unless the tribe got very lucky.
 
-I didn’t know if the Deltans had lost the techniques for food preservation or if they’d never developed them. Before they could leave, I had to teach them how to preserve meat.
+I didn’t know if the Deltans had lost the techniques for food preservation or if they’d never developed them. Before they could leave, I had to teach them how to preserve meat. The Deltans understood the benefit right away and took to it with enthusiasm.
 
-The Deltans understood the benefit right away and took to it with enthusiasm.
-
-The Deltans worked to build up a larder for the journey.
-
-Once the decision had been made, everyone got on board, and with the immediate gift of knowledge that I’d brought, they began to trust that I was steering them in a good direction.
-
-<!-- Page 388 -->
+The Deltans worked to build up a larder for the journey. Once the decision had been made, everyone got on board, and with the immediate gift of knowledge that I’d brought, they began to trust that I was steering them in a good direction.
 
 Gorilloids were spotted on a number of occasions, hanging around the edge of the Deltan territory. They might have been hoping for targets of opportunity, but they seemed to have had the stuffing knocked out of them in our last encounter. They didn’t challenge any of the Deltan hunting parties. Of course, the sight of an occasional drone floating about might have had a little something to do with that, as well. I was quite happy to put the fear of bawbe into them.
 
@@ -28,43 +20,47 @@ Archimedes’ stock continued to soar with the other juveniles. He was, for all 
 
 That was fine with me. There was a noticeable difference between talking to him and talking to most of the rest of the tribe.
 
-<!-- Page 389 -->
-
 Finally, the day came. The whole tribe lined up, packed their belongings onto several travois (another gift from the bawbe) and set off into what was for them the great unknown.
 
 The gorilloids were in evidence on departure day, hanging around just out of range and watching the parade. I wondered if the gorilloids actually understood that their erstwhile prey was about to leave for good, or if they were just drooling over all that lunch on the hoof. Either way, the first gorilloid that made a move would get a buster in the face. I was lined up, ready, and just waiting for something to obliterate.
 
-*** The first night was a less than stellar experience for everyone.
+***
 
-It rained heavily. I had to keep reminding myself that the Deltans were used to this. They didn’t have tents, just sewn- together skins that each family group would drape over itself. I resolved to introduce Archimedes to the concept of tent poles.
+The first night was a less than stellar experience for everyone. It rained heavily. I had to keep reminding myself that the Deltans were used to this. They didn’t have tents, just sewn-together skins that each family group would drape over itself. I resolved to introduce Archimedes to the concept of tent poles.
 
-“Better take it easy there, oh great one. Next thing you know, they’ll be eating fast food and watching TV.” Marvin leaned back in his chair with his hands behind his head.
-
-“Seriously, it’s not necessarily a good thing to throw too many new concepts at them at the same time. Floating metal deities seems to me to be more than enough for now.”
+“Better take it easy there, oh great one. Next thing you know, they’ll be eating fast food and watching TV.” Marvin leaned back in his chair with his hands behind his head. “Seriously, it’s not necessarily a good thing to throw too many new concepts at them at the same time. Floating metal deities seems to me to be more than enough for now.”
 
 “Funny you should say that.” I frowned in thought. “Have you noticed they don’t appear to have any concept of religion?”
 
-Marvin waved a hand in the air. “There’s some basic animism there, in the form of things like honoring the animals they kill for food, and venerating their dead. I doubt humans had much more at the hunter-gatherer stage.” He sat forward
+Marvin waved a hand in the air. “There’s some basic animism there, in the form of things like honoring the animals they kill for food, and venerating their dead. I doubt humans had much more at the hunter-gatherer stage.” He sat forward abruptly. “Hey, speaking of which, do you realize that we have the opportunity here to document their entire prehistory? Well, from the time we got here, anyway.”
 
-<!-- Page 391 -->
+“Already started, Marv.”
+
+The camp seemed to have settled down for the night, so I deployed a couple of probes into guard positions and set up parameters to interrupt me. Security precautions complete, I swiveled to face Marvin.
+
+“I notice you’ve started a batch of Bobs at the autofactory. Not that I’m complaining, since that is part of our mission profile—I just wonder if you’ve changed your mind about hanging around.”
+
+He smiled at me. “Not immediately, although I do feel an itchy foot once in a while. Like I said to Luke and Bender, I’m curious as to how this is going to turn out. But it is still your show. Maybe there’s another planet of sentients out there for me.”
+
+I nodded thoughtfully. “How about the planetary survey? Any other Deltans anywhere?”
+
+“Nope. This continent is the cradle of humanity for the Deltans. Strictly a local mutation. There are lots of related species, but none that use fire or make tools.”
+
+I pulled up a globe of Eden and checked out the detail that we had amassed. It gave me time to think. I realized that the idea of Marvin taking off was unpleasant. Somehow, I was a little less of a loner than original Bob. I dreaded the idea of being on my own again.
 
 I sat back and looked over at Marvin, who was tinkering with his own copy of the globe. I sighed and cleared my holotank.
 
-*** The Deltan migration was still pretty close to the schedule.
+***
 
-There had been no major glitches so far, and the tribes seemed to have settled into routines. I was not so relaxed. We were now well out of the territory of the gorilloids whose butts we had whupped. Any gorilloids in this area would only see a bunch of easy pickings. Accordingly, Marvin and I had doubled the number of drones on guard duty at night.
+The Deltan migration was still pretty close to the schedule. There had been no major glitches so far, and the tribes seemed to have settled into routines. I was not so relaxed. We were now well out of the territory of the gorilloids whose butts we had whupped. Any gorilloids in this area would only see a bunch of easy pickings. Accordingly, Marvin and I had doubled the number of drones on guard duty at night.
 
 So it was more than a little irritating that the attack came during the day.
 
-As gorilloid raids went, it was not particularly impressive.
-
-A dozen or so of the animals hit a straggling family group and made off with two juveniles before anyone could react. The Deltans reacted immediately, giving chase and trying to cut the gorilloids off from the forest.
+As gorilloid raids went, it was not particularly impressive. A dozen or so of the animals hit a straggling family group and made off with two juveniles before anyone could react. The Deltans reacted immediately, giving chase and trying to cut the gorilloids off from the forest.
 
 In this situation, a buster would be as big a danger to the two juveniles as to the gorilloids, so we settled for buzzing the animals with the drones, trying to confuse and distract them. It seemed to do the trick. Within moments, the Deltans caught up and skewered half the gorilloids. The rest fled into the trees with screeches of alarm.
 
 Unfortunately, one of the juveniles was dead. The gorilloid that had been carrying him had apparently taken the time to ensure he wouldn’t struggle or escape.
-
-<!-- Page 392 -->
 
 The Deltans were distraught, and had a burial ceremony that evening. But interestingly, there was no talk of the migration being a mistake. If this had been humans, I was pretty sure there would have been all kinds of second guessing and recrimination. But the Deltans just took it in stride. I couldn’t decide if they were being philosophical or fatalistic.
 
@@ -80,34 +76,24 @@ I nodded and thought about the problem. “Hey, didn’t you mention at one poin
 
 I grinned at him. My reputation as a godling wasn’t getting me a whole lot of local respect, even from myselves.
 
-*** The migration had grown. Not only had we found several small groups and convinced them to link up, but apparently the parade was enough of a disturbance to be detectable for miles
+***
 
-<!-- Page 393 -->
+The migration had grown. Not only had we found several small groups and convinced them to link up, but apparently the parade was enough of a disturbance to be detectable for miles around. By the end of the first month, we had one or more groups join up almost every day. While there were often negotiation issues as different Deltans attempted to assert priority, those incidents generally ended without more than harsh words being exchanged. I had a feeling that the flint-tipped spears and Arnold with his big-assed axe contributed to that.
 
-around. By the end of the first month, we had one or more groups join up almost every day. While there were often negotiation issues as different Deltans attempted to assert priority, those incidents generally ended without more than harsh words being exchanged. I had a feeling that the flint- tipped spears and Arnold with his big-assed axe contributed to that.
-
-Marvin and I tried to keep the drones out of sight, especially when there were noobs around. We didn’t want to take a chance on scaring anyone off. Sooner or later, though, the topic would come up, or we’d have to fly in close for one reason or another. The results were usually pretty comical.
-
-Deltans didn’t react any better to UFOs than humans would.
+Marvin and I tried to keep the drones out of sight, especially when there were noobs around. We didn’t want to take a chance on scaring anyone off. Sooner or later, though, the topic would come up, or we’d have to fly in close for one reason or another. The results were usually pretty comical. Deltans didn’t react any better to UFOs than humans would.
 
 The migration was up to well over five hundred individuals. A very large portion of that consisted of females and juveniles. So Marvin and I heaved twin sighs of relief when the Deltans made it to the foot of the mountain pass.
 
-This part of the migration had its own dangers. The Deltans would be going well above the altitude of their preferred climate, so it would be colder than they were used to.
+This part of the migration had its own dangers. The Deltans would be going well above the altitude of their preferred climate, so it would be colder than they were used to. They had no protection from either the weather or predators, and little or no available prey as they pushed forward.
 
-They had no protection from either the weather or predators, and little or no available prey as they pushed forward.
+Before they started the climb, I made sure they re-inventoried their preserves. They would face a week or two without any other source of food. This was not the time to get sloppy.
 
-Before they started the climb, I made sure they re- inventoried their preserves. They would face a week or two without any other source of food. This was not the time to get sloppy.
-
-They started the climb first thing in the morning in order to get the maximum distance. I knew that they would slow
-
-<!-- Page 394 -->
-
-down significantly through the days that the climb would take.
-
-They needed the best start possible.
+They started the climb first thing in the morning in order to get the maximum distance. I knew that they would slow down significantly through the days that the climb would take. They needed the best start possible.
 
 It took four days to get to the top of the pass. We’d budgeted for six, so that was huge. The wind was godawful there, though, so no one wanted to stop. They stretched that march well into the evening in order to get out of the wind tunnel at the apex.
 
-*** The trip down went faster, for obvious reasons. Three days later, the migration streamed into forest again with some stored food left over. As a celebration, they camped for an extra day just at the edge of the forest. They took a break and feasted on the extra food. From here on in, they’d be able to forage and hunt.
+***
+
+The trip down went faster, for obvious reasons. Three days later, the migration streamed into forest again with some stored food left over. As a celebration, they camped for an extra day just at the edge of the forest. They took a break and feasted on the extra food. From here on in, they’d be able to forage and hunt.
 
 It took two more days for disaster to strike.

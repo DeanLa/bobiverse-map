@@ -1,26 +1,22 @@
-<!-- Page 1 -->
+WE ARE LEGION
 
-# WE ARE LEGION
-
-# (We are Bob)
+(We are Bob)
 
 Book 1 of the Bobiverse
 
-## Dennis E. Taylor
+Dennis E. Taylor
 
-<!-- Page 3 -->
+*We Are Legion (We Are Bob)* Copyright © Dennis E. Taylor 2016
 
-We Are Legion (We Are Bob) Copyright © Dennis E. Taylor 2016 eBook edition published by Worldbuilders Press, a service of the Ethan Ellenberg Literary Agency Cover design by Matt Forsyth
+eBook edition published by Worldbuilders Press, a service of the Ethan Ellenberg Literary Agency
 
-<!-- Page 5 -->
+Cover design by Matt Forsyth
 
-## Dedication
+Dedication
 
 I would like to dedicate this book to my wife, Blaihin, who not only puts up with my writing but supports it, and to my daughter Tina, who completed our family.
 
-<!-- Page 7 -->
-
-## Acknowledgments
+Acknowledgments
 
 It is a source of amazement to me how many people are involved in creating a novel. It’s not just about writing it down. Critiques, beta readers, editors, artists, agents, and publishers all have a hand in producing the final product.
 
@@ -28,25 +24,143 @@ I’d like to thank my agent, Ethan Ellenberg, for taking me on; Steve Feldberg 
 
 The number of critters and beta readers who’ve had a hand in the book is simply astounding. I’d like to particularly mention the members of the Ubergroup and Novel Exchange group on scribophile.
 
-Thanks in particular to: Sandra and Ken McLaren Nicole Hamilton Sheena Lewis And my wife Blaihin.
+Thanks in particular to:
 
-<!-- Page 8 -->
+Sandra and Ken McLaren
+
+Nicole Hamilton
+
+Sheena Lewis
+
+And my wife Blaihin.
 
 And, as usual, a shout-out to the members of snowboardingforum.com
 
-<!-- Page 10 -->
+Part 1
 
-PART 1 1. BOB VERSION 1.0 2. BOB VERSION 2.0 3. BOB – JUNE 25, 2133 4. BOB – JULY 15, 2133 5. BOB – JULY 18, 2133 6. BOB – JULY 19, 2133 7. BOB – JULY 25, 2133 8. BOB – AUGUST 4, 2133 9. BOB – AUGUST 6, 2133 10. BOB – AUGUST 10, 2133 11. BOB – AUGUST 15, 2133 12. BOB – AUGUST 17, 2133 13. BOB – AUGUST 17, 2133 – EN ROUTE PART 2 14. BOB – AUGUST 2144 – EPSILON ERIDANI 15. BOB – SEPTEMBER 2144 – EPSILON ERIDANI 16. BOB – SEPTEMBER 2144 – EPSILON ERIDANI 17. BOB – JULY 2145 – EPSILON ERIDANI 18. BILL – SEPTEMBER 2145 – EPSILON ERIDANI 2 19. MILO – JULY 2152 – OMICRON ERIDANI
+1.Bob Version 1.0
 
-<!-- Page 11 -->
+2.Bob Version 2.0
 
-20. BILL – DECEMBER 2145 – EPSILON ERIDANI 21. RIKER – JANUARY 2157 – SOL 22. BILL – SEPTEMBER 2150 – EPSILON ERIDANI 2 23. MILO – FEBRUARY 2153 – OMICRON ERIDANI 24. RIKER – APRIL 2157 – SOL 25. BILL – SEPTEMBER 2151 – EPSILON ERIDANI 26. RIKER – APRIL 2157 – SOL 27. BOB – APRIL 2165 – DELTA ERIDANI 28. CALVIN – NOVEMBER 2163 – ALPHA CENTAURI 29. RIKER – SEPTEMBER 2157 – SOL 30. BOB – APRIL 2165 – DELTA ERIDANI 31. RIKER – JANUARY 2158 – SOL 32. BILL – OCTOBER 2158 – EPSILON ERIDANI 33. RIKER – MARCH 2158 – SOL 34. HOMER – SEPTEMBER 2158 – SOL 35. BOB – JULY 2165 – DELTA ERIDANI 36. RIKER – SEPTEMBER 2158 – SOL 37. BOB – AUGUST 2165 – DELTA ERIDANI 38. RIKER – NOVEMBER 2158 – SOL 39. BOB – OCTOBER 2165 – DELTA ERIDANI 40. LINUS – APRIL 2165 – EPSILON INDI 41. RIKER – MAY 2162 – SOL
+3.Bob – June 25, 2133
 
-<!-- Page 12 -->
+4.Bob – July 15, 2133
 
-42. BILL – APRIL 2162 – EPSILON ERIDANI 43. RIKER – SEPTEMBER 2164 – SOL 44. BOB – JANUARY 2166 – DELTA ERIDANI 45. BILL – JANUARY 2165 – EPSILON ERIDANI 46. MILO – AUGUST 2165 – 82 ERIDANI 47. RIKER – JANUARY 2166 – SOL 48. BOB – MAY 2166 – DELTA ERIDANI 49. RIKER – MAY 2166 – SOL 50. BOB – JUNE 2166 – DELTA ERIDANI 51. BILL – JANUARY 2174 – EPSILON ERIDANI 52. RIKER – JANUARY 2168 – SOL 53. BOB – JUNE 2166 – DELTA ERIDANI 54. RIKER – OCTOBER 2170 – SOL 55. BOB – JULY 2166 – DELTA ERIDANI 56. BILL - MARCH 2167 - EPSILON ERIDANI 57. MARIO – AUGUST 2169 – BETA HYDRI 58. RIKER – APRIL 2171 – SOL 59. BILL – MAY 2172 – EPSILON ERIDANI 60. KHAN – APRIL 2185 – 82 ERIDANI 2 61. HOWARD – SEPTEMBER 2188 – OMICRON ERIDANI
+5.Bob – July 18, 2133
 
-<!-- Page 14 -->
+6.Bob – July 19, 2133
+
+7.Bob – July 25, 2133
+
+8.Bob – August 4, 2133
+
+9.Bob – August 6, 2133
+
+10.Bob – August 10, 2133
+
+11.Bob – August 15, 2133
+
+12.Bob – August 17, 2133
+
+13.Bob – August 17, 2133 – En Route
+
+Part 2
+
+14.Bob – August 2144 – Epsilon Eridani
+
+15.Bob – September 2144 – Epsilon Eridani
+
+16.Bob – September 2144 – Epsilon Eridani
+
+17.Bob – July 2145 – Epsilon Eridani
+
+18.Bill – September 2145 – Epsilon Eridani
+
+19.Milo – July 2152 – Omicron2 Eridani
+
+20.Bill – December 2145 – Epsilon Eridani
+
+21.Riker – January 2157 – Sol
+
+22.Bill – September 2150 – Epsilon Eridani
+
+23.Milo – February 2153 – Omicron2 Eridani
+
+24.Riker – April 2157 – Sol
+
+25.Bill – September 2151 – Epsilon Eridani
+
+26.Riker – April 2157 – Sol
+
+27.Bob – April 2165 – Delta Eridani
+
+28.Calvin – November 2163 – Alpha Centauri
+
+29.Riker – September 2157 – Sol
+
+30.Bob – April 2165 – Delta Eridani
+
+31.Riker – January 2158 – Sol
+
+32.Bill – October 2158 – Epsilon Eridani
+
+33.Riker – March 2158 – Sol
+
+34.Homer – September 2158 – Sol
+
+35.Bob – July 2165 – Delta Eridani
+
+36.Riker – September 2158 – Sol
+
+37.Bob – August 2165 – Delta Eridani
+
+38.Riker – November 2158 – Sol
+
+39.Bob – October 2165 – Delta Eridani
+
+40.Linus – April 2165 – Epsilon Indi
+
+41.Riker – May 2162 – Sol
+
+42.Bill – April 2162 – Epsilon Eridani
+
+43.Riker – September 2164 – Sol
+
+44.Bob – January 2166 – Delta Eridani
+
+45.Bill – January 2165 – Epsilon Eridani
+
+46.Milo – August 2165 – 82 Eridani
+
+47.Riker – January 2166 – Sol
+
+48.Bob – May 2166 – Delta Eridani
+
+49.Riker – May 2166 – Sol
+
+50.Bob – June 2166 – Delta Eridani
+
+51.Bill – January 2174 – Epsilon Eridani
+
+52.Riker – January 2168 – Sol
+
+53.Bob – June 2166 – Delta Eridani
+
+54.Riker – October 2170 – Sol
+
+55.Bob – July 2166 – Delta Eridani
+
+56.Bill - March 2167 - Epsilon Eridani
+
+57.Mario – August 2169 – Beta Hydri
+
+58.Riker – April 2171 – Sol
+
+59.Bill – May 2172 – Epsilon Eridani
+
+60.Khan – April 2185 – 82 Eridani
+
+61.Howard – September 2188 – Omicron2 Eridani
 
 …but as for me, I am tormented with an everlasting itch for things remote. I love to sail forbidden seas, and land on barbarous coasts.
 

@@ -1,18 +1,14 @@
-## 46. Milo – August 2165 – 82  Eridani
-<!-- Page 379 -->
+## 46. Milo – August 2165 – 82 Eridani
+
 I decelerated smoothly into the 82 Eridani system. According to all the astronomical info, this was a very good candidate for a habitable planet. The star, a G5V class, was smaller and less luminous than Sol, but still well within the characteristics of yellow suns that human beings would prefer.
 
-I didn’t want to get cocky, but I was anticipating having two good finds in a row under my belt. I doubted I’d ever get a chance to stamp a Brazilian silhouette on the side of my hull like Bob-1, but maybe a couple of planets with green check- marks. Yeah, that’s the ticket.
+I didn’t want to get cocky, but I was anticipating having two good finds in a row under my belt. I doubted I’d ever get a chance to stamp a Brazilian silhouette on the side of my hull like Bob-1, but maybe a couple of planets with green check-marks. Yeah, that’s the ticket.
 
-I watched the survey results intently as the data slowly rolled in. Finally, Guppy announced paydirt. Not one but two planets inside the Comfort Zone, although one was at the inside edge and the other almost at the outside edge. Still, it was exciting stuff. And that would be four planets with check- marks, thank you kindly.
+I watched the survey results intently as the data slowly rolled in. Finally, Guppy announced paydirt. Not one but two planets inside the Comfort Zone, although one was at the inside edge and the other almost at the outside edge. Still, it was exciting stuff. And that would be four planets with check-marks, thank you kindly.
 
 Impatient to pass on the good news, I aligned my comms array with Epsilon Eridani and began squirting telemetry back to Bill.
 
-I set a course toward the outer of the two planets, since it was closer. The planet had a large moon farther out and a smaller moon closer in. Strangely, the larger moon showed a blue color. I suspected that it might actually have open water.
-
-The planet itself definitely had large bodies of water.
-
-<!-- Page 380 -->
+I set a course toward the outer of the two planets, since it was closer. The planet had a large moon farther out and a smaller moon closer in. Strangely, the larger moon showed a blue color. I suspected that it might actually have open water. The planet itself definitely had large bodies of water.
 
 As I decelerated to place myself in a planetary orbit, proximity alarms sounded. It took me a moment to focus on the cause. Four missiles were coming around the curve of the moon, and they were accelerating aggressively.
 
